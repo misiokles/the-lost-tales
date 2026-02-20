@@ -39,7 +39,7 @@
 			],
 			"creatures" :
 			[
-			        ["gnoll", "gnollMarauder" "gnollHunter"],
+			    ["gnoll", "gnollMarauder", "gnollHunter"],
 				["lizardman", "lizardWarrior", "lizardmanSoldier"],
 				["serpentFly", "fireDragonFly", "queenDragonFly"],
 				["basilisk", "greaterBasilisk"],
