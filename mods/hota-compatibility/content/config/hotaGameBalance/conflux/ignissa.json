@@ -1,0 +1,20 @@
+{
+	"core:ignissa" : {
+		"specialty" : {
+			"bonuses" : {
+				"attack" : {
+					"val" : 3
+				},
+				"defence" : {
+					"val" : 4
+				}
+			}
+		},
+		"texts" : {
+			"specialty" : {
+				"name" : "Fire Elementals",
+				"description" : "Increases allied Fire Elementals, Energy Elementals and Great Fire Elementals' Attack by 3, Defense by 4, and their Damage by 2."
+			}
+		}
+	}
+}

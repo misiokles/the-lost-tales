@@ -1,0 +1,17 @@
+{
+	"core:kalt" : {
+		"specialty" : {
+			"bonuses" : {
+				"attack" : {
+					"val" : 12
+				}
+			}
+		},
+		"texts" : {
+			"specialty" : {
+				"name" : "Water Elementals",
+				"description" : "Increases allied Water Elementals, Ice Elementals and Great Water Elementals Attack by 12."
+			}
+		}
+	}
+}

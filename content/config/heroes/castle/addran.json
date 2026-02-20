@@ -1,0 +1,51 @@
+{
+	"addran" : {
+		"class" : "knight",
+                "female" : false,
+		"images" : {
+			"large" : "heroes/castle/addranLarge.png",
+			"small" : "heroes/castle/addranSmall.png",
+			"specialtyLarge" : "heroes/castle/SpecialtyPikemenLarge.png",
+			"specialtySmall" : "heroes/castle/SpecialtyPikemenSmall.png"
+		},
+		"army" : [
+			{
+				"creature" : "pikeman",
+				"min" : 15,
+				"max" : 25
+			},
+			{
+				"creature" : "archer",
+				"min" : 6,
+				"max" : 9
+			},
+			{
+				"creature" : "griffin",
+				"min" : 4,
+				"max" : 7
+			}
+		],
+		"skills" : [
+			{
+				"skill" : "leadership",
+				"level" : "basic"
+			},
+			{
+				"skill" : "armorer",
+				"level" : "basic"
+			}
+		],
+		"specialty" : {
+			"creature" : "core:pikeman"
+		},
+		"texts" : {
+			"name" : "Addran",
+			"biography" : "General Addran is a leader extremely respected by his soldiers for his courage and unwavering loyalty to the royal family.He never hesitated to go to the front with his men, his numerous scars attest to this.",
+			"specialty" : {
+				"name" : "Pikemen",
+				"description" : "Increases the Speed of allied Pikemen, Halberdiers, and Veteran Pikemen by 1 and their Attack and Defense skills by 5% for every level (rounded up).",
+				"tooltip" : "Creature Bonus: Pikeman"
+			}
+		}
+	}
+}

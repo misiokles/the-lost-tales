@@ -1,0 +1,51 @@
+{
+	"findan" : {
+		"class" : "ranger",
+                "female" : false,
+		"images" : {
+			"large" : "heroes/rampart/findanLarge.png",
+			"small" : "heroes/rampart/findanSmall.png",
+			"specialtyLarge" : "heroes/rampart/SpecialtyArcheryLarge.png",
+			"specialtySmall" : "heroes/rampart/SpecialtyArcherySmall.png"
+		},
+		"army" : [
+			{
+				"creature" : "centaur",
+				"min" : 15,
+				"max" : 25
+			},
+			{
+				"creature" : "dwarf",
+				"min" : 6,
+				"max" : 9
+			},
+			{
+				"creature" : "woodElf",
+				"min" : 4,
+				"max" : 7
+			}
+		],
+		"skills" : [
+	 		{
+                               "level" : "basic",
+                               "skill" : "archery"
+			},
+			{
+			        "level" : "basic",
+                                "skill" : "offence"
+			}
+		],
+		"specialty" : {
+			"secondary" : "archery"
+		},
+		"texts" : {
+			"name" : "Findan",
+			"biography" : "More a poet and diplomat by taste and training than a warrior, Findan is less comfortable than many of his brethren in fighting at close quarters with a sword. He vastly prefers to strike quickly, and strike hard, but from a distance. His favorite tactic is to first weaken the enemy with a rain of well-aimed arrows.",
+			"specialty" : {
+				"name" : "Archery",
+				"description" : "Receives a 5% per level bonus to Archery skill percentage.",
+				"tooltip" : "Secondary Skill Bonus: Archery"
+			}
+		}
+	}
+}

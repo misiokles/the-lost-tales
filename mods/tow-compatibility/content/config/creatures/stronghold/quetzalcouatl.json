@@ -1,0 +1,29 @@
+{
+	"tides-of-war.alternative-creatures:mdtQuetzalcouatl" : {
+		"name" : {
+			"singular" : "Kukulkan",
+			"plural" : "Kukulkans"
+                },
+		"cost" : {
+			"gold" : 1050
+		},
+		"hitPoints" : 90,
+		"defense" : 12,
+		"abilities" : {
+			"fearless" :
+			{
+				"type" : "FEARFUL",
+				"valueType" : "INDEPENDENT_MIN",
+				"description" : "@creatures.core.azureDragon.bonus.fearless",
+				"val" : 0,
+			        "hidden" : false
+			},		
+			"magicResistance" :
+			{
+				"type" : "SPELL_DAMAGE_REDUCTION",
+				"subtype" : "spellSchool.any",
+				"val" : 100
+			}
+		}
+	}
+}

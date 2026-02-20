@@ -1,0 +1,51 @@
+{
+	"jojosh" : {
+		"class" : "barbarian",
+                "female" : false,
+		"images" : {
+			"large" : "heroes/stronghold/jojoshLarge.png",
+			"small" : "heroes/stronghold/jojoshSmall.png",
+			"specialtyLarge" : "heroes/stronghold/SpecialtyEstatesLarge.png",
+			"specialtySmall" : "heroes/stronghold/SpecialtyEstatesSmall.png"
+		},
+		"army" : [
+			{
+				"creature" : "goblin",
+				"min" : 15,
+				"max" : 25
+			},
+			{
+				"creature" : "goblinWolfRider",
+				"min" : 6,
+				"max" : 9
+			},
+			{
+				"creature" : "orc",
+				"min" : 4,
+				"max" : 7
+			}
+		],
+		"skills" : [
+			{
+				"skill" : "offence",
+				"level" : "basic"
+			},
+			{
+				"skill" : "estates",
+				"level" : "basic"
+			}
+		],
+		"specialty" : {
+			"secondary" : "estates"
+		},
+		"texts" : {
+			"name" : "Jojosh",
+			"biography" : "In his youth, Jojosh fought for warlords such as Lord Slayer and Archibald Ironfist. He crossed the great sea and the old barbarian saw his arrival in this new country as a chance for redemption before the end of his days.",
+			"specialty" : {
+				"description" : "Receives a 5% per level bonus to Estates skill.",
+				"name" : "Estates",
+				"tooltip" : "Secondary Skill Bonus: Estates"
+			}
+		}
+	}
+}

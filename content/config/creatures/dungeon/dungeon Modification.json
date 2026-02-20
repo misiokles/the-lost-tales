@@ -1,0 +1,88 @@
+{
+	"core:troglodyte" : {
+		        "graphics" : {
+			"iconLarge" : "creatures/dungeon/iconsbig/dungeon_lvl1",
+			"iconSmall" : "creatures/dungeon/iconssmall/dungeon_lvl1",
+	        }
+        },
+	"core:infernalTroglodyte" : {
+		"upgrades": ["toxicTroglodyte"],
+		        "graphics" : {
+			"iconLarge" : "creatures/dungeon/iconsbig/dungeon_lvl1up",
+			"iconSmall" : "creatures/dungeon/iconssmall/dungeon_lvl1up",
+                }
+        },
+	"core:harpy" : {
+		        "graphics" : {
+			"iconLarge" : "creatures/dungeon/iconsbig/dungeon_lvl2",
+			"iconSmall" : "creatures/dungeon/iconssmall/dungeon_lvl2",
+	        }
+	},
+	"core:harpyHag" : {
+		        "graphics" : {
+			"iconLarge" : "creatures/dungeon/iconsbig/dungeon_lvl2up",
+			"iconSmall" : "creatures/dungeon/iconssmall/dungeon_lvl2up",
+	        }
+        },
+	"core:beholder" : {
+		        "graphics" : {
+			"iconLarge" : "creatures/dungeon/iconsbig/dungeon_lvl3",
+			"iconSmall" : "creatures/dungeon/iconssmall/dungeon_lvl3",
+	        }
+        },
+	"core:evilEye" : {
+		"upgrades": ["cursedEye"],
+		        "graphics" : {
+			"iconLarge" : "creatures/dungeon/iconsbig/dungeon_lvl3up",
+			"iconSmall" : "creatures/dungeon/iconssmall/dungeon_lvl3up",
+	        }
+        },
+	"core:medusa" : {
+		        "graphics" : {
+			"iconLarge" : "creatures/dungeon/iconsbig/dungeon_lvl4",
+			"iconSmall" : "creatures/dungeon/iconssmall/dungeon_lvl4",
+	        }
+        },
+	"core:medusaQueen" : {
+		        "graphics" : {
+			"iconLarge" : "creatures/dungeon/iconsbig/dungeon_lvl4up",
+			"iconSmall" : "creatures/dungeon/iconssmall/dungeon_lvl4up",
+	        }
+        },
+	"core:minotaur" : {
+		        "graphics" : {
+			"iconLarge" : "creatures/dungeon/iconsbig/dungeon_lvl5",
+			"iconSmall" : "creatures/dungeon/iconssmall/dungeon_lvl5",
+	        }
+        },
+	"core:minotaurKing" : {
+		        "graphics" : {
+			"iconLarge" : "creatures/dungeon/iconsbig/dungeon_lvl5up",
+			"iconSmall" : "creatures/dungeon/iconssmall/dungeon_lvl5up",
+	        }
+        },
+	"core:manticore" : {
+		        "graphics" : {
+			"iconLarge" : "creatures/dungeon/iconsbig/dungeon_lvl6",
+			"iconSmall" : "creatures/dungeon/iconssmall/dungeon_lvl6",
+	        }
+        },
+	"core:scorpicore" : {
+		        "graphics" : {
+			"iconLarge" : "creatures/dungeon/iconsbig/dungeon_lvl6up",
+			"iconSmall" : "creatures/dungeon/iconssmall/dungeon_lvl6up",
+	        }
+        },
+	"core:redDragon" : {
+		        "graphics" : {
+			"iconLarge" : "creatures/dungeon/iconsbig/dungeon_lvl7",
+			"iconSmall" : "creatures/dungeon/iconssmall/dungeon_lvl7",
+	        }
+        },
+	"core:blackDragon" : {
+		        "graphics" : {
+			"iconLarge" : "creatures/dungeon/iconsbig/dungeon_lvl7up",
+			"iconSmall" : "creatures/dungeon/iconssmall/dungeon_lvl7up",
+	        }
+        },
+}

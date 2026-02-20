@@ -1,0 +1,82 @@
+{
+	"torikoNightmare": {
+		"name" : {
+			"singular" : "Nightmare",
+			"plural" : "Nightmare"
+		},
+		"faction" : "neutral",
+		"level" : 6,
+		"cost" : {
+			"gold" : 950
+		},
+		"doubleWide" : true,
+		"speed" : 10,
+		"hitPoints" : 110,
+		"attack" : 16,
+		"defense" : 15,
+		"damage" : {
+			"min" : 15,
+			"max" : 25
+		},
+		"growth" : 2,
+		"horde" : 0,
+		"aiValue" : 2030,
+		"fightValue" : 2030,
+		"advMapAmount" : {
+			"min" : 5,
+			"max" : 10
+		},
+		"abilities" : 
+	        {
+			"fearful" :
+			{
+				"type" : "FEARFUL",
+				"val" : 10,
+				"propagator": "BATTLE_WIDE",
+				"propagationUpdater" : "BONUS_OWNER_UPDATER",
+				"description" : "@creatures.core.azureDragon.bonus.fearful",
+				"limiters" : [ 
+					"OPPOSITE_SIDE", 
+					{
+						"type" : "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType" : "LIVING"
+					}
+				],
+				"hidden" : true
+			},
+			"dummyFearIcon" : {
+				"type" : "NONE",
+				"icon" : "creatures/neutral/battle/e_fear.png",
+				"description" : "{Fear}\nThis creature can fear enemy units."
+			},	
+			"fearless" :
+			{
+				"type" : "FEARFUL",
+				"valueType" : "INDEPENDENT_MIN",
+				"description" : "@creatures.core.azureDragon.bonus.fearless",
+				"val" : 0,
+			        "hidden" : false
+			},		
+                },
+		"graphics" : {
+			"iconLarge" : "creatures/neutral/iconsbig/nightmare.png",
+			"iconSmall" : "creatures/neutral/iconssmall/nightmare.png",
+			"map" : "creatures/neutral/map/nightmare",
+			"animation" : "creatures/neutral/battle/nightmare.def",
+			"animationTime" : {
+				"attack" : 1,
+				"idle" : 10,
+				"walk" : 1
+			        },
+			"timeBetweenFidgets" : 1,
+		},
+		"sound" : {
+			"attack": "WUNCATTK.wav",
+			"defend": "WUNCDFND.wav",
+			"killed": "WUNCKILL.wav",
+			"move": "WUNCMOVE.wav",
+			"shoot": "WUNCSHOT.wav",
+			"wince": "WUNCWNCE.wav"
+		}
+	}
+}

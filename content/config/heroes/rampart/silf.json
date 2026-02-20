@@ -1,0 +1,51 @@
+{
+	"silf" : {
+		"class" : "ranger",
+                "female" : false,
+		"images" : {
+			"large" : "heroes/rampart/silfLarge.png",
+			"small" : "heroes/rampart/silfSmall.png",
+			"specialtyLarge" : "heroes/rampart/SpecialtyCentaurLarge.png",
+			"specialtySmall" : "heroes/rampart/SpecialtyCentaurSmall.png"
+		},
+		"army" : [
+			{
+				"creature" : "centaur",
+				"min" : 15,
+				"max" : 25
+			},
+			{
+				"creature" : "dwarf",
+				"min" : 6,
+				"max" : 9
+			},
+			{
+				"creature" : "woodElf",
+				"min" : 4,
+				"max" : 7
+			}
+		],
+		"skills" : [
+	 		{
+                               "level" : "basic",
+                               "skill" : "archery"
+			},
+			{
+			        "level" : "basic",
+                                "skill" : "luck"
+			}
+		],
+		"specialty" : {
+			"creature" : "core:centaur"
+		},
+		"texts" : {
+			"name" : "Silf",
+			"biography" : "During an attack by wild bears in the magic forest, Silf was saved by a group of nomadic centaurs. Since then, he has held a deep admiration for this people.",
+			"specialty" : {
+				"name" : "Centaur",
+				"description" : "Increases the Speed of allied Centaurs, Cnetaur Captains, and Centaur Archers by 1 and their Attack and Defense skills by 5% for every level (rounded up).",
+				"tooltip" : "Creature Bonus: Centaur"
+			}
+		}
+	}
+}

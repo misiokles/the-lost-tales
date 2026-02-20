@@ -1,0 +1,91 @@
+{
+	"core:gnoll" : {
+		        "graphics" : {
+			"iconLarge" : "creatures/fortress/iconsbig/fortress_lvl1",
+ 			"iconSmall" : "creatures/fortress/iconssmall/fortress_lvl1",
+                        }
+        },
+	"core:gnollMarauder" : {
+		"upgrades": ["gnollHunter"],
+		        "graphics" : {
+			"iconLarge" : "creatures/fortress/iconsbig/fortress_lvl1up",
+ 			"iconSmall" : "creatures/fortress/iconssmall/fortress_lvl1up",
+                        }
+        },
+	"core:lizardman" : {
+		        "graphics" : {
+			"iconLarge" : "creatures/fortress/iconsbig/fortress_lvl2",
+ 			"iconSmall" : "creatures/fortress/iconssmall/fortress_lvl2",
+                        }
+        },
+	"core:lizardWarrior" : {
+		"upgrades": ["lizardmanSoldier"],
+                "graphics" : {
+			"iconLarge" : "creatures/fortress/iconsbig/fortress_lvl2up",
+ 			"iconSmall" : "creatures/fortress/iconssmall/fortress_lvl2up",
+                        }
+        },
+	"core:serpentFly" : {
+                "graphics" : {
+			"iconLarge" : "creatures/fortress/iconsbig/fortress_lvl3",
+ 			"iconSmall" : "creatures/fortress/iconssmall/fortress_lvl3",
+                        }
+        },
+	"core:fireDragonFly" : {
+		"upgrades": ["queenDragonFly"],
+                "graphics" : {
+			"iconLarge" : "creatures/fortress/iconsbig/fortress_lvl3up",
+ 			"iconSmall" : "creatures/fortress/iconssmall/fortress_lvl3up",
+                        }
+        },
+	"core:basilisk" : {
+                "graphics" : {
+			"iconLarge" : "creatures/fortress/iconsbig/fortress_lvl4",
+ 			"iconSmall" : "creatures/fortress/iconssmall/fortress_lvl4",
+                        }
+        },
+	"core:greaterBasilisk" : {
+                "graphics" : {
+			"iconLarge" : "creatures/fortress/iconsbig/fortress_lvl4up",
+ 			"iconSmall" : "creatures/fortress/iconssmall/fortress_lvl4up",
+                        }
+        },
+	"core:gorgon" : {
+                "graphics" : {
+			"iconLarge" : "creatures/fortress/iconsbig/fortress_lvl5",
+ 			"iconSmall" : "creatures/fortress/iconssmall/fortress_lvl5",
+                        }
+        },
+	"core:mightyGorgon" : {
+		"upgrades": ["blackGorgon"],
+                "graphics" : {
+			"iconLarge" : "creatures/fortress/iconsbig/fortress_lvl5up",
+ 			"iconSmall" : "creatures/fortress/iconssmall/fortress_lvl5up",
+                        }
+        },
+	"core:wyvern" : {
+                "graphics" : {
+			"iconLarge" : "creatures/fortress/iconsbig/fortress_lvl6",
+ 			"iconSmall" : "creatures/fortress/iconssmall/fortress_lvl6",
+                        }
+        },
+	"core:wyvernMonarch" : {
+                "graphics" : {
+			"iconLarge" : "creatures/fortress/iconsbig/fortress_lvl6up",
+ 			"iconSmall" : "creatures/fortress/iconssmall/fortress_lvl6up",
+                        }
+        },
+	"core:hydra" : {
+                "graphics" : {
+			"iconLarge" : "creatures/fortress/iconsbig/fortress_lvl7",
+ 			"iconSmall" : "creatures/fortress/iconssmall/fortress_lvl7",
+                        }
+        },
+	"core:chaosHydra" : {
+		"upgrades": ["flyingHydra"],
+                "graphics" : {
+			"iconLarge" : "creatures/fortress/iconsbig/fortress_lvl7up",
+ 			"iconSmall" : "creatures/fortress/iconssmall/fortress_lvl7up",
+                        }
+	}
+}

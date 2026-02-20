@@ -1,0 +1,61 @@
+{
+	"sarakin" : {
+		"class" : "wizard",
+		"images" : {
+			"large" : "heroes/tower/sarakinLarge.png",
+			"small" : "heroes/tower/sarakinSmall.png",
+			"specialtyLarge" : "heroes/tower/specialtyFireballLarge.png",
+			"specialtySmall" : "heroes/tower/specialtyFireballSmall.png"
+		},
+		"army" : [
+                         {
+				"creature" : "gremlin",
+				"min" : 15,
+				"max" : 25
+			},
+			{
+				"creature" : "stoneGargoyle",
+				"min" : 6,
+				"max" : 9
+			},
+			{
+				"creature" : "stoneGolem",
+				"min" : 4,
+				"max" : 7
+			}
+		],
+		"skills" : [
+			{
+				"skill" : "wisdom",
+				"level" : "basic"
+			},
+			{
+				"skill" : "fireMagic",
+				"level" : "basic"
+			}
+		],
+		"specialty" : {
+			"bonuses" : {
+				"fireball" : {
+					"type" : "SPECIAL_SPELL_LEV",
+					"subtype" : "spell.fireball",
+					"val" : 3,
+					"updater" : "TIMES_HERO_LEVEL"
+				}
+			}
+		},
+		"spellbook" : [
+			"fireball"
+		],
+		"texts" : {
+			"name" : "Sarakin",
+			"biography" : "Sarakin studied magic in the Misty Islands and served Roland Ironfist during the succession Wars of Enroth. But while his loyalty was never questioned, his ruthless methods was frowned upon by his fellow Wizards. Sarakin is determined to craft a new reputation for himself in Bracada.",
+			"specialty" : {
+				"name" : "Fireball",
+				"description" : "Casts Fireball with damage increased by 3% for every N hero levels, where N is the level of the target creature.",
+				"tooltip" : "Spell Bonus: Fireball"
+			}
+		}
+	}
+}
+

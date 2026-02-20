@@ -1,0 +1,53 @@
+{
+	"name" : "Tides of war compatibilty",
+	"author" : "Toriko94, Yogdush, Misiokles, and help from  ",
+	"contact" : "",
+	"description" : "Alternative Upgrade and tides of war creatures ",
+	"version" : "1.0.0",
+	"modType" : "Compatibility",
+	"compatibility" : {"min" : "1.0.0"},
+	"changelog" : 
+        {
+		"1.0.0"   : [ "Initial release" ]
+        },
+	"depends" :
+	[
+		"tides-of-war.alternative-creatures",
+		"tides-of-war.heroes",
+		"tides-of-war.skills",
+		"tides-of-war.neutral-creatures"
+	],
+	"creatures" : [
+		"config/creatures/tower/drakeGolem",
+		"config/creatures/tower/dragonGolem",
+		"config/creatures/necropolis/werewolf",
+		"config/creatures/necropolis/direWerewolf",
+		"config/creatures/dungeon/illithid",
+		"config/creatures/dungeon/alhoon",
+		"config/creatures/stronghold/couatl",
+		"config/creatures/stronghold/quetzalcouatl",
+		"config/creatures/fortress/trollHag",
+		"config/creatures/fortress/trollWitch",
+		"config/creatures/neutral/neutral_modification"
+	],
+	"heroes" : [
+		"config/heroes/stronghold/ergon",
+		"config/heroes/fortress/shroo",
+		"config/heroes/fortress/thyroc"
+        ],
+	"objects" : [
+		"config/dwellings/neutral/dwellings"
+        ],
+	"factions" : 
+        [
+		"config/town-screen/castle/castleUpgrades",
+		"config/town-screen/rampart/rampartUpgrades",
+		"config/town-screen/tower/towerUpgrades",
+		"config/town-screen/inferno/infernoUpgrades",
+		"config/town-screen/necropolis/necropolisUpgrades",
+		"config/town-screen/dungeon/dungeonUpgrades",
+		"config/town-screen/stronghold/strongholdUpgrades",
+		"config/town-screen/fortress/fortressUpgrades",
+		"config/town-screen/conflux/confluxUpgrades"
+	]
+}

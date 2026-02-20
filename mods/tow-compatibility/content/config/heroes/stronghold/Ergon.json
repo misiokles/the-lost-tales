@@ -1,0 +1,51 @@
+{
+	"tides-of-war.heroes:mdtErgon" : {
+		"class" : "barbarian",
+		"female" : false,
+		"images" : {
+			"specialtySmall" : "heroes/stronghold/ergon_spec-small.bmp",
+			"specialtyLarge" : "heroes/stronghold/ergon_spec-large.bmp",
+			"large" : "heroes/stronghold/ergon_portrait-large.bmp",
+			"small" : "heroes/stronghold/ergon_portrait-small.bmp"
+		},
+		"army" : [
+			{
+				"creature" : "goblin",
+				"min" : 15,
+				"max" : 25
+			},
+			{
+				"creature" : "goblinWolfRider",
+				"min" : 5,
+				"max" : 7
+			},
+			{
+				"creature" : "orc",
+				"min" : 4,
+				"max" : 6
+			}
+		],
+		"skills" : [
+			{
+				"skill" : "offence",
+				"level" : "basic"
+			},
+			{
+				"skill" : "intimidation",
+				"level" : "basic"
+			}
+		],
+		"specialty" : {
+			"creature" : "mdtCouatl"
+		},
+		"texts" : {
+			"name" : "Ergon",
+			"biography" : "After taking the throne of Krewlod, Kilgor brought Ergon to quell the rebellion of the Ogres who were still loyal to Winston Boragus, even after his death. Needless to say, the veteran of Succession Wars did his job very effectively by raiding the unruly tribes with his exotic beasts.",
+			"specialty" : {
+				"name" : "Feathered Serpent",
+				"description" : "Increases the Attack and Defense skills of any Feathered Serpents and Kukulkans for each level attained after 6th level. Additionally, Feathered Serpents and Kukulkans get a permanent +1 Speed bonus.",
+				"tooltip" : "Creature Bonus: Feathered Serpents"
+			}
+		}
+	}
+}

@@ -1,0 +1,18 @@
+{
+	"tides-of-war.alternative-creatures:mdtWerewolf" : {
+		"name" : {
+			"singular" : "Undead Werewolf",
+			"plural" : "Undead Werewolves"
+		},
+		"upgrades" : [
+			"tides-of-war.alternative-creatures:mdtDireWerewolf"
+		],
+		"abilities" : {
+			"generalDamageReduction" : {
+				"type" : "GENERAL_DAMAGE_REDUCTION",
+				"subtype" : "damageTypeMelee",
+				"val" : 30
+			}
+		}
+	}
+}

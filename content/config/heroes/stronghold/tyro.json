@@ -1,0 +1,51 @@
+{
+	"tyro" : {
+		"class" : "barbarian",
+                "female" : false,
+		"images" : {
+			"large" : "heroes/stronghold/tyroLarge.png",
+			"small" : "heroes/stronghold/tyroSmall.png",
+			"specialtyLarge" : "heroes/stronghold/SpecialtyOffenseLarge.png",
+			"specialtySmall" : "heroes/stronghold/SpecialtyOffenseSmall.png"
+		},
+		"army" : [
+			{
+				"creature" : "goblin",
+				"min" : 15,
+				"max" : 25
+			},
+			{
+				"creature" : "goblinWolfRider",
+				"min" : 6,
+				"max" : 9
+			},
+			{
+				"creature" : "orc",
+				"min" : 4,
+				"max" : 7
+			}
+		],
+		"skills" : [
+			{
+				"skill" : "offence",
+				"level" : "basic"
+			},
+			{
+				"skill" : "leadership",
+				"level" : "basic"
+			}
+		],
+		"specialty" : {
+			"secondary" : "offence"
+		},
+		"texts" : {
+			"name" : "Tyro",
+			"biography" : "Morglin Ironfist was once ambushed. An ogre named Tyro saved him and, for this, was knighted. After Morglin's death, Tyro decided to help Roland, Morglin's son, in his fratricidal war. After that, Tyro wanted to reconnect with his origins and decided to learn about the lives of the ogres in Krewlood.",
+			"specialty" : {
+				"description" : "Tyro receives a 5% per level bonus to his Offence skill percentage.",
+				"name" : "Offence",
+				"tooltip" : "Secondary Skill Bonus: Offence"
+			}
+		}
+	}
+}

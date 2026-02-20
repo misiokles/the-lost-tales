@@ -1,0 +1,73 @@
+{
+	"centaurArcher" : {
+		"name" : {
+			"singular" : "Centaur Archer",
+			"plural" : "Centaur Archers"
+		},
+		"faction" : "rampart",
+		"level" : 1,
+		"upgrades" : [
+			"centaurCaptain"
+		],
+		"cost" : {
+			"gold" : 90
+		},
+		"speed" : 6,
+		"hitPoints" : 9,
+		"attack" : 5,
+		"defense" : 3,
+		"damage" : {
+			"min" : 2,
+			"max" : 3
+		},
+		"fightValue" : 115,
+		"aiValue" : 138,
+		"growth" : 14,
+                "shots" : 24,
+                "doubleWide" : true,
+		"advMapAmount" : {
+			"min" : 20,
+			"max" : 30
+		},
+		"abilities" : {
+			"canShoot" : {
+				"type" : "SHOOTER"
+			}
+		},
+		"graphics" : {
+			"iconLarge" : "creatures/rampart/iconsbig/Rampart_lvl1upAlt.png",
+			"iconSmall" : "creatures/rampart/iconssmall/Rampart_lvl1upAlt.png",
+			"map" : "creatures/rampart/map/Rampart_Alt1.def",
+			"animation" : "creatures/rampart/battle/Rampart_Alt1.def",
+			"animationTime" : {
+				"attack" : 1.00,
+				"idle" : 10.00,
+				"walk" :  0.50
+			},
+			"timeBetweenFidgets" : 1,
+			"missile" :
+			{
+				"projectile": "PELFX.DEF",
+				"attackClimaxFrame" : 7,
+				"offset" :
+				{
+					"upperX" : 10,
+					"upperY" : -70,
+					"middleX" : 10,
+					"middleY" : -70,
+					"lowerX" : 10,
+					"lowerY" : -70
+				},
+				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0]
+			}
+		},
+		"sound" : {
+			"attack": "ECNTATTK.wav",
+			"defend": "ECNTDFND.wav",
+			"killed": "ECNTKILL.wav",
+			"shoot": "HCRSSHOT.wav",
+			"move": "ECNTMOVE.wav",
+			"wince": "ECNTWNCE.wav"
+		}
+	}
+}

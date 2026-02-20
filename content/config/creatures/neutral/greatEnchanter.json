@@ -1,0 +1,169 @@
+{
+	"greatEnchanter": {
+		"name" : {
+			"singular" : "Great Enchanter",
+			"plural" : "Great Enchanters"
+		},
+		"faction" : "neutral",
+		"level" : 6,
+		"cost" : {
+			"gold" : 950
+		},
+		"speed" : 10,
+		"hitPoints" : 30,
+		"attack" : 18,
+		"defense" : 12,
+		"damage" : {
+			"min" : 14,
+			"max" : 14
+		},
+		"shots" : 32,
+		"growth" : 2,
+		"horde" : 0,
+		"aiValue" : 1410,
+		"fightValue" : 1005,
+		"advMapAmount" : {
+			"min" : 5,
+			"max" : 10
+		},
+		"abilities" : {
+			"SHOOTING_ARMY" : {
+				"type" : "SHOOTER"
+			},
+			"const_no_melee_penalty" : {
+				"type" : "NO_MELEE_PENALTY"
+			},
+			"noPenalty" : {
+				"type" : "NO_WALL_PENALTY"
+			},
+			"casts" : {
+				"type" : "CASTS",
+				"val" : 10
+			},
+			"castsAirShield" : {
+				"type" : "ENCHANTER",
+				"subtype" : "spell.airShield",
+				"val" : 3,
+				"addInfo" : 3
+			},
+			"castsBless" : {
+				"type" : "ENCHANTER",
+				"subtype" : "spell.bless",
+				"val" : 3,
+				"addInfo" : 3
+			},
+			"castsHaste" : {
+				"type" : "ENCHANTER",
+				"subtype" : "spell.haste",
+				"val" : 3,
+				"addInfo" : 3
+			},
+			"castsSlow" : {
+				"type" : "ENCHANTER",
+				"subtype" : "spell.slow",
+				"val" : 3,
+				"addInfo" : 3
+			},
+			"castsStoneSkin" : {
+				"type" : "ENCHANTER",
+				"subtype" : "spell.stoneSkin",
+				"val" : 3,
+				"addInfo" : 3
+			},
+			"castsWeakness" : {
+				"type" : "ENCHANTER",
+				"subtype" : "spell.weakness",
+				"val" : 3,
+				"addInfo" : 3
+			},
+			"castsmirth" : {
+				"type" : "ENCHANTER",
+				"subtype" : "spell.mirth",
+				"val" : 3,
+				"addInfo" : 3
+			},
+			"castssorrow" : {
+				"type" : "ENCHANTER",
+				"subtype" : "spell.sorrow",
+				"val" : 3,
+				"addInfo" : 3
+			},
+			"castsfortune" : {
+				"type" : "ENCHANTER",
+				"subtype" : "spell.fortune",
+				"val" : 3,
+				"addInfo" : 3
+			},
+			"castsmisfortune" : {
+				"type" : "ENCHANTER",
+				"subtype" : "spell.misfortune",
+				"val" : 3,
+				"addInfo" : 3
+			},
+			"castscounterstrike" : {
+				"type" : "ENCHANTER",
+				"subtype" : "spell.counterstrike",
+				"val" : 3,
+				"addInfo" : 3
+			},
+			"castsshield" : {
+				"type" : "ENCHANTER",
+				"subtype" : "spell.shield",
+				"val" : 3,
+				"addInfo" : 3
+	                },
+			"castscurse" : {
+				"type" : "ENCHANTER",
+				"subtype" : "spell.curse",
+				"val" : 3,
+				"addInfo" : 3
+			}
+		},
+		"graphics" : {
+			"iconLarge" : "creatures/neutral/iconsbig/blackEnchanter.png",
+			"iconSmall" : "creatures/neutral/iconssmall/blackEnchanter.png",
+			"map" : "creatures/neutral/map/blackEnchanter.def",
+			"animation" : "creatures/neutral/battle/blackEnchanter.def",
+			"animationTime" : {
+				"attack" : 1,
+				"idle" : 10,
+				"walk" : 1
+			},
+			"missile" : {
+				"projectile" : "creatures/neutral/battle/blackEnchanterShot.DEF",
+				"attackClimaxFrame" : 6,
+				"frameAngles" : [
+					90,
+					72,
+					45,
+					27,
+					0,
+					-27,
+					-45,
+					-72,
+					-90,
+					0,
+					0,
+					0
+				],
+				"offset" : {
+					"lowerX" : 28,
+					"lowerY" : 3,
+					"middleX" : 62,
+					"middleY" : -53,
+					"upperX" : 37,
+					"upperY" : -98
+				},
+			},
+			"timeBetweenFidgets" : 1,
+		},
+		"sound" : {
+			"attack": "ENCHATTK.wav",
+			"defend": "ENCHDFND.wav",
+			"killed": "ENCHKILL.wav",
+			"move": "ENCHMOVE.wav",
+			"shoot": "ENCHSHOT.wav",
+			"wince": "ENCHWNCE.wav"
+		}
+	}
+}

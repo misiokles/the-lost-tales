@@ -1,0 +1,9 @@
+{
+	"basepath" : "town-screen/tower/frames/",
+	"images" : [
+		{ "frame" : 47, "file" : "TPTMag2"},
+		{ "frame" : 49, "file" : "TPTNaga2"},
+		{ "frame" : 57, "file" : "TPTTit2alt"},
+		{ "frame" : 64, "file" : "TPTTit2upAlt"}
+	]
+}

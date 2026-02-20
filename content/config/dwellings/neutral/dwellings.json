@@ -1,0 +1,109 @@
+{
+	"core:creatureGeneratorCommon" : {
+		"types" : {
+			"tombOfMummies" : {
+				"name" : "Tomb of Mummies",
+				"guards" : true,
+				"creatures" : [
+					[
+						"core:mummy"
+					]
+				],
+				"templates" : {
+					"dirt" : {
+						"animation" : "dwellings/neutral/avgmumy2.def",
+				                "visitableFrom" : [ 
+                                                        "---",
+                                                        "+++",
+                                                        "+++" 
+                                                ],
+						"mask" : [
+							"VVV",
+							"VVV",
+							"VBA"
+						],
+						"allowedTerrains" : [
+							"dirt",
+							"lava"
+                                                ],
+	                               }
+				}
+                        },
+			"karkadannPen" : {
+				"name" : "Karkadann Pen",
+				"guards" : true,
+				"creatures" : [
+					[
+						"karkadann"
+					]
+				],
+				"templates" : {
+					"default" : {
+						"animation" : "dwellings/neutral/karkadannPen.def",
+				                "visitableFrom" : [ 
+                                                        "---",
+                                                        "+++",
+                                                        "+++" 
+                                                ],
+						"mask" : [
+							"VVV",
+							"VVV",
+							"VBA"
+						],
+	                               }
+				},
+				"kingdomOverviewImage" : "icons/flagports/karkadannPen"
+			},
+			"blackWood" : {
+				"name" : "Black Wood",
+				"guards" : true,
+				"creatures" : [
+					[
+						"torikoNightmare"
+					]
+				],
+				"templates" : {
+					"default" : {
+						"animation" : "dwellings/neutral/blackWood.def",
+				                "visitableFrom" : [ 
+                                                        "---",
+                                                        "+++",
+                                                        "+++" 
+                                                ],
+						"mask" : [
+							"VVV",
+							"VVV",
+							"VBA"
+						],
+	                               }
+				},
+				"kingdomOverviewImage" : "icons/flagports/blackWood"
+			},
+			"bloodVault" : {
+				"name" : "Blood Vault",
+				"guards" : true,
+				"creatures" : [
+					[
+						"bloodDragon"
+					]
+				],
+				"templates" : {
+					"default" : {
+						"animation" : "dwellings/neutral/bloodVault.def",
+				                "visitableFrom" : [ 
+                                                        "---",
+                                                        "+++",
+                                                        "+++" 
+                                                ],
+						"mask" : [
+							"VVV",
+							"VVV",
+							"VBA"
+						],
+	                               }
+				},
+				"kingdomOverviewImage" : "icons/flagports/bloodVault"
+			}
+		}
+	}
+}

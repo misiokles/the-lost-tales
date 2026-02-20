@@ -1,0 +1,77 @@
+{
+	"archlich": {
+		"name" : {
+			"singular" : "Archilich",
+			"plural" : "Archiliches"
+		},
+		"faction" : "necropolis",
+		"level" : 5,
+		"cost" : {
+			"gold" : 600
+		},
+		"speed" : 4,
+		"upgrades" : [
+			"core:powerLich"
+		],
+		"hitPoints" : 45,
+                "shots" : 24,
+		"attack" : 15,
+		"defense" : 12,
+		"damage" : {
+			"min" : 11,
+			"max" : 15
+		},
+		"doubleWide" : false,
+		"growth" : 3,
+		"aiValue" : 1079,
+		"fightValue" : 889,
+		"advMapAmount" : {
+			"min" : 8,
+			"max" : 12
+		},
+		"abilities" : 
+		{
+			"undead" :
+			{
+				"type" : "UNDEAD"
+			},
+			"shooter" :
+			{
+				"type" : "SHOOTER"
+			}
+		},
+		"graphics" : {
+			"iconLarge" : "creatures/necropolis/iconsbig/necropolis_lvl5upAlt.png",
+			"iconSmall" : "creatures/necropolis/iconssmall/necropolis_lvl5upAlt.png",
+			"map" : "creatures/necropolis/map/necropolis_Alt5.def",
+			"animation" : "creatures/necropolis/battle/necropolis_Alt5.def",
+			"animationTime" : {
+				"attack" : 1,
+				"idle" : 10,
+				"walk" : 1
+			},
+			"timeBetweenFidgets" : 1,
+			"missile" : {
+				"projectile": "PLICH.DEF",
+				"attackClimaxFrame" : 8,
+				"offset" : {
+					"upperX" : 41,
+					"upperY" : -92,
+					"middleX" : 58,
+					"middleY" : -79,
+					"lowerX" : 29,
+					"lowerY" : -14
+				},
+				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0]
+			}
+		},
+		"sound" : {
+			"attack": "PLCHATTK.wav",
+			"defend": "PLCHDFND.wav",
+			"killed": "PLCHKILL.wav",
+			"move": "PLCHMOVE.wav",
+			"shoot": "PLCHSHOT.wav",
+			"wince": "PLCHWNCE.wav"
+		}
+	}
+}

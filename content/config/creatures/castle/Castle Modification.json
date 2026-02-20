@@ -1,0 +1,94 @@
+{
+	"core:pikeman" : {
+		        "graphics" : {
+			"iconLarge" : "creatures/castle/iconsbig/castle_lvl1",
+			"iconSmall" : "creatures/castle/iconssmall/castle_lvl1",
+		 	"animation" : "creatures/castle/battle/castle_lvl1",
+	                "map" : "creatures/castle/map/castle_lvl1",
+		}
+	},
+        "core:halberdier" : {
+		"upgrades": ["veteranPikeman"],
+		        "graphics" : {
+			"iconLarge" : "creatures/castle/iconsbig/castle_lvl1up",
+			"iconSmall" : "creatures/castle/iconssmall/castle_lvl1up",
+		 	"animation" : "creatures/castle/battle/castle_lvl1up",
+	                "map" : "creatures/castle/map/castle_lvl1up",
+                 }
+	},
+	"core:archer" : {
+		        "graphics" : {
+			"iconLarge" : "creatures/castle/iconsbig/castle_lvl2",
+			"iconSmall" : "creatures/castle/iconssmall/castle_lvl2",
+                 }
+	},
+	"core:marksman" : {
+		"upgrades": ["bowman"],
+		        "graphics" : {
+			"iconLarge" : "creatures/castle/iconsbig/castle_lvl2up",
+			"iconSmall" : "creatures/castle/iconssmall/castle_lvl2up",
+                 }
+	},
+	"core:griffin" : {
+		        "graphics" : {
+			"iconLarge" : "creatures/castle/iconsbig/castle_lvl3",
+			"iconSmall" : "creatures/castle/iconssmall/castle_lvl3",
+                 }
+	},
+	"core:royalGriffin" : {
+		        "graphics" : {
+			"iconLarge" : "creatures/castle/iconsbig/castle_lvl3up",
+			"iconSmall" : "creatures/castle/iconssmall/castle_lvl3up",
+                 }
+	},
+	"core:swordsman" : {
+		        "graphics" : {
+			"iconLarge" : "creatures/castle/iconsbig/castle_lvl4",
+			"iconSmall" : "creatures/castle/iconssmall/castle_lvl4",
+                 }
+	},
+	"core:crusader" : {
+		"upgrades": ["vindicator"],
+		        "graphics" : {
+			"iconLarge" : "creatures/castle/iconsbig/castle_lvl4up",
+			"iconSmall" : "creatures/castle/iconssmall/castle_lvl4up",
+                 }
+	},
+	"core:monk" : {
+		        "graphics" : {
+			"iconLarge" : "creatures/castle/iconsbig/castle_lvl5",
+			"iconSmall" : "creatures/castle/iconssmall/castle_lvl5",
+                 }
+	},
+	"core:zealot" : {
+		"upgrades": ["warpriest"],
+		        "graphics" : {
+			"iconLarge" : "creatures/castle/iconsbig/castle_lvl5up",
+			"iconSmall" : "creatures/castle/iconssmall/castle_lvl5up",
+                 }
+	},
+	"core:cavalier" : {
+		        "graphics" : {
+			"iconLarge" : "creatures/castle/iconsbig/castle_lvl6",
+			"iconSmall" : "creatures/castle/iconssmall/castle_lvl6",
+                 }
+	},
+	"core:champion" : {
+		        "graphics" : {
+			"iconLarge" : "creatures/castle/iconsbig/castle_lvl6up",
+			"iconSmall" : "creatures/castle/iconssmall/castle_lvl6up",
+                 }
+	},
+	"core:angel" : {
+		        "graphics" : {
+			"iconLarge" : "creatures/castle/iconsbig/castle_lvl7",
+			"iconSmall" : "creatures/castle/iconssmall/castle_lvl7",
+                 }
+	},
+	"core:archangel" : {
+		        "graphics" : {
+			"iconLarge" : "creatures/castle/iconsbig/castle_lvl7up",
+			"iconSmall" : "creatures/castle/iconssmall/castle_lvl7up",
+                 }
+	}
+}

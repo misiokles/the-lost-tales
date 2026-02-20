@@ -1,0 +1,41 @@
+{
+	"core:boar" :
+	{
+		"name" : {
+			"singular" : "Boar Rider",
+			"plural" : "Boar Riders"
+		},
+		"index": 140,
+		"faction": "stronghold",
+		"upgrades" : [
+			"hobgoblinWolfRider"
+		],
+		"cost" : {
+			"gold" : 140
+		},
+		"speed" : 6,
+		"hitPoints" : 15,
+		"attack" : 6,
+		"defense" : 5,
+		"damage" : {
+			"min" : 2,
+			"max" : 3
+		},
+		"graphics" :
+		{
+			"iconLarge" : "creatures/stronghold/iconsbig/stronghold_lvl2upAlt.png",
+			"iconSmall" : "creatures/stronghold/iconssmall/stronghold_lvl2upAlt.png",
+	                "map" : "creatures/stronghold/map/AVWboar",
+                },
+		"abilities":
+		{
+			"roughWalker" :
+			{
+				"type" : "NO_TERRAIN_PENALTY",
+				"subtype" : "terrain.rough",
+				"propagator" : "HERO",
+				"description" : "Roughwalker : No penalty movement on rough terrain for the hero. "
+			}
+		}
+	}
+}

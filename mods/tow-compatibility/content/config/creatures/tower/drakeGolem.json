@@ -1,0 +1,21 @@
+{
+	"tides-of-war.alternative-creatures:mdtDrakeGolem" : {
+		"upgrades" : [
+			"tides-of-war.alternative-creatures:mdtDragonGolem"
+		],
+		"defense" : 20,
+		"damage" : {
+			"max" : 55,
+			"min" : 45
+		},
+		"abilities":
+		{
+			"magicResistance" :
+			{
+				"type" : "SPELL_DAMAGE_REDUCTION",
+				"subtype" : "spellSchool.any",
+				"val" : 85
+			}
+		}
+	}
+}

@@ -1,0 +1,118 @@
+{
+	"greatAirElemental" : {
+		"name" : {
+			"singular" : "Great Air Elemental",
+			"plural" : "Great Air Elementals"
+		},
+		"faction" : "conflux",
+		"level" : 2,
+		"upgrades" : [
+			"stormElemental"
+		],
+		"cost" : {
+			"gold" : 275
+		},
+		"speed" : 9,
+		"hitPoints" : 25,
+		"attack" : 9,
+		"defense" : 9,
+		"damage" : {
+			"min" : 4,
+			"max" : 8
+		},
+		"fightValue" : 324,
+		"aiValue" : 486,
+		"growth" : 6,
+        "doubleWide" : false,
+		"advMapAmount" : {
+			"min" : 6,
+			"max" : 12
+		},
+		"abilities" : {
+			"nonLiving" : 
+			{
+				"type" : "NON_LIVING",
+                                "icon" : "zvs/Lib1.res/NonLivingelemental"
+			},
+			"canFly" : 
+			{
+				"type" : "FLYING",
+				"subtype" : "movementFlying"
+			},
+			"meteorshowerVulnerablity" :
+			{
+				"type" : "MORE_DAMAGE_FROM_SPELL",
+				"subtype" : "spell.meteorShower",
+				"val" : 100,
+                                "icon" : "zvs/Lib1.res/vulnerabilitymeteorshower"
+			},
+			"implosionVulnerablity" :
+			{
+				"type" : "MORE_DAMAGE_FROM_SPELL",
+				"subtype" : "spell.implosion",
+				"val" : 100,
+                                "icon" : "zvs/Lib1.res/vulnerabilityimplosion"
+			},
+                        "lightningImmunity" :
+                        {
+                                "type" : "SPELL_IMMUNITY",
+                                "subtype" : "spell.lightningBolt",
+                        },
+                       "chainLightningImmunity" :
+                        {
+                                "type" : "SPELL_IMMUNITY",
+                                "subtype" : "spell.chainLightning",
+	            	},
+			"spellPower" : 
+			{
+				"type" : "CREATURE_ENCHANT_POWER",
+				"val" : 6
+			},
+			"spellPoints" : 
+			{
+				"type" : "CASTS",
+				"val" : 3
+			},
+			"protectAir":
+			{
+				"type" : "ENCHANTED",
+				"subtype" : "spell.protectAir",
+				"val" : 2,
+                                "icon" : "zvs/Lib1.res/protair2"
+			},
+			"thunderOnAttack" :
+			{
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.thunderbolt",
+				"val" : 20,
+                                "icon" : "zvs/Lib1.res/thunderbird"
+			},
+			"thunderStrength" :
+			{
+				"type" : "SPECIFIC_SPELL_POWER",
+				"subtype" : "spell.thunderbolt",
+				"val" : 10
+		        }
+		},
+		"graphics" : {
+			"iconLarge" : "creatures/conflux/iconsbig/Conflux_lvl2upAlt.png",
+			"iconSmall" : "creatures/conflux/iconssmall/Conflux_lvl2upAlt.png",
+			"map" : "creatures/conflux/map/Conflux_Alt2.def",
+			"animation" : "creatures/conflux/battle/Conflux_Alt2.def",
+			"animationTime" : {
+				"attack" : 1.00,
+				"idle" : 10.00,
+				"walk" :  1.00
+			},
+			"timeBetweenFidgets" : 1,
+		},
+		"sound" : {
+			"attack": "STORATTK.wav",
+			"defend": "STORDFND.wav",
+			"killed": "STORKILL.wav",
+			"move": "STORMOVE.wav",
+			"shoot": "STORSHOT.wav",
+			"wince": "STORWNCE.wav"
+		}
+	}
+}

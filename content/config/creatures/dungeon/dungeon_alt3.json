@@ -1,0 +1,258 @@
+{
+	"cursedEye": {
+		"name" : {
+			"singular" : "Cursed Eye",
+			"plural" : "Cursed Eyes"
+		},
+		"faction" : "dungeon",
+		"level" : 3,
+		"cost" : {
+			"gold" : 280
+		},
+		"upgrades": ["evilEye"],
+		"speed" : 5,
+		"hitPoints" : 22,
+		"attack" : 9,
+		"defense" : 7,
+		"damage" : {
+			"min" : 3,
+			"max" : 5
+		},
+		"shots" : 12,
+		"growth" : 7,
+		"horde" : 0,
+		"aiValue" : 367,
+		"fightValue" : 245,
+		"advMapAmount" : {
+			"min" : 12,
+			"max" : 20
+		},
+		"abilities" : {
+			"SHOOTING_ARMY" : {
+				"type" : "SHOOTER"
+			},
+			"const_no_melee_penalty" : {
+				"type" : "NO_MELEE_PENALTY"
+			},
+			"spellpower" : {
+				"type" : "CREATURE_SPELL_POWER",
+				"val" : 100
+			},
+			"castsSorrow" : {
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "sorrow",
+				"addInfo" : [
+					2,
+					1,
+					2
+				],
+				"val" : 15,
+				"turns" : 3
+			},
+			"castsSlow" : {
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "slow",
+				"addInfo" : [
+					2,
+					1,
+					1
+				],
+				"val" : 20,
+				"turns" : 3
+			},
+			"castsCurse" : {
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "curse",
+				"addInfo" : [
+					2,
+					1,
+					1
+				],
+				"val" : 20,
+				"turns" : 3
+			},
+			"castsDispel" : {
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "dispelHelpful",
+				"addInfo" : [
+					2,
+					1,
+					1
+				],
+				"val" : 20
+			},
+			"castsBlind" : {
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "blind",
+				"addInfo" : [
+					3,
+					1,
+					2
+				],
+				"val" : 11,
+				"turns" : 3
+			},
+			"castsBerserk" : {
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "berserk",
+				"addInfo" : [
+					2,
+					1,
+					2
+				],
+				"val" : 11,
+				"turns" : 3
+			},
+			"castsMisfortune" : {
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "misfortune",
+				"addInfo" : [
+					2,
+					1,
+					0
+				],
+				"val" : 25,
+				"turns" : 3
+			},
+			"castsDisruptingRay" : {
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "disruptingRay",
+				"addInfo" : [
+					3,
+					1,
+					0
+				],
+				"val" : 25
+			},
+			"castsWeakness" : {
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "weakness",
+				"addInfo" : [
+					2,
+					1,
+					0
+				],
+				"val" : 25,
+				"turns" : 3
+			}
+		},
+		"graphics" : {
+			"animation" : "creatures/dungeon/battle/dungeon_lvl3upAlt.png",
+			"map" : "creatures/dungeon/map/dungeon_lvl3upAlt.png",
+			"iconSmall" : "creatures/dungeon/iconssmall/dungeon_lvl3upAlt.png",
+			"iconLarge" : "creatures/dungeon/iconsbig/dungeon_lvl3upAlt.png",
+			"animationTime" : {
+				"attack" : 1,
+				"idle" : 10,
+				"walk" : 1
+			},
+			"missile" :
+			{
+				"attackClimaxFrame" : 5,
+				"frameAngles" : [
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"offset" : {
+					"lowerX" : 7,
+					"lowerY" : -60,
+					"middleX" : 13,
+					"middleY" : -69,
+					"upperX" : 13,
+					"upperY" : -72
+				},
+				"ray" : [
+					{
+						"end" : [
+							160,
+							160,
+							160,
+							64
+						],
+						"start" : [
+							160,
+							160,
+							160,
+							255
+						]
+					},
+					{
+						"end" : [
+							192,
+							192,
+							192,
+							128
+						],
+						"start" : [
+							192,
+							192,
+							192,
+							255
+						]
+					},
+					{
+						"end" : [
+							224,
+							224,
+							224,
+							255
+						],
+						"start" : [
+							224,
+							224,
+							224,
+							255
+						]
+					},
+					{
+						"end" : [
+							192,
+							192,
+							192,
+							128
+						],
+						"start" : [
+							192,
+							192,
+							192,
+							255
+						]
+					},
+					{
+						"end" : [
+							160,
+							160,
+							160,
+							64
+						],
+						"start" : [
+							160,
+							160,
+							160,
+							255
+						]
+					}
+				]
+			},
+			"timeBetweenFidgets" : 1,
+		},
+		"sound" : {
+			"attack" : "EVLIATTK.wav",
+			"defend" : "EVLIDFND.wav",
+			"killed" : "EVLIKILL.wav",
+			"move" : "EVLIMOVE.wav",
+			"shoot" : "EVLISHOT.wav",
+			"wince" : "EVLIWNCE.wav"
+		}
+	}
+}

@@ -1,0 +1,15 @@
+{
+	"tides-of-war.alternative-creatures:mdtAlhoon" : {
+		"cost" : {
+			"gold" : 600
+		},
+		"speed" : 7,
+		"abilities" : {
+			"teleports" :
+			{
+				"type" : "FLYING",
+				"subtype" : "movementTeleporting"
+			}
+		}
+	}
+}

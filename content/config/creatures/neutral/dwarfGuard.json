@@ -1,0 +1,60 @@
+{
+	"dwarfGuard" : {
+		"name" : {
+			"singular" : "Dwarf Guard",
+			"plural" : "Dwarf Guard"
+		},
+		"faction" : "neutral",
+		"level" : 2,
+		"cost" : {
+			"gold" : 150
+		},
+		"speed" : 5,
+		"hitPoints" : 25,
+		"attack" : 6,
+		"defense" : 8,
+		"damage" : {
+			"min" : 2,
+			"max" : 4
+		},
+		"fightValue" : 209,
+		"aiValue" : 209,
+		"growth" : 8,
+        "doubleWide" : false,
+		"advMapAmount" : {
+			"min" : 16,
+			"max" : 22
+		},
+		"abilities" : {
+			"magicResistance" : {
+				"type" : "SPELL_DAMAGE_REDUCTION",
+				"subtype" : "any",
+				"val" : 20
+			},
+			"spellShield" : {
+				"type" : "ENCHANTED",
+				"subtype" : "shield",
+				"val" : 1,
+			}
+		},
+		"graphics" : {
+			"iconLarge" : "creatures/neutral/iconsbig/dwarfGuard.png",
+			"iconSmall" : "creatures/neutral/iconssmall/dwarfGuard.png",
+			"map" : "creatures/neutral/map/dwarfGuard.def",
+			"animation" : "creatures/neutral/battle/dwarfGuard",
+			"animationTime" : {
+				"attack" : 1.00,
+				"idle" : 10.00,
+				"walk" :  0.97
+			},
+			"timeBetweenFidgets" : 1,
+		},
+		"sound" : {
+			"attack": "BDRFATTK.wav",
+			"defend": "BDRFDFND.wav",
+			"killed": "BDRFKILL.wav",
+			"move": "BDRFMOVE.wav",
+			"wince": "BDRFWNCE.wav"
+		}
+	}
+}

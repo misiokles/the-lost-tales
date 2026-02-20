@@ -1,0 +1,93 @@
+{
+	"core:pixie" : {
+		        "graphics" : {
+			"iconLarge" : "creatures/conflux/iconsbig/conflux_lvl1",
+			"iconSmall" : "creatures/conflux/iconssmall/conflux_lvl1",
+                 }
+        },
+	"core:sprite" : {
+		        "graphics" : {
+			"iconLarge" : "creatures/conflux/iconsbig/conflux_lvl1up",
+			"iconSmall" : "creatures/conflux/iconssmall/conflux_lvl1up",
+                 }
+        },
+	"core:airElemental" : {
+		        "graphics" : {
+			"iconLarge" : "creatures/conflux/iconsbig/conflux_lvl2",
+			"iconSmall" : "creatures/conflux/iconssmall/conflux_lvl2",
+                 }
+        },
+	"core:stormElemental" : {
+		"upgrades": ["greatAirElemental"],
+                "graphics" : {
+			"iconLarge" : "creatures/conflux/iconsbig/conflux_lvl2up",
+			"iconSmall" : "creatures/conflux/iconssmall/conflux_lvl2up",
+                 }
+        },
+	"core:waterElemental" : {
+                "graphics" : {
+			"iconLarge" : "creatures/conflux/iconsbig/conflux_lvl3",
+			"iconSmall" : "creatures/conflux/iconssmall/conflux_lvl3",
+                 }
+        },
+	"core:iceElemental" : {
+		"upgrades": ["greatWaterElemental"],
+                "graphics" : {
+			"iconLarge" : "creatures/conflux/iconsbig/conflux_lvl3up",
+			"iconSmall" : "creatures/conflux/iconssmall/conflux_lvl3up",
+                 }
+        },
+	"core:fireElemental" : {
+                "graphics" : {
+			"iconLarge" : "creatures/conflux/iconsbig/conflux_lvl4",
+			"iconSmall" : "creatures/conflux/iconssmall/conflux_lvl4",
+			"map" : "creatures/conflux/map/conflux_lvl4",
+			"animation" : "creatures/conflux/battle/conflux_lvl4",
+                 }
+        },
+	"core:energyElemental" : {
+		"upgrades": ["greatFireElemental"],
+                "graphics" : {
+			"iconLarge" : "creatures/conflux/iconsbig/conflux_lvl4up",
+			"iconSmall" : "creatures/conflux/iconssmall/conflux_lvl4up",
+                 }
+        },
+	"core:earthElemental" : {
+                "graphics" : {
+			"iconLarge" : "creatures/conflux/iconsbig/conflux_lvl5",
+			"iconSmall" : "creatures/conflux/iconssmall/conflux_lvl5",
+                 }
+        },
+	"core:magmaElemental" : {
+		"upgrades": ["greatEarthElemental"],
+                "graphics" : {
+			"iconLarge" : "creatures/conflux/iconsbig/conflux_lvl5up",
+			"iconSmall" : "creatures/conflux/iconssmall/conflux_lvl5up",
+                 }
+        },
+	"core:psychicElemental" : {
+                "graphics" : {
+			"iconLarge" : "creatures/conflux/iconsbig/conflux_lvl6",
+			"iconSmall" : "creatures/conflux/iconssmall/conflux_lvl6",
+                 }
+        },
+	"core:magicElemental" : {
+		"upgrades": ["greatPsychicElemental"],
+                "graphics" : {
+			"iconLarge" : "creatures/conflux/iconsbig/conflux_lvl6up",
+			"iconSmall" : "creatures/conflux/iconssmall/conflux_lvl6up",
+                 }
+	},
+	"core:firebird" : {
+                "graphics" : {
+			"iconLarge" : "creatures/conflux/iconsbig/conflux_lvl7",
+			"iconSmall" : "creatures/conflux/iconssmall/conflux_lvl7",
+                 }
+        },
+	"core:phoenix" : {
+                "graphics" : {
+			"iconLarge" : "creatures/conflux/iconsbig/conflux_lvl7up",
+			"iconSmall" : "creatures/conflux/iconssmall/conflux_lvl7up",
+                 }
+        }
+}

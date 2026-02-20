@@ -1,0 +1,12 @@
+{
+	"basepath" : "town-screen/fortress/frames/",
+	"images" : [
+		{ "frame" : 44, "file" : "TPFGnol2"},
+		{ "frame" : 45, "file" : "TPFLizr2"},
+		{ "frame" : 46, "file" : "TPFFly3"},
+		{ "frame" : 48, "file" : "TPFGorg2"},
+		{ "frame" : 50, "file" : "TPFHydr2"},
+		{"frame" : 55,"file" : "TPFGorg3.png"},
+		{"frame" : 62,"file" : "TPFGorg4.png"}
+	]
+}

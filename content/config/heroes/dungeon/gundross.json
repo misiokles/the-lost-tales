@@ -1,0 +1,58 @@
+{
+	"gundross" : {
+		"class" : "overlord",
+                "female" : false,
+		"images" : {
+			"large" : "heroes/dungeon/gundrossLarge.png",
+			"small" : "heroes/dungeon/gundrossSmall.png",
+			"specialtyLarge" : "heroes/dungeon/SpecialtyPathfindingLarge.png",
+			"specialtySmall" : "heroes/dungeon/SpecialtyPathfindingSmall.png"
+		},
+		"army" : [
+			{
+				"creature" : "troglodyte",
+				"min" : 15,
+				"max" : 25
+			},
+			{
+				"creature" : "harpy",
+				"min" : 6,
+				"max" : 9
+			},
+			{
+				"creature" : "beholder",
+				"min" : 3,
+				"max" : 7
+			}
+		],
+		"skills" : [
+			{
+				"skill" : "pathfinding",
+				"level" : "advanced"
+			}
+		],
+		"specialty" : {
+			"bonuses" : {
+				"baseTileCost" : {
+					"type" : "BASE_TILE_MOVEMENT_COST",
+					"valueType" : "ADDITIVE_VALUE",
+					"val" : -5
+				},
+				"terrainCostReduction" : {
+					"type" : "ROUGH_TERRAIN_DISCOUNT",
+					"valueType" : "ADDITIVE_VALUE",
+					"val" : 5
+				}
+			}
+		},
+		"texts" : {
+			"name" : "Gundross",
+			"biography" : "Unlike most of his race, Gundross is a master of adapting to new situations. In the event of unforeseen circumstances, he reacts with complete confidence in his ability to come up with a plan in an instant. This creative way of dealing with things has been his secret to success.",
+			"specialty" : {
+				"name" : "Pathfinding",
+				"description" : "Receives a 5% reduction to the cost of moving on rough terrain.",
+				"tooltip" : "Skill Bonus: Pathfinding"
+			}
+		}
+	}
+}

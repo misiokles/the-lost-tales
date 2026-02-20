@@ -1,0 +1,26 @@
+{
+	"core:creatureGeneratorCommon" : {
+		"types" : {
+			"BarrowMound" : {
+				"name" : "Barrow Mound",
+				"creatures" : [
+					[
+						"mdtGhost"
+					]
+				],
+				"templates" : {
+					"default" : {
+						"animation" : "dwellings/neutral/ghostdw.def",
+						"mask" : [
+							"VVV",
+							"VVV",
+							"VBA"
+						],
+	                               }
+				},
+				"kingdomOverviewImage" : "icons/flagports/ghostdw.def"
+
+			}
+		}
+	}
+}

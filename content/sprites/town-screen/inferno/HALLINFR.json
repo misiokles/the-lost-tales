@@ -1,0 +1,9 @@
+{
+    "basepath" : "town-screen/inferno/frames/",
+	"images" :
+	[
+		{ "frame" : 45, "file" : "TPIGog3"},
+		{ "frame" : 46, "file" : "TPIHnd2"},
+		{ "frame" : 50, "file" : "TPIDvl2"}
+	]
+}

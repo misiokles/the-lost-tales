@@ -1,0 +1,10 @@
+{
+	"basepath" : "town-screen/stronghold/frames/",
+	"images" : [
+		{ "frame" : 45, "file" : "TPSWolf2"},
+		{ "frame" : 46, "file" : "TPSOrc2"},
+		{ "frame" : 49, "file" : "TPSCyc2"},
+		{ "frame" : 56, "file" : "TbStDA_5.png"},
+		{ "frame" : 63, "file" : "TbStUA_5.png"}
+	]
+}

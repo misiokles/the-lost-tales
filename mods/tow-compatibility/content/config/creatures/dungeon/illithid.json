@@ -1,0 +1,7 @@
+{
+	"tides-of-war.alternative-creatures:mdtIllithid" : {
+		"upgrades" : [
+			"tides-of-war.alternative-creatures:mdtAlhoon"
+		],
+	}
+}

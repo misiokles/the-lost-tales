@@ -1,0 +1,116 @@
+{
+	"greatWaterElemental" : {
+		"name" : {
+			"singular" : "Great Water Elemental",
+			"plural" : "Great Water Elementals"
+		},
+		"faction" : "conflux",
+		"level" : 3,
+		"upgrades" : [
+			"iceElemental"
+		],
+		"cost" : {
+			"gold" : 375
+		},
+		"speed" : 9,
+		"hitPoints" : 30,
+		"attack" : 10,
+		"defense" : 10,
+		"damage" : {
+			"min" : 4,
+			"max" : 8
+		},
+		"fightValue" : 315,
+		"aiValue" : 380,
+		"growth" : 6,
+                "doubleWide" : true,
+		"advMapAmount" : {
+			"min" : 6,
+			"max" : 12
+		},
+		"abilities" : {
+			"nonLiving" : {
+				"type" : "NON_LIVING",
+                                "icon" : "zvs/Lib1.res/NonLivingelemental"
+			},
+			"immuneToMind" : {
+				"type" : "MIND_IMMUNITY"
+			},
+			"spellPoints" : {
+				"type" : "CASTS",
+				"val" : 3
+			},				
+			"spellcaster" : {
+				"type" : "ENCHANTED",
+				"subtype" : "spell.protectWater",
+				"val" : 2
+			},
+			"spellPower" : {
+				"type" : "CREATURE_ENCHANT_POWER",
+				"val" : 6
+			},
+			"immuneToWater" : {
+				"type" : "SPELL_DAMAGE_REDUCTION",
+				"subtype" : "water",
+				"val" : 100
+			},
+			"fireShieldVulnerablity" : {
+				"type" : "MORE_DAMAGE_FROM_SPELL",
+				"subtype" : "spell.fireShield",
+				"val" : 100,
+                                "icon" : "zvs/Lib1.res/vulnerabilityfireshield"
+			},
+			"fireWallVulnerablity" : {
+				"type" : "MORE_DAMAGE_FROM_SPELL",
+				"subtype" : "spell.fireWall",
+				"val" : 100,
+                                "icon" : "zvs/Lib1.res/vulnerabilityfirewall"
+			},
+			"fireballVulnerablity" : {
+				"type" : "MORE_DAMAGE_FROM_SPELL",
+				"subtype" : "spell.fireball",
+				"val" : 100,
+                                "icon" : "zvs/Lib1.res/vulnerablefireball"
+			},
+			"infernoVulnerablity" : {
+				"type" : "MORE_DAMAGE_FROM_SPELL",
+				"subtype" : "spell.inferno",
+				"val" : 100,
+                                "icon" : "zvs/Lib1.res/vulnerableinferno"
+			},
+			"armageddonVulnerablity" : {
+				"type" : "MORE_DAMAGE_FROM_SPELL",
+				"subtype" : "spell.armageddon",
+				"val" : 100,
+                                "icon" : "zvs/Lib1.res/vulnerablearmageddon"
+                        },
+			"teleports" : {
+				"type" : "FLYING",
+				"subtype" : "movementTeleporting",
+                                "icon" : "zvs/Lib1.res/e_teleport"
+			}
+		},
+		"graphics" : {
+			"iconLarge" : "creatures/conflux/iconsbig/Conflux_lvl3upAlt.png",
+			"iconSmall" : "creatures/conflux/iconssmall/Conflux_lvl3upAlt.png",
+			"map" : "creatures/conflux/map/Conflux_Alt3.def",
+			"animation" : "creatures/conflux/battle/Conflux_Alt3.def",
+			"animationTime" : {
+				"attack" : 1.00,
+				"idle" : 10.00,
+				"walk" :  1.00
+			},
+			"timeBetweenFidgets" : 1,
+		},
+		"sound" : {
+			"attack": "ICELATTK.wav",
+			"defend": "ICELDFND.wav",
+			"killed": "ICELKILL.wav",
+			"move": "conflux/creatures/great water elemental/NIMPMOVE.wav",
+			"startMoving" : "conflux/creatures/great water elemental/NIMPEXT1.wav",
+			"endMoving" : "conflux/creatures/great water elemental/NIMPEXT2.wav",
+			"shoot": "ICELSHOT.wav",
+			"wince": "ICELWNCE.wav"
+		}
+	}
+}

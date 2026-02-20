@@ -1,0 +1,54 @@
+{
+	"ha'ora" : {
+		"class" : "witch",
+                "female" : true,
+		"spellbook" : [
+			"summonBoat"
+		],
+		"images" : {
+			"large" : "heroes/fortress/ha'oraLarge.png",
+			"small" : "heroes/fortress/ha'oraSmall.png",
+			"specialtyLarge" : "heroes/fortress/specialtyLogisticsLarge.png",
+			"specialtySmall" : "heroes/fortress/specialtyLogisticsSmall.png"
+		},
+		"army" : [
+			{
+				"creature" : "gnoll",
+				"min" : 15,
+				"max" : 25
+			},
+			{
+				"creature" : "lizardman",
+				"min" : 4,
+				"max" : 7
+			},
+			{
+				"creature" : "serpentFly",
+				"min" : 3,
+				"max" : 4
+			}
+		],
+		"skills" : [
+			{
+				"skill" : "wisdom",
+				"level" : "basic"
+			},
+			{
+				"skill" : "logistics",
+				"level" : "basic"
+			}
+		],
+		"specialty" : {
+                          "secondary" : "logistics"
+                },
+		"texts" : {
+			"name" : "Ha'Ora",
+			"biography" : "Ha'Ora is a broodmate of another famous witch, Voy. Their mother stole salt, a priceless commodity in Tatalia, from gorgon feeders and rubbed it on the eggs she laid, hoping for lizardmen as mighty as those fire-breathing bulls to hatch, but instead, her children developed an unorthodox interest in the salt water of the Enroth seas and long journeys.",
+				"specialty" : {
+				"description" : "Receives a 5% per level bonus to Logistics skill percentage.",
+				"name" : "Logistics",
+				"tooltip" : "Secondary Skill Bonus: Logistics"
+			}
+		}
+	}
+}

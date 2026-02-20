@@ -1,0 +1,88 @@
+{
+	"core:gremlin" : {
+		 "graphics" : {
+			"iconLarge" : "creatures/tower/iconsbig/tower_lvl1.png",
+			"iconSmall" : "creatures/tower/iconssmall/tower_lvl1.png",
+                   }
+	},
+	"core:masterGremlin" : {
+		 "graphics" : {
+			"iconLarge" : "creatures/tower/iconsbig/tower_lvl1up.png",
+			"iconSmall" : "creatures/tower/iconssmall/tower_lvl1up.png",
+                   }
+	},
+	"core:stoneGargoyle" : {
+		 "graphics" : {
+			"iconLarge" : "creatures/tower/iconsbig/tower_lvl2.png",
+			"iconSmall" : "creatures/tower/iconssmall/tower_lvl2.png",
+                   }
+	},
+	"core:obsidianGargoyle" : {
+		 "graphics" : {
+			"iconLarge" : "creatures/tower/iconsbig/tower_lvl2up.png",
+			"iconSmall" : "creatures/tower/iconssmall/tower_lvl2up.png",
+                   }
+	},
+	"core:stoneGolem" : {
+		 "graphics" : {
+			"iconLarge" : "creatures/tower/iconsbig/tower_lvl3up.png",
+			"iconSmall" : "creatures/tower/iconssmall/tower_lvl3up.png",
+                   }
+	},
+	"core:ironGolem" : {
+		 "graphics" : {
+			"iconLarge" : "creatures/tower/iconsbig/tower_lvl3.png",
+			"iconSmall" : "creatures/tower/iconssmall/tower_lvl3.png",
+                   }
+	},
+	"core:mage" : {
+		 "graphics" : {
+			"iconLarge" : "creatures/tower/iconsbig/tower_lvl4.png",
+			"iconSmall" : "creatures/tower/iconssmall/tower_lvl4.png",
+                   }
+	},
+	"core:archMage" : {
+		"upgrades": ["blackMage"],
+		 "graphics" : {
+			"iconLarge" : "creatures/tower/iconsbig/tower_lvl4up.png",
+			"iconSmall" : "creatures/tower/iconssmall/tower_lvl4up.png",
+                   }
+	},
+	"core:genie" : {
+		 "graphics" : {
+			"iconLarge" : "creatures/tower/iconsbig/tower_lvl5.png",
+			"iconSmall" : "creatures/tower/iconssmall/tower_lvl5.png",
+                   }
+	},
+	"core:masterGenie" : {
+		 "graphics" : {
+			"iconLarge" : "creatures/tower/iconsbig/tower_lvl5up.png",
+			"iconSmall" : "creatures/tower/iconssmall/tower_lvl5up.png",
+                   }
+	},
+	"core:naga" : {
+		 "graphics" : {
+			"iconLarge" : "creatures/tower/iconsbig/tower_lvl6.png",
+			"iconSmall" : "creatures/tower/iconssmall/tower_lvl6.png",
+                   }
+	},
+	"core:nagaQueen" : {
+		"upgrades": ["nagaGuardian"],
+		 "graphics" : {
+			"iconLarge" : "creatures/tower/iconsbig/tower_lvl6up.png",
+			"iconSmall" : "creatures/tower/iconssmall/tower_lvl6up.png",
+                   }
+	},
+	"core:giant" : {
+		 "graphics" : {
+			"iconLarge" : "creatures/tower/iconsbig/tower_lvl7.png",
+			"iconSmall" : "creatures/tower/iconssmall/tower_lvl7.png",
+                   }
+	},
+	"core:titan" : {
+		 "graphics" : {
+			"iconLarge" : "creatures/tower/iconsbig/tower_lvl7up.png",
+			"iconSmall" : "creatures/tower/iconssmall/tower_lvl7up.png",
+                   }
+	}
+}

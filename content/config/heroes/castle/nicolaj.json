@@ -1,0 +1,57 @@
+{
+	"nicolaj" : {
+		"class" : "knight",
+                "female" : false,
+		"images" : {
+			"large" : "heroes/castle/nicolajLarge.png",
+			"small" : "heroes/castle/nicolajSmall.png",
+			"specialtyLarge" : "heroes/castle/specialtyGoldLarge.png",
+			"specialtySmall" : "heroes/castle/specialtyGoldSmall.png"
+		},
+		"army" : [
+			{
+				"creature" : "pikeman",
+				"min" : 15,
+				"max" : 25
+			},
+			{
+				"creature" : "archer",
+				"min" : 6,
+				"max" : 9
+			},
+			{
+				"creature" : "griffin",
+				"min" : 4,
+				"max" : 7
+			}
+		],
+		"skills" : [
+			{
+				"skill" : "leadership",
+				"level" : "basic"
+			},
+			{
+				"skill" : "armorer",
+				"level" : "basic"
+			}
+		],
+		"specialty" : {
+			"bonuses" : {
+				"gold" : {
+					"type" : "GENERATE_RESOURCE",
+					"subtype" : "resource.gold",
+					"val" : 350
+				}
+			}
+		},
+		"texts" : {
+			"name" : "Nicolaj",
+			"biography" : "Son of a famous blacksmith, Nicolaj thought he would follow in his father's footsteps, but he preferred to go into the armor and weapons trade. And that's how his talents were spotted by a general, who saw a good opportunity in wartime...",
+		                "specialty" : {
+				"name" : "+350 Gold",
+				"description" : "Increases kingdom's income by 350 gold per day.",
+				"tooltip" : "Resource Bonus: +350 gold"
+			}
+		}
+	}
+}

@@ -1,0 +1,89 @@
+{
+	"core:stronghold" :
+	{
+		"town" :
+		{
+			"buildingsIcons": "town-screen/stronghold/HALLSTRN",
+			"hallSlots":
+			[
+                                [ [ "villageHall", "townHall", "cityHall", "capitol" ], [ "fort", "citadel", "castle" ], [ "tavern" ], [ "blacksmith" ] ],
+				[ [ "marketplace", "resourceSilo" ], [ "mageGuild1", "mageGuild2", "mageGuild3" ], [ "special4" ], [ "special1" ] ],
+				[ [ "special2" ], [ "special3" ], [ "horde1", "horde1Upgr" ] ],
+				[ [ "dwellingLvl1", "dwellingUpLvl1" ], [ "dwellingLvl2", "dwellingUpLvl2", "dwellingUpLvl2alt" ], [ "dwellingLvl3", "dwellingUpLvl3", "dwellingUpLvl3alt"  ], [ "dwellingLvl4", "dwellingUpLvl4" ] ],
+				[ [ "dwellingLvl5", "dwellingUpLvl5" ], [ "dwellingLvl6", "dwellingUpLvl6", "dwellingUp2Lvl6" ], [ "dwellingLvl7", "dwellingUpLvl7" ] ]
+			],
+			"creatures" :
+			[
+				["goblin", "hobgoblin"],
+				["goblinWolfRider", "core:boar", "hobgoblinWolfRider"],
+				["orc", "orcChieftain", "orcWarrior"],
+				["ogre", "ogreMage"],
+				["roc", "thunderbird"],
+				["cyclop", "cyclopKing", "cyclopLord"],
+				["behemoth", "ancientBehemoth"]
+			],
+			"structures" :
+			{
+				"dwellingUpLvl2alt": { "animation" : "TBSTUP_1.def", "x" : 266, "y" : 225, "z" : 1,  "campaignBonus" : "BoSwolf2.pcx", "border" : "TOSWOL2.bmp",  "area" : "TZSWOL2.bmp" },				
+                                "dwellingUp2Lvl6": { "animation" : "TBSTUP_5.def", "x" : 616, "y" : 93,  "z" : -2, "campaignBonus" : "BoScyc2.pcx",  "border" : "TOSCYC2A.bmp", "area" : "TZSCYC2A.bmp" },
+				"dwellingUpLvl3alt": { "animation" : "TBSTUP_2.def", "x" : 566, "y" : 158, "z" : 2,  "campaignBonus" : "BoSorc2.pcx",  "border" : "TOSORC2.bmp",  "area" : "TZSORC2.bmp" },
+			},
+			"buildings" :
+			{
+				"dwellingUpLvl2" :
+				{
+					"description" : "The Beast Pen allows you to recruit Wolf Raiders or Boar Rider."
+				},
+                                "dwellingUpLvl3" :
+				{
+					"description" : "The Orc Tower allows you to recruit Orc Chieftain or Orc Warriors."
+				},
+				"dwellingUpLvl2alt" :
+				{
+					"description" : "The Beast Pen allows you to recruit Wolf Raiders or Boar Rider.",
+					"name" : "Upg. Beast Pen",	
+					"cost" :
+					{
+					},
+					"requires" : 
+					[ 
+						"dwellingLvl2"
+					],		
+					"upgrades" : "dwellingUpLvl2",
+					"mode" : "auto",
+					"id" : 45
+				},
+                                "dwellingUpLvl3alt" :
+				{
+					"description" : "The Orc Tower allows you to recruit Orc Chieftain or Orc Warriors.",
+					"name" : "Upg. Orc Tower",	
+					"cost" :
+					{
+					},
+					"requires" : 
+					[ 
+						"dwellingLvl3"
+					],		
+					"upgrades" : "dwellingUpLvl3",
+					"mode" : "auto",
+					"id" : 46
+				},
+                                "dwellingUp2Lvl6" :
+				{
+					"description" : "The Cyclop Cave allows you to recruit Cyclop Lord.",
+					"name" : "Upg2. Cyclop Cave",
+					"cost" :
+					{
+						"wood": 	5,
+						"ore":  	5,
+						"gold":	  3000
+					},
+					"requires" : 
+					[ 
+						  "dwellingUpLvl6"
+					]
+				}				
+			}
+		}
+	}
+}

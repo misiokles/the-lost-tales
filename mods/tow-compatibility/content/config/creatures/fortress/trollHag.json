@@ -1,0 +1,26 @@
+{
+	"tides-of-war.alternative-creatures:mdtTrollHag" : {
+		"upgrades" : [
+			"tides-of-war.alternative-creatures:mdtTrollWitch"
+		],
+		"cost" : {
+			"gold" : 600
+		},
+		"speed" : 7,
+		"attack" : 14,
+		"defense" : 13,
+		"damage" : {
+			"min" : 10,
+			"max" : 15
+		},
+		"abilities" : {
+			"regeneration" : {
+				"type" : "HP_REGENERATION",
+				"val" : 45
+			},
+			"noMeleePenalty" : {
+				"type" : "NO_MELEE_PENALTY"
+                        }
+		}
+	}
+}

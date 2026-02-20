@@ -1,0 +1,78 @@
+{
+	"blackGorgon":
+	{
+		"name" :
+		{
+			"plural" : "Black Gorgons",
+			"singular" : "Black Gorgon"
+		},
+		"advMapAmount" : 
+		{
+			"max" : 10,
+			"min" : 8
+		},
+		"faction" : "fortress",
+		"upgrades" : 
+                [
+			"mightyGorgon"
+		],
+		"attack" : 13,
+		"defense" : 14,
+
+		"cost" :
+		{
+			"gold" : 600
+		},
+		"damage" :
+		{
+			"max" : 18,
+			"min" : 12
+		},
+		"growth" : 3,
+		"hitPoints" : 70,
+		"level" : 5,
+		"speed" : 7,
+		"fightValue" : 1028,
+		"aiValue" : 1028,
+		"graphics" :
+		{
+			"iconLarge" : "creatures/fortress/iconsbig/fortress_lvl5upAlt.png",
+			"iconSmall" : "creatures/fortress/iconssmall/fortress_lvl5upAlt.png",
+			"map" : "creatures/fortress/map/fortress_lvl5upAlt.def",
+			"animation" : "creatures/fortress/battle/fortress_lvl5upAlt.def",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1.00,
+				"idle" : 10.00,
+				"attack" : 1.00
+			}
+		},
+		"doubleWide" : true,
+		"sound" :
+		{
+			"attack": "BGORATTK.wav",
+			"defend": "BGORDFND.wav",
+			"killed": "BGORKILL.wav",
+			"move": "BGORMOVE.wav",
+			"wince": "BGORWNCE.wav"
+		},
+		"abilities" :
+		{
+			"acidBreath" :
+			{
+				"type" : "ACID_BREATH",
+				"val" : 25,
+				"addInfo" : 30,
+                                "icon" : "zvs/Lib1.res/acidattack"
+			},
+			"reduceDefence" :
+			{
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.acidBreath",
+				"val" : 100,
+                                "icon" : "zvs/Lib1.res/acidattack"
+			}
+		}
+	}
+}	

@@ -1,0 +1,83 @@
+{
+	"specter": {
+		"name" : {
+			"singular" : "Specter",
+			"plural" : "Specters"
+		},
+		"faction" : "necropolis",
+		"upgrades" : [
+			"core:wraith"
+		],
+		"level" : 3,
+		"cost" : {
+			"gold" : 230
+		},
+		"speed" : 5,
+		"hitPoints" : 18,
+		"attack" : 9,
+		"defense" : 7,
+		"damage" : {
+			"max" : 5,
+			"min" : 3
+		},
+		"growth" : 7,
+		"horde" : 0,
+		"aiValue" : 315,
+		"fightValue" : 252,
+		"advMapAmount" : {
+			"max" : 20,
+			"min" : 12
+		},
+		"abilities" : {
+			"IS_UNDEAD" : {
+				"type" : "UNDEAD"
+			},
+			"FLYING_ARMY" : {
+				"type" : "FLYING",
+                                "icon" : "zvs/Lib1.res/e_fly3"
+			},
+			"canSorrow" : {
+				"type" : "SPELL_BEFORE_ATTACK",
+				"subtype" : "sorrow",
+				"val" : 30,
+				"addInfo" : [
+					0,
+					2
+				],
+                                "icon" : "zvs/Lib1.res/sorrowattack"
+			},
+			"sorrowPower" : {
+				"type" : "CREATURE_SPELL_POWER",
+				"val" : 300 //spell power = 3
+			},
+			"sorrowLenght" : {
+				"type" : "CREATURE_ENCHANT_POWER",
+				"val" : 5 //spell duration =5
+			},
+			"regenerate" : 
+			{
+				"type" : "HP_REGENERATION",
+				"val" : 50
+			},
+		},
+		"graphics" : {
+			"iconLarge" : "creatures/necropolis/iconsbig/necropolis_lvl3upAlt.png",
+			"iconSmall" : "creatures/necropolis/iconssmall/necropolis_lvl3upAlt.png",
+			"map" : "creatures/necropolis/map/necropolis_Alt3.def",
+			"animation" : "creatures/necropolis/battle/necropolis_Alt3.def",
+			"animationTime" : {
+				"attack" : 1,
+				"idle" : 10,
+				"walk" : 1
+			},
+			"timeBetweenFidgets" : 1,
+		},
+		"sound" : {
+			"attack" : "WRTHATTK.wav",
+			"defend" : "WRTHDFND.wav",
+			"killed" : "WRTHKILL.wav",
+			"move" : "WRTHMOVE.wav",
+			"wince" : "WRTHWNCE.wav"
+		}
+	}
+}

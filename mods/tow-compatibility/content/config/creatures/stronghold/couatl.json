@@ -1,0 +1,90 @@
+{
+	"tides-of-war.alternative-creatures:mdtCouatl" : {
+		"name" : {
+			"singular" : "Feathered Serpent",
+			"plural" : "Feathered Serpents"
+		},
+		"upgrades" : [
+			"tides-of-war.alternative-creatures:mdtQuetzalcouatl"
+		],
+		"cost" : {
+			"gold" : 850
+		},
+		"hitPoints" : 80,
+		"defense" : 12,
+		"abilities" : {
+			"stoneGazeImm" : {
+				"type" : "SPELL_IMMUNITY",
+				"subtype" : "stoneGaze",
+				"addInfo" : 0,
+				"description" : "{Unbounded}\nImmunity for all creature spell-like abilities like Bind, Age, Poison or Death Stare"
+			},
+			"poisonImm" : {
+				"type" : "SPELL_IMMUNITY",
+				"subtype" : "poison",
+				"addInfo" : 0,
+				"hidden" : true
+			},
+			"bindImm" : {
+				"type" : "SPELL_IMMUNITY",
+				"subtype" : "bind",
+				"addInfo" : 0,
+				"hidden" : true
+			},
+			"diseaseImm" : {
+				"type" : "SPELL_IMMUNITY",
+				"subtype" : "disease",
+				"addInfo" : 0,
+				"hidden" : true
+			},
+			"paralyzeImm" : {
+				"type" : "SPELL_IMMUNITY",
+				"subtype" : "paralyze",
+				"addInfo" : 0,
+				"hidden" : true
+			},
+			"ageImm" : {
+				"type" : "SPELL_IMMUNITY",
+				"subtype" : "age",
+				"addInfo" : 0,
+				"hidden" : true
+			},
+			"deathCloudImm" : {
+				"type" : "SPELL_IMMUNITY",
+				"subtype" : "deathCloud",
+				"addInfo" : 0,
+				"hidden" : true
+			},
+			"thunderboltImm" : {
+				"type" : "SPELL_IMMUNITY",
+				"subtype" : "thunderbolt",
+				"addInfo" : 0,
+				"hidden" : true
+			},
+			"dispelHelpfulImm" : {
+				"type" : "SPELL_IMMUNITY",
+				"subtype" : "dispelHelpful",
+				"addInfo" : 0,
+				"hidden" : true
+			},
+			"deathStareImm" : {
+				"type" : "SPELL_IMMUNITY",
+				"subtype" : "deathStare",
+				"addInfo" : 0,
+				"hidden" : true
+			},
+			"acidBreathImm" : {
+				"type" : "SPELL_IMMUNITY",
+				"subtype" : "acidBreath",
+				"addInfo" : 0,
+				"hidden" : true
+			},
+			"acidBreathDamageImm" : {
+				"type" : "SPELL_IMMUNITY",
+				"subtype" : "acidBreathDamage",
+				"addInfo" : 0,
+				"hidden" : true
+			}
+		}
+	}
+}

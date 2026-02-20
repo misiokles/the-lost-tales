@@ -1,0 +1,106 @@
+{
+	"core:goblin" : {
+		        "graphics" : {
+			"iconLarge" : "creatures/stronghold/iconsbig/stronghold_lvl1",
+			"iconSmall" : "creatures/stronghold/iconssmall/stronghold_lvl1",
+               }
+        },
+	"core:hobgoblin" : {
+		        "graphics" : {
+			"iconLarge" : "creatures/stronghold/iconsbig/stronghold_lvl1up",
+			"iconSmall" : "creatures/stronghold/iconssmall/stronghold_lvl1up",
+               }
+        },
+	"core:goblinWolfRider" : {
+		        "graphics" : {
+			"iconLarge" : "creatures/stronghold/iconsbig/stronghold_lvl2",
+			"iconSmall" : "creatures/stronghold/iconssmall/stronghold_lvl2",
+               }
+        },
+	"core:hobgoblinWolfRider" : {
+		"upgrades": ["core:boar"],
+		        "graphics" : {
+			"iconLarge" : "creatures/stronghold/iconsbig/stronghold_lvl2up",
+			"iconSmall" : "creatures/stronghold/iconssmall/stronghold_lvl2up",
+               }
+        },
+	"core:orc" : {
+		        "graphics" : {
+			"iconLarge" : "creatures/stronghold/iconsbig/stronghold_lvl3",
+			"iconSmall" : "creatures/stronghold/iconssmall/stronghold_lvl3",
+	                "map" : "creatures/stronghold/map/AVWorc0",
+
+               }
+        },
+	"core:orcChieftain" : {
+		"upgrades": ["orcWarrior"],
+		        "graphics" : {
+			"iconLarge" : "creatures/stronghold/iconsbig/stronghold_lvl3up",
+			"iconSmall" : "creatures/stronghold/iconssmall/stronghold_lvl3up",
+	                "map" : "creatures/stronghold/map/AVWorcx0",
+               }
+	},
+	"core:ogre" : {
+		        "graphics" : {
+			"iconLarge" : "creatures/stronghold/iconsbig/stronghold_lvl3up",
+			"iconSmall" : "creatures/stronghold/iconssmall/stronghold_lvl3up",
+               }
+	},
+	"core:cyclop" :
+        {
+		"graphics" : {
+			"iconLarge" : "creatures/stronghold/iconsbig/stronghold_lvl6",
+			"iconSmall" : "creatures/stronghold/iconssmall/stronghold_lvl6",
+	                "map" : "creatures/stronghold/map/AVWcycx0",
+	                "animation" : "creatures/stronghold/battle/CCYCLR",
+			     "missile" : {
+				"attackClimaxFrame" : 5,
+				"offset" :
+				{
+					"upperX" : 55,
+					"upperY" : -115,
+					"middleX" : 53,
+					"middleY" : -84,
+					"lowerX" : 38,
+					"lowerY" : -54
+				},
+				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0]
+			      }
+	          }
+	},
+	"core:cyclopKing" : {
+		"upgrades": ["cyclopLord"],
+		"graphics" : {
+			"iconLarge" : "creatures/stronghold/iconsbig/stronghold_lvl6up",
+			"iconSmall" : "creatures/stronghold/iconssmall/stronghold_lvl6up",
+	                "map" : "creatures/stronghold/map/AVWcycx0",
+	                "animation" : "creatures/stronghold/battle/CcyclLor",
+			"missile" : {
+				"attackClimaxFrame" : 5,
+				"offset" :
+				{
+					"upperX" : 55,
+					"upperY" : -115,
+					"middleX" : 53,
+					"middleY" : -84,
+					"lowerX" : 38,
+					"lowerY" : -54
+				},
+				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0]
+
+                      	}
+               }
+        },
+	"core:behemoth" : {
+		        "graphics" : {
+			"iconLarge" : "creatures/stronghold/iconsbig/stronghold_lvl7",
+			"iconSmall" : "creatures/stronghold/iconssmall/stronghold_lvl7",
+               }
+	},
+	"core:ancientBehemoth" : {
+		        "graphics" : {
+			"iconLarge" : "creatures/stronghold/iconsbig/stronghold_lvl7up",
+			"iconSmall" : "creatures/stronghold/iconssmall/stronghold_lvl7up",
+               }
+        }
+  }

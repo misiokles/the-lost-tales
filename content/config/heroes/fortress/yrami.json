@@ -1,0 +1,57 @@
+{
+	"yrami" : {
+		"class" : "beastmaster",
+                "female" : false,
+		"images" : {
+			"large" : "heroes/fortress/yramiLarge.png",
+			"small" : "heroes/fortress/yramiSmall.png",
+			"specialtyLarge" : "heroes/fortress/specialtyGoldLarge.png",
+			"specialtySmall" : "heroes/fortress/specialtyGoldSmall.png"
+		},
+		"army" : [
+			{
+				"creature" : "gnoll",
+				"min" : 15,
+				"max" : 25
+			},
+			{
+				"creature" : "lizardman",
+				"min" : 4,
+				"max" : 7
+			},
+			{
+				"creature" : "serpentFly",
+				"min" : 3,
+				"max" : 4
+			}
+		],
+		"skills" : [
+			{
+				"skill" : "armorer",
+				"level" : "basic"
+			},
+			{
+				"skill" : "tactics",
+				"level" : "basic"
+			}
+		],
+		"specialty" : {
+			"bonuses" : {
+				"gold" : {
+					"type" : "GENERATE_RESOURCE",
+					"subtype" : "resource.gold",
+					"val" : 350
+				}
+			}
+		},
+		"texts" : {
+			"name" : "Yrami",
+			"biography" : "Unlike other gnolls, Yrami has always been curious about what was happening in other neighboring regions, and that is why he has formed bonds with all sorts of different people, from simple pirates to barbarian lords.",
+		                "specialty" : {
+				"name" : "+350 Gold",
+				"description" : "Increases kingdom's income by 350 gold per day.",
+				"tooltip" : "Resource Bonus: +350 gold"
+			}
+		}
+	}
+}

@@ -1,0 +1,51 @@
+{
+	"melina" : {
+		"class" : "overlord",
+                "female" : true,
+		"images" : {
+			"large" : "heroes/dungeon/melinaLarge.png",
+			"small" : "heroes/dungeon/melinaSmall.png",
+			"specialtyLarge" : "heroes/dungeon/SpecialtyMedusaLarge.png",
+			"specialtySmall" : "heroes/dungeon/SpecialtyMedusaSmall.png"
+		},
+		"army" : [
+			{
+				"creature" : "troglodyte",
+				"min" : 15,
+				"max" : 25
+			},
+			{
+				"creature" : "harpy",
+				"min" : 6,
+				"max" : 9
+			},
+			{
+				"creature" : "medusa",
+				"min" : 1,
+				"max" : 4
+			}
+		],
+		"skills" : [
+			{
+				"skill" : "tactics",
+				"level" : "basic"
+			},
+			{
+				"skill" : "archery",
+				"level" : "basic"
+			}
+		],
+		"specialty" : {
+			"creature" : "core:medusa"
+		},
+		"texts" : {
+			"name" : "Melina",
+			"biography" : "Strangely, few Medusas obtain the title of Overlord, but Melina achieved it through her great combat intelligence and ability to command the Medusas.",
+			"specialty" : {
+				"name" : "Medusas",
+				"description" : "Increases the Speed of allied Medusas and Medusa Queens by 1 and their Attack and Defense skills by 20% for every 4 levels (rounded up).",
+				"tooltip" : "Creature Bonus: Medusas"
+			}
+		}
+	}
+}

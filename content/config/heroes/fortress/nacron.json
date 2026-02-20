@@ -1,0 +1,51 @@
+{
+	"nacron" : {
+		"class" : "beastmaster",
+		"female" : false,
+		"images" : {
+			"specialtySmall" : "heroes/fortress/specialtyHydraSmall.png",
+			"specialtyLarge" : "heroes/fortress/specialtyHydraLarge.png",
+			"large" : "heroes/fortress/nocronLarge.png",
+			"small" : "heroes/fortress/nocronSmall.png"
+		},
+		"army" : [
+			{
+				"creature" : "gnoll",
+				"min" : 10,
+				"max" : 20
+			},
+			{
+				"creature" : "lizardman",
+				"min" : 4,
+				"max" : 7
+			},
+			{
+				"creature" : "serpentFly",
+				"min" : 2,
+				"max" : 4
+			}
+		],
+		"skills" : [
+			{
+				"skill" : "armorer",
+				"level" : "basic"
+			},
+			{
+				"skill" : "ballistics",
+				"level" : "basic"
+			}
+		],
+		"specialty" : {
+			"creature" : "hydra"
+		},
+		"texts" : {
+			"name" : "Nacron",
+			"biography" : "Nacron grew up near a Hydra Pond, these creatures always fascinated him with their power, no wonder he made them his specialty when he became a beastmaster...",
+			"specialty" : {
+				"name" : "Hydras",
+				"description" : "Increases the speed of any Hydras, Chaos Hydras and Flying Hydras by 1 and their Attack and Defense skills by 5% for every 7 levels (rounded up).",
+				"tooltip" : "Creature Bonus: Hydras"
+			}
+		}
+	}
+}

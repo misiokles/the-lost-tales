@@ -1,0 +1,61 @@
+{
+	"nagaGuardian": {
+		"name" : {
+			"singular" : "Naga Guardian",
+			"plural" : "Naga Guardians"
+		},
+		"faction" : "tower",
+		"upgrades" : [
+			"nagaQueen"
+		],
+		"level" : 6,
+		"cost" : {
+			"gold" : 1600
+		},
+		"speed" : 5,
+		"hitPoints" : 110,
+		"attack" : 16,
+		"defense" : 13,
+		"damage" : {
+			"min" : 25,
+			"max" : 35
+		},
+		"doubleWide" : true,
+		"growth" : 2,
+		"horde" : 0,
+		"aiValue" : 2840,
+		"fightValue" : 2485,
+		"advMapAmount" : {
+			"min" : 5,
+			"max" : 10
+		},
+		"abilities" : {
+			"noRetaliation" : {
+				"type" : "BLOCKS_RETALIATION"
+			},
+			"unlimited Retaliation" : {
+				"type" : "UNLIMITED_RETALIATIONS",
+                                "icon" : "zvs/Lib1.res/unlimitedC"
+			}
+		},
+		"graphics" : {
+			"iconLarge" : "creatures/tower/iconsbig/tower_lvl6upAlt.png",
+			"iconSmall" : "creatures/tower/iconssmall/tower_lvl6upAlt.png",
+			"map" : "creatures/tower/map/tower_Alt6",
+			"animation" : "creatures/tower/battle/tower_Alt6.def",
+			"animationTime" : {
+				"attack" : 1,
+				"idle" : 10,
+				"walk" : 1
+			},
+			"timeBetweenFidgets" : 1,
+		},
+		"sound" : {
+			"attack" : "NGRDATTK.wav",
+			"defend" : "NGRDDFND.wav",
+			"killed" : "NGRDKILL.wav",
+			"move" : "NGRDMOVE.wav",
+			"wince" : "NGRDWNCE.wav"
+		}
+	}
+}

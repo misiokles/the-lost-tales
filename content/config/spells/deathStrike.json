@@ -1,0 +1,50 @@
+{
+        "deathStrike" : {
+		"name" : "Death Strike",
+		"type" : "ability",
+		"level" : 0,
+		"power" : 0,
+		"school" : { },
+		"targetType": "NO_TARGET",
+		"targetCondition" : {
+			"noneOf" : {
+				"bonus.NON_LIVING" : "absolute",
+				"bonus.UNDEAD" : "absolute",
+				"bonus.SIEGE_WEAPON" : "absolute",
+				"bonus.GARGOYLE" : "absolute"
+			}
+		},
+		"levels" : {
+			"base" : {
+				"description" : "Death Strike always kills at least one unit..",
+				"battleEffects" : {
+					"destruction" : {
+						"type" : "core:damage",
+						"killByCount" : true
+					}
+				},
+				"range" : "0"
+			}
+		},
+		"flags" : {
+			"indifferent" : true
+		},
+		"animation" : {
+			"affect" : ["spells/SoD/abilities/C07SPE0.def"]
+		},
+		"sounds": {
+			"cast" : "spells/SoD/abilities/DEATHSTR.wav"
+		},
+			"gainChance" : {
+			"castle" : 1,
+			"conflux" : 1,
+			"dungeon" : 1,
+			"fortress" : 1,
+			"inferno" : 1,
+			"necropolis" : 1,
+			"rampart" : 1,
+			"stronghold" : 1,
+			"tower" : 1
+		}
+	},
+}

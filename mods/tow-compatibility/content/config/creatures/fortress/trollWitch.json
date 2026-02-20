@@ -1,0 +1,19 @@
+{
+	"tides-of-war.alternative-creatures:mdtTrollWitch" : {
+		"cost" : {
+			"gold" : 650
+		},
+		"speed" : 8,
+		"shots" : 12,
+		"damage" : {
+			"min" : 12,
+			"max" : 15
+		},
+		"abilities" : {
+			"regeneration" : {
+				"type" : "HP_REGENERATION",
+				"val" : 45
+			}
+		}
+	}
+}

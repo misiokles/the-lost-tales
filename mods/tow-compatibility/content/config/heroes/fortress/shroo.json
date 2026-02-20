@@ -1,0 +1,54 @@
+{
+	"tides-of-war.heroes:mdtShroo" : {
+		"class" : "witch",
+		"female" : true,
+		"images" : {
+			"specialtySmall" : "heroes/fortress/shroo_spec-small.bmp",
+			"specialtyLarge" : "heroes/fortress/shroo_spec-large.bmp",
+			"large" : "heroes/fortress/shroo_portrait-large.bmp",
+			"small" : "heroes/fortress/shroo_portrait-small.bmp"
+		},
+		"army" : [
+			{
+				"creature" : "gnoll",
+				"min" : 10,
+				"max" : 20
+			},
+			{
+				"creature" : "lizardman",
+				"min" : 4,
+				"max" : 7
+			},
+			{
+				"creature" : "serpentFly",
+				"min" : 2,
+				"max" : 4
+			}
+		],
+		"skills" : [
+			{
+				"skill" : "wisdom",
+				"level" : "basic"
+			},
+			{
+				"skill" : "hexes",
+				"level" : "basic"
+			}
+		],
+		"specialty" : {
+			"creature" : "troll"
+		},
+		"spellbook" : [
+			"iceBolt"
+		],
+		"texts" : {
+			"name" : "Shroo",
+			"biography" : "No one really knows how long Trolls live. Rumor has it that Shroo remember the days of the Revolt of the Beastmasters. No one though has been brave enough to ask her about it.",
+			"specialty" : {
+				"name" : "Troll",
+				"description" : "Increases the Attack and Defense skills of any Troll, Troll Hags and Troll Witches for each level attained after 5th level. Additionally, Troll Hags and Troll Witches get a permanent +1 Speed bonus",
+				"tooltip" : "Creature Bonus: Troll, Troll Witches and Troll Hags"
+			}
+		}
+	}
+}

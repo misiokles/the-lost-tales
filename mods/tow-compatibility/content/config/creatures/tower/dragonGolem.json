@@ -1,0 +1,18 @@
+{
+	"tides-of-war.alternative-creatures:mdtDragonGolem" : {
+		"attack" : 20,
+		"defense" : 25,
+		"damage" : {
+			"min" : 45,
+			"max" : 55
+		},
+		"abilities" : {
+			"magicResistance" :
+			{
+				"type" : "SPELL_DAMAGE_REDUCTION",
+				"subtype" : "spellSchool.any",
+				"val" : 95
+			}
+		}
+	}
+}

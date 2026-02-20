@@ -1,0 +1,80 @@
+{
+	"darkKnight": {
+		"name" : {
+			"singular" : "Dark Knight",
+			"plural" : "Dark Knights"
+		},
+		"faction" : "necropolis",
+		"upgrades" : [
+			"dreadKnight"
+		],
+		"level" : 6,
+		"cost" : {
+			"gold" : 1500
+		},
+		"speed" : 9,
+
+		"hitPoints" : 120,
+		"attack" : 20,
+		"defense" : 16,
+		"damage" : {
+			"min" : 15,
+			"max" : 30
+		},
+		"doubleWide" : true,
+		"growth" : 2,
+		"horde" : 0,
+		"aiValue" : 2382,
+		"fightValue" : 2029,
+		"advMapAmount" : {
+			"min" : 5,
+			"max" : 10
+		},
+		"abilities" : {
+			"IS_UNDEAD" : {
+				"type" : "UNDEAD"
+			},
+			"curses" : {
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.curse",
+				"val" : 20,
+                                "icon" : "zvs/Lib1.res/curseattack"
+			},
+			"fearful" :
+			{
+				"type" : "FEARFUL",
+				"val" : 10,
+				"propagator": "BATTLE_WIDE",
+				"propagationUpdater" : "BONUS_OWNER_UPDATER",
+				"description" : "@creatures.core.azureDragon.bonus.fearful",
+				"limiters" : [ 
+					"OPPOSITE_SIDE", 
+					{
+						"type" : "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType" : "LIVING"
+					}
+				],
+				"hidden" : false
+			},
+		},
+		"graphics" : {
+			"iconLarge" : "creatures/necropolis/iconsbig/necropolis_lvl6upAlt.png",
+			"iconSmall" : "creatures/necropolis/iconssmall/necropolis_lvl6upAlt.png",
+			"map" : "creatures/necropolis/map/necropolis_Alt6.def",
+			"animation" : "creatures/necropolis/battle/necropolis_Alt6.def",
+			"animationTime" : {
+				"attack" : 1,
+				"idle" : 10,
+				"walk" : 1
+			},
+			"timeBetweenFidgets" : 1,
+		},
+		"sound" : {
+			"attack": "BLRDATTK.wav",
+			"defend": "BLRDDFND.wav",
+			"killed": "BLRDKILL.wav",
+			"move": "BLRDMOVE.wav",
+			"wince": "BLRDWNCE.wav"
+		}
+	}
+}

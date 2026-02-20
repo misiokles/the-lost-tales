@@ -1,0 +1,172 @@
+{
+	"blackMage": {
+		"name" : {
+			"singular" : "Black Mage",
+			"plural" : "Black Magi"
+		},
+		"faction" : "tower",
+		"upgrades" : [
+			"archMage"
+		],
+		"level" : 4,
+		"cost" : {
+			"gold" : 450
+		},
+		"speed" : 7,
+		"hitPoints" : 30,
+		"attack" : 12,
+		"defense" : 9,
+		"damage" : {
+			"min" : 7,
+			"max" : 9
+		},
+		"shots" : 24,
+		"growth" : 4,
+		"horde" : 0,
+		"aiValue" : 680,
+		"fightValue" : 467,
+		"advMapAmount" : {
+			"min" : 10,
+			"max" : 16
+		},
+		"abilities" : {
+			"SHOOTING_ARMY" : {
+				"type" : "SHOOTER"
+			},
+			"const_no_melee_penalty" : {
+				"type" : "NO_MELEE_PENALTY"
+			},
+			"const_no_wall_penalty" : {
+				"type" : "NO_WALL_PENALTY"
+			},
+			"reduceSpellCost" : {
+				"type" : "CHANGES_SPELL_COST_FOR_ALLY",
+				"val" : 2
+			},
+                        "dispellHelpful" : {
+	                         "type" : "SPELL_AFTER_ATTACK",
+                                 "subtype" : "spell.dispel",
+                                 "val" : 100,
+				"icon" : "zvs/Lib1.res/dispelattack"
+	                },
+		},
+		"graphics" : {
+			"iconLarge" : "creatures/tower/iconsbig/tower_lvl4upAlt.png",
+			"iconSmall" : "creatures/tower/iconssmall/tower_lvl4upAlt.png",
+			"map" : "creatures/tower/map/tower_Alt4",
+			"animation" : "creatures/tower/battle/tower_Alt4.def",
+			"animationTime" : {
+				"attack" : 1,
+				"idle" : 10,
+				"walk" : 1
+			},
+			"missile" : {
+				"projectile" : "PMAGEX.DEF",
+				"attackClimaxFrame" : 8,
+				"frameAngles" : [
+					90,
+					72,
+					45,
+					27,
+					0,
+					-27,
+					-45,
+					-72,
+					-90,
+					0,
+					0,
+					0
+				],
+				"offset" : {
+					"lowerX" : 18,
+					"lowerY" : -92,
+					"middleX" : 43,
+					"middleY" : -99,
+					"upperX" : 28,
+					"upperY" : -107
+				},
+				"ray" : [
+					{
+						"end" : [
+							160,
+							192,
+							0,
+							64
+						],
+						"start" : [
+							160,
+							192,
+							0,
+							255
+						]
+					},
+					{
+						"end" : [
+							128,
+							224,
+							128,
+							128
+						],
+						"start" : [
+							128,
+							224,
+							128,
+							255
+						]
+					},
+					{
+						"end" : [
+							32,
+							176,
+							32,
+							255
+						],
+						"start" : [
+							32,
+							176,
+							32,
+							255
+						]
+					},
+					{
+						"end" : [
+							128,
+							224,
+							128,
+							128
+						],
+						"start" : [
+							128,
+							224,
+							128,
+							255
+						]
+					},
+					{
+						"end" : [
+							160,
+							192,
+							0,
+							64
+						],
+						"start" : [
+							160,
+							192,
+							0,
+							255
+						]
+					}
+				]
+			},
+			"timeBetweenFidgets" : 1,
+		},
+		"sound" : {
+			"attack" : "AMAGATTK.wav",
+			"defend" : "AMAGDFND.wav",
+			"killed" : "AMAGKILL.wav",
+			"move" : "AMAGMOVE.wav",
+			"shoot" : "AMAGSHOT.wav",
+			"wince" : "AMAGWNCE.wav"
+		}
+	}
+}

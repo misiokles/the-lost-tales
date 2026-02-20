@@ -1,0 +1,116 @@
+{
+	"name" : "Hota compatibilty",
+	"author" : "Toriko94, Yogdush, Misiokles, and help from  ",
+	"contact" : "",
+	"description" : "Hota compatibilty. graphic modif of hota. Animation was added for map.def of seaWitch, sorceress, yeti runemaster. New def for yeti runemaster , for being like the base creature (brown). Kobold are now grey. ",
+	"version" : "1.0.0",
+	"modType" : "Compatibility",
+	"compatibility" : {"min" : "1.0.0"},
+	"changelog" : 
+        {
+		"1.0.0"   : [ "Initial release" ]
+        },
+	"depends" :
+	[
+		"hota.bulwark",
+		"hota.cove",
+		"hota.gamebalance",
+                "hota.confluxvaultofashes",
+		"hota.heroes3datapatch",
+		"hota.neutralCreatures"
+	],
+        "softDepends" : [
+		"hota.gamebalance.heroes",
+        ],
+	"creatures" : 
+        [
+		"config/town-screen/conflux/creatures.json",
+		"config/hotaNeutralCreatures/steelGolem",
+                "config/hota/bulwark/creatures/kobold.json",
+		"config/hota/bulwark/creatures/koboldForeman.json",
+		"config/hota/bulwark/creatures/yetiRunemaster.json",
+		"config/hota/cove/creatures/seaWitch.json",
+		"config/hota/cove/creatures/sorceress.json"
+        ],
+	"heroes" :
+	[
+		"config/hotaGameBalance/castle/catherine.json",
+		"config/hotaGameBalance/castle/edric.json",
+		"config/hotaGameBalance/castle/ingham.json",
+		"config/hotaGameBalance/castle/roland.json",
+		"config/hotaGameBalance/castle/sorsha.json",
+		"config/hotaGameBalance/castle/tyris.json",
+		"config/hotaGameBalance/castle/valeska.json",
+
+		"config/hotaGameBalance/conflux/erdamon.json",
+		"config/hotaGameBalance/conflux/fiur.json",
+		"config/hotaGameBalance/conflux/ignissa.json",
+		"config/hotaGameBalance/conflux/kalt.json",
+		"config/hotaGameBalance/conflux/lacus.json",
+		"config/hotaGameBalance/conflux/monere.json",
+		"config/hotaGameBalance/conflux/pasis.json",
+		"config/hotaGameBalance/conflux/thunar.json",
+
+		"config/hotaGameBalance/dungeon/ajit.json",
+		"config/hotaGameBalance/dungeon/dace.json",
+		"config/hotaGameBalance/dungeon/lorelei.json",
+		"config/hotaGameBalance/dungeon/shakti.json",
+		"config/hotaGameBalance/dungeon/synca.json",
+
+		"config/hotaGameBalance/fortress/alkin.json",
+		"config/hotaGameBalance/fortress/broghild.json",
+		"config/hotaGameBalance/fortress/bron.json",
+		"config/hotaGameBalance/fortress/drakon.json",
+		"config/hotaGameBalance/fortress/korbac.json",
+		"config/hotaGameBalance/fortress/wystan.json",
+
+		"config/hotaGameBalance/inferno/calh.json",
+		"config/hotaGameBalance/inferno/fiona.json",
+		"config/hotaGameBalance/inferno/ignatius.json",
+		"config/hotaGameBalance/inferno/marius.json",
+		"config/hotaGameBalance/inferno/nymus.json",
+	        "config/hotaGameBalance/inferno/rashka.json",
+		"config/hotaGameBalance/inferno/xeron.json",
+
+		"config/hotaGameBalance/necropolis/boyd.json",
+		"config/hotaGameBalance/necropolis/charna.json",
+		"config/hotaGameBalance/necropolis/galthran.json",
+		"config/hotaGameBalance/necropolis/haartLich.json",
+		"config/hotaGameBalance/necropolis/moandor.json",
+		"config/hotaGameBalance/necropolis/straker.json",
+		"config/hotaGameBalance/necropolis/tamika.json",
+		"config/hotaGameBalance/necropolis/vokial.json",
+
+		"config/hotaGameBalance/rampart/aeris.json",
+		"config/hotaGameBalance/rampart/clancy.json",
+		"config/hotaGameBalance/rampart/ivor.json",
+		"config/hotaGameBalance/rampart/ryland.json",
+		"config/hotaGameBalance/rampart/ufretin.json",
+
+		"config/hotaGameBalance/stronghold/boragus.json",
+		"config/hotaGameBalance/stronghold/gretchin.json",
+		"config/hotaGameBalance/stronghold/jabarkas.json",
+		"config/hotaGameBalance/stronghold/kilgor.json",
+		"config/hotaGameBalance/stronghold/krellion.json",
+		"config/hotaGameBalance/stronghold/shiva.json",
+		"config/hotaGameBalance/stronghold/tyraxor.json",
+		"config/hotaGameBalance/stronghold/vey.json",
+		"config/hotaGameBalance/stronghold/yog.json",
+		"config/hotaGameBalance/stronghold/zog.json",
+
+		"config/hotaGameBalance/tower/fafner.json",
+		"config/hotaGameBalance/tower/iona.json",
+		"config/hotaGameBalance/tower/josephine.json",
+		"config/hotaGameBalance/tower/piquedram.json",
+		"config/hotaGameBalance/tower/thane.json",
+		"config/hotaGameBalance/tower/theodorus.json",
+
+		"config/hota/bulwark/heroes/spadum.json",
+		"config/hota/bulwark/heroes/kynr.json",
+		"config/hota/bulwark/heroes/vehr.json"
+        ],
+	"factions" : 
+        [
+		"config/town-screen/conflux/confluxUpgrades",
+	]
+}

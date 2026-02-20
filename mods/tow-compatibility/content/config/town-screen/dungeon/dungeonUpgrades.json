@@ -1,0 +1,149 @@
+{
+	"core:dungeon" :
+	{
+		"town" :
+		{
+			"hallBackground": "town-screen/dungeon/dungeonHallBg",
+			"buildingsIcons": "town-screen/dungeon/AltHallDung",
+			"hallSlots":
+			[
+				[ [ "villageHall", "townHall", "cityHall", "capitol" ], [ "fort", "citadel", "castle" ], [ "tavern" ], [ "blacksmith" ] ],
+				[ [ "marketplace", "resourceSilo" ], [ "mageGuild1", "mageGuild2", "mageGuild3", "mageGuild4", "mageGuild5" ], [ "special2" ], [ "special3" ] ],
+				[ [ "special1" ], [ "special4" ], [ "horde1", "horde1Upgr" ] ],
+				[ [ "dwellingLvl1", "dwellingUpLvl1", "dwellingUpLvl1alt" ], [ "dwellingLvl2", "dwellingUpLvl2" ], [ "dwellingLvl3", "dwellingUpLvl3", "dwellingUpLvl3alt"  ], [ "dwellingLvl4", "dwellingUpLvl4" ] ],
+				[ [ "dwellingLvl5", "dwellingUpLvl5" ], [ "dwellingLvl5B", "dwellingUpLvl5B" ], [ "dwellingLvl6", "dwellingUpLvl6" ], [ "dwellingLvl7", "dwellingUpLvl7" ] ]
+			],
+			"creatures" :
+			[
+				["troglodyte", "infernalTroglodyte", "toxicTroglodyte"],
+				["harpy", "harpyHag"],
+				["beholder", "evilEye", "cursedEye"],
+				["medusa", "medusaQueen"],
+				["minotaur", "minotaurKing", "mdtIllithid", "mdtAlhoon"],
+				["manticore", "scorpicore"],
+				["redDragon", "blackDragon"]
+			],
+			"structures" :
+			{
+				"dwellingUpLvl1alt": { "animation" : "TBDNUP_0.def", "x" : 0,   "y" : 300, "z" : 2,  "campaignBonus" : "BoDtrog2.pcx", "border" : "TODTRG2A.bmp", "area" : "TZDTRG2A.bmp" },
+		        	"dwellingUpLvl3alt": { "animation" : "TBDNUP_2.def", "x" : 118, "y" : 256, "z" : 1,  "campaignBonus" : "BoDbeh2.pcx",  "border" : "TODBEH2A.bmp", "area" : "TZDBEH2A.bmp" },
+				"dwellingLvl5B" : {
+					"border" : "town-screen/dungeon/buildings-border/TODMIN1",
+					"area" : "town-screen/dungeon/buildings-area/TZDMIN1",
+					"animation" : "town-screen/dungeon/primevalMaw.def",
+					"x" : 520,
+					"y" : 140,
+					"z" : 5
+				},
+				"dwellingUpLvl5B" : {
+					"border" : "town-screen/dungeon/buildings-border/TODMIN2",
+					"area" : "town-screen/dungeon/buildings-area/TZDMIN2",
+					"animation" : "town-screen/dungeon/primevalMawUpg.def",
+					"x" : 520,
+					"y" : 140,
+					"z" : 5
+				}
+                        },
+			"buildings" :
+			{
+				"dwellingUpLvl1" :
+				{
+					"description" : "The Mushroom Rings allows you to recruit Infernal Troglodytes or Toxic Troglodytes."
+				},
+				"dwellingUpLvl3" :
+				{
+					"description" : "The Pillar of Eyes allows you to recruit Evil Eyes or Cursed Eyes."
+				},
+				"dwellingUpLvl1alt" :
+				{
+					"description" : "The Mushroom Rings allows you to recruit Infernal Troglodytes or Toxic Troglodytes.",
+					"name" : "Upg. Mushroom Rings",	
+					"cost" :
+					{
+					},
+					"requires" : 
+					[ 
+						"dwellingLvl1"
+					],		
+					"upgrades" : "dwellingUpLvl1",
+					"mode" : "auto",
+					"id" : 44
+                                },
+				"dwellingUpLvl3alt" :
+				{
+					"description" : "The Pillar of Eyes allows you to recruit Evil Eyes or Cursed Eyes.",
+					"name" : "Upg. Pillar of Eyes",	
+					"cost" :
+					{
+					},
+					"requires" : 
+					[ 
+						"dwellingLvl3"
+					],		
+					"upgrades" : "dwellingUpLvl3",
+					"mode" : "auto",
+					"id" : 46
+                                },
+				"dwellingLvl5" : {
+					"requires" : [
+						"allOf",
+						[
+							"dwellingLvl4"
+						],
+						[
+							"noneOf",
+							[
+								"dwellingLvl5B"
+							]
+						]
+                                        ]
+				},
+				"dwellingLvl5B" : {
+					"name" : "Primeval Maw",
+					"description" : "The Primeval Maw allows you to recruit Illithids.",
+					"cost" : {
+						"gold" : 1000,
+						"ore" : 5
+					},
+					"id" : 48,
+					"requires" : [
+						"allOf",
+						[
+							"dwellingLvl3"
+						],
+						[
+							"mageGuild1"
+						],
+						[
+							"noneOf",
+							[
+								"dwellingLvl5"
+							]
+						]
+					]
+				},
+				"dwellingUpLvl5B" : {
+					"name" : "Upg. Primeval Maw",
+					"description" : "The Primewal Maw allows you to recruit Alhoons.",
+					"cost" : {
+						"gold" : 1000,
+						"ore" : 5
+					},
+					"id" : 55,
+					"upgrades" : "dwellingLvl5B"
+				},
+				"dwellingLvl7" : {
+					"requires" : [
+						"allOf",
+						[
+							"mageGuild2"
+						],
+						[
+							"dwellingLvl4"
+						]
+					]
+				}
+			}
+		}
+	}
+}

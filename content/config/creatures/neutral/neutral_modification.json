@@ -1,0 +1,39 @@
+{
+	"core:mummy" : {
+		"graphics" : {
+			"iconLarge" : "creatures/neutral/iconsbig/mummy.png",
+			"iconSmall" : "creatures/neutral/iconssmall/mummy.png",
+                        }
+	},
+	"core:halfling" : {
+		"graphics" : {
+			"iconLarge" : "creatures/neutral/iconsbig/halfling.png",
+			"iconSmall" : "creatures/neutral/iconssmall/halfling.png",
+			"map" : "creatures/neutral/map/halfling",
+			"animation" : "creatures/neutral/battle/halfling.def",
+                        }
+	},
+	"core:troll" : {
+		"faction" : "fortress",
+		"graphics" : {
+			"iconLarge" : "creatures/neutral/iconsbig/troll.png",
+			"iconSmall" : "creatures/neutral/iconssmall/troll.png",
+                        }
+	},
+	"core:goldGolem" : {
+		"faction" : "tower",
+		"graphics" : {
+			"iconLarge" : "creatures/neutral/iconsbig/goldGolem.png",
+			"iconSmall" : "creatures/neutral/iconssmall/goldGolem.png",
+                        }
+	},
+	"core:diamondGolem" : {
+		"faction" : "tower",
+		"graphics" : {
+			"iconLarge" : "creatures/neutral/iconsbig/diamondGolemWhite.png",
+			"iconSmall" : "creatures/neutral/iconssmall/diamondGolemWhite.png",
+			"map" : "creatures/neutral/map/diamondGolemWhite",
+			"animation" : "creatures/neutral/battle/diamondGolemWhite.def",
+                        }
+	},	
+}

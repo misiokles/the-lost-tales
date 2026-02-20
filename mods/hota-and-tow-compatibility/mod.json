@@ -1,0 +1,37 @@
+{
+	"name" : "Hota and Tides of war compatibilty",
+	"author" : "Toriko94, Yogdush, Misiokles, and help from  ",
+	"contact" : "",
+	"description" : "Alternative Upgrade, Hota, tides of war  ",
+	"version" : "1.0.0",
+	"modType" : "Compatibility",
+	"compatibility" : {"min" : "1.0.0"},
+	"changelog" : 
+        {
+		"1.0.0"   : [ "Initial release" ]
+        },
+	"depends" :
+	[
+		"tides-of-war.alternative-creatures",
+		"tides-of-war.hota-balance-compatibility-patch",
+		"hota.gamebalance",
+		"hota.confluxvaultofashes",
+		"hota.heroes3datapatch",
+                "alternative-upgrade.tow-compatibility",
+                "alternative-upgrade.hota-compatibility"
+	],
+	"creatures" : [
+	],
+	"factions" : 
+        [
+		"config/town-screen/castle/castleUpgrades",
+		"config/town-screen/rampart/rampartUpgrades",
+		"config/town-screen/tower/towerUpgrades",
+		"config/town-screen/inferno/infernoUpgrades",
+		"config/town-screen/necropolis/necropolisUpgrades",
+		"config/town-screen/dungeon/dungeonUpgrades",
+		"config/town-screen/stronghold/strongholdUpgrades",
+		"config/town-screen/fortress/fortressUpgrades",
+		"config/town-screen/conflux/confluxUpgrades"
+	]
+}

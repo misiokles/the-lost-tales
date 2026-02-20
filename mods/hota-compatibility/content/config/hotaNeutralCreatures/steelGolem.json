@@ -1,0 +1,9 @@
+{
+	"hota.neutralCreatures:steelGolem" : {
+		"faction" : "tower",
+		"graphics" : {
+			"iconSmall" : "creatures/neutral/iconsSmall/CPrSm172",
+			"iconLarge" : "creatures/neutral/iconsLarge/TwCrP172"
+		}
+	}
+}

@@ -1,0 +1,60 @@
+{
+	"veteranPikeman" : {
+		"name" : {
+			"singular" : "Veteran Pikeman",
+			"plural" : "Veteran Pikemen"
+		},
+		"faction" : "castle",
+		"level" : 1,
+		"upgrades" : [
+			"halberdier"
+		],
+		"cost" : {
+			"gold" : 75
+		},
+		"speed" : 5,
+		"hitPoints" : 10,
+		"attack" : 5,
+		"defense" : 6,
+		"damage" : {
+			"min" : 1,
+			"max" : 3
+		},
+		"fightValue" : 115,
+		"aiValue" : 115,
+		"growth" : 14,
+                "doubleWide" : false,
+		"advMapAmount" : {
+			"min" : 20,
+			"max" : 30
+		},
+		"abilities" : {
+            "cavalryChargeImmunity" : {
+				"type" : "CHARGE_IMMUNITY"
+			},
+			"2 hex attack" : {
+				"type" : "TWO_HEX_ATTACK_BREATH",
+				"icon" : "zvs/Lib1.res/e_breathp"
+			}
+		},
+		"graphics" : {
+			"iconLarge" : "creatures/castle/iconsbig/Castle_lvl1upAlt.png",
+			"iconSmall" : "creatures/castle/iconssmall/Castle_lvl1upAlt.png",
+			"map" : "creatures/castle/map/Castle_Alt1.def",
+			"animation" : "creatures/castle/battle/Castle_Alt1.def",
+			"animationTime" : {
+				"attack" : 1.00,
+				"idle" : 10.00,
+				"walk" :  1.00
+			},
+			"timeBetweenFidgets" : 1,
+		},
+		"sound" : {
+			"attack": "HALBATTK.wav",
+			"defend": "HALBDFND.wav",
+			"killed": "HALBKILL.wav",
+			"move": "HALBMOVE.wav",
+			"wince": "HALBWNCE.wav"
+		}
+	}
+}

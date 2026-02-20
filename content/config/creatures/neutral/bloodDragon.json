@@ -1,0 +1,87 @@
+{
+	"bloodDragon": {
+		"name" : {
+			"singular" : "Blood Dragon",
+			"plural" : "Blood Dragons"
+		},
+		"faction" : "necropolis",
+		"level" : 7,
+		"cost" : {
+			"gold" : 3000,
+			"mercury" : 1
+		},
+		"speed" : 14,
+		"hitPoints" : 200,
+		"attack" : 19,
+		"defense" : 17,
+		"damage" : {
+			"min" : 25,
+			"max" : 50
+		},
+		"doubleWide" : true,
+		"growth" : 1,
+		"horde" : 0,
+		"aiValue" : 4696,
+		"fightValue" : 3228,
+		"advMapAmount" : {
+			"min" : 3,
+			"max" : 8
+		},
+		"abilities":
+		{
+			"undead" :
+			{
+				"type" : "UNDEAD"
+			},
+			"dragon" :
+			{
+				"type" : "DRAGON_NATURE"
+			},
+			"canFly" :
+			{
+				"type" : "FLYING",
+				"icon" : "zvs/Lib1.res/e_fly2"
+			},
+			"drainsLife" :
+			{
+				"type" : "LIFE_DRAIN",
+				"val" : 100
+			},
+			"decreaseMorale" :
+			{
+				"type" : "MORALE",
+				"val" : -1,
+				"stacking" : "Undead Dragons",
+				"propagator": "BATTLE_WIDE",
+				"propagationUpdater" : "BONUS_OWNER_UPDATER",
+				"description" : "@creatures.core.boneDragon.bonus.decreaseMorale",
+				"limiters" : [ "OPPOSITE_SIDE" ],
+				"icon" : "zvs/Lib1.res/bonusnegativemorale"
+			},
+			"KING_1" : // Will be affected by Slayer with no expertise
+			{
+				"type" : "KING",
+				"val" : 0
+			}
+		},
+		"graphics" : {
+                        "iconLarge" : "creatures/neutral/iconsbig/bloodDragon",
+			"animation" : "creatures/neutral/battle/bloodDragon",
+			"map" : "creatures/neutral/map/bloodDragon",
+			"iconSmall" : "creatures/neutral/iconssmall/bloodDragon",
+			"animationTime" : {
+				"attack" : 1,
+				"idle" : 10,
+				"walk" : 0.75
+			},
+			"timeBetweenFidgets" : 1,
+		},
+		"sound" : {
+			"attack" : "GHDRATTK.wav",
+			"defend" : "GHDRDFND.wav",
+			"killed" : "GHDRKILL.wav",
+			"move" : "GHDRMOVE.wav",
+			"wince" : "GHDRWNCE.wav"
+		}
+	}
+}

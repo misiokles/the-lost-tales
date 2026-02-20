@@ -1,0 +1,116 @@
+{
+	"spectralDragon": {
+		"name" : {
+			"singular" : "Dragon Lich",
+			"plural" : "Dragon Liches"
+		},
+		"faction" : "necropolis",
+		"level" : 7,
+		"cost" : {
+			"gold" : 3000,
+			"mercury" : 1
+		},
+		"speed" : 10,
+		"shots" : 12,
+		"upgrades" : [
+			"ghostDragon"
+		],
+		"hitPoints" : 175,
+		"attack" : 17,
+		"defense" : 15,
+		"damage" : {
+			"min" : 25,
+			"max" : 50
+		},
+		"doubleWide" : true,
+		"growth" : 1,
+		"aiValue" : 4696,
+		"fightValue" : 3228,
+		"advMapAmount" : {
+			"min" : 3,
+			"max" : 8
+		},
+		"abilities" : 
+		{
+                        "KING_1" :
+			{
+				"type" : "KING",
+				"val" : 0
+			},
+			"IS_UNDEAD" : {
+				"type" : "UNDEAD"
+			},
+			"dragon" : {
+				"type" : "DRAGON_NATURE"
+			},
+			"FLYING_ARMY" : {
+				"type" : "FLYING",	
+				"icon" : "zvs/Lib1.res/e_fly2"	
+			},
+			"shooter" : {
+				"type" : "SHOOTER"
+			},
+			"noMeleePenalty" : {
+				"type" : "NO_MELEE_PENALTY"
+			},
+			"decreaseMorale" :
+			{
+				"type" : "MORALE",
+				"val" : -1,
+				"stacking" : "Undead Dragons",
+				"propagator": "BATTLE_WIDE",
+				"propagationUpdater" : "BONUS_OWNER_UPDATER",
+				"description" : "@creatures.core.boneDragon.bonus.decreaseMorale",
+				"limiters" : [ "OPPOSITE_SIDE" ],
+                                "icon" : "zvs/Lib1.res/bonusnegativemorale"
+                         }
+		},
+		"graphics" : {
+			"iconLarge" : "creatures/necropolis/iconsbig/necropolis_lvl7upAlt.png",
+			"iconSmall" : "creatures/necropolis/iconssmall/necropolis_lvl7upAlt.png",
+			"map" : "creatures/necropolis/map/necropolis_Alt7.def",
+			"animation" : "creatures/necropolis/battle/necropolis_Alt7.def",
+			"animationTime" : {
+				"attack" : 1,
+				"idle" : 10,
+				"walk" : 0.75
+			},
+			"timeBetweenFidgets" : 1,
+			"missile" :
+			{
+				"projectile": "creatures/necropolis/battle/necropolis_Alt7Shot",
+				"attackClimaxFrame" : 6,
+				"offset" : {
+					"upperX" : 41,
+					"upperY" : -92,
+					"middleX" : 58,
+					"middleY" : -79,
+					"lowerX" : 29,
+					"lowerY" : -14
+				},
+				"frameAngles" : [
+					90,
+					72,
+					45,
+					27,
+					0,
+					-27,
+					-45,
+					-72,
+					-90,
+					0,
+					0,
+					0
+				]
+                          }
+                },
+		"sound" : {
+			"attack": "GHDRATTK.wav",
+			"defend": "GHDRDFND.wav",
+			"killed": "GHDRKILL.wav",
+			"move": "GHDRMOVE.wav",
+			"shoot": "ZELTSHOT.wav",
+			"wince": "GHDRWNCE.wav"
+		}
+	}
+}

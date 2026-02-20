@@ -1,0 +1,48 @@
+{
+	"crate" : {
+		"class" : "battlemage",
+                "female" : true,
+		"images" : {
+			"large" : "heroes/stronghold/crateLarge.png",
+			"small" : "heroes/stronghold/crateSmall.png",
+			"specialtyLarge" : "heroes/stronghold/SpecialtyMysticismLarge.png",
+			"specialtySmall" : "heroes/stronghold/SpecialtyMysticismSmall.png"
+		},
+		"army" : [
+			{
+				"creature" : "goblin",
+				"min" : 15,
+				"max" : 25
+			},
+			{
+				"creature" : "goblinWolfRider",
+				"min" : 6,
+				"max" : 9
+			},
+			{
+				"creature" : "orc",
+				"min" : 4,
+				"max" : 7
+			}
+		],
+		"skills" : [
+			{ "skill" : "wisdom", "level": "basic" },
+			{ "skill" : "mysticism", "level": "basic" }
+		],
+		"specialty" : {
+			"secondary" : "mysticism"
+		},
+		"spellbook" : [
+			"stoneSkin"
+		],
+		"texts" : {
+			"name" : "Crate",
+			"biography" : "Crate is an Ogre who was born smaller than the others and who was always left out in her native village... when she discovered her talent for magic, she understood that she could finally serve and fight in the upcoming battles.",
+			"specialty" : {
+				"description" : "Receives a 5% per level bonus to Mysticism skill.",
+				"name" : "Mysticism",
+				"tooltip" : "Secondary Skill Bonus: Mysticism"
+			}
+		}
+	}
+}

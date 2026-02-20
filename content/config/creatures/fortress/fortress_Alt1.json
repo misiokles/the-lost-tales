@@ -1,0 +1,87 @@
+{
+	"gnollHunter": {
+		"name" : {
+			"singular" : "Gnoll Hunter",
+			"plural" : "Gnoll Hunters"
+		},
+		"faction" : "fortress",
+		"level" : 1,
+		"upgrades" : 
+                [
+			"gnollMarauder"
+		],
+		"cost" : {
+			"gold" : 70
+		},
+		"speed" : 4,
+		"shots" : 8,
+		"hitPoints" : 6,
+		"attack" : 3,
+		"defense" : 5,
+		"damage" : {
+			"min" : 2,
+			"max" : 3
+		},
+		"growth" : 12,
+		"horde" : 6,
+		"aiValue" : 90,
+		"fightValue" : 90,
+		"advMapAmount" : {
+			"min" : 20,
+			"max" : 30
+		},
+		"abilities" : {
+			"canShoot" : {
+				"type" : "SHOOTER"
+			},
+		        "reduceDefence" : {
+				"type" : "ENEMY_DEFENCE_REDUCTION",
+				"val" : 20
+			}
+		},
+		"hasDoubleWeek" : true,
+		"graphics" : {
+			"iconLarge" : "creatures/fortress/iconsbig/Fortress_lvl1upAlt.png",
+			"iconSmall" : "creatures/fortress/iconssmall/Fortress_lvl1upAlt.png",
+			"map" : "creatures/fortress/map/Fortress_lvl1upAlt.def",
+			"animation" : "creatures/fortress/battle/Fortress_lvl1upAlt.def",
+			"animationTime" : {
+				"attack" : 1,
+				"idle" : 10,
+				"walk" : 1
+			},
+			"timeBetweenFidgets" : 1,
+			"missile" : {
+				"projectile" : "creatures/fortress/battle/Fortress_lvl1upAltShot.def",
+				"attackClimaxFrame" : 7,
+				"frameAngles" : [
+					90,
+					72,
+					45,
+					27,
+					0,
+					-27,
+					-45,
+					-72,
+					-90
+				],
+				"offset" : {
+					"upperX" : 30,
+					"upperY" : -60,
+					"middleX" : 45,
+					"middleY" : -50,
+					"lowerX" : 20,
+					"lowerY" : -20
+				}
+			}
+		},
+		"sound" : {
+			"attack": "ECNTATTK.wav",
+			"defend" : "GNLMDFND.wav",
+			"killed" : "GNLMKILL.wav",
+			"move" : "GNLMMOVE.wav",
+			"shoot": "CNTRSHOT.wav",
+			"wince" : "GNLMWNCE.wav"
+		}
+	}
+}
