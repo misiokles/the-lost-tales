@@ -1,7 +1,7 @@
 {
 	"addran" : {
 		"class" : "knight",
-                "female" : false,
+		"female" : false,
 		"images" : {
 			"large" : "heroes/castle/addranLarge.png",
 			"small" : "heroes/castle/addranSmall.png",

@@ -2,93 +2,105 @@
 	"core:skeleton" : {
 		"graphics" : {
 			"iconLarge" : "creatures/necropolis/iconsbig/necropolis_lvl1.png",
-			"iconSmall" : "creatures/necropolis/iconssmall/necropolis_lvl1.png",
-	                }
+			"iconSmall" : "creatures/necropolis/iconssmall/necropolis_lvl1.png"
+		}
 	},
 	"core:skeletonWarrior" : {
-		"upgrades": ["skeletonArcher"],
+		"upgrades" : [
+			"skeletonArcher"
+		],
 		"graphics" : {
 			"iconLarge" : "creatures/necropolis/iconsbig/necropolis_lvl1up.png",
-			"iconSmall" : "creatures/necropolis/iconssmall/necropolis_lvl1up.png",
-	                }
+			"iconSmall" : "creatures/necropolis/iconssmall/necropolis_lvl1up.png"
+		}
 	},
 	"core:walkingDead" : {
 		"graphics" : {
 			"iconLarge" : "creatures/necropolis/iconsbig/necropolis_lvl2.png",
-			"iconSmall" : "creatures/necropolis/iconssmall/necropolis_lvl2.png",
-	                }
+			"iconSmall" : "creatures/necropolis/iconssmall/necropolis_lvl2.png"
+		}
 	},
 	"core:zombieLord" : {
 		"graphics" : {
 			"iconLarge" : "creatures/necropolis/iconsbig/necropolis_lvl2up.png",
 			"iconSmall" : "creatures/necropolis/iconssmall/necropolis_lvl2up.png",
 			"map" : "creatures/necropolis/map/necropolis_lvl2up.def",
-			"animation" : "creatures/necropolis/battle/necropolis_lvl2up",
-                             }
+			"animation" : "creatures/necropolis/battle/necropolis_lvl2up"
+		}
 	},
 	"core:wight" : {
 		"graphics" : {
 			"iconLarge" : "creatures/necropolis/iconsbig/necropolis_lvl3.png",
-			"iconSmall" : "creatures/necropolis/iconssmall/necropolis_lvl3.png",
-	                }
+			"iconSmall" : "creatures/necropolis/iconssmall/necropolis_lvl3.png"
+		}
 	},
 	"core:wraith" : {
-		"upgrades": ["specter"],
+		"upgrades" : [
+			"specter"
+		],
 		"graphics" : {
 			"iconLarge" : "creatures/necropolis/iconsbig/necropolis_lvl3up.png",
-			"iconSmall" : "creatures/necropolis/iconssmall/necropolis_lvl3up.png",
-	                }
+			"iconSmall" : "creatures/necropolis/iconssmall/necropolis_lvl3up.png"
+		}
 	},
 	"core:vampire" : {
 		"graphics" : {
 			"iconLarge" : "creatures/necropolis/iconsbig/necropolis_lvl4.png",
-			"iconSmall" : "creatures/necropolis/iconssmall/necropolis_lvl4.png",
-	                }
+			"iconSmall" : "creatures/necropolis/iconssmall/necropolis_lvl4.png"
+		}
 	},
 	"core:vampireLord" : {
-		"upgrades": ["vampireKnight"],
+		"upgrades" : [
+			"vampireKnight"
+		],
 		"graphics" : {
 			"iconLarge" : "creatures/necropolis/iconsbig/necropolis_lvl4up.png",
-			"iconSmall" : "creatures/necropolis/iconssmall/necropolis_lvl4up.png",
-	                }
+			"iconSmall" : "creatures/necropolis/iconssmall/necropolis_lvl4up.png"
+		}
 	},
 	"core:lich" : {
 		"graphics" : {
 			"iconLarge" : "creatures/necropolis/iconsbig/necropolis_lvl5.png",
-			"iconSmall" : "creatures/necropolis/iconssmall/necropolis_lvl5.png",
-	                }
+			"iconSmall" : "creatures/necropolis/iconssmall/necropolis_lvl5.png"
+		}
 	},
 	"core:powerLich" : {
-		"upgrades": ["archlich"],
+		"upgrades" : [
+			"archlich"
+		],
 		"graphics" : {
 			"iconLarge" : "creatures/necropolis/iconsbig/necropolis_lvl5up.png",
-			"iconSmall" : "creatures/necropolis/iconssmall/necropolis_lvl5up.png",
-	                }
+			"iconSmall" : "creatures/necropolis/iconssmall/necropolis_lvl5up.png"
+		}
 	},
 	"core:blackKnight" : {
 		"graphics" : {
 			"iconLarge" : "creatures/necropolis/iconsbig/necropolis_lvl6.png",
-			"iconSmall" : "creatures/necropolis/iconssmall/necropolis_lvl6.png",
-	                }
+			"iconSmall" : "creatures/necropolis/iconssmall/necropolis_lvl6.png"
+		}
 	},
 	"core:dreadKnight" : {
-		"upgrades": ["darkKnight"],
+		"upgrades" : [
+			"darkKnight"
+		],
 		"graphics" : {
 			"iconLarge" : "creatures/necropolis/iconsbig/necropolis_lvl6up.png",
-			"iconSmall" : "creatures/necropolis/iconssmall/necropolis_lvl6up.png",
-	                }
+			"iconSmall" : "creatures/necropolis/iconssmall/necropolis_lvl6up.png"
+		}
 	},
 	"core:boneDragon" : {
 		"graphics" : {
 			"iconLarge" : "creatures/necropolis/iconsbig/necropolis_lvl7.png",
-			"iconSmall" : "creatures/necropolis/iconssmall/necropolis_lvl7.png",
-	                }
+			"iconSmall" : "creatures/necropolis/iconssmall/necropolis_lvl7.png"
+		}
 	},
 	"core:ghostDragon" : {
-		"upgrades": ["spectralDragon"],
+		"upgrades" : [
+			"spectralDragon"
+		],
 		"graphics" : {
 			"iconLarge" : "creatures/necropolis/iconsbig/necropolis_lvl7up.png",
-			"iconSmall" : "creatures/necropolis/iconssmall/necropolis_lvl7up.png",
-	                }
+			"iconSmall" : "creatures/necropolis/iconssmall/necropolis_lvl7up.png"
+		}
 	}
 }

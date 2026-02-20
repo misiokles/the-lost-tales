@@ -1,5 +1,5 @@
 {
-	"cursedEye": {
+	"cursedEye" : {
 		"name" : {
 			"singular" : "Cursed Eye",
 			"plural" : "Cursed Eyes"
@@ -9,7 +9,9 @@
 		"cost" : {
 			"gold" : 280
 		},
-		"upgrades": ["evilEye"],
+		"upgrades" : [
+			"evilEye"
+		],
 		"speed" : 5,
 		"hitPoints" : 22,
 		"attack" : 9,
@@ -146,8 +148,7 @@
 				"idle" : 10,
 				"walk" : 1
 			},
-			"missile" :
-			{
+			"missile" : {
 				"attackClimaxFrame" : 5,
 				"frameAngles" : [
 					0,
@@ -244,7 +245,7 @@
 					}
 				]
 			},
-			"timeBetweenFidgets" : 1,
+			"timeBetweenFidgets" : 1
 		},
 		"sound" : {
 			"attack" : "EVLIATTK.wav",

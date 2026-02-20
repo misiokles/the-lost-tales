@@ -5,13 +5,15 @@
 	"description" : "Alternative Upgrade and tides of war creatures ",
 	"version" : "1.0.0",
 	"modType" : "Compatibility",
-	"compatibility" : {"min" : "1.0.0"},
-	"changelog" : 
-        {
-		"1.0.0"   : [ "Initial release" ]
-        },
-	"depends" :
-	[
+	"compatibility" : {
+		"min" : "1.0.0"
+	},
+	"changelog" : {
+		"1.0.0" : [
+			"Initial release"
+		]
+	},
+	"depends" : [
 		"tides-of-war.alternative-creatures",
 		"tides-of-war.heroes",
 		"tides-of-war.skills",
@@ -34,12 +36,11 @@
 		"config/heroes/stronghold/ergon",
 		"config/heroes/fortress/shroo",
 		"config/heroes/fortress/thyroc"
-        ],
+	],
 	"objects" : [
 		"config/dwellings/neutral/dwellings"
-        ],
-	"factions" : 
-        [
+	],
+	"factions" : [
 		"config/town-screen/castle/castleUpgrades",
 		"config/town-screen/rampart/rampartUpgrades",
 		"config/town-screen/tower/towerUpgrades",

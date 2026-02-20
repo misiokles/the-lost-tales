@@ -23,7 +23,7 @@
 		"fightValue" : 360,
 		"aiValue" : 470,
 		"growth" : 5,
-                "doubleWide" : false,
+		"doubleWide" : false,
 		"advMapAmount" : {
 			"min" : 6,
 			"max" : 12
@@ -31,7 +31,7 @@
 		"abilities" : {
 			"nonLiving" : {
 				"type" : "NON_LIVING",
-                                "icon" : "zvs/Lib1.res/NonLivingelemental"
+				"icon" : "zvs/Lib1.res/NonLivingelemental"
 			},
 			"immuneToMind" : {
 				"type" : "MIND_IMMUNITY"
@@ -39,43 +39,39 @@
 			"spellPoints" : {
 				"type" : "CASTS",
 				"val" : 3
-			},				
+			},
 			"spellcaster" : {
 				"type" : "ENCHANTED",
 				"subtype" : "spell.protectFire",
 				"val" : 2,
-	                        "icon" : "zvs/Lib1.res/protfire2"
+				"icon" : "zvs/Lib1.res/protfire2"
 			},
 			"spellPower" : {
 				"type" : "CREATURE_ENCHANT_POWER",
 				"val" : 6
 			},
-			"immuneToFire" : 
-			{
+			"immuneToFire" : {
 				"type" : "SPELL_SCHOOL_IMMUNITY",
 				"subtype" : "fire"
 			},
-			"frostRingVulnerablity" :
-			{
+			"frostRingVulnerablity" : {
 				"type" : "MORE_DAMAGE_FROM_SPELL",
 				"subtype" : "spell.frostRing",
 				"val" : 100,
-                                "icon" : "zvs/Lib1.res/vulnerablefrostring"
+				"icon" : "zvs/Lib1.res/vulnerablefrostring"
 			},
-			"iceBoltVulnerablity" :
-			{
+			"iceBoltVulnerablity" : {
 				"type" : "MORE_DAMAGE_FROM_SPELL",
 				"subtype" : "spell.iceBolt",
 				"val" : 100,
-                                "icon" : "zvs/Lib1.res/vulnerabilityiceboltray"
-                        },
+				"icon" : "zvs/Lib1.res/vulnerabilityiceboltray"
+			},
 			"canFly" : {
 				"type" : "FLYING",
 				"subtype" : "movementFlying",
-	                        "icon" : "zvs/Lib1.res/e_fly3"
-                        },
-			"fireShield" :
-			{
+				"icon" : "zvs/Lib1.res/e_fly3"
+			},
+			"fireShield" : {
 				"type" : "FIRE_SHIELD",
 				"val" : 20
 			}
@@ -86,18 +82,18 @@
 			"map" : "creatures/conflux/map/Conflux_Alt4.def",
 			"animation" : "creatures/conflux/battle/Conflux_Alt4.def",
 			"animationTime" : {
-				"attack" : 1.00,
-				"idle" : 10.00,
-				"walk" :  1.00
+				"attack" : 1.0,
+				"idle" : 10.0,
+				"walk" : 1.0
 			},
-			"timeBetweenFidgets" : 1,
+			"timeBetweenFidgets" : 1
 		},
 		"sound" : {
-			"attack": "FELMATTK.wav",
-			"defend": "FELMDFND.wav",
-			"killed": "FELMKILL.wav",
-			"move": "FELMMOVE.wav",
-			"wince": "FELMWNCE.wav"
+			"attack" : "FELMATTK.wav",
+			"defend" : "FELMDFND.wav",
+			"killed" : "FELMKILL.wav",
+			"move" : "FELMMOVE.wav",
+			"wince" : "FELMWNCE.wav"
 		}
 	}
 }

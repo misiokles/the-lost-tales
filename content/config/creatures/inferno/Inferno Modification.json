@@ -1,11 +1,17 @@
 {
 	"core:magog" : {
-		"upgrades": ["wingedMagog"]
+		"upgrades" : [
+			"wingedMagog"
+		]
 	},
 	"core:cerberus" : {
-		"upgrades": ["fireHound"]
+		"upgrades" : [
+			"fireHound"
+		]
 	},
 	"core:archDevil" : {
-		"upgrades": ["reaperDevil"]
+		"upgrades" : [
+			"reaperDevil"
+		]
 	}
 }

@@ -8,7 +8,7 @@
 	],
 	"loading" : {
 		"background" : [
-			"loadScreen0",
+			"loadScreen0"
 		],
 		"x" : 395,
 		"y" : 548,

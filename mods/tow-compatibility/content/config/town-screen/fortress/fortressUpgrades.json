@@ -1,15 +1,50 @@
 {
-	"core:fortress" :
-	{
-		"town" :
-		{
-			"structures" :
-			{
-				"dwellingUpLvl1alt": { "animation" : "TBFRUP_0.def", "x" : 641, "y" : 107, "z" : 1,  "campaignBonus" : "BoFgnol2.pcx", "border" : "TOFGNL2.bmp",  "area" : "TZFGNL2.bmp" },
-				"dwellingUpLvl2alt": { "animation" : "TBFRUP_1.def", "x" : 125, "y" : 163,           "campaignBonus" : "BoFlizr2.pcx", "border" : "TOFLIZ2.bmp",  "area" : "TZFLIZ2.bmp" },
-				"dwellingUp2Lvl3": { "animation" : "TBFRUP_3.def", "x" : 159, "y" : 19,            "campaignBonus" : "BoFfly2.pcx",  "border" : "TOFFLY2A.bmp", "area" : "TZFFLY2A.bmp" },
-				"dwellingUpLvl5alt": { "animation" : "TBFRUP_2.def", "x" : 15,  "y" : 69,  "z" : -2, "campaignBonus" : "BoFgorg2.pcx", "border" : "TOFGOR2.bmp",  "area" : "TZFGOR2.bmp" },
-				"dwellingUpLvl7alt": { "animation" : "TBFRUP_6.def", "x" : 587, "y" : 263, "z" : 5,  "campaignBonus" : "BoFhydr2.pcx", "border" : "TOFHYD2A.bmp", "area" : "TZFHYD2A.bmp" },
+	"core:fortress" : {
+		"town" : {
+			"structures" : {
+				"dwellingUpLvl1alt" : {
+					"animation" : "TBFRUP_0.def",
+					"x" : 641,
+					"y" : 107,
+					"z" : 1,
+					"campaignBonus" : "BoFgnol2.pcx",
+					"border" : "TOFGNL2.bmp",
+					"area" : "TZFGNL2.bmp"
+				},
+				"dwellingUpLvl2alt" : {
+					"animation" : "TBFRUP_1.def",
+					"x" : 125,
+					"y" : 163,
+					"campaignBonus" : "BoFlizr2.pcx",
+					"border" : "TOFLIZ2.bmp",
+					"area" : "TZFLIZ2.bmp"
+				},
+				"dwellingUp2Lvl3" : {
+					"animation" : "TBFRUP_3.def",
+					"x" : 159,
+					"y" : 19,
+					"campaignBonus" : "BoFfly2.pcx",
+					"border" : "TOFFLY2A.bmp",
+					"area" : "TZFFLY2A.bmp"
+				},
+				"dwellingUpLvl5alt" : {
+					"animation" : "TBFRUP_2.def",
+					"x" : 15,
+					"y" : 69,
+					"z" : -2,
+					"campaignBonus" : "BoFgorg2.pcx",
+					"border" : "TOFGOR2.bmp",
+					"area" : "TZFGOR2.bmp"
+				},
+				"dwellingUpLvl7alt" : {
+					"animation" : "TBFRUP_6.def",
+					"x" : 587,
+					"y" : 263,
+					"z" : 5,
+					"campaignBonus" : "BoFhydr2.pcx",
+					"border" : "TOFHYD2A.bmp",
+					"area" : "TZFHYD2A.bmp"
+				},
 				"dwellingLvl5B" : {
 					"border" : "town-screen/fortress/buildings-border/TOTTIT1_6alt.bmp",
 					"area" : "town-screen/fortress/buildings-area/TZTTIT1_6alt.bmp",
@@ -29,117 +64,201 @@
 			},
 			"buildingsIcons" : "town-screen/fortress/HALLFORTALT.DEF",
 			"hallBackground" : "town-screen/fortress/fortressHallBg.BMP",
-			"hallSlots":
-			[
-				[ [ "villageHall", "townHall", "cityHall", "capitol" ], [ "fort", "citadel", "castle" ], [ "tavern" ], [ "blacksmith" ] ],
-				[ [ "marketplace", "resourceSilo" ], [ "mageGuild1", "mageGuild2", "mageGuild3" ], [ "shipyard" ] ],
-				[ [ "special1" ], [ "special2", "special3" ], [ "horde1", "horde1Upgr" ] ],
-				[ [ "dwellingLvl1", "dwellingUpLvl1", "dwellingUpLvl1alt"  ], [ "dwellingLvl2", "dwellingUpLvl2", "dwellingUpLvl2alt" ], [ "dwellingLvl3", "dwellingUpLvl3", "dwellingUp2Lvl3" ], [ "dwellingLvl4", "dwellingUpLvl4" ] ],
-				[ [ "dwellingLvl5", "dwellingUpLvl5", "dwellingUpLvl5alt" ], [ "dwellingLvl5B", "dwellingUpLvl5B" ], [ "dwellingLvl6", "dwellingUpLvl6" ], [ "dwellingLvl7", "dwellingUpLvl7", "dwellingUpLvl7alt" ] ]
+			"hallSlots" : [
+				[
+					[
+						"villageHall",
+						"townHall",
+						"cityHall",
+						"capitol"
+					],
+					[
+						"fort",
+						"citadel",
+						"castle"
+					],
+					[
+						"tavern"
+					],
+					[
+						"blacksmith"
+					]
+				],
+				[
+					[
+						"marketplace",
+						"resourceSilo"
+					],
+					[
+						"mageGuild1",
+						"mageGuild2",
+						"mageGuild3"
+					],
+					[
+						"shipyard"
+					]
+				],
+				[
+					[
+						"special1"
+					],
+					[
+						"special2",
+						"special3"
+					],
+					[
+						"horde1",
+						"horde1Upgr"
+					]
+				],
+				[
+					[
+						"dwellingLvl1",
+						"dwellingUpLvl1",
+						"dwellingUpLvl1alt"
+					],
+					[
+						"dwellingLvl2",
+						"dwellingUpLvl2",
+						"dwellingUpLvl2alt"
+					],
+					[
+						"dwellingLvl3",
+						"dwellingUpLvl3",
+						"dwellingUp2Lvl3"
+					],
+					[
+						"dwellingLvl4",
+						"dwellingUpLvl4"
+					]
+				],
+				[
+					[
+						"dwellingLvl5",
+						"dwellingUpLvl5",
+						"dwellingUpLvl5alt"
+					],
+					[
+						"dwellingLvl5B",
+						"dwellingUpLvl5B"
+					],
+					[
+						"dwellingLvl6",
+						"dwellingUpLvl6"
+					],
+					[
+						"dwellingLvl7",
+						"dwellingUpLvl7",
+						"dwellingUpLvl7alt"
+					]
+				]
 			],
-			"creatures" :
-			[
-			        ["gnoll", "gnollMarauder", "gnollHunter"],
-				["lizardman", "lizardWarrior", "lizardmanSoldier"],
-				["serpentFly", "fireDragonFly", "queenDragonFly"],
-				["basilisk", "greaterBasilisk"],
-				["gorgon", "mightyGorgon", "blackGorgon", "mdtTrollHag", "mdtTrollWitch"],
-				["wyvern", "wyvernMonarch"],
-				["hydra", "chaosHydra", "flyingHydra"]
+			"creatures" : [
+				[
+					"gnoll",
+					"gnollMarauder",
+					"gnollHunter"
+				],
+				[
+					"lizardman",
+					"lizardWarrior",
+					"lizardmanSoldier"
+				],
+				[
+					"serpentFly",
+					"fireDragonFly",
+					"queenDragonFly"
+				],
+				[
+					"basilisk",
+					"greaterBasilisk"
+				],
+				[
+					"gorgon",
+					"mightyGorgon",
+					"blackGorgon",
+					"mdtTrollHag",
+					"mdtTrollWitch"
+				],
+				[
+					"wyvern",
+					"wyvernMonarch"
+				],
+				[
+					"hydra",
+					"chaosHydra",
+					"flyingHydra"
+				]
 			],
-			"buildings" :
-			{
-				"dwellingUpLvl1" :
-				{
+			"buildings" : {
+				"dwellingUpLvl1" : {
 					"description" : "The Gnoll Hut allows you to recruit Gnoll Marauders or Gnoll Hunters."
 				},
-				"dwellingUpLvl2" :
-				{
+				"dwellingUpLvl2" : {
 					"description" : "The Lizard Den allows you to recruit Lizardman Warriors or Lizardman Soldiers."
 				},
-				"dwellingUpLvl1alt":
-				{
+				"dwellingUpLvl1alt" : {
 					"description" : "The Gnoll Hut allows you to recruit Gnoll Marauders or Gnoll Hunters.",
 					"name" : "Upg. Gnoll Hut",
-					"cost" :
-					{
-					},
-					"requires" : 
-					[ 
+					"cost" : {},
+					"requires" : [
 						"dwellingLvl1"
-					],		
+					],
 					"upgrades" : "dwellingUpLvl1",
 					"mode" : "auto",
 					"id" : 44
 				},
-				"dwellingUpLvl2alt":
-				{
+				"dwellingUpLvl2alt" : {
 					"description" : "The Lizard Den allows you to recruit Lizardman Warriors or Lizardman Soldiers.",
 					"name" : "Upg. Lizard Den",
-					"cost" :
-					{
-					},
-					"requires" : 
-					[ 
+					"cost" : {},
+					"requires" : [
 						"dwellingLvl2"
-					],		
+					],
 					"upgrades" : "dwellingUpLvl2",
 					"mode" : "auto",
 					"id" : 45
 				},
-                                "dwellingUp2Lvl3" :
-				{
+				"dwellingUp2Lvl3" : {
 					"description" : "The Serpent Fly Hive allows you to recruit Queen Dragon Flies.",
-					"name" : "Upg2. Serpent Fly Hive",	
-					"cost" :
-					{
-						"mercury": 	2,
-						"sulfur":  	2,
-						"gold":	  1000
+					"name" : "Upg2. Serpent Fly Hive",
+					"cost" : {
+						"mercury" : 2,
+						"sulfur" : 2,
+						"gold" : 1000
 					},
-					"requires" : 
-					[ 
-						  "dwellingUpLvl3"
+					"requires" : [
+						"dwellingUpLvl3"
 					]
-                                },
-				"dwellingUpLvl5" :
-				{
+				},
+				"dwellingUpLvl5" : {
 					"description" : "The Gorgon Lair allows you to recruit Mighty Gorgons or Black Gorgon."
 				},
-				"dwellingUpLvl5alt":
-				{
+				"dwellingUpLvl5alt" : {
 					"description" : "The Gorgon Lair allows you to recruit Mighty Gorgons or Black Gorgon.",
 					"name" : "Upg. Gorgon Lair",
-					"cost" :
-					{
-					},
-					"requires" : 
-					[ 
+					"cost" : {},
+					"requires" : [
 						"dwellingLvl5"
-					],		
+					],
 					"upgrades" : "dwellingUpLvl5",
 					"mode" : "auto",
-					"id" :48
-                                },
-				"dwellingUpLvl7" :
-				{
+					"id" : 48
+				},
+				"dwellingUpLvl7" : {
 					"description" : "The Hydra Pond allows you to recruit Chaos Hydras or Flying Hydras."
 				},
-				"dwellingUpLvl7alt":
-				{
+				"dwellingUpLvl7alt" : {
 					"description" : "The Hydra Pond allows you to recruit Chaos Hydras or Flying Hydras.",
 					"name" : "Upg. Hydra Pond",
-					"cost" :
-					{
-					},
-					"requires" : 
-					[ 
+					"cost" : {},
+					"requires" : [
 						"dwellingLvl7"
-					],		
+					],
 					"upgrades" : "dwellingUpLvl7",
 					"mode" : "auto",
-					"id" :50
-                                },
+					"id" : 50
+				},
 				"dwellingLvl5" : {
 					"requires" : [
 						"allOf",
@@ -195,7 +314,7 @@
 					},
 					"id" : 62,
 					"upgrades" : "dwellingLvl5B"
-				}				
+				}
 			}
 		}
 	}

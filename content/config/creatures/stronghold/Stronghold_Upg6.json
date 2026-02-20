@@ -21,29 +21,25 @@
 		"fightValue" : 1210,
 		"aiValue" : 1544,
 		"growth" : 2,
-                "doubleWide" : false,
+		"doubleWide" : false,
 		"advMapAmount" : {
 			"min" : 5,
 			"max" : 9
 		},
-		"abilities" :
-		{
-			"shooter" :
-			{
+		"abilities" : {
+			"shooter" : {
 				"type" : "SHOOTER"
 			},
-			"canShootWalls" :
-			{
+			"canShootWalls" : {
 				"type" : "CATAPULT",
 				"subtype" : "spell.cyclopsShot"
 			},
-			"canShootWallsTimes" :
-			{
+			"canShootWallsTimes" : {
 				"type" : "CATAPULT_EXTRA_SHOTS",
 				"subtype" : "spell.cyclopsShot",
 				"valueType" : "BASE_NUMBER",
 				"val" : 1,
-	                        "icon" : "zvs/Lib1.res/catapult2"
+				"icon" : "zvs/Lib1.res/catapult2"
 			},
 			"noMeleePenalty" : {
 				"type" : "NO_MELEE_PENALTY"
@@ -55,17 +51,15 @@
 			"map" : "creatures/stronghold/map/stronghold_Upg6.def",
 			"animation" : "creatures/stronghold/battle/stronghold_Upg6.def",
 			"animationTime" : {
-				"attack" : 1.00,
-				"idle" : 10.00,
-				"walk" :  1.00
+				"attack" : 1.0,
+				"idle" : 10.0,
+				"walk" : 1.0
 			},
 			"timeBetweenFidgets" : 1,
-			"missile" :
-			{
-				"projectile": "PCYCLBX.DEF",
+			"missile" : {
+				"projectile" : "PCYCLBX.DEF",
 				"attackClimaxFrame" : 5,
-				"offset" :
-				{
+				"offset" : {
 					"upperX" : 55,
 					"upperY" : -115,
 					"middleX" : 53,
@@ -73,17 +67,29 @@
 					"lowerX" : 38,
 					"lowerY" : -54
 				},
-				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0]
+				"frameAngles" : [
+					90,
+					72,
+					45,
+					27,
+					0,
+					-27,
+					-45,
+					-72,
+					-90,
+					0,
+					0,
+					0
+				]
 			}
 		},
-		"sound" :
-		{
-			"attack": "CYCLATTK.wav",
-			"defend": "CYCLDFND.wav",
-			"killed": "CYCLKILL.wav",
-			"move": "CYCLMOVE.wav",
-			"shoot": "CYCLSHOT.wav",
-			"wince": "CYCLWNCE.wav"
+		"sound" : {
+			"attack" : "CYCLATTK.wav",
+			"defend" : "CYCLDFND.wav",
+			"killed" : "CYCLKILL.wav",
+			"move" : "CYCLMOVE.wav",
+			"shoot" : "CYCLSHOT.wav",
+			"wince" : "CYCLWNCE.wav"
 		}
 	}
 }

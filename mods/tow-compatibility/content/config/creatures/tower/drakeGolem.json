@@ -8,10 +8,8 @@
 			"max" : 55,
 			"min" : 45
 		},
-		"abilities":
-		{
-			"magicResistance" :
-			{
+		"abilities" : {
+			"magicResistance" : {
 				"type" : "SPELL_DAMAGE_REDUCTION",
 				"subtype" : "spellSchool.any",
 				"val" : 85

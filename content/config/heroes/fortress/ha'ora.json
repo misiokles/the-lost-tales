@@ -1,7 +1,7 @@
 {
 	"ha'ora" : {
 		"class" : "witch",
-                "female" : true,
+		"female" : true,
 		"spellbook" : [
 			"summonBoat"
 		],
@@ -39,12 +39,12 @@
 			}
 		],
 		"specialty" : {
-                          "secondary" : "logistics"
-                },
+			"secondary" : "logistics"
+		},
 		"texts" : {
 			"name" : "Ha'Ora",
 			"biography" : "Ha'Ora is a broodmate of another famous witch, Voy. Their mother stole salt, a priceless commodity in Tatalia, from gorgon feeders and rubbed it on the eggs she laid, hoping for lizardmen as mighty as those fire-breathing bulls to hatch, but instead, her children developed an unorthodox interest in the salt water of the Enroth seas and long journeys.",
-				"specialty" : {
+			"specialty" : {
 				"description" : "Receives a 5% per level bonus to Logistics skill percentage.",
 				"name" : "Logistics",
 				"tooltip" : "Secondary Skill Bonus: Logistics"

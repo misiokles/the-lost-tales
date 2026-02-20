@@ -1,5 +1,5 @@
 {
-	"toxicTroglodyte": {
+	"toxicTroglodyte" : {
 		"name" : {
 			"singular" : "Toxic Troglodyte",
 			"plural" : "Toxic Troglodytes"
@@ -40,12 +40,11 @@
 				"addInfo" : 1,
 				"icon" : "zvs/Lib1.res/immturntostone"
 			},
-			"poison" :
-			{
+			"poison" : {
 				"type" : "SPELL_AFTER_ATTACK",
 				"subtype" : "spell.poison",
 				"val" : 30,
-                                "icon" : "zvs/Lib1.res/poison"
+				"icon" : "zvs/Lib1.res/poison"
 			}
 		},
 		"graphics" : {
@@ -58,7 +57,7 @@
 				"idle" : 10,
 				"walk" : 0.8
 			},
-			"timeBetweenFidgets" : 1,
+			"timeBetweenFidgets" : 1
 		},
 		"sound" : {
 			"attack" : "ITRGATTK.wav",

@@ -1,9 +1,21 @@
 {
 	"basepath" : "town-screen/dungeon/frames/",
 	"images" : [
-		{ "frame" : 44, "file" : "TPDTrog2"},
-		{ "frame" : 46, "file" : "TPDBeh2"},
-		{ "frame" : 48, "file" : "TPDItd1"},
-		{ "frame" : 55, "file" : "TPDItd2"}
+		{
+			"frame" : 44,
+			"file" : "TPDTrog2"
+		},
+		{
+			"frame" : 46,
+			"file" : "TPDBeh2"
+		},
+		{
+			"frame" : 48,
+			"file" : "TPDItd1"
+		},
+		{
+			"frame" : 55,
+			"file" : "TPDItd2"
+		}
 	]
 }

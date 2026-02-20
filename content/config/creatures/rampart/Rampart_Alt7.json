@@ -11,7 +11,7 @@
 		],
 		"cost" : {
 			"gold" : 4000,
-            "crystal" : 2
+			"crystal" : 2
 		},
 		"speed" : 14,
 		"hitPoints" : 275,
@@ -24,43 +24,36 @@
 		"fightValue" : 6220,
 		"aiValue" : 8630,
 		"growth" : 12,
-                "doubleWide" : true,
+		"doubleWide" : true,
 		"advMapAmount" : {
 			"min" : 3,
 			"max" : 8
 		},
-		"abilities" :
-		{
-			"dragon" :
-			{
+		"abilities" : {
+			"dragon" : {
 				"type" : "DRAGON_NATURE"
 			},
-			"dragonSkeleton" : 
-			{
+			"dragonSkeleton" : {
 				"type" : "SKELETON_TRANSFORMER_TARGET",
 				"subtype" : "boneDragon"
 			},
-			"canFly" :
-			{
+			"canFly" : {
 				"type" : "FLYING"
 			},
-			"twoHexAttackBreath" :
-			{
+			"twoHexAttackBreath" : {
 				"type" : "TWO_HEX_ATTACK_BREATH",
-                                "icon" : "zvs/Lib1.res/e_breathsilver"
+				"icon" : "zvs/Lib1.res/e_breathsilver"
 			},
-			"spellImmunity" :
-			{
+			"spellImmunity" : {
 				"type" : "LEVEL_SPELL_IMMUNITY",
 				"val" : 3
 			},
-			"mirror" :
-			{
+			"mirror" : {
 				"type" : "MAGIC_MIRROR",
 				"val" : 30
 			},
-			"KING_1" : // Will be affected by Slayer with no expertise
-			{
+			// Will be affected by Slayer with no expertise
+			"KING_1" : {
 				"type" : "KING",
 				"val" : 0
 			}
@@ -71,17 +64,15 @@
 			"map" : "creatures/rampart/map/Rampart_Alt7.def",
 			"animation" : "creatures/rampart/battle/Rampart_Alt7.def",
 			"animationTime" : {
-				"attack" : 1.00,
-				"idle" : 10.00,
-				"walk" :  0.60
+				"attack" : 1.0,
+				"idle" : 10.0,
+				"walk" : 0.6
 			},
 			"timeBetweenFidgets" : 1,
-			"missile" :
-			{
-				"projectile": "PELFX.DEF",
+			"missile" : {
+				"projectile" : "PELFX.DEF",
 				"attackClimaxFrame" : 7,
-				"offset" :
-				{
+				"offset" : {
 					"upperX" : 10,
 					"upperY" : -70,
 					"middleX" : 10,
@@ -89,15 +80,28 @@
 					"lowerX" : 10,
 					"lowerY" : -70
 				},
-				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0]
+				"frameAngles" : [
+					90,
+					72,
+					45,
+					27,
+					0,
+					-27,
+					-45,
+					-72,
+					-90,
+					0,
+					0,
+					0
+				]
 			}
 		},
 		"sound" : {
-	                "attack": "GODRATTK.wav",
-			"defend": "GODRDFND.wav",
-			"killed": "GODRKILL.wav",
-			"move": "GODRMOVE.wav",
-			"wince": "GODRWNCE.wav"
+			"attack" : "GODRATTK.wav",
+			"defend" : "GODRDFND.wav",
+			"killed" : "GODRKILL.wav",
+			"move" : "GODRMOVE.wav",
+			"wince" : "GODRWNCE.wav"
 		}
 	}
 }

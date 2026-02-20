@@ -1,6 +1,5 @@
 {
-	"core:valeska":
-	{
+	"core:valeska" : {
 		"texts" : {
 			"specialty" : {
 				"description" : "Increases the Attack and Defense skills of any Archers, Marksmen, and Bowmen for each level attained after 2nd level.",
@@ -9,8 +8,7 @@
 			}
 		}
 	},
-	"core:catherine":
-	{
+	"core:catherine" : {
 		"texts" : {
 			"specialty" : {
 				"description" : "Increases the Speed of allied Swordsmen, Crusaders and Vindicators by 1 and their Attack and Defense skills by 20% for every 4 levels (rounded up).",
@@ -19,8 +17,7 @@
 			}
 		}
 	},
-	"core:sorsha":
-	{
+	"core:sorsha" : {
 		"texts" : {
 			"specialty" : {
 				"description" : "Increases the Attack and Defense skills of any Swordsmen, Crusaders, and Vindicators for each level attained after 4th level.",
@@ -29,8 +26,7 @@
 			}
 		}
 	},
-	"core:roland":
-	{
+	"core:roland" : {
 		"texts" : {
 			"specialty" : {
 				"description" : "Increases the Attack and Defense skills of any Swordsmen, Crusaders, and Vindicators for each level attained after 4th level.",
@@ -39,10 +35,8 @@
 			}
 		}
 	},
-	"core:ingham":
-	{
+	"core:ingham" : {
 		"texts" : {
-
 			"specialty" : {
 				"description" : "Increases the Attack and Defense skills of any Monks, Zealots, and War Priests for each level attained after 5th level.",
 				"name" : "Monks",
@@ -50,8 +44,7 @@
 			}
 		}
 	},
-	"core:gelu":
-	{
+	"core:gelu" : {
 		"specialty" : {
 			"base" : {
 				"addInfo" : "creature.sharpshooter",
@@ -86,8 +79,7 @@
 			}
 		}
 	},
-	"core:ufretin":
-	{
+	"core:ufretin" : {
 		"texts" : {
 			"specialty" : {
 				"description" : "Increases the Attack and Defense skills of any Dwarves, Battle Dwarves, and Dwarf Enforcers for each level attained after 2nd level.",
@@ -96,8 +88,7 @@
 			}
 		}
 	},
-	"core:ivor":
-	{
+	"core:ivor" : {
 		"texts" : {
 			"specialty" : {
 				"description" : "Increases the Attack and Defense skills of any Wood Elves, Grand Elves, or Elf Hunters each level attained after 3rd level.",
@@ -106,8 +97,7 @@
 			}
 		}
 	},
-	"core:clancy":
-	{
+	"core:clancy" : {
 		"texts" : {
 			"specialty" : {
 				"description" : "Increases the Attack and Defense skills of any Unicorns, War Unicorns, and Sun Unicorns for each level attained after 6th level.",
@@ -116,8 +106,7 @@
 			}
 		}
 	},
-	"core:theodorus":
-	{
+	"core:theodorus" : {
 		"texts" : {
 			"specialty" : {
 				"description" : "Increases the Attack and Defense skills of any Magi, Arch Magi, and Black Magi for each level attained after 4th level.",
@@ -126,8 +115,7 @@
 			}
 		}
 	},
-	"core:fafner":
-	{
+	"core:fafner" : {
 		"texts" : {
 			"specialty" : {
 				"description" : "Increases the Attack and Defense skills of any Nagas, Naga Queens, and Naga Guardians for each level attained after 6th level.",
@@ -136,8 +124,7 @@
 			}
 		}
 	},
-	"core:calh":
-	{
+	"core:calh" : {
 		"texts" : {
 			"specialty" : {
 				"description" : "Increases the Attack and Defense skills of any Gogs, Magogs, and Winged Magogs for each level attained after 2nd level.",
@@ -146,8 +133,7 @@
 			}
 		}
 	},
-	"core:fiona":
-	{
+	"core:fiona" : {
 		"texts" : {
 			"specialty" : {
 				"description" : "Increases the Attack and Defense skills of any Hell Hounds, Cerberi, and Fire Hounds for each level attained after 3rd level.",
@@ -156,8 +142,7 @@
 			}
 		}
 	},
-	"core:xeron":
-	{
+	"core:xeron" : {
 		"texts" : {
 			"specialty" : {
 				"description" : "Devils, Arch Devils and Reaper Devils receive +4 Attack, +2 Defense, and +1 Speed.",
@@ -166,8 +151,7 @@
 			}
 		}
 	},
-	"core:galthran":
-	{
+	"core:galthran" : {
 		"texts" : {
 			"specialty" : {
 				"description" : "Increases the Attack and Defense skills of any Skeletons, Skeleton Warriors, and Skeleton Archers for each level attained after 1st level.",
@@ -176,8 +160,7 @@
 			}
 		}
 	},
-	"core:vokial":
-	{
+	"core:vokial" : {
 		"texts" : {
 			"specialty" : {
 				"description" : "Increases the Attack and Defense skills of any Vampires, Vampire Lords, and Vampire Knights for each level attained after 4th level.",
@@ -186,8 +169,7 @@
 			}
 		}
 	},
-	"core:moandor":
-	{
+	"core:moandor" : {
 		"texts" : {
 			"specialty" : {
 				"description" : "Increases the Attack and Defense skills of any Liches, Power Liches, and Archliches for each level attained after 5th level.",
@@ -196,8 +178,7 @@
 			}
 		}
 	},
-	"core:tamika":
-	{
+	"core:tamika" : {
 		"texts" : {
 			"specialty" : {
 				"description" : "Increases the Attack and Defense skills of any Black Knights, Dread Knights, and Dark Knights for each level attained after 6th level.",
@@ -206,8 +187,7 @@
 			}
 		}
 	},
-	"core:undeadHaart":
-	{
+	"core:undeadHaart" : {
 		"texts" : {
 			"specialty" : {
 				"description" : "Black Knights, Dread Knights, and Grim Knights receive +5 Att, +5 Def, and +10 Dmg.",
@@ -216,8 +196,7 @@
 			}
 		}
 	},
-	"core:shakti":
-	{
+	"core:shakti" : {
 		"texts" : {
 			"specialty" : {
 				"description" : "Increases the Attack and Defense skills of any Troglodytes, Infernal Troglodytes, and Toxic Troglodytes for each level attained after 1st level.",
@@ -225,9 +204,8 @@
 				"tooltip" : "Creature Bonus: Troglodytes"
 			}
 		}
-        },
-	"core:tyraxor":
-	{
+	},
+	"core:tyraxor" : {
 		"texts" : {
 			"specialty" : {
 				"description" : "Increases the Attack and Defense skills of any Wolf Riders, Wolf Raiders, and Boar Riders for each level attained after 2nd level.",
@@ -236,8 +214,7 @@
 			}
 		}
 	},
-	"core:jabarkas":
-	{
+	"core:jabarkas" : {
 		"texts" : {
 			"specialty" : {
 				"description" : "Increases the Attack and Defense skills of any Orcs, Orc Chieftains, and Orc Warriors for each level attained after 3rd level.",
@@ -246,8 +223,7 @@
 			}
 		}
 	},
-	"core:yog":
-	{
+	"core:yog" : {
 		"texts" : {
 			"specialty" : {
 				"description" : "Increases the Attack and Defense skills of any Cyclopes, Cyclops Kings, and Cyclops Lords for each level attained after 6th level.",
@@ -256,8 +232,7 @@
 			}
 		}
 	},
-	"core:wystan":
-	{
+	"core:wystan" : {
 		"texts" : {
 			"specialty" : {
 				"description" : "Increases the Attack and Defense skills of any Lizardmen, Lizardman Warriors, and Lizardman Soldiers for each level attained after 2nd level.",
@@ -266,8 +241,7 @@
 			}
 		}
 	},
-	"core:korbac":
-	{
+	"core:korbac" : {
 		"texts" : {
 			"specialty" : {
 				"description" : "Increases the Attack and Defense skills of any Serpent Flies, Dragon Flies, and Queen Dragon Flies for each level attained after 3rd level.",
@@ -276,8 +250,7 @@
 			}
 		}
 	},
-	"core:alkin":
-	{
+	"core:alkin" : {
 		"texts" : {
 			"specialty" : {
 				"description" : "Increases the Attack and Defense skills of any Gorgons, Mighty Gorgons, and Black Gorgons for each level attained after 5th level.",
@@ -286,8 +259,7 @@
 			}
 		}
 	},
-	"core:kalt":
-	{
+	"core:kalt" : {
 		"texts" : {
 			"specialty" : {
 				"description" : "Increases +2 Att of any Water elementals, Ice elementals and Great Water elementals.",
@@ -296,8 +268,7 @@
 			}
 		}
 	},
-	"core:lacus":
-	{
+	"core:lacus" : {
 		"texts" : {
 			"specialty" : {
 				"description" : "Increases +2 Att of any Water elementals, Ice elementals and Great Water elementals.",
@@ -306,8 +277,7 @@
 			}
 		}
 	},
-	"core:ignissa":
-	{
+	"core:ignissa" : {
 		"texts" : {
 			"specialty" : {
 				"description" : "Increases +1 Att, +2 Def, and +2 Dmg of any Fire elementals, Energy elementals and Great Fire elementals.",
@@ -316,8 +286,7 @@
 			}
 		}
 	},
-	"core:fiur":
-	{
+	"core:fiur" : {
 		"texts" : {
 			"specialty" : {
 				"description" : "Increases +1 Att, +2 Def, and +2 Dmg of any Fire elementals, Energy elementals and Great Fire elementals.",
@@ -326,8 +295,7 @@
 			}
 		}
 	},
-	"core:erdamon":
-	{
+	"core:erdamon" : {
 		"texts" : {
 			"specialty" : {
 				"description" : "Increases +2 Att, +1 Def, and +5 Dmg of any Earth elementals, Magma elementals and Great Earth elementals.",
@@ -336,8 +304,7 @@
 			}
 		}
 	},
-	"core:thunar":
-	{
+	"core:thunar" : {
 		"texts" : {
 			"specialty" : {
 				"description" : "Increases +2 Att, +1 Def, and +5 Dmg of any Earth elementals, Magma elementals and Great Earth elementals.",
@@ -346,8 +313,7 @@
 			}
 		}
 	},
-	"core:pasis":
-	{
+	"core:pasis" : {
 		"texts" : {
 			"specialty" : {
 				"description" : "Increases +3 Att, +3 Def of any Psychic elementals, Magic elementals and Great Psychic elementals.",
@@ -356,8 +322,7 @@
 			}
 		}
 	},
-	"core:monere":
-	{
+	"core:monere" : {
 		"texts" : {
 			"specialty" : {
 				"description" : "Increases +3 Att, +3 Def of any Psychic elementals, Magic elementals and Great Psychic elementals.",

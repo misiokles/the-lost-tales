@@ -1,5 +1,5 @@
 {
-	"greatEnchanter": {
+	"greatEnchanter" : {
 		"name" : {
 			"singular" : "Great Enchanter",
 			"plural" : "Great Enchanters"
@@ -111,7 +111,7 @@
 				"subtype" : "spell.shield",
 				"val" : 3,
 				"addInfo" : 3
-	                },
+			},
 			"castscurse" : {
 				"type" : "ENCHANTER",
 				"subtype" : "spell.curse",
@@ -153,17 +153,17 @@
 					"middleY" : -53,
 					"upperX" : 37,
 					"upperY" : -98
-				},
+				}
 			},
-			"timeBetweenFidgets" : 1,
+			"timeBetweenFidgets" : 1
 		},
 		"sound" : {
-			"attack": "ENCHATTK.wav",
-			"defend": "ENCHDFND.wav",
-			"killed": "ENCHKILL.wav",
-			"move": "ENCHMOVE.wav",
-			"shoot": "ENCHSHOT.wav",
-			"wince": "ENCHWNCE.wav"
+			"attack" : "ENCHATTK.wav",
+			"defend" : "ENCHDFND.wav",
+			"killed" : "ENCHKILL.wav",
+			"move" : "ENCHMOVE.wav",
+			"shoot" : "ENCHSHOT.wav",
+			"wince" : "ENCHWNCE.wav"
 		}
 	}
 }

@@ -1,5 +1,5 @@
 {
-	"nagaGuardian": {
+	"nagaGuardian" : {
 		"name" : {
 			"singular" : "Naga Guardian",
 			"plural" : "Naga Guardians"
@@ -35,7 +35,7 @@
 			},
 			"unlimited Retaliation" : {
 				"type" : "UNLIMITED_RETALIATIONS",
-                                "icon" : "zvs/Lib1.res/unlimitedC"
+				"icon" : "zvs/Lib1.res/unlimitedC"
 			}
 		},
 		"graphics" : {
@@ -48,7 +48,7 @@
 				"idle" : 10,
 				"walk" : 1
 			},
-			"timeBetweenFidgets" : 1,
+			"timeBetweenFidgets" : 1
 		},
 		"sound" : {
 			"attack" : "NGRDATTK.wav",

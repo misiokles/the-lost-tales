@@ -1,7 +1,7 @@
 {
 	"tyro" : {
 		"class" : "barbarian",
-                "female" : false,
+		"female" : false,
 		"images" : {
 			"large" : "heroes/stronghold/tyroLarge.png",
 			"small" : "heroes/stronghold/tyroSmall.png",

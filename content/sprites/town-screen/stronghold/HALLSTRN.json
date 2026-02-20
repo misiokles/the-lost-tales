@@ -1,9 +1,17 @@
 {
-    "basepath" : "town-screen/stronghold/frames/",
-	"images" :
-	[
-		{ "frame" : 45, "file" : "TPSWolf2"},
-		{ "frame" : 46, "file" : "TPSOrc2"},
-		{ "frame" : 49, "file" : "TPSCyc2"}
+	"basepath" : "town-screen/stronghold/frames/",
+	"images" : [
+		{
+			"frame" : 45,
+			"file" : "TPSWolf2"
+		},
+		{
+			"frame" : 46,
+			"file" : "TPSOrc2"
+		},
+		{
+			"frame" : 49,
+			"file" : "TPSCyc2"
+		}
 	]
 }

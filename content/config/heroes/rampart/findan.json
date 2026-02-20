@@ -1,7 +1,7 @@
 {
 	"findan" : {
 		"class" : "ranger",
-                "female" : false,
+		"female" : false,
 		"images" : {
 			"large" : "heroes/rampart/findanLarge.png",
 			"small" : "heroes/rampart/findanSmall.png",
@@ -26,13 +26,13 @@
 			}
 		],
 		"skills" : [
-	 		{
-                               "level" : "basic",
-                               "skill" : "archery"
+			{
+				"level" : "basic",
+				"skill" : "archery"
 			},
 			{
-			        "level" : "basic",
-                                "skill" : "offence"
+				"level" : "basic",
+				"skill" : "offence"
 			}
 		],
 		"specialty" : {

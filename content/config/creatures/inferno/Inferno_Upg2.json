@@ -1,5 +1,5 @@
 {
-	"wingedMagog": {
+	"wingedMagog" : {
 		"name" : {
 			"singular" : "Winged Magog",
 			"plural" : "Winged Magogs"
@@ -25,27 +25,22 @@
 			"min" : 16,
 			"max" : 22
 		},
-		"abilities" :
-               {
-			"canFly" : 
-                        {
+		"abilities" : {
+			"canFly" : {
 				"type" : "FLYING",
 				"subtype" : "movementFlying"
-                        },
-			"shooter" :
-			{
+			},
+			"shooter" : {
 				"type" : "SHOOTER"
 			},
-			"fireball" :
-			{
+			"fireball" : {
 				"type" : "SPELL_LIKE_ATTACK",
 				"subtype" : "spell.fireball",
-	                        "icon" : "zvs/Lib1.res/magogattack"
-                        },
-			"twoHexAttackBreath" :
-			{
+				"icon" : "zvs/Lib1.res/magogattack"
+			},
+			"twoHexAttackBreath" : {
 				"type" : "TWO_HEX_ATTACK_BREATH",
-	                        "icon" : "zvs/Lib1.res/e_breathMagog"
+				"icon" : "zvs/Lib1.res/e_breathMagog"
 			}
 		},
 		"graphics" : {
@@ -53,8 +48,7 @@
 			"iconSmall" : "creatures/inferno/iconssmall/Inferno_Upg2.png",
 			"map" : "creatures/inferno/map/Inferno_Upg2.def",
 			"animation" : "creatures/inferno/battle/Inferno_Upg2.def",
-			"animationTime" : 
-                       {
+			"animationTime" : {
 				"attack" : 1,
 				"idle" : 10,
 				"walk" : 1.33
@@ -62,7 +56,20 @@
 			"missile" : {
 				"projectile" : "CPRGOGX.DEF",
 				"attackClimaxFrame" : 6,
-				"frameAngles" : [ 90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0 ],
+				"frameAngles" : [
+					90,
+					72,
+					45,
+					27,
+					0,
+					-27,
+					-45,
+					-72,
+					-90,
+					0,
+					0,
+					0
+				],
 				"offset" : {
 					"lowerX" : 15,
 					"lowerY" : -9,
@@ -70,9 +77,9 @@
 					"middleY" : -51,
 					"upperX" : 38,
 					"upperY" : -89
-				},
+				}
 			},
-			"timeBetweenFidgets" : 1,
+			"timeBetweenFidgets" : 1
 		},
 		"sound" : {
 			"attack" : "MGOGATTK.wav",

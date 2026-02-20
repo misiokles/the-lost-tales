@@ -1,12 +1,11 @@
 {
-	"core:boar" :
-	{
+	"core:boar" : {
 		"name" : {
 			"singular" : "Boar Rider",
 			"plural" : "Boar Riders"
 		},
-		"index": 140,
-		"faction": "stronghold",
+		"index" : 140,
+		"faction" : "stronghold",
 		"upgrades" : [
 			"hobgoblinWolfRider"
 		],
@@ -21,16 +20,13 @@
 			"min" : 2,
 			"max" : 3
 		},
-		"graphics" :
-		{
+		"graphics" : {
 			"iconLarge" : "creatures/stronghold/iconsbig/stronghold_lvl2upAlt.png",
 			"iconSmall" : "creatures/stronghold/iconssmall/stronghold_lvl2upAlt.png",
-	                "map" : "creatures/stronghold/map/AVWboar",
-                },
-		"abilities":
-		{
-			"roughWalker" :
-			{
+			"map" : "creatures/stronghold/map/AVWboar"
+		},
+		"abilities" : {
+			"roughWalker" : {
 				"type" : "NO_TERRAIN_PENALTY",
 				"subtype" : "terrain.rough",
 				"propagator" : "HERO",

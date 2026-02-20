@@ -5,25 +5,25 @@
 	"description" : "Alternative Upgrade, Hota, tides of war  ",
 	"version" : "1.0.0",
 	"modType" : "Compatibility",
-	"compatibility" : {"min" : "1.0.0"},
-	"changelog" : 
-        {
-		"1.0.0"   : [ "Initial release" ]
-        },
-	"depends" :
-	[
+	"compatibility" : {
+		"min" : "1.0.0"
+	},
+	"changelog" : {
+		"1.0.0" : [
+			"Initial release"
+		]
+	},
+	"depends" : [
 		"tides-of-war.alternative-creatures",
 		"tides-of-war.hota-balance-compatibility-patch",
 		"hota.gamebalance",
 		"hota.confluxvaultofashes",
 		"hota.heroes3datapatch",
-                "alternative-upgrade.tow-compatibility",
-                "alternative-upgrade.hota-compatibility"
+		"alternative-upgrade.tow-compatibility",
+		"alternative-upgrade.hota-compatibility"
 	],
-	"creatures" : [
-	],
-	"factions" : 
-        [
+	"creatures" : [],
+	"factions" : [
 		"config/town-screen/castle/castleUpgrades",
 		"config/town-screen/rampart/rampartUpgrades",
 		"config/town-screen/tower/towerUpgrades",

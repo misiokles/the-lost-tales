@@ -1,7 +1,7 @@
 {
 	"yrami" : {
 		"class" : "beastmaster",
-                "female" : false,
+		"female" : false,
 		"images" : {
 			"large" : "heroes/fortress/yramiLarge.png",
 			"small" : "heroes/fortress/yramiSmall.png",
@@ -47,7 +47,7 @@
 		"texts" : {
 			"name" : "Yrami",
 			"biography" : "Unlike other gnolls, Yrami has always been curious about what was happening in other neighboring regions, and that is why he has formed bonds with all sorts of different people, from simple pirates to barbarian lords.",
-		                "specialty" : {
+			"specialty" : {
 				"name" : "+350 Gold",
 				"description" : "Increases kingdom's income by 350 gold per day.",
 				"tooltip" : "Resource Bonus: +350 gold"

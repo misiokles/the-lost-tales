@@ -1,5 +1,5 @@
 {
-	"karkadann": {
+	"karkadann" : {
 		"name" : {
 			"singular" : "Karkadann",
 			"plural" : "Karkadanns"
@@ -26,39 +26,36 @@
 			"min" : 3,
 			"max" : 8
 		},
-		"abilities" : 
-	        {
-			"spellImmunity" :
-			{
+		"abilities" : {
+			"spellImmunity" : {
 				"type" : "LEVEL_SPELL_IMMUNITY",
 				"val" : 5
 			},
-			"KING_1" : // Will be affected by Slayer with no expertise
-			{
+			// Will be affected by Slayer with no expertise
+			"KING_1" : {
 				"type" : "KING",
 				"val" : 0
-			},	
-			"fearless" :
-			{
+			},
+			"fearless" : {
 				"type" : "FEARFUL",
 				"valueType" : "INDEPENDENT_MIN",
 				"description" : "@creatures.core.azureDragon.bonus.fearless",
 				"val" : 0,
-			        "hidden" : false
-			},	
+				"hidden" : false
+			},
 			"bindImm" : {
 				"type" : "SPELL_IMMUNITY",
 				"subtype" : "bind",
 				"addInfo" : 0,
 				"hidden" : true
-			},	
+			},
 			"paralyzeImm" : {
 				"type" : "SPELL_IMMUNITY",
 				"subtype" : "paralyze",
 				"addInfo" : 0,
 				"hidden" : true
-                        },
-                },
+			}
+		},
 		"graphics" : {
 			"iconLarge" : "creatures/neutral/iconsbig/karkadann.png",
 			"iconSmall" : "creatures/neutral/iconssmall/karkadann.png",
@@ -68,16 +65,16 @@
 				"attack" : 1,
 				"idle" : 10,
 				"walk" : 1
-			        },
-			"timeBetweenFidgets" : 1,
+			},
+			"timeBetweenFidgets" : 1
 		},
 		"sound" : {
-			"attack": "WUNCATTK.wav",
-			"defend": "WUNCDFND.wav",
-			"killed": "WUNCKILL.wav",
-			"move": "WUNCMOVE.wav",
-			"shoot": "WUNCSHOT.wav",
-			"wince": "WUNCWNCE.wav"
+			"attack" : "WUNCATTK.wav",
+			"defend" : "WUNCDFND.wav",
+			"killed" : "WUNCKILL.wav",
+			"move" : "WUNCMOVE.wav",
+			"shoot" : "WUNCSHOT.wav",
+			"wince" : "WUNCWNCE.wav"
 		}
 	}
 }

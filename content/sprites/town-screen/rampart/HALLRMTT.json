@@ -1,12 +1,29 @@
 {
-    "basepath" : "town-screen/rampart/frames/",
-	"images" :
-	[
-		{ "frame" : 44, "file" : "TPRCen2"},
-		{ "frame" : 45, "file" : "TPRDwf2"},
-		{ "frame" : 46, "file" : "TPRElf2"},
-		{ "frame" : 49, "file" : "TPRUni2"},
-		{ "frame" : 50, "file" : "TPRDra2"},
-		{ "frame" : 100, "file" : "TPRDwf2H"}
+	"basepath" : "town-screen/rampart/frames/",
+	"images" : [
+		{
+			"frame" : 44,
+			"file" : "TPRCen2"
+		},
+		{
+			"frame" : 45,
+			"file" : "TPRDwf2"
+		},
+		{
+			"frame" : 46,
+			"file" : "TPRElf2"
+		},
+		{
+			"frame" : 49,
+			"file" : "TPRUni2"
+		},
+		{
+			"frame" : 50,
+			"file" : "TPRDra2"
+		},
+		{
+			"frame" : 100,
+			"file" : "TPRDwf2H"
+		}
 	]
 }

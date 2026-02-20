@@ -1,7 +1,7 @@
 {
 	"crate" : {
 		"class" : "battlemage",
-                "female" : true,
+		"female" : true,
 		"images" : {
 			"large" : "heroes/stronghold/crateLarge.png",
 			"small" : "heroes/stronghold/crateSmall.png",
@@ -26,8 +26,14 @@
 			}
 		],
 		"skills" : [
-			{ "skill" : "wisdom", "level": "basic" },
-			{ "skill" : "mysticism", "level": "basic" }
+			{
+				"skill" : "wisdom",
+				"level" : "basic"
+			},
+			{
+				"skill" : "mysticism",
+				"level" : "basic"
+			}
 		],
 		"specialty" : {
 			"secondary" : "mysticism"

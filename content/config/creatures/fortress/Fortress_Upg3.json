@@ -1,25 +1,20 @@
 {
-	"queenDragonFly":
-	{
-		"name" :
-		{
+	"queenDragonFly" : {
+		"name" : {
 			"singular" : "Queen Dragon Fly",
-                        "plural" : "Queen Dragon Flies"
+			"plural" : "Queen Dragon Flies"
 		},
-		"advMapAmount" : 
-		{
+		"advMapAmount" : {
 			"max" : 17,
 			"min" : 12
 		},
 		"faction" : "fortress",
 		"attack" : 10,
 		"defense" : 10,
-		"cost" :
-		{
+		"cost" : {
 			"gold" : 260
 		},
-		"damage" :
-		{
+		"damage" : {
 			"max" : 5,
 			"min" : 2
 		},
@@ -30,62 +25,52 @@
 		"level" : 3,
 		"fightValue" : 300,
 		"aiValue" : 400,
-		"graphics" :
-		{
+		"graphics" : {
 			"iconLarge" : "creatures/fortress/iconsbig/Fortress_lvl3up2.png",
 			"iconSmall" : "creatures/fortress/iconssmall/Fortress_lvl3up2.png",
 			"map" : "creatures/fortress/map/Fortress_lvl3up2.def",
 			"animation" : "creatures/fortress/battle/Fortress_lvl3up2.def",
 			"timeBetweenFidgets" : 1,
-			"animationTime" :
-			{
+			"animationTime" : {
 				"walk" : 0.77,
-				"idle" : 10.00,
-				"attack" : 1.00
+				"idle" : 10.0,
+				"attack" : 1.0
 			}
 		},
-		"sound" :
-		{
-			"attack": "FDFLATTK.wav",
-			"defend": "FDFLDFND.wav",
-			"killed": "FDFLKILL.wav",
-			"move": "FDFLMOVE.wav",
-			"shoot": "FDFLSHOT.wav",
-			"wince": "FDFLWNCE.wav"
+		"sound" : {
+			"attack" : "FDFLATTK.wav",
+			"defend" : "FDFLDFND.wav",
+			"killed" : "FDFLKILL.wav",
+			"move" : "FDFLMOVE.wav",
+			"shoot" : "FDFLSHOT.wav",
+			"wince" : "FDFLWNCE.wav"
 		},
-		"abilities" :
-		{
-			"canFly" : 
-			{
+		"abilities" : {
+			"canFly" : {
 				"type" : "FLYING",
-                                "icon" : "zvs/Lib1.res/e_fly7"
+				"icon" : "zvs/Lib1.res/e_fly7"
 			},
-			"dispellHelpful" :
-			{
+			"dispellHelpful" : {
 				"type" : "SPELL_AFTER_ATTACK",
 				"subtype" : "spell.dispelHelpful",
 				"val" : 100,
-                                "icon" : "zvs/Lib1.res/dispelattack"
+				"icon" : "zvs/Lib1.res/dispelattack"
 			},
-			"castWeakness" :
-			{
+			"castWeakness" : {
 				"type" : "SPELL_AFTER_ATTACK",
 				"subtype" : "spell.weakness",
 				"val" : 100,
-                                "icon" : "zvs/Lib1.res/weaknessattack"
+				"icon" : "zvs/Lib1.res/weaknessattack"
 			},
-			"fireballImmunity" :
-			{
+			"fireballImmunity" : {
 				"type" : "SPELL_IMMUNITY",
 				"subtype" : "spell.fireball"
-                        },
-			"firewallImmunity" :
-			{
+			},
+			"firewallImmunity" : {
 				"type" : "SPELL_IMMUNITY",
 				"subtype" : "spell.fireWall"
 			},
-			"InfernoImmunity" :
-			{
+			"InfernoImmunity" : {
 				"type" : "SPELL_IMMUNITY",
 				"subtype" : "spell.inferno"
 			}

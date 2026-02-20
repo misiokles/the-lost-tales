@@ -23,13 +23,13 @@
 		"fightValue" : 115,
 		"aiValue" : 115,
 		"growth" : 14,
-                "doubleWide" : false,
+		"doubleWide" : false,
 		"advMapAmount" : {
 			"min" : 20,
 			"max" : 30
 		},
 		"abilities" : {
-            "cavalryChargeImmunity" : {
+			"cavalryChargeImmunity" : {
 				"type" : "CHARGE_IMMUNITY"
 			},
 			"2 hex attack" : {
@@ -43,18 +43,18 @@
 			"map" : "creatures/castle/map/Castle_Alt1.def",
 			"animation" : "creatures/castle/battle/Castle_Alt1.def",
 			"animationTime" : {
-				"attack" : 1.00,
-				"idle" : 10.00,
-				"walk" :  1.00
+				"attack" : 1.0,
+				"idle" : 10.0,
+				"walk" : 1.0
 			},
-			"timeBetweenFidgets" : 1,
+			"timeBetweenFidgets" : 1
 		},
 		"sound" : {
-			"attack": "HALBATTK.wav",
-			"defend": "HALBDFND.wav",
-			"killed": "HALBKILL.wav",
-			"move": "HALBMOVE.wav",
-			"wince": "HALBWNCE.wav"
+			"attack" : "HALBATTK.wav",
+			"defend" : "HALBDFND.wav",
+			"killed" : "HALBKILL.wav",
+			"move" : "HALBMOVE.wav",
+			"wince" : "HALBWNCE.wav"
 		}
 	}
 }

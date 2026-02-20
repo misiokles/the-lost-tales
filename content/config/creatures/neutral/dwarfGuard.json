@@ -20,7 +20,7 @@
 		"fightValue" : 209,
 		"aiValue" : 209,
 		"growth" : 8,
-        "doubleWide" : false,
+		"doubleWide" : false,
 		"advMapAmount" : {
 			"min" : 16,
 			"max" : 22
@@ -34,7 +34,7 @@
 			"spellShield" : {
 				"type" : "ENCHANTED",
 				"subtype" : "shield",
-				"val" : 1,
+				"val" : 1
 			}
 		},
 		"graphics" : {
@@ -43,18 +43,18 @@
 			"map" : "creatures/neutral/map/dwarfGuard.def",
 			"animation" : "creatures/neutral/battle/dwarfGuard",
 			"animationTime" : {
-				"attack" : 1.00,
-				"idle" : 10.00,
-				"walk" :  0.97
+				"attack" : 1.0,
+				"idle" : 10.0,
+				"walk" : 0.97
 			},
-			"timeBetweenFidgets" : 1,
+			"timeBetweenFidgets" : 1
 		},
 		"sound" : {
-			"attack": "BDRFATTK.wav",
-			"defend": "BDRFDFND.wav",
-			"killed": "BDRFKILL.wav",
-			"move": "BDRFMOVE.wav",
-			"wince": "BDRFWNCE.wav"
+			"attack" : "BDRFATTK.wav",
+			"defend" : "BDRFDFND.wav",
+			"killed" : "BDRFKILL.wav",
+			"move" : "BDRFMOVE.wav",
+			"wince" : "BDRFWNCE.wav"
 		}
 	}
 }

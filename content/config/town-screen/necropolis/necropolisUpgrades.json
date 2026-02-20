@@ -1,152 +1,272 @@
 {
-	"core:necropolis" :
-	{
-		"town" :
-		{
-			"buildingsIcons": "town-screen/necropolis/HALLNECR",
-			"hallSlots":
-                        [
-				[ [ "villageHall", "townHall", "cityHall", "capitol" ], [ "fort", "citadel", "castle" ], [ "tavern" ], [ "blacksmith" ] ],
-				[ [ "marketplace", "resourceSilo" ], [ "mageGuild1", "mageGuild2", "mageGuild3", "mageGuild4", "mageGuild5" ], [ "special2" ], [ "shipyard" ] ],
-				[ [ "special1" ], [ "special3" ], [ "horde1", "horde1Upgr" ] ],
-				[ [ "dwellingLvl1", "dwellingUpLvl1", "dwellingUpLvl1alt" ], [ "dwellingLvl2", "dwellingUpLvl2" ], [ "dwellingLvl3", "dwellingUpLvl3" ], [ "dwellingLvl4", "dwellingUpLvl4", "dwellingUpLvl4alt" ] ],
-				[ [ "dwellingLvl5", "dwellingUpLvl5", "dwellingUpLvl5alt" ], [ "dwellingLvl6", "dwellingUpLvl6", "dwellingUpLvl6alt" ], [ "dwellingLvl7", "dwellingUpLvl7", "dwellingUpLvl7alt" ] ]
+	"core:necropolis" : {
+		"town" : {
+			"buildingsIcons" : "town-screen/necropolis/HALLNECR",
+			"hallSlots" : [
+				[
+					[
+						"villageHall",
+						"townHall",
+						"cityHall",
+						"capitol"
+					],
+					[
+						"fort",
+						"citadel",
+						"castle"
+					],
+					[
+						"tavern"
+					],
+					[
+						"blacksmith"
+					]
+				],
+				[
+					[
+						"marketplace",
+						"resourceSilo"
+					],
+					[
+						"mageGuild1",
+						"mageGuild2",
+						"mageGuild3",
+						"mageGuild4",
+						"mageGuild5"
+					],
+					[
+						"special2"
+					],
+					[
+						"shipyard"
+					]
+				],
+				[
+					[
+						"special1"
+					],
+					[
+						"special3"
+					],
+					[
+						"horde1",
+						"horde1Upgr"
+					]
+				],
+				[
+					[
+						"dwellingLvl1",
+						"dwellingUpLvl1",
+						"dwellingUpLvl1alt"
+					],
+					[
+						"dwellingLvl2",
+						"dwellingUpLvl2"
+					],
+					[
+						"dwellingLvl3",
+						"dwellingUpLvl3"
+					],
+					[
+						"dwellingLvl4",
+						"dwellingUpLvl4",
+						"dwellingUpLvl4alt"
+					]
+				],
+				[
+					[
+						"dwellingLvl5",
+						"dwellingUpLvl5",
+						"dwellingUpLvl5alt"
+					],
+					[
+						"dwellingLvl6",
+						"dwellingUpLvl6",
+						"dwellingUpLvl6alt"
+					],
+					[
+						"dwellingLvl7",
+						"dwellingUpLvl7",
+						"dwellingUpLvl7alt"
+					]
+				]
 			],
-			"creatures" :
-                        [
-				["skeleton", "skeletonWarrior", "skeletonArcher"],
-				["walkingDead", "zombieLord"],
-				["wight", "wraith", "specter"],
-				["vampire", "vampireLord", "vampireKnight"],
-				["lich", "powerLich", "archlich"],
-				["blackKnight", "dreadKnight", "darkKnight"],
-				["boneDragon", "ghostDragon", "spectralDragon"]
+			"creatures" : [
+				[
+					"skeleton",
+					"skeletonWarrior",
+					"skeletonArcher"
+				],
+				[
+					"walkingDead",
+					"zombieLord"
+				],
+				[
+					"wight",
+					"wraith",
+					"specter"
+				],
+				[
+					"vampire",
+					"vampireLord",
+					"vampireKnight"
+				],
+				[
+					"lich",
+					"powerLich",
+					"archlich"
+				],
+				[
+					"blackKnight",
+					"dreadKnight",
+					"darkKnight"
+				],
+				[
+					"boneDragon",
+					"ghostDragon",
+					"spectralDragon"
+				]
 			],
-			"structures" :
-			{
-				"dwellingUpLvl1alt": { "animation" : "TBNCUP_0.def", "x" : 64,  "y" : 222, "z" : 5,  "campaignBonus" : "BoNskel2.pcx", "border" : "TONSKEL2.bmp", "area" : "TZNSKEL2.bmp" },
-				"dwellingUpLvl3alt": { "animation" : "TBNCUP_2.def", "x" : 0,   "y" : 179, "z" : 8,  "campaignBonus" : "BoNwigh2.pcx", "border" : "TONWIGH2.bmp", "area" : "TZNWIGH2.bmp" },
-				"dwellingUpLvl4alt": { "animation" : "TBNCUP_3.def", "x" : 615, "y" : 193, "z" : 2,  "campaignBonus" : "BoNvamp2.pcx", "border" : "TONVAM2.bmp",  "area" : "TZNVAM2.bmp" },
-				"dwellingUpLvl5alt": { "animation" : "TBNCUP_4.def", "x" : 222, "y" : 171, "z" : 3,  "campaignBonus" : "BoNlich2.pcx", "border" : "TONLICH2.bmp", "area" : "TZNLICH2.bmp" },
-				"dwellingUpLvl6alt": { "animation" : "TBNCUP_5.def", "x" : 0,   "y" : 30,  "z" : -2, "campaignBonus" : "BoNbkni2.pcx", "border" : "TONBKN2.bmp",  "area" : "TZNBKN2.bmp" },
-				"dwellingUpLvl7alt": { "animation" : "TBNCUP_6.def", "x" : 662, "y" : 23,            "campaignBonus" : "BoNbone2.pcx", "border" : "TONBON2.bmp",  "area" : "TZNBON2.bmp" }
+			"structures" : {
+				"dwellingUpLvl1alt" : {
+					"animation" : "TBNCUP_0.def",
+					"x" : 64,
+					"y" : 222,
+					"z" : 5,
+					"campaignBonus" : "BoNskel2.pcx",
+					"border" : "TONSKEL2.bmp",
+					"area" : "TZNSKEL2.bmp"
+				},
+				"dwellingUpLvl3alt" : {
+					"animation" : "TBNCUP_2.def",
+					"x" : 0,
+					"y" : 179,
+					"z" : 8,
+					"campaignBonus" : "BoNwigh2.pcx",
+					"border" : "TONWIGH2.bmp",
+					"area" : "TZNWIGH2.bmp"
+				},
+				"dwellingUpLvl4alt" : {
+					"animation" : "TBNCUP_3.def",
+					"x" : 615,
+					"y" : 193,
+					"z" : 2,
+					"campaignBonus" : "BoNvamp2.pcx",
+					"border" : "TONVAM2.bmp",
+					"area" : "TZNVAM2.bmp"
+				},
+				"dwellingUpLvl5alt" : {
+					"animation" : "TBNCUP_4.def",
+					"x" : 222,
+					"y" : 171,
+					"z" : 3,
+					"campaignBonus" : "BoNlich2.pcx",
+					"border" : "TONLICH2.bmp",
+					"area" : "TZNLICH2.bmp"
+				},
+				"dwellingUpLvl6alt" : {
+					"animation" : "TBNCUP_5.def",
+					"x" : 0,
+					"y" : 30,
+					"z" : -2,
+					"campaignBonus" : "BoNbkni2.pcx",
+					"border" : "TONBKN2.bmp",
+					"area" : "TZNBKN2.bmp"
+				},
+				"dwellingUpLvl7alt" : {
+					"animation" : "TBNCUP_6.def",
+					"x" : 662,
+					"y" : 23,
+					"campaignBonus" : "BoNbone2.pcx",
+					"border" : "TONBON2.bmp",
+					"area" : "TZNBON2.bmp"
+				}
 			},
-			"buildings" :
-			{
-				"dwellingUpLvl1" :
-				{
+			"buildings" : {
+				"dwellingUpLvl1" : {
 					"description" : "The Cursed Temple allows you to recruit Skeleton Warriors or Skeleton Archer."
 				},
-	         		"dwellingUpLvl3" :
-				{
+				"dwellingUpLvl3" : {
 					"description" : "The Tomb of Souls allows you to recruit Wraiths or Specters."
 				},
-				"dwellingUpLvl4" :
-				{
+				"dwellingUpLvl4" : {
 					"description" : "The Estate allows you to recruit Vampire Lords or Vampire Knights."
 				},
-			        "dwellingUpLvl5" :
-				{
+				"dwellingUpLvl5" : {
 					"description" : "The Mausoleum allows you to recruit Power Liches or Archliches."
 				},
-			        "dwellingUpLvl6" :
-				{
+				"dwellingUpLvl6" : {
 					"description" : "The Hall of Darkness allows you to recruit Dread Knight or Grim Knight."
 				},
-			        "dwellingUpLvl7" :
-				{
+				"dwellingUpLvl7" : {
 					"description" : "The Dragon Vault allows you to recruit Ghost Dragon or Spectral Dragon."
 				},
-                                "dwellingUpLvl1alt" :
-				{
+				"dwellingUpLvl1alt" : {
 					"description" : "The Cursed Temple allows you to recruit Skeleton Warriors or Skeleton Archer.",
-					"name" : "Upg. Cursed Temple",	
-					"cost" :
-					{
-					},
-					"requires" : 
-					[ 
+					"name" : "Upg. Cursed Temple",
+					"cost" : {},
+					"requires" : [
 						"dwellingLvl1"
-					],		
+					],
 					"upgrades" : "dwellingUpLvl1",
 					"mode" : "auto",
 					"id" : 44
-                                },
-                                "dwellingUpLvl3alt" :
-				{
+				},
+				"dwellingUpLvl3alt" : {
 					"description" : "The Tomb of Souls allows you to recruit Wraiths or Specters.",
-					"name" : "Upg. Tomb of Souls",	
-					"cost" :
-					{
-					},
-					"requires" : 
-					[ 
+					"name" : "Upg. Tomb of Souls",
+					"cost" : {},
+					"requires" : [
 						"dwellingLvl3"
-					],		
+					],
 					"upgrades" : "dwellingUpLvl3",
 					"mode" : "auto",
 					"id" : 46
-                                },
-				"dwellingUpLvl4alt" :
-				{
+				},
+				"dwellingUpLvl4alt" : {
 					"description" : "The Estate allows you to recruit Vampire Lords or Vampire Knights.",
-					"name" : "Upg. Estate",	
-					"cost" :
-					{
-					},
-					"requires" : 
-					[ 
+					"name" : "Upg. Estate",
+					"cost" : {},
+					"requires" : [
 						"dwellingLvl4"
-					],		
+					],
 					"upgrades" : "dwellingUpLvl4",
 					"mode" : "auto",
 					"id" : 47
-                                },
-				"dwellingUpLvl5alt" :
-				{
+				},
+				"dwellingUpLvl5alt" : {
 					"description" : "The Mausoleum allows you to recruit Power Liches or Archliches.",
-					"name" : "Upg. Mausoleum",	
-					"cost" :
-					{
-					},
-					"requires" : 
-					[ 
+					"name" : "Upg. Mausoleum",
+					"cost" : {},
+					"requires" : [
 						"dwellingLvl5"
-					],		
+					],
 					"upgrades" : "dwellingUpLvl5",
 					"mode" : "auto",
 					"id" : 48
-                                },
-				"dwellingUpLvl6alt" :
-				{
+				},
+				"dwellingUpLvl6alt" : {
 					"description" : "The Hall of Darkness allows you to recruit Dread Knight or Grim Knight.",
-					"name" : "Upg. Hall of Darkness",	
-					"cost" :
-					{
-					},
-					"requires" : 
-					[ 
+					"name" : "Upg. Hall of Darkness",
+					"cost" : {},
+					"requires" : [
 						"dwellingLvl6"
-					],		
+					],
 					"upgrades" : "dwellingUpLvl6",
 					"mode" : "auto",
 					"id" : 49
-                                },
-				"dwellingUpLvl7alt" :
-				{
+				},
+				"dwellingUpLvl7alt" : {
 					"description" : "The Dragon Vault allows you to recruit Dread Knight or Grim Knight.",
-					"name" : "Upg. Dragon Vault",	
-					"cost" :
-					{
-					},
-					"requires" : 
-					[ 
+					"name" : "Upg. Dragon Vault",
+					"cost" : {},
+					"requires" : [
 						"dwellingLvl7"
-					],		
+					],
 					"upgrades" : "dwellingUpLvl7",
 					"mode" : "auto",
 					"id" : 50
-				}				
+				}
 			}
 		}
 	}

@@ -5,35 +5,35 @@
 	"description" : "Hota compatibilty. graphic modif of hota. Animation was added for map.def of seaWitch, sorceress, yeti runemaster. New def for yeti runemaster , for being like the base creature (brown). Kobold are now grey. ",
 	"version" : "1.0.0",
 	"modType" : "Compatibility",
-	"compatibility" : {"min" : "1.0.0"},
-	"changelog" : 
-        {
-		"1.0.0"   : [ "Initial release" ]
-        },
-	"depends" :
-	[
+	"compatibility" : {
+		"min" : "1.0.0"
+	},
+	"changelog" : {
+		"1.0.0" : [
+			"Initial release"
+		]
+	},
+	"depends" : [
 		"hota.bulwark",
 		"hota.cove",
 		"hota.gamebalance",
-                "hota.confluxvaultofashes",
+		"hota.confluxvaultofashes",
 		"hota.heroes3datapatch",
 		"hota.neutralCreatures"
 	],
-        "softDepends" : [
-		"hota.gamebalance.heroes",
-        ],
-	"creatures" : 
-        [
+	"softDepends" : [
+		"hota.gamebalance.heroes"
+	],
+	"creatures" : [
 		"config/town-screen/conflux/creatures.json",
 		"config/hotaNeutralCreatures/steelGolem",
-                "config/hota/bulwark/creatures/kobold.json",
+		"config/hota/bulwark/creatures/kobold.json",
 		"config/hota/bulwark/creatures/koboldForeman.json",
 		"config/hota/bulwark/creatures/yetiRunemaster.json",
 		"config/hota/cove/creatures/seaWitch.json",
 		"config/hota/cove/creatures/sorceress.json"
-        ],
-	"heroes" :
-	[
+	],
+	"heroes" : [
 		"config/hotaGameBalance/castle/catherine.json",
 		"config/hotaGameBalance/castle/edric.json",
 		"config/hotaGameBalance/castle/ingham.json",
@@ -69,7 +69,7 @@
 		"config/hotaGameBalance/inferno/ignatius.json",
 		"config/hotaGameBalance/inferno/marius.json",
 		"config/hotaGameBalance/inferno/nymus.json",
-	        "config/hotaGameBalance/inferno/rashka.json",
+		"config/hotaGameBalance/inferno/rashka.json",
 		"config/hotaGameBalance/inferno/xeron.json",
 
 		"config/hotaGameBalance/necropolis/boyd.json",
@@ -108,9 +108,8 @@
 		"config/hota/bulwark/heroes/spadum.json",
 		"config/hota/bulwark/heroes/kynr.json",
 		"config/hota/bulwark/heroes/vehr.json"
-        ],
-	"factions" : 
-        [
-		"config/town-screen/conflux/confluxUpgrades",
+	],
+	"factions" : [
+		"config/town-screen/conflux/confluxUpgrades"
 	]
 }

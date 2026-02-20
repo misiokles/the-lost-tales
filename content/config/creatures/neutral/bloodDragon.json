@@ -1,5 +1,5 @@
 {
-	"bloodDragon": {
+	"bloodDragon" : {
 		"name" : {
 			"singular" : "Blood Dragon",
 			"plural" : "Blood Dragons"
@@ -27,45 +27,41 @@
 			"min" : 3,
 			"max" : 8
 		},
-		"abilities":
-		{
-			"undead" :
-			{
+		"abilities" : {
+			"undead" : {
 				"type" : "UNDEAD"
 			},
-			"dragon" :
-			{
+			"dragon" : {
 				"type" : "DRAGON_NATURE"
 			},
-			"canFly" :
-			{
+			"canFly" : {
 				"type" : "FLYING",
 				"icon" : "zvs/Lib1.res/e_fly2"
 			},
-			"drainsLife" :
-			{
+			"drainsLife" : {
 				"type" : "LIFE_DRAIN",
 				"val" : 100
 			},
-			"decreaseMorale" :
-			{
+			"decreaseMorale" : {
 				"type" : "MORALE",
 				"val" : -1,
 				"stacking" : "Undead Dragons",
-				"propagator": "BATTLE_WIDE",
+				"propagator" : "BATTLE_WIDE",
 				"propagationUpdater" : "BONUS_OWNER_UPDATER",
 				"description" : "@creatures.core.boneDragon.bonus.decreaseMorale",
-				"limiters" : [ "OPPOSITE_SIDE" ],
+				"limiters" : [
+					"OPPOSITE_SIDE"
+				],
 				"icon" : "zvs/Lib1.res/bonusnegativemorale"
 			},
-			"KING_1" : // Will be affected by Slayer with no expertise
-			{
+			// Will be affected by Slayer with no expertise
+			"KING_1" : {
 				"type" : "KING",
 				"val" : 0
 			}
 		},
 		"graphics" : {
-                        "iconLarge" : "creatures/neutral/iconsbig/bloodDragon",
+			"iconLarge" : "creatures/neutral/iconsbig/bloodDragon",
 			"animation" : "creatures/neutral/battle/bloodDragon",
 			"map" : "creatures/neutral/map/bloodDragon",
 			"iconSmall" : "creatures/neutral/iconssmall/bloodDragon",
@@ -74,7 +70,7 @@
 				"idle" : 10,
 				"walk" : 0.75
 			},
-			"timeBetweenFidgets" : 1,
+			"timeBetweenFidgets" : 1
 		},
 		"sound" : {
 			"attack" : "GHDRATTK.wav",

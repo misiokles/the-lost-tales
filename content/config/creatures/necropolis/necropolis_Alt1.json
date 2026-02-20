@@ -1,5 +1,5 @@
 {
-	"skeletonArcher": {
+	"skeletonArcher" : {
 		"name" : {
 			"singular" : "Skeleton Acher",
 			"plural" : "Skeleton Achers"
@@ -14,7 +14,7 @@
 			"core:skeletonWarrior"
 		],
 		"hitPoints" : 6,
-                "shots" : 12,
+		"shots" : 12,
 		"attack" : 5,
 		"defense" : 4,
 		"damage" : {
@@ -30,14 +30,11 @@
 			"min" : 20,
 			"max" : 30
 		},
-		"abilities" : 
-		{
-			"undead" :
-			{
+		"abilities" : {
+			"undead" : {
 				"type" : "UNDEAD"
 			},
-			"shooter" :
-			{
+			"shooter" : {
 				"type" : "SHOOTER"
 			}
 		},
@@ -53,7 +50,7 @@
 			},
 			"timeBetweenFidgets" : 1,
 			"missile" : {
-				"projectile": "PELFX.DEF",
+				"projectile" : "PELFX.DEF",
 				"attackClimaxFrame" : 8,
 				"offset" : {
 					"lowerX" : 18,
@@ -63,16 +60,29 @@
 					"upperX" : 32,
 					"upperY" : -77
 				},
-				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0]
+				"frameAngles" : [
+					90,
+					72,
+					45,
+					27,
+					0,
+					-27,
+					-45,
+					-72,
+					-90,
+					0,
+					0,
+					0
+				]
 			}
 		},
 		"sound" : {
-			"attack": "PLCHATTK.wav",
-			"defend": "PLCHDFND.wav",
-			"killed": "PLCHKILL.wav",
-			"move": "PLCHMOVE.wav",
-			"shoot": "PLCHSHOT.wav",
-			"wince": "PLCHWNCE.wav"
+			"attack" : "PLCHATTK.wav",
+			"defend" : "PLCHDFND.wav",
+			"killed" : "PLCHKILL.wav",
+			"move" : "PLCHMOVE.wav",
+			"shoot" : "PLCHSHOT.wav",
+			"wince" : "PLCHWNCE.wav"
 		}
 	}
 }

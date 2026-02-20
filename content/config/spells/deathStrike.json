@@ -1,11 +1,11 @@
 {
-        "deathStrike" : {
+	"deathStrike" : {
 		"name" : "Death Strike",
 		"type" : "ability",
 		"level" : 0,
 		"power" : 0,
-		"school" : { },
-		"targetType": "NO_TARGET",
+		"school" : {},
+		"targetType" : "NO_TARGET",
 		"targetCondition" : {
 			"noneOf" : {
 				"bonus.NON_LIVING" : "absolute",
@@ -30,12 +30,14 @@
 			"indifferent" : true
 		},
 		"animation" : {
-			"affect" : ["spells/SoD/abilities/C07SPE0.def"]
+			"affect" : [
+				"spells/SoD/abilities/C07SPE0.def"
+			]
 		},
-		"sounds": {
+		"sounds" : {
 			"cast" : "spells/SoD/abilities/DEATHSTR.wav"
 		},
-			"gainChance" : {
+		"gainChance" : {
 			"castle" : 1,
 			"conflux" : 1,
 			"dungeon" : 1,
@@ -46,5 +48,5 @@
 			"stronghold" : 1,
 			"tower" : 1
 		}
-	},
+	}
 }

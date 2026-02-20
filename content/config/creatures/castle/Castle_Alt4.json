@@ -23,37 +23,35 @@
 		"fightValue" : 588,
 		"aiValue" : 588,
 		"growth" : 4,
-                "doubleWide" : false,
+		"doubleWide" : false,
 		"advMapAmount" : {
 			"min" : 10,
 			"max" : 16
 		},
-		"abilities" : 
-                {
-			"greatshieldprotection" : 
-                        {
+		"abilities" : {
+			"greatshieldprotection" : {
 				"type" : "GENERAL_DAMAGE_REDUCTION",
 				"val" : 50
-			},
-	        },
+			}
+		},
 		"graphics" : {
 			"iconLarge" : "creatures/castle/iconsbig/Castle_lvl4upAlt.png",
 			"iconSmall" : "creatures/castle/iconssmall/Castle_lvl4upAlt.png",
 			"map" : "creatures/castle/map/Castle_Alt4.def",
 			"animation" : "creatures/castle/battle/Castle_Alt4.def",
 			"animationTime" : {
-				"attack" : 1.00,
-				"idle" : 10.00,
-				"walk" :  1.00
+				"attack" : 1.0,
+				"idle" : 10.0,
+				"walk" : 1.0
 			},
-			"timeBetweenFidgets" : 1,
+			"timeBetweenFidgets" : 1
 		},
 		"sound" : {
-			"attack": "CRUSATTK.wav",
-			"defend": "CRUSDFND.wav",
-			"killed": "CRUSKILL.wav",
-			"move": "CRUSMOVE.wav",
-			"wince": "CRUSWNCE.wav"
+			"attack" : "CRUSATTK.wav",
+			"defend" : "CRUSDFND.wav",
+			"killed" : "CRUSKILL.wav",
+			"move" : "CRUSMOVE.wav",
+			"wince" : "CRUSWNCE.wav"
 		}
 	}
 }

@@ -1,12 +1,11 @@
 {
-	"flyingHydra": {
+	"flyingHydra" : {
 		"name" : {
 			"singular" : "Flying Hydra",
 			"plural" : "Flying Hydras"
 		},
 		"faction" : "fortress",
-		"upgrades" : 
-                [
+		"upgrades" : [
 			"chaosHydra"
 		],
 		"level" : 7,
@@ -31,34 +30,28 @@
 			"min" : 3,
 			"max" : 8
 		},
-		"abilities":
-		{
-			"attackAllAdjacent" :
-			{
+		"abilities" : {
+			"attackAllAdjacent" : {
 				"type" : "ATTACKS_ALL_ADJACENT",
-                                "icon" : "zvs/Lib1.res/hydra0"
+				"icon" : "zvs/Lib1.res/hydra0"
 			},
-			"dragonSkeleton" : 
-			{
+			"dragonSkeleton" : {
 				"type" : "SKELETON_TRANSFORMER_TARGET",
 				"subtype" : "boneDragon"
 			},
-			"noRetaliation" :
-			{
+			"noRetaliation" : {
 				"type" : "BLOCKS_RETALIATION"
 			},
-			"KING_1" : // Will be affected by Slayer with no expertise
-			{
+			// Will be affected by Slayer with no expertise
+			"KING_1" : {
 				"type" : "KING",
 				"val" : 0
 			},
-			"canFly" :
-			{
+			"canFly" : {
 				"type" : "FLYING",
-                                "icon" : "zvs/Lib1.res/e_fly2b"
+				"icon" : "zvs/Lib1.res/e_fly2b"
 			},
-			"regenerates" :
-			{
+			"regenerates" : {
 				"type" : "HP_REGENERATION",
 				"val" : 175
 			}
@@ -73,14 +66,14 @@
 				"idle" : 10,
 				"walk" : 1
 			},
-			"timeBetweenFidgets" : 1,
+			"timeBetweenFidgets" : 1
 		},
 		"sound" : {
-			"attack": "CHYDATTK.wav",
-			"defend": "CHYDDFND.wav",
-			"killed": "CHYDKILL.wav",
-			"move": "BKDRMOVE.wav",
-			"wince": "CHYDWNCE.wav"
+			"attack" : "CHYDATTK.wav",
+			"defend" : "CHYDDFND.wav",
+			"killed" : "CHYDKILL.wav",
+			"move" : "BKDRMOVE.wav",
+			"wince" : "CHYDWNCE.wav"
 		}
 	}
 }

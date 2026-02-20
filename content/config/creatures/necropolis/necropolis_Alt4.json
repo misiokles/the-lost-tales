@@ -1,5 +1,5 @@
 {
-	"vampireKnight": {
+	"vampireKnight" : {
 		"name" : {
 			"singular" : "Vampire Knight",
 			"plural" : "Vampire Knights"
@@ -28,14 +28,11 @@
 			"min" : 10,
 			"max" : 16
 		},
-		"abilities" : 
-		{
-			"undead" :
-			{
+		"abilities" : {
+			"undead" : {
 				"type" : "UNDEAD"
 			},
-			"curses" :
-			{
+			"curses" : {
 				"type" : "SPELL_AFTER_ATTACK",
 				"subtype" : "spell.curse",
 				"val" : 20
@@ -44,8 +41,7 @@
 				"type" : "GENERAL_DAMAGE_REDUCTION",
 				"val" : 30
 			},
-			"deathStrike" :
-			{
+			"deathStrike" : {
 				"type" : "DOUBLE_DAMAGE_CHANCE",
 				"val" : 30
 			}
@@ -61,13 +57,13 @@
 				"walk" : 1
 			},
 			"timeBetweenFidgets" : 1
-                },
+		},
 		"sound" : {
-			"attack": "BLRDATTK.wav",
-			"defend": "NOSFDFND.wav",
-			"killed": "BLRDKILL.wav",
-			"move": "CRUSMOVE.wav",
-			"wince": "SKLWWNCE.wav"
+			"attack" : "BLRDATTK.wav",
+			"defend" : "NOSFDFND.wav",
+			"killed" : "BLRDKILL.wav",
+			"move" : "CRUSMOVE.wav",
+			"wince" : "SKLWWNCE.wav"
 		}
 	}
 }

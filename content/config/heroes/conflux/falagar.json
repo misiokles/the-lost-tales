@@ -1,41 +1,50 @@
 {
-    "falagar":
-    {
-        "class" : "elementalist",
-        "female": false,
-        "special" : false,
-        "spellbook": [ "teleport" ],
-        "skills":
-        [
-            { "skill" : "wisdom", "level": "basic" },
-            { "skill" : "waterMagic", "level": "basic" }
-        ],
-        "images" : {
-            "large" : "heroes/conflux/FalagarLarge.png",
-            "small" : "heroes/conflux/FalagarSmall.png",
-            "specialtyLarge" : "heroes/conflux/SpecialityExpertWaterMagicLarge.png",
-            "specialtySmall" : "heroes/conflux/SpecialityExpertWaterMagicLarge.png"
-        },
-        "specialty" : { "bonuses" : {  } }, // has expert water magic as "specialty"
-        "army" :
-        [
-            {
-                "min" : 10, "max" : 20,
-                "creature" : "pixie"
-            },
-            {
-                "min" : 4, "max" : 7,
-                "creature" : "waterElemental"
-            }
-        ],
+	"falagar" : {
+		"class" : "elementalist",
+		"female" : false,
+		"special" : false,
+		"spellbook" : [
+			"teleport"
+		],
+		"skills" : [
+			{
+				"skill" : "wisdom",
+				"level" : "basic"
+			},
+			{
+				"skill" : "waterMagic",
+				"level" : "basic"
+			}
+		],
+		"images" : {
+			"large" : "heroes/conflux/FalagarLarge.png",
+			"small" : "heroes/conflux/FalagarSmall.png",
+			"specialtyLarge" : "heroes/conflux/SpecialityExpertWaterMagicLarge.png",
+			"specialtySmall" : "heroes/conflux/SpecialityExpertWaterMagicLarge.png"
+		},
+		"specialty" : {
+			"bonuses" : {}
+		}, // has expert water magic as "specialty"
+		"army" : [
+			{
+				"min" : 10,
+				"max" : 20,
+				"creature" : "pixie"
+			},
+			{
+				"min" : 4,
+				"max" : 7,
+				"creature" : "waterElemental"
+			}
+		],
 		"texts" : {
 			"name" : "Falagar",
 			"biography" : "After the succession Wars in Enroth, Falagar intended to enjoy a well-deserved retirement, but when the war against the Kreegan began, his aquatic affinity , naturally drew him to join the Conflux.",
 			"specialty" : {
 				"name" : "Water Magic",
 				"description" : "Increases the damage of Water spells by 50%.",
-                                "tooltip" : "Secondary Skill Bonus: fireMagic",
-            }
-        }
-    }
+				"tooltip" : "Secondary Skill Bonus: fireMagic"
+			}
+		}
+	}
 }

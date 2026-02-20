@@ -1,29 +1,23 @@
 {
-	"lizardmanSoldier":
-	{
-		"name" :
-		{
+	"lizardmanSoldier" : {
+		"name" : {
 			"plural" : "Lizardman Soldiers",
 			"singular" : "Lizardman Soldier"
 		},
-		"advMapAmount" : 
-		{
+		"advMapAmount" : {
 			"max" : 22,
 			"min" : 16
 		},
 		"faction" : "fortress",
 		"attack" : 7,
 		"defense" : 10,
-		"upgrades" : 
-                [
+		"upgrades" : [
 			"lizardWarrior"
 		],
-		"cost" :
-		{
+		"cost" : {
 			"gold" : 140
 		},
-		"damage" :
-		{
+		"damage" : {
 			"max" : 7,
 			"min" : 2
 		},
@@ -34,37 +28,32 @@
 		"speed" : 6,
 		"fightValue" : 174,
 		"aiValue" : 209,
-		"graphics" :
-		{
+		"graphics" : {
 			"iconLarge" : "creatures/fortress/iconsbig/Fortress_lvl2upAlt.png",
 			"iconSmall" : "creatures/fortress/iconssmall/Fortress_lvl2upAlt.png",
 			"map" : "creatures/fortress/map/Fortress_lvl2upAlt.def",
 			"animation" : "creatures/fortress/battle/Fortress_lvl2upAlt.def",
 			"timeBetweenFidgets" : 1,
-			"animationTime" :
-			{
-				"walk" : 0.90,
-				"idle" : 10.00,
-				"attack" : 1.00
-			},
-                },
-		"abilities" :
-		{
-			"roughWalker" :
-			{
+			"animationTime" : {
+				"walk" : 0.9,
+				"idle" : 10.0,
+				"attack" : 1.0
+			}
+		},
+		"abilities" : {
+			"roughWalker" : {
 				"type" : "NO_TERRAIN_PENALTY",
 				"subtype" : "terrain.swamp",
 				"propagator" : "HERO",
-				"description" : "Swampwalker : No penalty movement on swamp terrain for the hero.",
-                        },
-                },
-		"sound" :
-		{
-			"attack": "ALIZATTK.wav",
-			"defend": "ALIZDFND.wav",
-			"killed": "ALIZKILL.wav",
-			"move": "ALIZMOVE.wav",
-			"wince": "ALIZWNCE.wav"
+				"description" : "Swampwalker : No penalty movement on swamp terrain for the hero."
+			}
+		},
+		"sound" : {
+			"attack" : "ALIZATTK.wav",
+			"defend" : "ALIZDFND.wav",
+			"killed" : "ALIZKILL.wav",
+			"move" : "ALIZMOVE.wav",
+			"wince" : "ALIZWNCE.wav"
 		}
-	}	
+	}
 }

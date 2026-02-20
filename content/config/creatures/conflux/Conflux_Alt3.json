@@ -23,7 +23,7 @@
 		"fightValue" : 315,
 		"aiValue" : 380,
 		"growth" : 6,
-                "doubleWide" : true,
+		"doubleWide" : true,
 		"advMapAmount" : {
 			"min" : 6,
 			"max" : 12
@@ -31,7 +31,7 @@
 		"abilities" : {
 			"nonLiving" : {
 				"type" : "NON_LIVING",
-                                "icon" : "zvs/Lib1.res/NonLivingelemental"
+				"icon" : "zvs/Lib1.res/NonLivingelemental"
 			},
 			"immuneToMind" : {
 				"type" : "MIND_IMMUNITY"
@@ -39,7 +39,7 @@
 			"spellPoints" : {
 				"type" : "CASTS",
 				"val" : 3
-			},				
+			},
 			"spellcaster" : {
 				"type" : "ENCHANTED",
 				"subtype" : "spell.protectWater",
@@ -58,36 +58,36 @@
 				"type" : "MORE_DAMAGE_FROM_SPELL",
 				"subtype" : "spell.fireShield",
 				"val" : 100,
-                                "icon" : "zvs/Lib1.res/vulnerabilityfireshield"
+				"icon" : "zvs/Lib1.res/vulnerabilityfireshield"
 			},
 			"fireWallVulnerablity" : {
 				"type" : "MORE_DAMAGE_FROM_SPELL",
 				"subtype" : "spell.fireWall",
 				"val" : 100,
-                                "icon" : "zvs/Lib1.res/vulnerabilityfirewall"
+				"icon" : "zvs/Lib1.res/vulnerabilityfirewall"
 			},
 			"fireballVulnerablity" : {
 				"type" : "MORE_DAMAGE_FROM_SPELL",
 				"subtype" : "spell.fireball",
 				"val" : 100,
-                                "icon" : "zvs/Lib1.res/vulnerablefireball"
+				"icon" : "zvs/Lib1.res/vulnerablefireball"
 			},
 			"infernoVulnerablity" : {
 				"type" : "MORE_DAMAGE_FROM_SPELL",
 				"subtype" : "spell.inferno",
 				"val" : 100,
-                                "icon" : "zvs/Lib1.res/vulnerableinferno"
+				"icon" : "zvs/Lib1.res/vulnerableinferno"
 			},
 			"armageddonVulnerablity" : {
 				"type" : "MORE_DAMAGE_FROM_SPELL",
 				"subtype" : "spell.armageddon",
 				"val" : 100,
-                                "icon" : "zvs/Lib1.res/vulnerablearmageddon"
-                        },
+				"icon" : "zvs/Lib1.res/vulnerablearmageddon"
+			},
 			"teleports" : {
 				"type" : "FLYING",
 				"subtype" : "movementTeleporting",
-                                "icon" : "zvs/Lib1.res/e_teleport"
+				"icon" : "zvs/Lib1.res/e_teleport"
 			}
 		},
 		"graphics" : {
@@ -96,21 +96,21 @@
 			"map" : "creatures/conflux/map/Conflux_Alt3.def",
 			"animation" : "creatures/conflux/battle/Conflux_Alt3.def",
 			"animationTime" : {
-				"attack" : 1.00,
-				"idle" : 10.00,
-				"walk" :  1.00
+				"attack" : 1.0,
+				"idle" : 10.0,
+				"walk" : 1.0
 			},
-			"timeBetweenFidgets" : 1,
+			"timeBetweenFidgets" : 1
 		},
 		"sound" : {
-			"attack": "ICELATTK.wav",
-			"defend": "ICELDFND.wav",
-			"killed": "ICELKILL.wav",
-			"move": "conflux/creatures/great water elemental/NIMPMOVE.wav",
+			"attack" : "ICELATTK.wav",
+			"defend" : "ICELDFND.wav",
+			"killed" : "ICELKILL.wav",
+			"move" : "conflux/creatures/great water elemental/NIMPMOVE.wav",
 			"startMoving" : "conflux/creatures/great water elemental/NIMPEXT1.wav",
 			"endMoving" : "conflux/creatures/great water elemental/NIMPEXT2.wav",
-			"shoot": "ICELSHOT.wav",
-			"wince": "ICELWNCE.wav"
+			"shoot" : "ICELSHOT.wav",
+			"wince" : "ICELWNCE.wav"
 		}
 	}
 }

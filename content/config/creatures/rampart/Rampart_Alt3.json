@@ -23,23 +23,20 @@
 		"fightValue" : 195,
 		"aiValue" : 331,
 		"growth" : 7,
-                "shots" : 24,
-                "doubleWide" : false,
+		"shots" : 24,
+		"doubleWide" : false,
 		"advMapAmount" : {
 			"min" : 12,
 			"max" : 17
 		},
 		"abilities" : {
-			"shooter" :
-			{
+			"shooter" : {
 				"type" : "SHOOTER"
 			},
-			"noDistancePenalty" :
-			{
+			"noDistancePenalty" : {
 				"type" : "NO_DISTANCE_PENALTY"
 			},
-			"noWallPenalty" :
-			{
+			"noWallPenalty" : {
 				"type" : "NO_WALL_PENALTY"
 			}
 		},
@@ -49,17 +46,15 @@
 			"map" : "creatures/rampart/map/Rampart_Alt3.def",
 			"animation" : "creatures/rampart/battle/Rampart_Alt3.def",
 			"animationTime" : {
-				"attack" : 1.00,
-				"idle" : 10.00,
-				"walk" :  1.02
+				"attack" : 1.0,
+				"idle" : 10.0,
+				"walk" : 1.02
 			},
 			"timeBetweenFidgets" : 1,
-			"missile" :
-			{
-				"projectile": "PELFX.DEF",
+			"missile" : {
+				"projectile" : "PELFX.DEF",
 				"attackClimaxFrame" : 11,
-				"offset" :
-				{
+				"offset" : {
 					"upperX" : 32,
 					"upperY" : -77,
 					"middleX" : 40,
@@ -67,16 +62,29 @@
 					"lowerX" : 18,
 					"lowerY" : -55
 				},
-				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0]
+				"frameAngles" : [
+					90,
+					72,
+					45,
+					27,
+					0,
+					-27,
+					-45,
+					-72,
+					-90,
+					0,
+					0,
+					0
+				]
 			}
 		},
 		"sound" : {
-			"attack": "HCRSATTK.wav",
-			"defend": "HCRSDFND.wav",
-			"killed": "HCRSKILL.wav",
-			"move": "HCRSMOVE.wav",
-			"shoot": "HCRSSHOT.wav",
-			"wince": "HCRSWNCE.wav"
+			"attack" : "HCRSATTK.wav",
+			"defend" : "HCRSDFND.wav",
+			"killed" : "HCRSKILL.wav",
+			"move" : "HCRSMOVE.wav",
+			"shoot" : "HCRSSHOT.wav",
+			"wince" : "HCRSWNCE.wav"
 		}
 	}
 }

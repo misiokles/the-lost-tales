@@ -24,15 +24,13 @@
 		"aiValue" : 209,
 		"growth" : 8,
 		"horde" : 4,
-        "doubleWide" : false,
+		"doubleWide" : false,
 		"advMapAmount" : {
 			"min" : 16,
 			"max" : 22
 		},
-		"abilities" :
-		{
-			"magicResistance" :
-			{
+		"abilities" : {
+			"magicResistance" : {
 				"type" : "MAGIC_RESISTANCE",
 				"val" : 20
 			}
@@ -43,18 +41,18 @@
 			"map" : "creatures/rampart/map/Rampart_Alt2.def",
 			"animation" : "creatures/rampart/battle/Rampart_Alt2.def",
 			"animationTime" : {
-				"attack" : 1.00,
-				"idle" : 10.00,
-				"walk" :  0.97
+				"attack" : 1.0,
+				"idle" : 10.0,
+				"walk" : 0.97
 			},
-			"timeBetweenFidgets" : 1,
+			"timeBetweenFidgets" : 1
 		},
 		"sound" : {
-			"attack": "BDRFATTK.wav",
-			"defend": "BDRFDFND.wav",
-			"killed": "BDRFKILL.wav",
-			"move": "BDRFMOVE.wav",
-			"wince": "BDRFWNCE.wav"
+			"attack" : "BDRFATTK.wav",
+			"defend" : "BDRFDFND.wav",
+			"killed" : "BDRFKILL.wav",
+			"move" : "BDRFMOVE.wav",
+			"wince" : "BDRFWNCE.wav"
 		}
 	}
 }

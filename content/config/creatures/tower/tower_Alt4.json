@@ -1,5 +1,5 @@
 {
-	"blackMage": {
+	"blackMage" : {
 		"name" : {
 			"singular" : "Black Mage",
 			"plural" : "Black Magi"
@@ -43,12 +43,12 @@
 				"type" : "CHANGES_SPELL_COST_FOR_ALLY",
 				"val" : 2
 			},
-                        "dispellHelpful" : {
-	                         "type" : "SPELL_AFTER_ATTACK",
-                                 "subtype" : "spell.dispel",
-                                 "val" : 100,
+			"dispellHelpful" : {
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.dispel",
+				"val" : 100,
 				"icon" : "zvs/Lib1.res/dispelattack"
-	                },
+			}
 		},
 		"graphics" : {
 			"iconLarge" : "creatures/tower/iconsbig/tower_lvl4upAlt.png",
@@ -158,7 +158,7 @@
 					}
 				]
 			},
-			"timeBetweenFidgets" : 1,
+			"timeBetweenFidgets" : 1
 		},
 		"sound" : {
 			"attack" : "AMAGATTK.wav",

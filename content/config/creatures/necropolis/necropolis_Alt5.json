@@ -1,5 +1,5 @@
 {
-	"archlich": {
+	"archlich" : {
 		"name" : {
 			"singular" : "Archilich",
 			"plural" : "Archiliches"
@@ -14,7 +14,7 @@
 			"core:powerLich"
 		],
 		"hitPoints" : 45,
-                "shots" : 24,
+		"shots" : 24,
 		"attack" : 15,
 		"defense" : 12,
 		"damage" : {
@@ -29,14 +29,11 @@
 			"min" : 8,
 			"max" : 12
 		},
-		"abilities" : 
-		{
-			"undead" :
-			{
+		"abilities" : {
+			"undead" : {
 				"type" : "UNDEAD"
 			},
-			"shooter" :
-			{
+			"shooter" : {
 				"type" : "SHOOTER"
 			}
 		},
@@ -52,7 +49,7 @@
 			},
 			"timeBetweenFidgets" : 1,
 			"missile" : {
-				"projectile": "PLICH.DEF",
+				"projectile" : "PLICH.DEF",
 				"attackClimaxFrame" : 8,
 				"offset" : {
 					"upperX" : 41,
@@ -62,16 +59,29 @@
 					"lowerX" : 29,
 					"lowerY" : -14
 				},
-				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0]
+				"frameAngles" : [
+					90,
+					72,
+					45,
+					27,
+					0,
+					-27,
+					-45,
+					-72,
+					-90,
+					0,
+					0,
+					0
+				]
 			}
 		},
 		"sound" : {
-			"attack": "PLCHATTK.wav",
-			"defend": "PLCHDFND.wav",
-			"killed": "PLCHKILL.wav",
-			"move": "PLCHMOVE.wav",
-			"shoot": "PLCHSHOT.wav",
-			"wince": "PLCHWNCE.wav"
+			"attack" : "PLCHATTK.wav",
+			"defend" : "PLCHDFND.wav",
+			"killed" : "PLCHKILL.wav",
+			"move" : "PLCHMOVE.wav",
+			"shoot" : "PLCHSHOT.wav",
+			"wince" : "PLCHWNCE.wav"
 		}
 	}
 }

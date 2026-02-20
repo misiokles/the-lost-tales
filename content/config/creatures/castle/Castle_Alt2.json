@@ -24,7 +24,7 @@
 		"aiValue" : 184,
 		"shots" : 24,
 		"growth" : 9,
-                "doubleWide" : false,
+		"doubleWide" : false,
 		"advMapAmount" : {
 			"min" : 16,
 			"max" : 25
@@ -35,8 +35,8 @@
 			},
 			"noMeleePenalty" : {
 				"type" : "NO_MELEE_PENALTY"
-                        },
-		        "reduceDefence" : {
+			},
+			"reduceDefence" : {
 				"type" : "ENEMY_DEFENCE_REDUCTION",
 				"val" : 20
 			}
@@ -47,13 +47,13 @@
 			"map" : "creatures/castle/map/Castle_Alt2.def",
 			"animation" : "creatures/castle/battle/Castle_Alt2.def",
 			"animationTime" : {
-				"attack" : 1.00,
-				"idle" : 10.00,
-				"walk" :  1.00
+				"attack" : 1.0,
+				"idle" : 10.0,
+				"walk" : 1.0
 			},
 			"timeBetweenFidgets" : 1,
 			"missile" : {
-				"projectile": "PELFX.DEF",
+				"projectile" : "PELFX.DEF",
 				"attackClimaxFrame" : 11,
 				"offset" : {
 					"upperX" : 38,
@@ -63,16 +63,29 @@
 					"lowerX" : 21,
 					"lowerY" : -50
 				},
-				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0]
+				"frameAngles" : [
+					90,
+					72,
+					45,
+					27,
+					0,
+					-27,
+					-45,
+					-72,
+					-90,
+					0,
+					0,
+					0
+				]
 			}
 		},
 		"sound" : {
-			"attack": "GELFATTK.wav",
-			"defend": "GELFDFND.wav",
-			"killed": "GELFKILL.wav",
-			"move": "GELFMOVE.wav",
-			"shoot": "HCRSSHOT.wav",
-			"wince": "GELFWNCE.wav"
+			"attack" : "GELFATTK.wav",
+			"defend" : "GELFDFND.wav",
+			"killed" : "GELFKILL.wav",
+			"move" : "GELFMOVE.wav",
+			"shoot" : "HCRSSHOT.wav",
+			"wince" : "GELFWNCE.wav"
 		}
 	}
 }

@@ -1,7 +1,7 @@
 {
 	"slash" : {
 		"class" : "knight",
-                "female" : false,
+		"female" : false,
 		"images" : {
 			"large" : "heroes/castle/slashLarge.png",
 			"small" : "heroes/castle/slashSmall.png",

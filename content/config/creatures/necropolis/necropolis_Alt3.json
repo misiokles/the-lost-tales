@@ -1,5 +1,5 @@
 {
-	"specter": {
+	"specter" : {
 		"name" : {
 			"singular" : "Specter",
 			"plural" : "Specters"
@@ -34,7 +34,7 @@
 			},
 			"FLYING_ARMY" : {
 				"type" : "FLYING",
-                                "icon" : "zvs/Lib1.res/e_fly3"
+				"icon" : "zvs/Lib1.res/e_fly3"
 			},
 			"canSorrow" : {
 				"type" : "SPELL_BEFORE_ATTACK",
@@ -44,7 +44,7 @@
 					0,
 					2
 				],
-                                "icon" : "zvs/Lib1.res/sorrowattack"
+				"icon" : "zvs/Lib1.res/sorrowattack"
 			},
 			"sorrowPower" : {
 				"type" : "CREATURE_SPELL_POWER",
@@ -54,11 +54,10 @@
 				"type" : "CREATURE_ENCHANT_POWER",
 				"val" : 5 //spell duration =5
 			},
-			"regenerate" : 
-			{
+			"regenerate" : {
 				"type" : "HP_REGENERATION",
 				"val" : 50
-			},
+			}
 		},
 		"graphics" : {
 			"iconLarge" : "creatures/necropolis/iconsbig/necropolis_lvl3upAlt.png",
@@ -70,7 +69,7 @@
 				"idle" : 10,
 				"walk" : 1
 			},
-			"timeBetweenFidgets" : 1,
+			"timeBetweenFidgets" : 1
 		},
 		"sound" : {
 			"attack" : "WRTHATTK.wav",

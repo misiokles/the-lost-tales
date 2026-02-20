@@ -1,5 +1,5 @@
 {
-	"fireHound": {
+	"fireHound" : {
 		"name" : {
 			"singular" : "Fire Hound",
 			"plural" : "Fire Hounds"
@@ -29,17 +29,14 @@
 			"min" : 12,
 			"max" : 17
 		},
-		"abilities" : 
-                {
-			"noRetaliation" : 
-                        {
+		"abilities" : {
+			"noRetaliation" : {
 				"type" : "BLOCKS_RETALIATION"
-                        },
-			"twoHexAttackBreath" :
-			{
-				"type" : "TWO_HEX_ATTACK_BREATH",
-	                        "icon" : "zvs/Lib1.res/e_breathFhound"
 			},
+			"twoHexAttackBreath" : {
+				"type" : "TWO_HEX_ATTACK_BREATH",
+				"icon" : "zvs/Lib1.res/e_breathFhound"
+			}
 		},
 		"graphics" : {
 			"iconLarge" : "creatures/inferno/iconsbig/Inferno_Alt3.png",

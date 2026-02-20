@@ -1,7 +1,7 @@
 {
 	"silf" : {
 		"class" : "ranger",
-                "female" : false,
+		"female" : false,
 		"images" : {
 			"large" : "heroes/rampart/silfLarge.png",
 			"small" : "heroes/rampart/silfSmall.png",
@@ -26,13 +26,13 @@
 			}
 		],
 		"skills" : [
-	 		{
-                               "level" : "basic",
-                               "skill" : "archery"
+			{
+				"level" : "basic",
+				"skill" : "archery"
 			},
 			{
-			        "level" : "basic",
-                                "skill" : "luck"
+				"level" : "basic",
+				"skill" : "luck"
 			}
 		],
 		"specialty" : {

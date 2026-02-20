@@ -1,102 +1,105 @@
 {
 	"core:centaur" : {
-		 "graphics" : {
+		"graphics" : {
 			"iconLarge" : "creatures/rampart/iconsbig/rampart_lvl1.png",
-			"iconSmall" : "creatures/rampart/iconssmall/rampart_lvl1.png",
-                   }
+			"iconSmall" : "creatures/rampart/iconssmall/rampart_lvl1.png"
+		}
 	},
 	"core:centaurCaptain" : {
-		"upgrades": ["centaurArcher"],
-		 "graphics" : {
-			"iconLarge" : "creatures/rampart/iconsbig/rampart_lvl2up.png",
-			"iconSmall" : "creatures/rampart/iconssmall/rampart_lvl2up.png",
-                   }
-	},
-	"core:dwarf" : {
-		 "graphics" : {
-			"iconLarge" : "creatures/rampart/iconsbig/rampart_lvl2.png",
-			"iconSmall" : "creatures/rampart/iconssmall/rampart_lvl2.png",
-                   }
-	},
-	"core:battleDwarf" : {
-		"upgrades": ["dwarfEnforcer"],
+		"upgrades" : [
+			"centaurArcher"
+		],
 		"graphics" : {
 			"iconLarge" : "creatures/rampart/iconsbig/rampart_lvl2up.png",
-			"iconSmall" : "creatures/rampart/iconssmall/rampart_lvl2up.png",
-                   }
+			"iconSmall" : "creatures/rampart/iconssmall/rampart_lvl2up.png"
+		}
+	},
+	"core:dwarf" : {
+		"graphics" : {
+			"iconLarge" : "creatures/rampart/iconsbig/rampart_lvl2.png",
+			"iconSmall" : "creatures/rampart/iconssmall/rampart_lvl2.png"
+		}
+	},
+	"core:battleDwarf" : {
+		"upgrades" : [
+			"dwarfEnforcer"
+		],
+		"graphics" : {
+			"iconLarge" : "creatures/rampart/iconsbig/rampart_lvl2up.png",
+			"iconSmall" : "creatures/rampart/iconssmall/rampart_lvl2up.png"
+		}
 	},
 	"core:woodElf" : {
 		"graphics" : {
 			"iconLarge" : "creatures/rampart/iconsbig/rampart_lvl3.png",
-			"iconSmall" : "creatures/rampart/iconssmall/rampart_lvl3.png",
-                   }
+			"iconSmall" : "creatures/rampart/iconssmall/rampart_lvl3.png"
+		}
 	},
 	"core:grandElf" : {
-		"upgrades": ["elfHunter"],
+		"upgrades" : [
+			"elfHunter"
+		],
 		"graphics" : {
 			"iconLarge" : "creatures/rampart/iconsbig/rampart_lvl3up.png",
-			"iconSmall" : "creatures/rampart/iconssmall/rampart_lvl3up.png",
-                   }
-        },
+			"iconSmall" : "creatures/rampart/iconssmall/rampart_lvl3up.png"
+		}
+	},
 	"core:pegasus" : {
 		"graphics" : {
 			"iconLarge" : "creatures/rampart/iconsbig/rampart_lvl4.png",
-			"iconSmall" : "creatures/rampart/iconssmall/rampart_lvl4.png",
-                  }
-        },
+			"iconSmall" : "creatures/rampart/iconssmall/rampart_lvl4.png"
+		}
+	},
 	"core:silverPegasus" : {
-		  "graphics" : 
-                  {
+		"graphics" : {
 			"iconLarge" : "creatures/rampart/iconsbig/rampart_lvl4up.png",
 			"iconSmall" : "creatures/rampart/iconssmall/rampart_lvl4up.png",
-		 	"animation" : "creatures/rampart/battle/capegs.def",
-	                 "map" : "creatures/rampart/map/AVWpegx0",
-                  }
-        },
+			"animation" : "creatures/rampart/battle/capegs.def",
+			"map" : "creatures/rampart/map/AVWpegx0"
+		}
+	},
 	"core:dendroidGuard" : {
-		  "graphics" : 
-                  {
+		"graphics" : {
 			"iconLarge" : "creatures/rampart/iconsbig/rampart_lvl5.png",
-			"iconSmall" : "creatures/rampart/iconssmall/rampart_lvl5.png",
-                  }
-        },
+			"iconSmall" : "creatures/rampart/iconssmall/rampart_lvl5.png"
+		}
+	},
 	"core:dendroidSoldier" : {
-		  "graphics" : 
-                  {
+		"graphics" : {
 			"iconLarge" : "creatures/rampart/iconsbig/rampart_lvl5up.png",
 			"iconSmall" : "creatures/rampart/iconssmall/rampart_lvl5up.png",
 			"animation" : "creatures/rampart/battle/CBTREE.def",
-	                "map" : "creatures/rampart/map/AVWtrex0",
-                  }
-        },
+			"map" : "creatures/rampart/map/AVWtrex0"
+		}
+	},
 	"core:unicorn" : {
-		  "graphics" : 
-                  {
+		"graphics" : {
 			"iconLarge" : "creatures/rampart/iconsbig/rampart_lvl6.png",
-			"iconSmall" : "creatures/rampart/iconssmall/rampart_lvl6.png",
-                  }
-        },
+			"iconSmall" : "creatures/rampart/iconssmall/rampart_lvl6.png"
+		}
+	},
 	"core:warUnicorn" : {
-		"upgrades": ["sunUnicorn"],
-		  "graphics" : 
-                  {
+		"upgrades" : [
+			"sunUnicorn"
+		],
+		"graphics" : {
 			"iconLarge" : "creatures/rampart/iconsbig/rampart_lvl6up.png",
-			"iconSmall" : "creatures/rampart/iconssmall/rampart_lvl6up.png",
-                  }
-        },
+			"iconSmall" : "creatures/rampart/iconssmall/rampart_lvl6up.png"
+		}
+	},
 	"core:greenDragon" : {
-		  "graphics" : 
-                  {
+		"graphics" : {
 			"iconLarge" : "creatures/rampart/iconsbig/rampart_lvl7.png",
-			"iconSmall" : "creatures/rampart/iconssmall/rampart_lvl7.png",
-                  }
-        },
+			"iconSmall" : "creatures/rampart/iconssmall/rampart_lvl7.png"
+		}
+	},
 	"core:goldDragon" : {
-		"upgrades": ["silverDragon"],
-		  "graphics" : 
-                  {
+		"upgrades" : [
+			"silverDragon"
+		],
+		"graphics" : {
 			"iconLarge" : "creatures/rampart/iconsbig/rampart_lvl7up.png",
-			"iconSmall" : "creatures/rampart/iconssmall/rampart_lvl7up.png",
-                  }
-	}	
+			"iconSmall" : "creatures/rampart/iconssmall/rampart_lvl7up.png"
+		}
+	}
 }

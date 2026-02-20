@@ -1,7 +1,7 @@
 {
 	"jojosh" : {
 		"class" : "barbarian",
-                "female" : false,
+		"female" : false,
 		"images" : {
 			"large" : "heroes/stronghold/jojoshLarge.png",
 			"small" : "heroes/stronghold/jojoshSmall.png",

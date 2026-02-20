@@ -1,5 +1,5 @@
 {
-	"darkKnight": {
+	"darkKnight" : {
 		"name" : {
 			"singular" : "Dark Knight",
 			"plural" : "Dark Knights"
@@ -38,24 +38,23 @@
 				"type" : "SPELL_AFTER_ATTACK",
 				"subtype" : "spell.curse",
 				"val" : 20,
-                                "icon" : "zvs/Lib1.res/curseattack"
+				"icon" : "zvs/Lib1.res/curseattack"
 			},
-			"fearful" :
-			{
+			"fearful" : {
 				"type" : "FEARFUL",
 				"val" : 10,
-				"propagator": "BATTLE_WIDE",
+				"propagator" : "BATTLE_WIDE",
 				"propagationUpdater" : "BONUS_OWNER_UPDATER",
 				"description" : "@creatures.core.azureDragon.bonus.fearful",
-				"limiters" : [ 
-					"OPPOSITE_SIDE", 
+				"limiters" : [
+					"OPPOSITE_SIDE",
 					{
 						"type" : "HAS_ANOTHER_BONUS_LIMITER",
 						"bonusType" : "LIVING"
 					}
 				],
 				"hidden" : false
-			},
+			}
 		},
 		"graphics" : {
 			"iconLarge" : "creatures/necropolis/iconsbig/necropolis_lvl6upAlt.png",
@@ -67,14 +66,14 @@
 				"idle" : 10,
 				"walk" : 1
 			},
-			"timeBetweenFidgets" : 1,
+			"timeBetweenFidgets" : 1
 		},
 		"sound" : {
-			"attack": "BLRDATTK.wav",
-			"defend": "BLRDDFND.wav",
-			"killed": "BLRDKILL.wav",
-			"move": "BLRDMOVE.wav",
-			"wince": "BLRDWNCE.wav"
+			"attack" : "BLRDATTK.wav",
+			"defend" : "BLRDDFND.wav",
+			"killed" : "BLRDKILL.wav",
+			"move" : "BLRDMOVE.wav",
+			"wince" : "BLRDWNCE.wav"
 		}
 	}
 }

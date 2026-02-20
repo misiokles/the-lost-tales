@@ -12,11 +12,11 @@
 				"templates" : {
 					"dirt" : {
 						"animation" : "dwellings/neutral/avgmumy2.def",
-				                "visitableFrom" : [ 
-                                                        "---",
-                                                        "+++",
-                                                        "+++" 
-                                                ],
+						"visitableFrom" : [
+							"---",
+							"+++",
+							"+++"
+						],
 						"mask" : [
 							"VVV",
 							"VVV",
@@ -25,10 +25,10 @@
 						"allowedTerrains" : [
 							"dirt",
 							"lava"
-                                                ],
-	                               }
+						]
+					}
 				}
-                        },
+			},
 			"karkadannPen" : {
 				"name" : "Karkadann Pen",
 				"guards" : true,
@@ -40,17 +40,17 @@
 				"templates" : {
 					"default" : {
 						"animation" : "dwellings/neutral/karkadannPen.def",
-				                "visitableFrom" : [ 
-                                                        "---",
-                                                        "+++",
-                                                        "+++" 
-                                                ],
+						"visitableFrom" : [
+							"---",
+							"+++",
+							"+++"
+						],
 						"mask" : [
 							"VVV",
 							"VVV",
 							"VBA"
-						],
-	                               }
+						]
+					}
 				},
 				"kingdomOverviewImage" : "icons/flagports/karkadannPen"
 			},
@@ -65,17 +65,17 @@
 				"templates" : {
 					"default" : {
 						"animation" : "dwellings/neutral/blackWood.def",
-				                "visitableFrom" : [ 
-                                                        "---",
-                                                        "+++",
-                                                        "+++" 
-                                                ],
+						"visitableFrom" : [
+							"---",
+							"+++",
+							"+++"
+						],
 						"mask" : [
 							"VVV",
 							"VVV",
 							"VBA"
-						],
-	                               }
+						]
+					}
 				},
 				"kingdomOverviewImage" : "icons/flagports/blackWood"
 			},
@@ -90,17 +90,17 @@
 				"templates" : {
 					"default" : {
 						"animation" : "dwellings/neutral/bloodVault.def",
-				                "visitableFrom" : [ 
-                                                        "---",
-                                                        "+++",
-                                                        "+++" 
-                                                ],
+						"visitableFrom" : [
+							"---",
+							"+++",
+							"+++"
+						],
 						"mask" : [
 							"VVV",
 							"VVV",
 							"VBA"
-						],
-	                               }
+						]
+					}
 				},
 				"kingdomOverviewImage" : "icons/flagports/bloodVault"
 			}

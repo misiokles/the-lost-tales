@@ -24,7 +24,7 @@
 		"fightValue" : 500,
 		"aiValue" : 750,
 		"growth" : 3,
-                "doubleWide" : false,
+		"doubleWide" : false,
 		"advMapAmount" : {
 			"min" : 8,
 			"max" : 16
@@ -39,12 +39,12 @@
 			"castBless" : {
 				"type" : "SPELLCASTER",
 				"subtype" : "bless",
-				"val" : 2,
+				"val" : 2
 			},
 			"bless" : {
 				"type" : "CREATURE_ENCHANT_POWER",
 				"val" : 6,
-                                "icon" : "zvs/Lib1.res/e_bless0"
+				"icon" : "zvs/Lib1.res/e_bless0"
 			},
 			"spellpoints" : {
 				"type" : "CASTS",
@@ -57,13 +57,13 @@
 			"map" : "creatures/castle/map/Castle_Alt5.def",
 			"animation" : "creatures/castle/battle/Castle_Alt5.def",
 			"animationTime" : {
-				"attack" : 1.00,
-				"idle" : 10.00,
-				"walk" :  1.00
+				"attack" : 1.0,
+				"idle" : 10.0,
+				"walk" : 1.0
 			},
 			"timeBetweenFidgets" : 1,
 			"missile" : {
-				"projectile": "CPRZEAX.DEF",
+				"projectile" : "CPRZEAX.DEF",
 				"attackClimaxFrame" : 6,
 				"offset" : {
 					"upperX" : 37,
@@ -73,15 +73,28 @@
 					"lowerX" : 28,
 					"lowerY" : -3
 				},
-				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0]
+				"frameAngles" : [
+					90,
+					72,
+					45,
+					27,
+					0,
+					-27,
+					-45,
+					-72,
+					-90,
+					0,
+					0,
+					0
+				]
 			}
 		},
 		"sound" : {
-			"attack": "ZELTATTK.wav",
-			"defend": "ZELTDFND.wav",
-			"killed": "ZELTKILL.wav",
-			"move": "ZELTMOVE.wav",
-			"wince": "ZELTWNCE.wav"
+			"attack" : "ZELTATTK.wav",
+			"defend" : "ZELTDFND.wav",
+			"killed" : "ZELTKILL.wav",
+			"move" : "ZELTMOVE.wav",
+			"wince" : "ZELTWNCE.wav"
 		}
 	}
 }

@@ -1,6 +1,5 @@
 {
-	"reaperDevil" :
-	{
+	"reaperDevil" : {
 		"name" : {
 			"singular" : "Reaper Devil",
 			"plural" : "Reapers Devils"
@@ -30,54 +29,48 @@
 			"min" : 12,
 			"max" : 17
 		},
-		"abilities" :
-		{
-			"teleports" :
-			{
+		"abilities" : {
+			"teleports" : {
 				"type" : "FLYING",
 				"subtype" : "movementTeleporting",
-                                "icon" : "zvs/Lib1.res/e_teleport"
+				"icon" : "zvs/Lib1.res/e_teleport"
 			},
-			"noRetaliation" :
-			{
+			"noRetaliation" : {
 				"type" : "BLOCKS_RETALIATION"
 			},
 			"firstStrike" : {
 				"type" : "FIRST_STRIKE"
 			},
-			"decreaseLuck" :
-			{
+			"decreaseLuck" : {
 				"type" : "LUCK",
 				"val" : -1,
 				"stacking" : "Devils",
-				"propagator": "BATTLE_WIDE",
+				"propagator" : "BATTLE_WIDE",
 				"propagationUpdater" : "BONUS_OWNER_UPDATER",
 				"description" : "@creatures.core.devil.bonus.decreaseLuck",
-				"limiters" : [ "OPPOSITE_SIDE" ],
-                                "icon" : "zvs/Lib1.res/misfortuneaura"
+				"limiters" : [
+					"OPPOSITE_SIDE"
+				],
+				"icon" : "zvs/Lib1.res/misfortuneaura"
 			},
-			"KING_2" :
-			{
+			"KING_2" : {
 				"type" : "KING",
 				"val" : 2
 			},
-			"hateAngels" : 
-			{
+			"hateAngels" : {
 				"type" : "HATE",
 				"subtype" : "creature.angel",
 				"val" : 50,
-                                "icon" : "zvs/Lib1.res/hatedevils1"
+				"icon" : "zvs/Lib1.res/hatedevils1"
 			},
-			"hateArchAngels" : 
-			{
+			"hateArchAngels" : {
 				"type" : "HATE",
 				"subtype" : "creature.archangel",
 				"val" : 50,
-                                "icon" : "zvs/Lib1.res/hatearchdevils"
+				"icon" : "zvs/Lib1.res/hatearchdevils"
 			}
 		},
-		"graphics" :
-		{
+		"graphics" : {
 			"iconLarge" : "creatures/inferno/iconsbig/Inferno_Alt7.png",
 			"iconSmall" : "creatures/inferno/iconssmall/Inferno_Alt7.png",
 			"map" : "creatures/inferno/map/Inferno_Alt7.def",
@@ -89,15 +82,14 @@
 			},
 			"timeBetweenFidgets" : 1
 		},
-		"sound" :
-		{
-			"attack": "ADVLATTK.wav",
-			"defend": "ADVLDFND.wav",
-			"killed": "ADVLKILL.wav",
-			"move": "ADVLMOVE.wav",
-			"wince": "ADVLWNCE.wav",
-			"startMoving": "ADVLEXT1.wav",
-			"endMoving": "ADVLEXT2.wav"
+		"sound" : {
+			"attack" : "ADVLATTK.wav",
+			"defend" : "ADVLDFND.wav",
+			"killed" : "ADVLKILL.wav",
+			"move" : "ADVLMOVE.wav",
+			"wince" : "ADVLWNCE.wav",
+			"startMoving" : "ADVLEXT1.wav",
+			"endMoving" : "ADVLEXT2.wav"
 		}
-       } 
+	}
 }

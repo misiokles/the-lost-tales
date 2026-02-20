@@ -1,12 +1,29 @@
 {
-    "basepath" : "town-screen/castle/frames/",
-	"images" :
-	[
-		{ "frame" : 44, "file" : "ThCsPik2"},
-		{ "frame" : 45, "file" : "ThCsCrs2"},
-		{ "frame" : 47, "file" : "ThCsSwd2"},
-		{ "frame" : 48, "file" : "ThCsMon2"},
-		{ "frame" : 50, "file" : "TBCAlt"},
-		{ "frame" : 57, "file" : "TBCAlt7UP"}
+	"basepath" : "town-screen/castle/frames/",
+	"images" : [
+		{
+			"frame" : 44,
+			"file" : "ThCsPik2"
+		},
+		{
+			"frame" : 45,
+			"file" : "ThCsCrs2"
+		},
+		{
+			"frame" : 47,
+			"file" : "ThCsSwd2"
+		},
+		{
+			"frame" : 48,
+			"file" : "ThCsMon2"
+		},
+		{
+			"frame" : 50,
+			"file" : "TBCAlt"
+		},
+		{
+			"frame" : 57,
+			"file" : "TBCAlt7UP"
+		}
 	]
 }

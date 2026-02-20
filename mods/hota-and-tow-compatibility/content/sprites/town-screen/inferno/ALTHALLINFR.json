@@ -1,10 +1,25 @@
 {
 	"basepath" : "town-screen/inferno/frames/",
 	"images" : [
-		{ "frame" : 45, "file" : "TPIGog3"},
-		{ "frame" : 46, "file" : "TPIHnd2"},
-		{ "frame" : 50, "file" : "TPIDvl2"},
-		{"frame" : 47,"file" : "TINF4.png"},
-		{"frame" : 54,"file" : "TINF4UP.png"}
+		{
+			"frame" : 45,
+			"file" : "TPIGog3"
+		},
+		{
+			"frame" : 46,
+			"file" : "TPIHnd2"
+		},
+		{
+			"frame" : 50,
+			"file" : "TPIDvl2"
+		},
+		{
+			"frame" : 47,
+			"file" : "TINF4.png"
+		},
+		{
+			"frame" : 54,
+			"file" : "TINF4UP.png"
+		}
 	]
 }

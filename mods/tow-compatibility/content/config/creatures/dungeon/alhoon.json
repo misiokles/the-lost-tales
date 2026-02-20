@@ -5,8 +5,7 @@
 		},
 		"speed" : 7,
 		"abilities" : {
-			"teleports" :
-			{
+			"teleports" : {
 				"type" : "FLYING",
 				"subtype" : "movementTeleporting"
 			}

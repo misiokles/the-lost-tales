@@ -23,7 +23,7 @@
 		"fightValue" : 1724,
 		"aiValue" : 2012,
 		"growth" : 2,
-                "doubleWide" : false,
+		"doubleWide" : false,
 		"advMapAmount" : {
 			"min" : 5,
 			"max" : 8
@@ -31,23 +31,23 @@
 		"abilities" : {
 			"nonLiving" : {
 				"type" : "NON_LIVING",
-                                "icon" : "zvs/Lib1.res/NonLivingelemental"
+				"icon" : "zvs/Lib1.res/NonLivingelemental"
 			},
 			"MULTI_HEADED" : {
 				"type" : "ATTACKS_ALL_ADJACENT",
-                                "icon" : "zvs/Lib1.res/e_roundGreatP"
+				"icon" : "zvs/Lib1.res/e_roundGreatP"
 			},
 			"const_free_attack" : {
 				"type" : "BLOCKS_RETALIATION"
 			},
 			"IMMUNE_TO_MIND_SPELLS" : {
 				"type" : "MIND_IMMUNITY"
-                        },
+			},
 			"teleports" : {
 				"type" : "FLYING",
 				"subtype" : "movementTeleporting",
-                                "icon" : "zvs/Lib1.res/e_teleport"
-                        }               
+				"icon" : "zvs/Lib1.res/e_teleport"
+			}
 		},
 		"graphics" : {
 			"iconLarge" : "creatures/conflux/iconsbig/Conflux_lvl6upAlt.png",
@@ -55,17 +55,17 @@
 			"map" : "creatures/conflux/map/Conflux_Alt6.def",
 			"animation" : "creatures/conflux/battle/Conflux_Alt6.def",
 			"animationTime" : {
-				"attack" : 1.00,
-				"idle" : 10.00,
-				"walk" :  1.00
+				"attack" : 1.0,
+				"idle" : 10.0,
+				"walk" : 1.0
 			},
-			"timeBetweenFidgets" : 1,
+			"timeBetweenFidgets" : 1
 		},
 		"sound" : {
 			"attack" : "MGELATTK.wav",
 			"defend" : "MGELDFND.wav",
 			"killed" : "MGELKILL.wav",
-			"move": "conflux/creatures/great psychic elemental/S208EXT1.wav",
+			"move" : "conflux/creatures/great psychic elemental/S208EXT1.wav",
 			"startMoving" : "conflux/creatures/great psychic elemental/S208EXT1.wav",
 			"endMoving" : "conflux/creatures/great psychic elemental/S208EXT2.wav",
 			"wince" : "MGELWNCE.wav"

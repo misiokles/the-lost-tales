@@ -1,7 +1,7 @@
 {
 	"melina" : {
 		"class" : "overlord",
-                "female" : true,
+		"female" : true,
 		"images" : {
 			"large" : "heroes/dungeon/melinaLarge.png",
 			"small" : "heroes/dungeon/melinaSmall.png",

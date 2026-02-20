@@ -20,7 +20,7 @@
 			},
 			"noMeleePenalty" : {
 				"type" : "NO_MELEE_PENALTY"
-                        }
+			}
 		}
 	}
 }

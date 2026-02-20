@@ -8,7 +8,7 @@
 			"specialtySmall" : "heroes/tower/specialtyFireballSmall.png"
 		},
 		"army" : [
-                         {
+			{
 				"creature" : "gremlin",
 				"min" : 15,
 				"max" : 25
@@ -58,4 +58,3 @@
 		}
 	}
 }
-

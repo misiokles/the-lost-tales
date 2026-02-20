@@ -23,28 +23,26 @@
 		"fightValue" : 2030,
 		"aiValue" : 2030,
 		"growth" : 12,
-                "doubleWide" : true,
+		"doubleWide" : true,
 		"advMapAmount" : {
 			"min" : 5,
 			"max" : 10
 		},
 		"abilities" : {
-			"raisesMorale" :
-			{
+			"raisesMorale" : {
 				"type" : "MORALE",
 				"val" : 1,
 				"propagator" : "ARMY",
 				"description" : "Sun Unicorn give +1 Morale to the hero.",
 				"stacking" : "sunUnicorn"
-                        },
-			"raisesLuck" :
-			{
+			},
+			"raisesLuck" : {
 				"type" : "LUCK",
 				"val" : 1,
 				"propagator" : "ARMY",
 				"description" : "Sun Unicorn give +1 Luck to the hero",
 				"stacking" : "sunUnicorn"
-                        }
+			}
 		},
 		"graphics" : {
 			"iconLarge" : "creatures/rampart/iconsbig/Rampart_lvl6upAlt.png",
@@ -52,19 +50,19 @@
 			"map" : "creatures/rampart/map/Rampart_Alt6.def",
 			"animation" : "creatures/rampart/battle/Rampart_Alt6.def",
 			"animationTime" : {
-				"attack" : 1.00,
-				"idle" : 10.00,
-				"walk" :  1.20
+				"attack" : 1.0,
+				"idle" : 10.0,
+				"walk" : 1.2
 			},
-			"timeBetweenFidgets" : 1,
+			"timeBetweenFidgets" : 1
 		},
 		"sound" : {
-			"attack": "WUNCATTK.wav",
-			"defend": "WUNCDFND.wav",
-			"killed": "WUNCKILL.wav",
-			"move": "WUNCMOVE.wav",
-			"shoot": "WUNCSHOT.wav",
-			"wince": "WUNCWNCE.wav"
+			"attack" : "WUNCATTK.wav",
+			"defend" : "WUNCDFND.wav",
+			"killed" : "WUNCKILL.wav",
+			"move" : "WUNCMOVE.wav",
+			"shoot" : "WUNCSHOT.wav",
+			"wince" : "WUNCWNCE.wav"
 		}
 	}
 }

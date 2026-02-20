@@ -1,8 +1,13 @@
 {
-    "basepath" : "town-screen/tower/frames/",
-	"images" :
-	[
-		{ "frame" : 47, "file" : "TPTMag2"},
-		{ "frame" : 49, "file" : "TPTNaga2"}
+	"basepath" : "town-screen/tower/frames/",
+	"images" : [
+		{
+			"frame" : 47,
+			"file" : "TPTMag2"
+		},
+		{
+			"frame" : 49,
+			"file" : "TPTNaga2"
+		}
 	]
 }

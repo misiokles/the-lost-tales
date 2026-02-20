@@ -7,8 +7,7 @@
 			"max" : 55
 		},
 		"abilities" : {
-			"magicResistance" :
-			{
+			"magicResistance" : {
 				"type" : "SPELL_DAMAGE_REDUCTION",
 				"subtype" : "spellSchool.any",
 				"val" : 95

@@ -1,7 +1,7 @@
 {
 	"nicolaj" : {
 		"class" : "knight",
-                "female" : false,
+		"female" : false,
 		"images" : {
 			"large" : "heroes/castle/nicolajLarge.png",
 			"small" : "heroes/castle/nicolajSmall.png",
@@ -47,7 +47,7 @@
 		"texts" : {
 			"name" : "Nicolaj",
 			"biography" : "Son of a famous blacksmith, Nicolaj thought he would follow in his father's footsteps, but he preferred to go into the armor and weapons trade. And that's how his talents were spotted by a general, who saw a good opportunity in wartime...",
-		                "specialty" : {
+			"specialty" : {
 				"name" : "+350 Gold",
 				"description" : "Increases kingdom's income by 350 gold per day.",
 				"tooltip" : "Resource Bonus: +350 gold"

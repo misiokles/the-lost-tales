@@ -1,13 +1,33 @@
 {
-    "basepath" : "town-screen/conflux/frames/",
-	"images" :
-	[
-		{ "frame" : 24, "file" : "ThElPhHr"},
-		{ "frame" : 25, "file" : "ThElPhHr"},
-		{ "frame" : 45, "file" : "ThElUp_1"},
-		{ "frame" : 46, "file" : "ThElUp_2"},
-		{ "frame" : 47, "file" : "ThElUp_3"},
-		{ "frame" : 48, "file" : "ThElUp_4"},
-		{ "frame" : 49, "file" : "ThElUp_5"}
+	"basepath" : "town-screen/conflux/frames/",
+	"images" : [
+		{
+			"frame" : 24,
+			"file" : "ThElPhHr"
+		},
+		{
+			"frame" : 25,
+			"file" : "ThElPhHr"
+		},
+		{
+			"frame" : 45,
+			"file" : "ThElUp_1"
+		},
+		{
+			"frame" : 46,
+			"file" : "ThElUp_2"
+		},
+		{
+			"frame" : 47,
+			"file" : "ThElUp_3"
+		},
+		{
+			"frame" : 48,
+			"file" : "ThElUp_4"
+		},
+		{
+			"frame" : 49,
+			"file" : "ThElUp_5"
+		}
 	]
 }

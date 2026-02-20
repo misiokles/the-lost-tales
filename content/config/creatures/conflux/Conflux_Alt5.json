@@ -24,7 +24,7 @@
 		"fightValue" : 490,
 		"aiValue" : 490,
 		"growth" : 4,
-                "doubleWide" : false,
+		"doubleWide" : false,
 		"advMapAmount" : {
 			"min" : 6,
 			"max" : 12
@@ -32,7 +32,7 @@
 		"abilities" : {
 			"nonLiving" : {
 				"type" : "NON_LIVING",
-                                "icon" : "zvs/Lib1.res/NonLivingelemental"
+				"icon" : "zvs/Lib1.res/NonLivingelemental"
 			},
 			"immuneToMind" : {
 				"type" : "MIND_IMMUNITY"
@@ -40,38 +40,34 @@
 			"spellPoints" : {
 				"type" : "CASTS",
 				"val" : 3
-			},				
+			},
 			"spellcaster" : {
 				"type" : "ENCHANTED",
 				"subtype" : "spell.protectEarth",
 				"val" : 2,
-                                 "icon" : "zvs/Lib1.res/protearth2"
+				"icon" : "zvs/Lib1.res/protearth2"
 			},
 			"spellPower" : {
 				"type" : "CREATURE_ENCHANT_POWER",
 				"val" : 6
 			},
-                       "meteorshowerImmunity" :
-                        {
-                                "type" : "SPELL_IMMUNITY",
-                                "subtype" : "spell.meteorShower",
-                        },
-			"lightingVulnerablity" :
-			{
+			"meteorshowerImmunity" : {
+				"type" : "SPELL_IMMUNITY",
+				"subtype" : "spell.meteorShower"
+			},
+			"lightingVulnerablity" : {
 				"type" : "MORE_DAMAGE_FROM_SPELL",
 				"subtype" : "spell.lightningBolt",
 				"val" : 100,
-                                "icon" : "zvs/Lib1.res/vulnerablelightningbolt"
+				"icon" : "zvs/Lib1.res/vulnerablelightningbolt"
 			},
-			"chainLightingVulnerablity" :
-			{
+			"chainLightingVulnerablity" : {
 				"type" : "MORE_DAMAGE_FROM_SPELL",
 				"subtype" : "spell.chainLightning",
 				"val" : 100,
-                                "icon" : "zvs/Lib1.res/vulnerablechainlightning"
-                        },
-			"canShoot" :
-			{
+				"icon" : "zvs/Lib1.res/vulnerablechainlightning"
+			},
+			"canShoot" : {
 				"type" : "SHOOTER"
 			},
 			"noMeleePenalty" : {
@@ -84,17 +80,15 @@
 			"map" : "creatures/conflux/map/Conflux_Alt5.def",
 			"animation" : "creatures/conflux/battle/Conflux_Alt5.def",
 			"animationTime" : {
-				"attack" : 1.00,
-				"idle" : 10.00,
-				"walk" :  1.00
+				"attack" : 1.0,
+				"idle" : 10.0,
+				"walk" : 1.0
 			},
 			"timeBetweenFidgets" : 1,
-			"missile" :
-			{
-				"projectile": "creatures/conflux/battle/Conflux_Alt5_Shoot.DEF",
+			"missile" : {
+				"projectile" : "creatures/conflux/battle/Conflux_Alt5_Shoot.DEF",
 				"attackClimaxFrame" : 6,
-				"offset" :
-				{
+				"offset" : {
 					"upperX" : 50,
 					"upperY" : -100,
 					"middleX" : 80,
@@ -102,16 +96,29 @@
 					"lowerX" : 45,
 					"lowerY" : -40
 				},
-				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0]
+				"frameAngles" : [
+					90,
+					72,
+					45,
+					27,
+					0,
+					-27,
+					-45,
+					-72,
+					-90,
+					0,
+					0,
+					0
+				]
 			}
 		},
 		"sound" : {
-             "shoot": "conflux/creatures/great earth elemental/GEARTHSHOT.wav",
-			"attack": "MAGMATTK.wav",
-			"defend": "MAGMDFND.wav",
-			"killed": "MAGMKILL.wav",
-			"move": "MAGMMOVE.wav",
-			"wince": "MAGMWNCE.wav"
+			"shoot" : "conflux/creatures/great earth elemental/GEARTHSHOT.wav",
+			"attack" : "MAGMATTK.wav",
+			"defend" : "MAGMDFND.wav",
+			"killed" : "MAGMKILL.wav",
+			"move" : "MAGMMOVE.wav",
+			"wince" : "MAGMWNCE.wav"
 		}
 	}
 }

@@ -1,13 +1,12 @@
 {
-	"gnollHunter": {
+	"gnollHunter" : {
 		"name" : {
 			"singular" : "Gnoll Hunter",
 			"plural" : "Gnoll Hunters"
 		},
 		"faction" : "fortress",
 		"level" : 1,
-		"upgrades" : 
-                [
+		"upgrades" : [
 			"gnollMarauder"
 		],
 		"cost" : {
@@ -34,7 +33,7 @@
 			"canShoot" : {
 				"type" : "SHOOTER"
 			},
-		        "reduceDefence" : {
+			"reduceDefence" : {
 				"type" : "ENEMY_DEFENCE_REDUCTION",
 				"val" : 20
 			}
@@ -76,11 +75,11 @@
 			}
 		},
 		"sound" : {
-			"attack": "ECNTATTK.wav",
+			"attack" : "ECNTATTK.wav",
 			"defend" : "GNLMDFND.wav",
 			"killed" : "GNLMKILL.wav",
 			"move" : "GNLMMOVE.wav",
-			"shoot": "CNTRSHOT.wav",
+			"shoot" : "CNTRSHOT.wav",
 			"wince" : "GNLMWNCE.wav"
 		}
 	}

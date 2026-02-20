@@ -1,8 +1,10 @@
 {
 	"wyrm" : {
 		"class" : "necromancer",
-                "female" : false,
-		"spellbook": [ "slayer" ],
+		"female" : false,
+		"spellbook" : [
+			"slayer"
+		],
 		"images" : {
 			"large" : "heroes/necropolis/wyrmLarge.png",
 			"small" : "heroes/necropolis/wyrmSmall.png",
@@ -44,7 +46,7 @@
 					"type" : "SPECIAL_PECULIAR_ENCHANT"
 				}
 			}
-                },
+		},
 		"texts" : {
 			"name" : "Wyrm",
 			"biography" : "After his defeat during the assault on Noraston, Wyrm was forced to leave Enroth with his brother Rialdo. They decided to go to Deyja the land of the vampires , where a new king had just been autoproclaimed...",
