@@ -30,7 +30,7 @@
 				"type" : "SPELL_DAMAGE_REDUCTION",
 				"subtype" : "any",
 				"val" : 60
-			},
+			}
 		},
 		"graphics" : {
 			"iconLarge" : "creatures/neutral/iconsbig/dwarfGuard.png",
