@@ -8,8 +8,8 @@
 		"images" : {
 			"large" : "heroes/fortress/ha'oraLarge.png",
 			"small" : "heroes/fortress/ha'oraSmall.png",
-			"specialtyLarge" : "heroes/fortress/specialtyLogisticsLarge.png",
-			"specialtySmall" : "heroes/fortress/specialtyLogisticsSmall.png"
+			"specialtyLarge" : "heroes/specialty/specialtyLogisticsLarge.png",
+			"specialtySmall" : "heroes/specialty/specialtyLogisticsSmall.png"
 		},
 		"army" : [
 			{

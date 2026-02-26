@@ -1,0 +1,51 @@
+{
+	"tharj" : {
+		"class" : "ranger",
+		"female" : false,
+		"images" : {
+			"large" : "heroes/rampart/tharjLarge.png",
+			"small" : "heroes/rampart/tharjSmall.png",
+			"specialtyLarge" : "heroes/specialty/SpecialtyArcheryLarge.png",
+			"specialtySmall" : "heroes/specialty/SpecialtyArcherySmall.png"
+		},
+		"army" : [
+			{
+				"creature" : "centaur",
+				"min" : 12,
+				"max" : 24
+			},
+			{
+				"creature" : "dwarf",
+				"min" : 5,
+				"max" : 7
+			},
+			{
+				"creature" : "woodElf",
+				"min" : 2,
+				"max" : 4
+			}
+		],
+		"skills" : [
+			{
+				"level" : "basic",
+				"skill" : "archery"
+			},
+			{
+				"level" : "basic",
+				"skill" : "offence"
+			}
+		],
+		"specialty" : {
+			"secondary" : "archery"
+		},
+		"texts" : {
+			"name" : "Tharj",
+			"biography" : "Over the past century, Tharj has taken part in most of the major battles that raged across the landscape of Antagarich, both as a mercenary and an officer in the armies of Erathia and AvLee. He is highly goal oriented, stiff, and stubborn.",
+			"specialty" : {
+				"name" : "Archery",
+				"description" : "Receives a 5% per level bonus to Archery skill percentage.",
+				"tooltip" : "Secondary Skill Bonus: Archery"
+			}
+		}
+	}
+}

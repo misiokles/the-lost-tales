@@ -12,10 +12,10 @@
 		"cost" : {
 			"gold" : 450
 		},
-		"speed" : 7,
-		"hitPoints" : 30,
-		"attack" : 12,
-		"defense" : 9,
+		"speed" : 5,
+		"hitPoints" : 25,
+		"attack" : 11,
+		"defense" : 8,
 		"damage" : {
 			"min" : 7,
 			"max" : 9
@@ -36,6 +36,9 @@
 			"const_no_melee_penalty" : {
 				"type" : "NO_MELEE_PENALTY"
 			},
+			"noDistancePenalty" : {
+				"type" : "NO_DISTANCE_PENALTY"
+                        },
 			"const_no_wall_penalty" : {
 				"type" : "NO_WALL_PENALTY"
 			},

@@ -12,6 +12,10 @@
 				"type" : "GENERAL_DAMAGE_REDUCTION",
 				"subtype" : "damageTypeMelee",
 				"val" : 30
+			},
+			"reduceDefence" : {
+				"type" : "ENEMY_DEFENCE_REDUCTION",
+				"val" : 20
 			}
 		}
 	}

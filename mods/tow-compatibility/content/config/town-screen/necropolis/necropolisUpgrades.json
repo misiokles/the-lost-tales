@@ -74,8 +74,7 @@
 					],
 					[
 						"dwellingLvl4",
-						"dwellingUpLvl4",
-						"dwellingUpLvl4alt"
+						"dwellingUpLvl4"
 					]
 				],
 				[
@@ -114,14 +113,13 @@
 				[
 					"vampire",
 					"vampireLord",
-					"vampireKnight",
 					"mdtWerewolf",
 					"mdtDireWerewolf"
 				],
 				[
 					"lich",
 					"powerLich",
-					"archlich"
+					"doomKnight"
 				],
 				[
 					"blackKnight",
@@ -131,7 +129,7 @@
 				[
 					"boneDragon",
 					"ghostDragon",
-					"spectralDragon"
+					"dragonLich"
 				]
 			],
 			"structures" : {
@@ -152,15 +150,6 @@
 					"campaignBonus" : "BoNwigh2.pcx",
 					"border" : "TONWIGH2.bmp",
 					"area" : "TZNWIGH2.bmp"
-				},
-				"dwellingUpLvl4alt" : {
-					"animation" : "TBNCUP_3.def",
-					"x" : 615,
-					"y" : 193,
-					"z" : 2,
-					"campaignBonus" : "BoNvamp2.pcx",
-					"border" : "TONVAM2.bmp",
-					"area" : "TZNVAM2.bmp"
 				},
 				"dwellingUpLvl5alt" : {
 					"animation" : "TBNCUP_4.def",
@@ -212,20 +201,17 @@
 				"dwellingUpLvl3" : {
 					"description" : "The Tomb of Souls allows you to recruit Wraiths or Specters."
 				},
-				"dwellingUpLvl4" : {
-					"description" : "The Estate allows you to recruit Vampire Lords or Vampire Knights."
-				},
 				"dwellingUpLvl5" : {
-					"description" : "The Mausoleum allows you to recruit Power Liches or Archliches."
+					"description" : "The Mausoleum allows you to recruit Power Liches or Doom Knights."
 				},
 				"dwellingUpLvl6" : {
-					"description" : "The Hall of Darkness allows you to recruit Dread Knight or Grim Knight."
+					"description" : "The Hall of Darkness allows you to recruit Dread Knights or Dark Knights."
 				},
 				"dwellingUpLvl7" : {
-					"description" : "The Dragon Vault allows you to recruit Ghost Dragon or Spectral Dragon."
+					"description" : "The Dragon Vault allows you to recruit Ghost Dragons or Spectral Dragons."
 				},
 				"dwellingUpLvl1alt" : {
-					"description" : "The Cursed Temple allows you to recruit Skeleton Warriors or Skeleton Archer.",
+					"description" : "The Cursed Temple allows you to recruit Skeleton Warriors or Skeleton Archers.",
 					"name" : "Upg. Cursed Temple",
 					"cost" : {},
 					"requires" : [
@@ -245,17 +231,6 @@
 					"upgrades" : "dwellingUpLvl3",
 					"mode" : "auto",
 					"id" : 46
-				},
-				"dwellingUpLvl4alt" : {
-					"description" : "The Estate allows you to recruit Vampire Lords or Vampire Knights.",
-					"name" : "Upg. Estate",
-					"cost" : {},
-					"requires" : [
-						"dwellingLvl4"
-					],
-					"upgrades" : "dwellingUpLvl4",
-					"mode" : "auto",
-					"id" : 47
 				},
 				"dwellingUpLvl5alt" : {
 					"description" : "The Mausoleum allows you to recruit Power Liches or Archliches.",
@@ -307,6 +282,7 @@
 				"dwellingLvl4B" : {
 					"description" : "The Wolf Cave allows you to recruit Werewolves.",
 					"name" : "Wolf Cave",
+					"id" : 47,
 					"cost" : {
 						"gold" : 2000,
 						"mercury" : 5
@@ -323,12 +299,11 @@
 							]
 						]
 					],
-					"id" : 54
 				},
 				"dwellingUpLvl4B" : {
 					"description" : "The Wolf Cave allows you to recruit Dire Werewolves.",
 					"name" : "Upg. Wolf Cave",
-					"id" : 61,
+					"id" : 54,
 					"cost" : {
 						"gold" : 2000,
 						"mercury" : 10

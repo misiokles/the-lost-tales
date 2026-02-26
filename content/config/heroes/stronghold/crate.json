@@ -5,8 +5,8 @@
 		"images" : {
 			"large" : "heroes/stronghold/crateLarge.png",
 			"small" : "heroes/stronghold/crateSmall.png",
-			"specialtyLarge" : "heroes/stronghold/SpecialtyMysticismLarge.png",
-			"specialtySmall" : "heroes/stronghold/SpecialtyMysticismSmall.png"
+			"specialtyLarge" : "heroes/specialty/SpecialtyMysticismLarge.png",
+			"specialtySmall" : "heroes/specialty/SpecialtyMysticismSmall.png"
 		},
 		"army" : [
 			{

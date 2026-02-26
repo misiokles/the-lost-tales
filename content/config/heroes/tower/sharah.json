@@ -1,0 +1,51 @@
+{
+	"sharah" : {
+		"class" : "alchemist",
+		"female" : false,
+		"images" : {
+			"specialtySmall" : "heroes/specialty/specialtyGremlinSmall.png",
+			"specialtyLarge" : "heroes/specialty/specialtyGremlinLarge.png",
+			"large" : "heroes/tower/sharahLarge.png",
+			"small" : "heroes/tower/sharahSmall.png"
+		},
+		"army" : [
+			{
+				"creature" : "gremlin",
+				"min" : 30,
+				"max" : 40
+			},
+			{
+				"creature" : "stoneGargoyle",
+				"min" : 5,
+				"max" : 7
+			},
+			{
+				"creature" : "ironGolem",
+				"min" : 4,
+				"max" : 5
+			}
+		],
+		"skills" : [
+			{
+				"skill" : "scholar",
+				"level" : "basic"
+			},
+			{
+				"skill" : "archery",
+				"level" : "basic"
+			}
+		],
+		"specialty" : {
+			"creature" : "gremlin"
+		},
+		"texts" : {
+			"name" : "Sharah",
+			"biography" : "Sharah fell in love with a human wizard once. She lived a happy life with the man, but since she is an immortal genie, she watched her beloved grow old and pass away. Now, this somber genie tries to carry on with nothing left but her memories and a wish that she too had been mortal.",
+			"specialty" : {
+				"name" : "Gremlins",
+				"description" : "Increases the speed of any Gremlins and Master Gremlins by 1 and their Attack and Defense skills by 20% for every 1 levels (rounded up).",
+				"tooltip" : "Creature Bonus: Gremlins"
+			}
+		}
+	}
+}

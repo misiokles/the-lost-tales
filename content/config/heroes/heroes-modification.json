@@ -124,6 +124,30 @@
 			}
 		}
 	},
+	"core:dracon":
+	{
+		"specialty" : {
+			"base" : {
+				"addInfo" : "creature.enchanter",
+				"type" : "SPECIAL_UPGRADE"
+			},
+			"bonuses" : {
+				"archMage2enchanter" : { "subtype" : "creature.archMage" },
+				"mage2enchanter" : { "subtype" : "creature.mage" },
+				"blackMage2enchanter" : { "subtype" : "creature.blackMage" },
+				"monk2enchanter" : { "subtype" : "creature.monk" },
+				"zealot2enchanter" : { "subtype" : "creature.zealot" },
+				"warPriest2enchanter" : { "subtype" : "creature.warpriest" },
+			}
+		},
+		"texts" : {
+			"specialty" : {
+				"description" : "Can upgrade Monks, Zealots or War Priestq and Magi, Arch Magi or Black Magi to Enchanters.",
+				"name" : "Enchanters",
+				"tooltip" : "Creature Bonus: Enchanters"
+	                }
+                 }
+	},
 	"core:calh" : {
 		"texts" : {
 			"specialty" : {
@@ -160,10 +184,19 @@
 			}
 		}
 	},
+	"core:charna" : {
+		"texts" : {
+			"specialty" : {
+				"description" : "Increases the Attack and Defense skills of any Wight, Wraith, and Specters for each level attained after 1st level.",
+				"name" : "Wight",
+				"tooltip" : "Creature Bonus: Wights"
+			}
+		}
+	},
 	"core:vokial" : {
 		"texts" : {
 			"specialty" : {
-				"description" : "Increases the Attack and Defense skills of any Vampires, Vampire Lords, and Vampire Knights for each level attained after 4th level.",
+				"description" : "Increases the Attack and Defense skills of any Vampires and Vampire Lords for each level attained after 4th level.",
 				"name" : "Vampires",
 				"tooltip" : "Creature Bonus: Vampires"
 			}
@@ -172,7 +205,7 @@
 	"core:moandor" : {
 		"texts" : {
 			"specialty" : {
-				"description" : "Increases the Attack and Defense skills of any Liches, Power Liches, and Archliches for each level attained after 5th level.",
+				"description" : "Increases the Attack and Defense skills of any Liches, Power Liches, and Doom Knights for each level attained after 5th level.",
 				"name" : "Liches",
 				"tooltip" : "Creature Bonus: Liches"
 			}
@@ -190,7 +223,7 @@
 	"core:undeadHaart" : {
 		"texts" : {
 			"specialty" : {
-				"description" : "Black Knights, Dread Knights, and Grim Knights receive +5 Att, +5 Def, and +10 Dmg.",
+				"description" : "Black Knights, Dread Knights, and Dark Knights receive +5 Att, +5 Def, and +10 Dmg.",
 				"name" : "Black Knights",
 				"tooltip" : "Creature Bonus: Black Knights"
 			}
@@ -202,6 +235,15 @@
 				"description" : "Increases the Attack and Defense skills of any Troglodytes, Infernal Troglodytes, and Toxic Troglodytes for each level attained after 1st level.",
 				"name" : "Troglodytes",
 				"tooltip" : "Creature Bonus: Troglodytes"
+			}
+		}
+	},
+        "core:ajit" : {
+		"texts" : {
+			"specialty" : {
+				"description" : "the Attack and Defense skills of any Beholders, Evil Eyes and Cursed Eyes for each level attained after 3rd level.",
+                                "name" : "Beholders",
+				"tooltip" : "Creature Bonus: Beholders"
 			}
 		}
 	},
@@ -232,10 +274,19 @@
 			}
 		}
 	},
+	"core:drakon" : {
+		"texts" : {
+			"specialty" : {
+				"description" : "Increases the Attack and Defense skills of any Gnolls, Gnoll Marauders and Gnoll Hunters for each level attained after 1st level.",
+				"name" : "Gnoll",
+				"tooltip" : "Creature Bonus: Gnoll"
+			}
+		}
+	},
 	"core:wystan" : {
 		"texts" : {
 			"specialty" : {
-				"description" : "Increases the Attack and Defense skills of any Lizardmen, Lizardman Warriors, and Lizardman Soldiers for each level attained after 2nd level.",
+				"description" : "Increases the Attack and Defense skills of any Lizardmen, Lizardman Warriors and Lizardman Soldiers for each level attained after 2nd level.",
 				"name" : "Lizardmen",
 				"tooltip" : "Creature Bonus: Lizardmen"
 			}
@@ -244,7 +295,7 @@
 	"core:korbac" : {
 		"texts" : {
 			"specialty" : {
-				"description" : "Increases the Attack and Defense skills of any Serpent Flies, Dragon Flies, and Queen Dragon Flies for each level attained after 3rd level.",
+				"description" : "Increases the Attack and Defense skills of any Serpent Flies, Dragon Flies and Queen Dragon Flies for each level attained after 3rd level.",
 				"name" : "Serpent Flies",
 				"tooltip" : "Creature Bonus: Serpent Flies"
 			}

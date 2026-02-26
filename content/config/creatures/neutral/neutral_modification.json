@@ -1,5 +1,6 @@
 {
 	"core:mummy" : {
+		"faction" : "necropolis",
 		"graphics" : {
 			"iconLarge" : "creatures/neutral/iconsbig/mummy.png",
 			"iconSmall" : "creatures/neutral/iconssmall/mummy.png"
@@ -35,5 +36,10 @@
 			"map" : "creatures/neutral/map/diamondGolemWhite",
 			"animation" : "creatures/neutral/battle/diamondGolemWhite.def"
 		}
-	}
+	},
+	"core:enchanter" : {
+		"upgrades" : [
+			"greatEnchanter"
+		],
+		}
 }

@@ -29,13 +29,8 @@
 			"magicResistance" : {
 				"type" : "SPELL_DAMAGE_REDUCTION",
 				"subtype" : "any",
-				"val" : 20
+				"val" : 60
 			},
-			"spellShield" : {
-				"type" : "ENCHANTED",
-				"subtype" : "shield",
-				"val" : 1
-			}
 		},
 		"graphics" : {
 			"iconLarge" : "creatures/neutral/iconsbig/dwarfGuard.png",

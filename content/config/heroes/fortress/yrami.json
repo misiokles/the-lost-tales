@@ -5,8 +5,8 @@
 		"images" : {
 			"large" : "heroes/fortress/yramiLarge.png",
 			"small" : "heroes/fortress/yramiSmall.png",
-			"specialtyLarge" : "heroes/fortress/specialtyGoldLarge.png",
-			"specialtySmall" : "heroes/fortress/specialtyGoldSmall.png"
+			"specialtyLarge" : "heroes/specialty/specialtyGoldLarge.png",
+			"specialtySmall" : "heroes/specialty/specialtyGoldSmall.png"
 		},
 		"army" : [
 			{

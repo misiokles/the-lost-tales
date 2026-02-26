@@ -3,12 +3,15 @@
 	"author" : "Toriko94, Yogdush, Misiokles",
 	"contact" : "",
 	"description" : "This mod add the possibility of changing your upgrade into a new one when you want for free in the appropriate town faction or Hill Fort. Inferno, Stronghold and Fortress are the only factions with second upgrade possible for some specific creatures( not everyone). It was for making these Faction a little more competitive. Its not an obligation , just an option ... I dont change any stats of the Base game for keeping a maximum the same feeling as the original experience but with add on. the only exceptions are for the some neutrals who are affiled as some factions . Example : boar is Stronghold and have the same price as Wolf Raider for making the alternative completely free. The mod is completely compatible with TOW and HOTA ( mostly recomanded for having the better experience). TOW creatures were balanced for making them a little more competitive. There are new neutrals, new Heroes, new models for some creature, new portrait HD and some new ones created for the mod? HOTA and TOW.",
-	"version" : "1.0.0",
+	"version" : "1.0.1",
 	"modType" : "Expansion",
 	"compatibility" : {
 		"min" : "1.7.0"
 	},
 	"changelog" : {
+		"1.0.1" : [
+			"Added new heroes , Reworked some TLT heroes, Reworked tats and abilities of TLT creatures (WIP)."
+		],
 		"1.0.0" : [
 			"Initial release"
 		]
@@ -28,18 +31,27 @@
 		"config/heroes/castle/nicolaj",
 		"config/heroes/castle/addran",
 		"config/heroes/rampart/silf",
-		"config/heroes/rampart/findan",
+		"config/heroes/rampart/tharj",
 		"config/heroes/tower/sarakin",
+		"config/heroes/tower/jubal",
+		"config/heroes/tower/sharah",
+		"config/heroes/inferno/bruhl",
 		"config/heroes/necropolis/wyrm",
+		"config/heroes/necropolis/balder",
+		"config/heroes/necropolis/maroth",
 		"config/heroes/dungeon/melina",
 		"config/heroes/dungeon/gundross",
 		"config/heroes/stronghold/tyro",
 		"config/heroes/stronghold/jojosh",
+		"config/heroes/stronghold/dogwoggle",
 		"config/heroes/stronghold/crate",
 		"config/heroes/fortress/ha'ora",
 		"config/heroes/fortress/yrami",
 		"config/heroes/fortress/nacron",
 		"config/heroes/conflux/falagar",
+		"config/heroes/conflux/bizz",
+		"config/heroes/conflux/lazar",
+		"config/heroes/conflux/farnivon",
 		"config/heroes/heroes-modification"
 	],
 	"creatures" : [
@@ -68,7 +80,6 @@
 		"config/creatures/necropolis/necropolis_modification",
 		"config/creatures/necropolis/necropolis_Alt1",
 		"config/creatures/necropolis/necropolis_Alt3",
-		"config/creatures/necropolis/necropolis_Alt4",
 		"config/creatures/necropolis/necropolis_Alt5",
 		"config/creatures/necropolis/necropolis_Alt6",
 		"config/creatures/necropolis/necropolis_Alt7",

@@ -23,8 +23,8 @@
 		"aiValue" : 1410,
 		"fightValue" : 1005,
 		"advMapAmount" : {
-			"min" : 5,
-			"max" : 10
+			"min" : 4,
+			"max" : 9
 		},
 		"abilities" : {
 			"SHOOTING_ARMY" : {
@@ -35,6 +35,12 @@
 			},
 			"noPenalty" : {
 				"type" : "NO_WALL_PENALTY"
+			},
+			"dispellHelpful" : {
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.dispel",
+				"val" : 100,
+				"icon" : "zvs/Lib1.res/dispelattack"
 			},
 			"casts" : {
 				"type" : "CASTS",

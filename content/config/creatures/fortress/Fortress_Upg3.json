@@ -21,7 +21,7 @@
 		"growth" : 8,
 		"doubleWide" : false,
 		"hitPoints" : 20,
-		"speed" : 15,
+		"speed" : 14,
 		"level" : 3,
 		"fightValue" : 300,
 		"aiValue" : 400,

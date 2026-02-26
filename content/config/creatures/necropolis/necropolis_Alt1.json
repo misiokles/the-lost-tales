@@ -77,12 +77,12 @@
 			}
 		},
 		"sound" : {
-			"attack" : "PLCHATTK.wav",
-			"defend" : "PLCHDFND.wav",
-			"killed" : "PLCHKILL.wav",
-			"move" : "PLCHMOVE.wav",
-			"shoot" : "PLCHSHOT.wav",
-			"wince" : "PLCHWNCE.wav"
+			"attack" : "SKELATTK.wav",
+			"defend" : "SKLWDFND.wav",
+			"killed" : "SKLWKILL.wav",
+			"move" : "SKLWMOVE.wav",
+			"shoot" : "HCRSSHOT.wav",
+			"wince" : "SKLWWNCE.wav"
 		}
 	}
 }

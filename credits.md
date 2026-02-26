@@ -53,12 +53,17 @@ Nicolaj (Toriko)
 
 Tower
 Sarakin (Geaorges Almond modified by Toriko)
+Sharah (H4)
+Jubal (H4)
 
 Necropolis
 Wyrm (Mod Design Team Forge Rialdo modified by Toriko)
+Maroth (Toriko)
+Balder
 
 Dungeon
-Melina (Toriko), Gundross (model by Hota Crew Modified by Toriko)
+Melina (Toriko)
+Gundross (model by Hota Crew Modified by Toriko)
 
 Stronghold
 Tyro (Geaorges Almond modified by Toriko)
@@ -72,6 +77,9 @@ Nacron (Toriko)
 
 Conflux
 Falagar (Andruids)
+Falavion (H4)
+Bizz
+Lazar
 
 TOW MODIF
 Ghost Dwelling : H4 modified by Toriko

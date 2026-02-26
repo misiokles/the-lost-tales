@@ -1,5 +1,5 @@
 {
-	"spectralDragon" : {
+	"dragonLich" : {
 		"name" : {
 			"singular" : "Dragon Lich",
 			"plural" : "Dragon Liches"
@@ -10,12 +10,12 @@
 			"gold" : 3000,
 			"mercury" : 1
 		},
-		"speed" : 10,
+		"speed" : 11,
 		"shots" : 12,
 		"upgrades" : [
 			"ghostDragon"
 		],
-		"hitPoints" : 175,
+		"hitPoints" : 180,
 		"attack" : 17,
 		"defense" : 15,
 		"damage" : {
@@ -53,16 +53,20 @@
 			},
 			"decreaseMorale" : {
 				"type" : "MORALE",
-				"val" : -1,
+				"val" : -2,
 				"stacking" : "Undead Dragons",
 				"propagator" : "BATTLE_WIDE",
 				"propagationUpdater" : "BONUS_OWNER_UPDATER",
-				"description" : "@creatures.core.boneDragon.bonus.decreaseMorale",
+				"description" : "{Reduces enemy morale}\nDragon Lich lower the morale of enemy units by two",
 				"limiters" : [
 					"OPPOSITE_SIDE"
 				],
 				"icon" : "zvs/Lib1.res/bonusnegativemorale"
-			}
+			},
+			"dragonSkeleton" : {
+				"type" : "SKELETON_TRANSFORMER_TARGET",
+				"subtype" : "boneDragon"
+			},
 		},
 		"graphics" : {
 			"iconLarge" : "creatures/necropolis/iconsbig/necropolis_lvl7upAlt.png",

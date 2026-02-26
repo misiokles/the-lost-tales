@@ -1,40 +1,50 @@
 {
-	"archlich" : {
+	"doomKnight" : {
 		"name" : {
-			"singular" : "Archilich",
-			"plural" : "Archiliches"
+			"singular" : "Doom Knight",
+			"plural" : "Doom Knights"
 		},
 		"faction" : "necropolis",
 		"level" : 5,
 		"cost" : {
 			"gold" : 600
 		},
-		"speed" : 4,
+		"speed" : 7,
 		"upgrades" : [
 			"core:powerLich"
 		],
-		"hitPoints" : 45,
-		"shots" : 24,
-		"attack" : 15,
-		"defense" : 12,
+		"hitPoints" : 60,
+		"attack" : 13,
+		"defense" : 15,
 		"damage" : {
 			"min" : 11,
-			"max" : 15
+			"max" : 17
 		},
 		"doubleWide" : false,
 		"growth" : 3,
 		"aiValue" : 1079,
 		"fightValue" : 889,
 		"advMapAmount" : {
-			"min" : 8,
-			"max" : 12
+			"min" : 10,
+			"max" : 16
 		},
 		"abilities" : {
 			"undead" : {
 				"type" : "UNDEAD"
 			},
-			"shooter" : {
-				"type" : "SHOOTER"
+			"curses" : {
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.curse",
+				"val" : 20,
+				"icon" : "zvs/Lib1.res/curseattack"
+			},
+			"greatshieldprotection" : {
+				"type" : "GENERAL_DAMAGE_REDUCTION",
+				"val" : 40
+			},
+			"deathStrike" : {
+				"type" : "DOUBLE_DAMAGE_CHANCE",
+				"val" : 20
 			}
 		},
 		"graphics" : {
@@ -47,41 +57,14 @@
 				"idle" : 10,
 				"walk" : 1
 			},
-			"timeBetweenFidgets" : 1,
-			"missile" : {
-				"projectile" : "PLICH.DEF",
-				"attackClimaxFrame" : 8,
-				"offset" : {
-					"upperX" : 41,
-					"upperY" : -92,
-					"middleX" : 58,
-					"middleY" : -79,
-					"lowerX" : 29,
-					"lowerY" : -14
-				},
-				"frameAngles" : [
-					90,
-					72,
-					45,
-					27,
-					0,
-					-27,
-					-45,
-					-72,
-					-90,
-					0,
-					0,
-					0
-				]
-			}
+			"timeBetweenFidgets" : 1
 		},
 		"sound" : {
-			"attack" : "PLCHATTK.wav",
-			"defend" : "PLCHDFND.wav",
-			"killed" : "PLCHKILL.wav",
-			"move" : "PLCHMOVE.wav",
-			"shoot" : "PLCHSHOT.wav",
-			"wince" : "PLCHWNCE.wav"
+			"attack" : "BLRDATTK.wav",
+			"defend" : "NOSFDFND.wav",
+			"killed" : "BLRDKILL.wav",
+			"move" : "CRUSMOVE.wav",
+			"wince" : "SKLWWNCE.wav"
 		}
 	}
 }
