@@ -50,9 +50,6 @@
 		}
 	},
 	"core:vampireLord" : {
-		"upgrades" : [
-			"vampireKnight"
-		],
 		"graphics" : {
 			"iconLarge" : "creatures/necropolis/iconsbig/necropolis_lvl4up.png",
 			"iconSmall" : "creatures/necropolis/iconssmall/necropolis_lvl4up.png"
@@ -66,7 +63,7 @@
 	},
 	"core:powerLich" : {
 		"upgrades" : [
-			"archlich"
+			"doomKnight"
 		],
 		"graphics" : {
 			"iconLarge" : "creatures/necropolis/iconsbig/necropolis_lvl5up.png",
@@ -96,7 +93,7 @@
 	},
 	"core:ghostDragon" : {
 		"upgrades" : [
-			"spectralDragon"
+			"dragonLich"
 		],
 		"graphics" : {
 			"iconLarge" : "creatures/necropolis/iconsbig/necropolis_lvl7up.png",

@@ -1,0 +1,64 @@
+{
+	"dogwoggle" : {
+		"class" : "barbarian",
+		"female" : false,
+		"images" : {
+			"large" : "heroes/stronghold/dogwoggleLarge.png",
+			"small" : "heroes/stronghold/dogwoggleSmall.png",
+			"specialtyLarge" : "heroes/specialty/SpecialtyOreWoodLarge.png",
+			"specialtySmall" : "heroes/specialty/SpecialtyOreWoodSmall.png"
+		},
+		"army" : [
+			{
+				"creature" : "goblin",
+				"min" : 15,
+				"max" : 25
+			},
+			{
+				"creature" : "goblinWolfRider",
+				"min" : 6,
+				"max" : 9
+			},
+			{
+				"creature" : "orc",
+				"min" : 4,
+				"max" : 7
+			}
+		],
+		"skills" : [
+			{
+				"skill" : "offence",
+				"level" : "basic"
+			},
+			{
+				"skill" : "luck",
+				"level" : "basic"
+			}
+		],
+		"specialty" : {
+			"bonuses" : {
+				"ore" : {
+					"type" : "GENERATE_RESOURCE",
+					"subtype" :  
+                                                     "resource.ore",
+					"val" : 1
+				},
+				"wood" : {
+					"type" : "GENERATE_RESOURCE",
+					"subtype" :  
+                                                     "resource.wood",
+					"val" : 1
+				}
+			}
+		},
+		"texts" : {
+			"name" : "Dogwoggle",
+			"biography" : "Dogwoggle is a hapless hero who has a way of getting into trouble. He often brags about his abilities (which are questionable) and exhibits unflagging confidence no matter how often he fails. However, with his mindless persistence, he always manages to stumble out of trouble and come out on top.",
+			"specialty" : {
+				"description" : "Increases kingdom's ore and wood production by 1 per day.",
+				"name" : "+1 Ore/Wood",
+				"tooltip" : "+1 Ore and Wood each day."
+			}
+		}
+	}
+}

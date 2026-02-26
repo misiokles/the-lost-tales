@@ -19,21 +19,26 @@
 		"images" : {
 			"large" : "heroes/conflux/FalagarLarge.png",
 			"small" : "heroes/conflux/FalagarSmall.png",
-			"specialtyLarge" : "heroes/conflux/SpecialityExpertWaterMagicLarge.png",
-			"specialtySmall" : "heroes/conflux/SpecialityExpertWaterMagicLarge.png"
+			"specialtyLarge" : "heroes/specialty/SpecialityExpertWaterMagicLarge.png",
+			"specialtySmall" : "heroes/specialty/SpecialityExpertWaterMagicLarge.png"
 		},
 		"specialty" : {
 			"bonuses" : {}
 		}, // has expert water magic as "specialty"
 		"army" : [
 			{
-				"min" : 10,
-				"max" : 20,
+				"min" : 15,
+				"max" : 25,
 				"creature" : "pixie"
 			},
 			{
-				"min" : 4,
-				"max" : 7,
+				"min" : 2,
+				"max" : 3,
+				"creature" : "waterElemental"
+			},
+			{
+				"min" : 2,
+				"max" : 3,
 				"creature" : "waterElemental"
 			}
 		],

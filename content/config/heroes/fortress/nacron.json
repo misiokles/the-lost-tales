@@ -3,8 +3,8 @@
 		"class" : "beastmaster",
 		"female" : false,
 		"images" : {
-			"specialtySmall" : "heroes/fortress/specialtyHydraSmall.png",
-			"specialtyLarge" : "heroes/fortress/specialtyHydraLarge.png",
+			"specialtySmall" : "heroes/specialty/specialtyHydraSmall.png",
+			"specialtyLarge" : "heroes/specialty/specialtyHydraLarge.png",
 			"large" : "heroes/fortress/nocronLarge.png",
 			"small" : "heroes/fortress/nocronSmall.png"
 		},

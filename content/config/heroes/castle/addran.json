@@ -5,34 +5,30 @@
 		"images" : {
 			"large" : "heroes/castle/addranLarge.png",
 			"small" : "heroes/castle/addranSmall.png",
-			"specialtyLarge" : "heroes/castle/SpecialtyPikemenLarge.png",
-			"specialtySmall" : "heroes/castle/SpecialtyPikemenSmall.png"
+			"specialtyLarge" : "heroes/specialty/SpecialtyPikemenLarge.png",
+			"specialtySmall" : "heroes/specialty/SpecialtyPikemenSmall.png"
 		},
 		"army" : [
 			{
 				"creature" : "pikeman",
-				"min" : 15,
-				"max" : 25
+				"min" : 10,
+				"max" : 20
 			},
 			{
 				"creature" : "archer",
-				"min" : 6,
-				"max" : 9
+				"min" : 4,
+				"max" : 7
 			},
 			{
 				"creature" : "griffin",
-				"min" : 4,
-				"max" : 7
+				"min" : 2,
+				"max" : 3
 			}
 		],
 		"skills" : [
 			{
 				"skill" : "leadership",
-				"level" : "basic"
-			},
-			{
-				"skill" : "armorer",
-				"level" : "basic"
+				"level" : "advanced"
 			}
 		],
 		"specialty" : {

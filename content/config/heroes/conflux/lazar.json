@@ -1,0 +1,52 @@
+{
+	"lazar" : {
+		"class" : "planeswalker",
+		"female" : false,
+		"special" : false,
+		"skills" : [
+			{
+				"skill" : "tactics",
+				"level" : "basic"
+			},
+			{
+				"skill" : "fireMagic",
+				"level" : "basic"
+			}
+		],
+		"images" : {
+			"large" : "heroes/conflux/lazarLarge.png",
+			"small" : "heroes/conflux/lazarSmall.png",
+			"specialtyLarge" : "heroes/specialty/SpecialtyFirebirdLarge.png",
+			"specialtySmall" : "heroes/specialty/SpecialtyFirebirdLarge.png"
+		},
+		"specialty" : {
+			"creature" : "firebird"
+		},
+		"army" : [
+			{
+				"min" : 15,
+				"max" : 25,
+				"creature" : "pixie"
+			},
+			{
+				"min" : 3,
+				"max" : 5,
+				"creature" : "airElemental"
+			},
+			{
+				"min" : 3,
+				"max" : 5,
+				"creature" : "waterElemental"
+			}
+		],
+		"texts" : {
+			"name" : "Lazar",
+			"biography" : "Living in the same realm, the plane of fire. Lazar was called by the conflux because of his proximity to the Firebirds.",
+			"specialty" : {
+				"name" : "Firebird.",
+				"description" : "Increases the Speed of allied Firebirds and Phoenix, by 1 and their Attack and Defense skills by 5% for every 7 levels (rounded up).",
+				"tooltip" : "Creature Bonus: Firebirds."
+			}
+		}
+	}
+}

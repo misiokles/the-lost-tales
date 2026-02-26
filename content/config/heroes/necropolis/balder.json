@@ -1,0 +1,69 @@
+{
+	"balder" : {
+		"class" : "necromancer",
+		"female" : false,
+
+		"texts" : {
+			"name" : "Balder",
+			"biography" : "Balder was an Enroth Necromancer specialised in Mummies transformation. Balder heard that many experiments were being conducted on a land called Deyja. His curiosity and thirst for knowledge were too great to resist going there to see for himself...",
+			"specialty" : {
+				"description" : "Transforms walking dead and Zombies into Mummies.",
+				"tooltip" : "Special Upgrade: Mummies",
+				"name" : "Mummies"
+			}
+		},
+
+		"images" : {
+			"specialtyLarge" : "heroes/specialty/specialtyMummyLarge.png",
+			"specialtySmall" : "heroes/specialty/specialtyMummySmall.png",
+			"large" : "heroes/necropolis/balderLarge.png",
+			"small" : "heroes/necropolis/balderSmall.png"
+		},
+		"spellbook" : [
+			"animateDead"
+		],
+		"army" : [
+			{
+				"creature" : "mummy",
+				"max" : 7,
+				"min" : 3
+			},
+			{
+				"creature" : "mummy",
+				"max" : 7,
+				"min" : 3
+			},
+			{
+				"creature" : "mummy",
+				"max" : 7,
+				"min" : 3
+			}
+		],
+
+		"skills" : [
+			{
+				"level" : "basic",
+				"skill" : "necromancy"
+			},
+			{
+				"level" : "basic",
+				"skill" : "wisdom"
+			}
+		],
+
+		"specialty" : {
+			"base" : {
+				"addInfo" : "mummy",
+				"type" : "SPECIAL_UPGRADE"
+			},
+			"bonuses" : {
+				"walkingDead2mummy" : {
+					"subtype" : "walkingDead"
+				},
+				"zombie2mummy" : {
+					"subtype" : "zombie"
+				}
+			}
+		}
+	}
+}

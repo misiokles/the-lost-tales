@@ -5,8 +5,8 @@
 		"images" : {
 			"large" : "heroes/dungeon/gundrossLarge.png",
 			"small" : "heroes/dungeon/gundrossSmall.png",
-			"specialtyLarge" : "heroes/dungeon/SpecialtyPathfindingLarge.png",
-			"specialtySmall" : "heroes/dungeon/SpecialtyPathfindingSmall.png"
+			"specialtyLarge" : "heroes/specialty/SpecialtyPathfindingLarge.png",
+			"specialtySmall" : "heroes/specialty/SpecialtyPathfindingSmall.png"
 		},
 		"army" : [
 			{

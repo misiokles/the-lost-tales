@@ -17,7 +17,6 @@ Gold Dragon <> Silver Dragon(LvL7)
 TOWER
 Arch Magi <> Black Magi (LvL4)
 Naga Queen <> Naga Guardian (LvL6)
-Titan <> Storm Titan (LvL7).
 
 INFERNO
 Magog > Winged Magog (LvL2)
@@ -95,13 +94,20 @@ Nicolaj
 
 Rampart
 Silf
-Findan (H5)
+Tharj (H4)
 
 Tower
 Sarakin (H2)
+Sharah (H4)
+Jubal (H4)
+
+Inferno
+Brulh
 
 Necropolis
 Wyrm (H2)
+Maroth
+Balder
 
 Dungeon
 Melina 
@@ -111,6 +117,7 @@ Stronghold
 Tyro (H2)
 Jojosh (H2)
 Crate
+Dogwoggle (H4)
 
 Fortress
 Ha'Ora (hota campaign)
@@ -119,8 +126,9 @@ Nacron
 
 Conflux
 Falagar (H2)
-
-
+Falavion (H4)
+Bizz
+Lazar
 
 NEW CREATURE MODEL
 Pikeman,  Haleberdier, Silver Pegasus, Dendroid soldier, Zombie, Orc, Orc Leader, Cyclop , Cyclop King, Fire Elemental, Halfling. 

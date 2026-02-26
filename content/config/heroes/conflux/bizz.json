@@ -1,0 +1,52 @@
+{
+	"bizz" : {
+		"class" : "planeswalker",
+		"female" : true,
+		"special" : false,
+		"skills" : [
+			{
+				"skill" : "tactics",
+				"level" : "basic"
+			},
+			{
+				"skill" : "armorer",
+				"level" : "basic"
+			}
+		],
+		"images" : {
+			"large" : "heroes/conflux/bizzLarge.png",
+			"small" : "heroes/conflux/bizzSmall.png",
+			"specialtyLarge" : "heroes/specialty/SpecialtyAirElementalLarge.png",
+			"specialtySmall" : "heroes/specialty/SpecialtyAirElementalSmall.png"
+		},
+		"specialty" : {
+			"creature" : "airElemental"
+		},
+		"army" : [
+			{
+				"min" : 3,
+				"max" : 5,
+				"creature" : "airElemental"
+			},
+			{
+				"min" : 3,
+				"max" : 5,
+				"creature" : "airElemental"
+			},
+			{
+				"min" : 3,
+				"max" : 5,
+				"creature" : "airElemental"
+			}
+		],
+		"texts" : {
+			"name" : "Bizz",
+			"biography" : "Bizz is an old air elemental who lived for a long time with the genies. They were the ones who taught her the art of war.",
+			"specialty" : {
+				"description" : "Increases the Speed of allied Air Elementals, Storm Elementals, and Great Air Elementals by 1 and their Attack and Defense skills by 20% for every 2 levels (rounded up).",
+				"tooltip" : "Creature Bonus: Air Elementals",
+				"name" : "Air Elem."
+			}
+		}
+	}
+}

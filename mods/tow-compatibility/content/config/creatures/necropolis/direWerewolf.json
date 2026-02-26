@@ -5,7 +5,11 @@
 				"type" : "GENERAL_DAMAGE_REDUCTION", //UNTIL_BEING_ATTACKED wprowadzić
 				"subtype" : "damageTypeMelee",
 				"val" : 40
-			}
+			},
+			"reduceDefence" : {
+				"type" : "ENEMY_DEFENCE_REDUCTION",
+				"val" : 20
+                         },
 		}
 	}
 }

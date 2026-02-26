@@ -1,0 +1,51 @@
+{
+	"bruhl" : {
+		"class" : "demoniac",
+		"female" : false,
+		"images" : {
+			"specialtySmall" : "heroes/specialty/specialtyDevilSmall.png",
+			"specialtyLarge" : "heroes/specialty/specialtyDevilLarge.png",
+			"large" : "heroes/inferno/bruhlLarge.png",
+			"small" : "heroes/inferno/bruhlSmall.png"
+		},
+		"army" : [
+			{
+				"creature" : "imp",
+				"min" : 15,
+				"max" : 25
+			},
+			{
+				"creature" : "gog",
+				"min" : 4,
+				"max" : 7
+			},
+			{
+				"creature" : "hellHound",
+				"min" : 3,
+				"max" : 4
+			}
+		],
+		"skills" : [
+			{
+				"skill" : "pathfinding",
+				"level" : "basic"
+			},
+			{
+				"skill" : "ballistics",
+				"level" : "basic"
+			}
+		],
+		"specialty" : {
+			"creature" : "devil"
+		},
+		"texts" : {
+			"name" : "Brühl",
+			"biography" : "Brühl is a Kreegan general known for his cruelty. He has no pity for weakness, even among his own warriors...",
+			"specialty" : {
+				"name" : "devils",
+				"description" : "Increases the speed of any Devils, Archdevils and Devil Reapers by 1 and their Attack and Defense skills by 5% for every 7 levels (rounded up).",
+				"tooltip" : "Creature Bonus: Devils"
+			}
+		}
+	}
+}

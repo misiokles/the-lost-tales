@@ -4,24 +4,24 @@
 		"images" : {
 			"large" : "heroes/tower/sarakinLarge.png",
 			"small" : "heroes/tower/sarakinSmall.png",
-			"specialtyLarge" : "heroes/tower/specialtyFireballLarge.png",
-			"specialtySmall" : "heroes/tower/specialtyFireballSmall.png"
+			"specialtyLarge" : "heroes/specialty/specialtyFireballLarge.png",
+			"specialtySmall" : "heroes/specialty/specialtyFireballSmall.png"
 		},
 		"army" : [
 			{
 				"creature" : "gremlin",
-				"min" : 15,
-				"max" : 25
+				"min" : 30,
+				"max" : 40
 			},
 			{
 				"creature" : "stoneGargoyle",
-				"min" : 6,
-				"max" : 9
+				"min" : 5,
+				"max" : 7
 			},
 			{
-				"creature" : "stoneGolem",
+				"creature" : "ironGolem",
 				"min" : 4,
-				"max" : 7
+				"max" : 5
 			}
 		],
 		"skills" : [

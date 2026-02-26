@@ -5,24 +5,24 @@
 		"images" : {
 			"large" : "heroes/castle/nicolajLarge.png",
 			"small" : "heroes/castle/nicolajSmall.png",
-			"specialtyLarge" : "heroes/castle/specialtyGoldLarge.png",
-			"specialtySmall" : "heroes/castle/specialtyGoldSmall.png"
+			"specialtyLarge" : "heroes/specialty/specialtyGoldLarge.png",
+			"specialtySmall" : "heroes/specialty/specialtyGoldSmall.png"
 		},
 		"army" : [
 			{
 				"creature" : "pikeman",
-				"min" : 15,
-				"max" : 25
+				"min" : 10,
+				"max" : 20
 			},
 			{
 				"creature" : "archer",
-				"min" : 6,
-				"max" : 9
+				"min" : 4,
+				"max" : 7
 			},
 			{
 				"creature" : "griffin",
-				"min" : 4,
-				"max" : 7
+				"min" : 2,
+				"max" : 3
 			}
 		],
 		"skills" : [

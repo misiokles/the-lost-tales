@@ -5,8 +5,8 @@
 		"images" : {
 			"large" : "heroes/dungeon/melinaLarge.png",
 			"small" : "heroes/dungeon/melinaSmall.png",
-			"specialtyLarge" : "heroes/dungeon/SpecialtyMedusaLarge.png",
-			"specialtySmall" : "heroes/dungeon/SpecialtyMedusaSmall.png"
+			"specialtyLarge" : "heroes/specialty/SpecialtyMedusaLarge.png",
+			"specialtySmall" : "heroes/specialty/SpecialtyMedusaSmall.png"
 		},
 		"army" : [
 			{

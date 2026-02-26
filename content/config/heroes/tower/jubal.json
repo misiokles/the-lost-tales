@@ -1,0 +1,51 @@
+{
+	"jubal" : {
+		"class" : "alchemist",
+		"female" : false,
+		"images" : {
+			"specialtySmall" : "heroes/specialty/specialtyGiantSmall.png",
+			"specialtyLarge" : "heroes/specialty/specialtyGiantLarge.png",
+			"large" : "heroes/tower/jubalLarge.png",
+			"small" : "heroes/tower/jubalSmall.png"
+		},
+		"army" : [
+			{
+				"creature" : "gremlin",
+				"min" : 30,
+				"max" : 40
+			},
+			{
+				"creature" : "stoneGargoyle",
+				"min" : 5,
+				"max" : 7
+			},
+			{
+				"creature" : "ironGolem",
+				"min" : 4,
+				"max" : 5
+			}
+		],
+		"skills" : [
+			{
+				"skill" : "scholar",
+				"level" : "basic"
+			},
+			{
+				"skill" : "mysticism",
+				"level" : "basic"
+			}
+		],
+		"specialty" : {
+			"creature" : "giant"
+		},
+		"texts" : {
+			"name" : "Jubal",
+			"biography" : "Jubal's thunderous voice can be heard over the loudest battle or noisiest feast - two places where he's equally comfortable. Just about his only known weakness is his sense of hospitality. Jubal can't stand being accused of being crude or stingy, so he goes out of his way to prove the opposite.",
+			"specialty" : {
+				"name" : "Giants",
+				"description" : "Increases the speed of any Giants and Titans by 1 and their Attack and Defense skills by 5% for every 7 levels (rounded up).",
+				"tooltip" : "Creature Bonus: Giants"
+			}
+		}
+	}
+}

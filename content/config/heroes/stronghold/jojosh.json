@@ -5,8 +5,8 @@
 		"images" : {
 			"large" : "heroes/stronghold/jojoshLarge.png",
 			"small" : "heroes/stronghold/jojoshSmall.png",
-			"specialtyLarge" : "heroes/stronghold/SpecialtyEstatesLarge.png",
-			"specialtySmall" : "heroes/stronghold/SpecialtyEstatesSmall.png"
+			"specialtyLarge" : "heroes/specialty/SpecialtyEstatesLarge.png",
+			"specialtySmall" : "heroes/specialty/SpecialtyEstatesSmall.png"
 		},
 		"army" : [
 			{
