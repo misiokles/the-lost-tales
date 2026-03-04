@@ -41,8 +41,8 @@
 		"graphics" : {
 			"iconLarge" : "creatures/tower/iconsbig/tower_lvl6upAlt.png",
 			"iconSmall" : "creatures/tower/iconssmall/tower_lvl6upAlt.png",
-			"map" : "creatures/tower/map/tower_Alt6",
-			"animation" : "creatures/tower/battle/tower_Alt6.def",
+			"map" : "creatures/tower/map/tower_lvl6upAlt",
+			"animation" : "creatures/tower/battle/tower_lvl6upAlt",
 			"animationTime" : {
 				"attack" : 1,
 				"idle" : 10,

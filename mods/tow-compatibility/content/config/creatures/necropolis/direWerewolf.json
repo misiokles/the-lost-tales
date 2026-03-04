@@ -9,7 +9,7 @@
 			"reduceDefence" : {
 				"type" : "ENEMY_DEFENCE_REDUCTION",
 				"val" : 20
-			}
+                         },
 		}
 	}
 }

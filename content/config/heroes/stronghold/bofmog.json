@@ -1,0 +1,54 @@
+{
+	"bofmog" : {
+		"class" : "battlemage",
+		"female" : true,
+		"images" : {
+			"large" : "heroes/stronghold/bofmogLarge.png",
+			"small" : "heroes/stronghold/bofmogSmall.png",
+			"specialtyLarge" : "heroes/specialty/SpecialtyMysticismLarge.png",
+			"specialtySmall" : "heroes/specialty/SpecialtyMysticismSmall.png"
+		},
+		"army" : [
+			{
+				"creature" : "goblin",
+				"min" : 15,
+				"max" : 25
+			},
+			{
+				"creature" : "goblinWolfRider",
+				"min" : 6,
+				"max" : 9
+			},
+			{
+				"creature" : "orc",
+				"min" : 4,
+				"max" : 7
+			}
+		],
+		"skills" : [
+			{
+				"skill" : "wisdom",
+				"level" : "basic"
+			},
+			{
+				"skill" : "mysticism",
+				"level" : "basic"
+			}
+		],
+		"specialty" : {
+			"secondary" : "mysticism"
+		},
+		"spellbook" : [
+			"stoneSkin"
+		],
+		"texts" : {
+			"name" : "Bofmog",
+			"biography" : "Bofmog is Kilgor's personal executioner. On those few occasions when Kilgor didn't do the deed himself, he turned it over to silent, thoughtful Bofmog. Unknown to the mad king, however, Bofmog decided for himself who deserved to die. For those that didn't, he arranged an escape",
+			"specialty" : {
+				"description" : "Receives a 5% per level bonus to Mysticism skill.",
+				"name" : "Mysticism",
+				"tooltip" : "Secondary Skill Bonus: Mysticism"
+			}
+		}
+	}
+}

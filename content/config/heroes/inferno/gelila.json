@@ -1,0 +1,61 @@
+{
+	"gelila" : {
+		"class" : "heretic",
+		"female" : true,
+		"images" : {
+			"specialtySmall" : "heroes/specialty/specialtyFrenzySmall.png",
+			"specialtyLarge" : "heroes/specialty/specialtyFrenzyLarge.png",
+			"large" : "heroes/inferno/gelilaLarge.png",
+			"small" : "heroes/inferno/gelilaSmall.png"
+		},
+		"army" : [
+			{
+				"creature" : "imp",
+				"min" : 15,
+				"max" : 25
+			},
+			{
+				"creature" : "gog",
+				"min" : 4,
+				"max" : 7
+			},
+			{
+				"creature" : "hellHound",
+				"min" : 3,
+				"max" : 4
+			}
+		],
+		"spellbook" : [
+			"frenzy"
+		],
+		"skills" : [
+			{
+				"skill" : "wisdom",
+				"level" : "basic"
+			},
+			{
+                                "skill" : "scholar",
+				"level" : "basic"
+			}
+		],
+		"specialty" : {
+			"bonuses" : {
+				"frenzy" : {
+					"subtype" : "spell.frenzy",
+					"type" : "SPECIAL_SPELL_LEV",
+					"updater" : "TIMES_HERO_LEVEL",
+					"val" : 3
+		}
+		}
+		},
+		"texts" : {
+			"name" : "Gelila",
+			"biography" : "Gelila is Brulh's sister. They are both young demons whose sole motivation is destruction. She is known for her cruelty and her pleasure in making her enemies suffer.",
+			"specialty" : {
+				"tooltip" : "Spell Bonus: Frenzy",
+				"name" : "Frenzy",
+				"description" : "Casts Frenzy with effect increased by 3% for every N hero levels, where N is the level of the target creature."
+                               }
+		}
+	}
+}

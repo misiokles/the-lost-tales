@@ -39,12 +39,14 @@
 			"bonuses" : {
 				"ore" : {
 					"type" : "GENERATE_RESOURCE",
-					"subtype" : "resource.ore",
+					"subtype" :  
+                                                     "resource.ore",
 					"val" : 1
 				},
 				"wood" : {
 					"type" : "GENERATE_RESOURCE",
-					"subtype" : "resource.wood",
+					"subtype" :  
+                                                     "resource.wood",
 					"val" : 1
 				}
 			}

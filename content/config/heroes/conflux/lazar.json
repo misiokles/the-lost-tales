@@ -41,9 +41,9 @@
 		],
 		"texts" : {
 			"name" : "Lazar",
-			"biography" : "Living in the same realm, the plane of fire. Lazar was called by the conflux because of his proximity to the Firebirds.",
+			"biography" : "Lazar is an old Fire Elemental , he lives in the same realm as the Firebirds , the plane of fire. Lazar was called by the conflux because of his frienship to the Firebirds.",
 			"specialty" : {
-				"name" : "Firebird.",
+				"name" : "Firebird",
 				"description" : "Increases the Speed of allied Firebirds and Phoenix, by 1 and their Attack and Defense skills by 5% for every 7 levels (rounded up).",
 				"tooltip" : "Creature Bonus: Firebirds."
 			}

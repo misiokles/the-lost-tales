@@ -10,8 +10,8 @@
 			"centaurArcher"
 		],
 		"graphics" : {
-			"iconLarge" : "creatures/rampart/iconsbig/rampart_lvl2up.png",
-			"iconSmall" : "creatures/rampart/iconssmall/rampart_lvl2up.png"
+			"iconLarge" : "creatures/rampart/iconsbig/rampart_lvl1up.png",
+			"iconSmall" : "creatures/rampart/iconssmall/rampart_lvl1up.png"
 		}
 	},
 	"core:dwarf" : {

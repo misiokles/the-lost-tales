@@ -16,6 +16,7 @@
 	"depends" : [
 		"hota.bulwark",
 		"hota.cove",
+		"hota.factory",
 		"hota.gamebalance",
 		"hota.confluxvaultofashes",
 		"hota.heroes3datapatch",
@@ -27,11 +28,9 @@
 	"creatures" : [
 		"config/town-screen/conflux/creatures.json",
 		"config/hotaNeutralCreatures/steelGolem",
-		"config/hota/bulwark/creatures/kobold.json",
-		"config/hota/bulwark/creatures/koboldForeman.json",
-		"config/hota/bulwark/creatures/yetiRunemaster.json",
 		"config/hota/cove/creatures/seaWitch.json",
-		"config/hota/cove/creatures/sorceress.json"
+		"config/hota/cove/creatures/sorceress.json",
+		"config/hota/factory/creatures/halfling.json",
 	],
 	"heroes" : [
 		"config/hotaGameBalance/castle/catherine.json",

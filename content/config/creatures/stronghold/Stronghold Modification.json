@@ -45,8 +45,26 @@
 	},
 	"core:ogre" : {
 		"graphics" : {
-			"iconLarge" : "creatures/stronghold/iconsbig/stronghold_lvl3up",
-			"iconSmall" : "creatures/stronghold/iconssmall/stronghold_lvl3up"
+			"iconLarge" : "creatures/stronghold/iconsbig/stronghold_lvl4",
+			"iconSmall" : "creatures/stronghold/iconssmall/stronghold_lvl4"
+		}
+	},
+	"core:ogreMage" : {
+		"graphics" : {
+			"iconLarge" : "creatures/stronghold/iconsbig/stronghold_lvl4up",
+			"iconSmall" : "creatures/stronghold/iconssmall/stronghold_lvl4up"
+		}
+	},
+	"core:roc" : {
+		"graphics" : {
+			"iconLarge" : "creatures/stronghold/iconsbig/stronghold_lvl5",
+			"iconSmall" : "creatures/stronghold/iconssmall/stronghold_lvl5"
+		}
+	},
+	"core:thunderbird" : {
+		"graphics" : {
+			"iconLarge" : "creatures/stronghold/iconsbig/stronghold_lvl5up",
+			"iconSmall" : "creatures/stronghold/iconssmall/stronghold_lvl5up"
 		}
 	},
 	"core:cyclop" : {
