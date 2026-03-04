@@ -38,7 +38,7 @@
 			},
 			"noDistancePenalty" : {
 				"type" : "NO_DISTANCE_PENALTY"
-                        },
+			},
 			"const_no_wall_penalty" : {
 				"type" : "NO_WALL_PENALTY"
 			},

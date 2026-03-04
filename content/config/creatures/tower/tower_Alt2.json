@@ -1,5 +1,5 @@
 {
-	"marbleGargoyle": {
+	"marbleGargoyle" : {
 		"name" : {
 			"singular" : "Marble Gargoyle",
 			"plural" : "Marble Gargoyles"
@@ -64,7 +64,7 @@
 				"idle" : 10,
 				"walk" : 0.7
 			},
-			"timeBetweenFidgets" : 1,
+			"timeBetweenFidgets" : 1
 		},
 		"sound" : {
 			"attack" : "OGRGATTK.wav",

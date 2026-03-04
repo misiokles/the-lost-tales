@@ -30,7 +30,7 @@
 		"config/hotaNeutralCreatures/steelGolem",
 		"config/hota/cove/creatures/seaWitch.json",
 		"config/hota/cove/creatures/sorceress.json",
-		"config/hota/factory/creatures/halfling.json",
+		"config/hota/factory/creatures/halfling.json"
 	],
 	"heroes" : [
 		"config/hotaGameBalance/castle/catherine.json",

@@ -130,7 +130,14 @@
 				]
 			],
 			"structures" : {
-			        "dwellingUpLvl2alt": { "animation" : "TBTWUP_1.def", "x" : 4,   "y" : 28,            "campaignBonus" : "BoTGar2.pcx",  "border" : "TOTGAR2.bmp",  "area" : "TZTGAR2.bmp" },
+				"dwellingUpLvl2alt" : {
+					"animation" : "TBTWUP_1.def",
+					"x" : 4,
+					"y" : 28,
+					"campaignBonus" : "BoTGar2.pcx",
+					"border" : "TOTGAR2.bmp",
+					"area" : "TZTGAR2.bmp"
+				},
 				"dwellingUpLvl4alt" : {
 					"animation" : "TBTWUP_3.def",
 					"x" : 613,
