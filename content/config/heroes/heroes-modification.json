@@ -124,31 +124,20 @@
 			}
 		}
 	},
-	"core:dracon" : {
+	"core:dracon":
+	{
 		"specialty" : {
 			"base" : {
 				"addInfo" : "creature.enchanter",
 				"type" : "SPECIAL_UPGRADE"
 			},
 			"bonuses" : {
-				"archMage2enchanter" : {
-					"subtype" : "creature.archMage"
-				},
-				"mage2enchanter" : {
-					"subtype" : "creature.mage"
-				},
-				"blackMage2enchanter" : {
-					"subtype" : "creature.blackMage"
-				},
-				"monk2enchanter" : {
-					"subtype" : "creature.monk"
-				},
-				"zealot2enchanter" : {
-					"subtype" : "creature.zealot"
-				},
-				"warPriest2enchanter" : {
-					"subtype" : "creature.warpriest"
-				}
+				"archMage2enchanter" : { "subtype" : "creature.archMage" },
+				"mage2enchanter" : { "subtype" : "creature.mage" },
+				"blackMage2enchanter" : { "subtype" : "creature.blackMage" },
+				"monk2enchanter" : { "subtype" : "creature.monk" },
+				"zealot2enchanter" : { "subtype" : "creature.zealot" },
+				"warPriest2enchanter" : { "subtype" : "creature.warpriest" },
 			}
 		},
 		"texts" : {
@@ -156,8 +145,8 @@
 				"description" : "Can upgrade Monks, Zealots or War Priestq and Magi, Arch Magi or Black Magi to Enchanters.",
 				"name" : "Enchanters",
 				"tooltip" : "Creature Bonus: Enchanters"
-			}
-		}
+	                }
+                 }
 	},
 	"core:calh" : {
 		"texts" : {
@@ -249,11 +238,11 @@
 			}
 		}
 	},
-	"core:ajit" : {
+        "core:ajit" : {
 		"texts" : {
 			"specialty" : {
 				"description" : "the Attack and Defense skills of any Beholders, Evil Eyes and Cursed Eyes for each level attained after 3rd level.",
-				"name" : "Beholders",
+                                "name" : "Beholders",
 				"tooltip" : "Creature Bonus: Beholders"
 			}
 		}

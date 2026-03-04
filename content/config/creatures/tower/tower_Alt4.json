@@ -38,7 +38,7 @@
 			},
 			"noDistancePenalty" : {
 				"type" : "NO_DISTANCE_PENALTY"
-			},
+                        },
 			"const_no_wall_penalty" : {
 				"type" : "NO_WALL_PENALTY"
 			},
@@ -56,8 +56,8 @@
 		"graphics" : {
 			"iconLarge" : "creatures/tower/iconsbig/tower_lvl4upAlt.png",
 			"iconSmall" : "creatures/tower/iconssmall/tower_lvl4upAlt.png",
-			"map" : "creatures/tower/map/tower_Alt4",
-			"animation" : "creatures/tower/battle/tower_Alt4.def",
+			"map" : "creatures/tower/map/tower_lvl4upAlt",
+			"animation" : "creatures/tower/battle/tower_lvl4upAlt.def",
 			"animationTime" : {
 				"attack" : 1,
 				"idle" : 10,

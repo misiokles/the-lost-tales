@@ -15,6 +15,7 @@ War Unicorn <> Sun Unicorn (LvL6)
 Gold Dragon <> Silver Dragon(LvL7)
 
 TOWER
+Obsidian Gargoyle <> Marble Gargoyle (LvL2)
 Arch Magi <> Black Magi (LvL4)
 Naga Queen <> Naga Guardian (LvL6)
 
@@ -103,6 +104,7 @@ Jubal (H4)
 
 Inferno
 Brulh
+Gelila
 
 Necropolis
 Wyrm (H2)
@@ -116,7 +118,7 @@ Gundross (H4)
 Stronghold
 Tyro (H2)
 Jojosh (H2)
-Crate
+Bofmog
 Dogwoggle (H4)
 
 Fortress

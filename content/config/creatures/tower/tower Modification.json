@@ -18,6 +18,9 @@
 		}
 	},
 	"core:obsidianGargoyle" : {
+		"upgrades" : [
+			"marbleGargoyle"
+		],
 		"graphics" : {
 			"iconLarge" : "creatures/tower/iconsbig/tower_lvl2up.png",
 			"iconSmall" : "creatures/tower/iconssmall/tower_lvl2up.png"

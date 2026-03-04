@@ -1,0 +1,77 @@
+{
+	"marbleGargoyle": {
+		"name" : {
+			"singular" : "Marble Gargoyle",
+			"plural" : "Marble Gargoyles"
+		},
+		"faction" : "tower",
+		"level" : 2,
+		"upgrades" : [
+			"obsidianGargoyle"
+		],
+		"cost" : {
+			"gold" : 160
+		},
+		"speed" : 6,
+		"hitPoints" : 16,
+		"attack" : 6,
+		"defense" : 6,
+		"damage" : {
+			"min" : 2,
+			"max" : 3
+		},
+		"growth" : 9,
+		"horde" : 4,
+		"aiValue" : 201,
+		"fightValue" : 155,
+		"advMapAmount" : {
+			"min" : 16,
+			"max" : 25
+		},
+		"abilities" : {
+			"FLYING_ARMY" : {
+				"type" : "FLYING"
+			},
+			"gargoyle" : {
+				"type" : "GARGOYLE"
+			},
+			"reduceDefence" : {
+				"type" : "ENEMY_DEFENCE_REDUCTION",
+				"val" : 20
+			},
+			"defenseBonusWhileDefending" : {
+				"type" : "PRIMARY_SKILL",
+				"subtype" : "defence",
+				"val" : 50,
+				"valueType" : "PERCENT_TO_ALL",
+				"limiters" : [
+					"UNIT_DEFENDING"
+				]
+			},
+			"showTheIcon" : {
+				"type" : "NONE",
+				"icon" : "zvs/Lib1.res/defensiveStance",
+				"description" : "{Defense Bonus}\nHardening : Receives +50% Defense while defending in combat."
+			}
+		},
+		"graphics" : {
+			"iconLarge" : "creatures/tower/iconsbig/tower_lvl2upAlt.png",
+			"iconSmall" : "creatures/tower/iconssmall/tower_lvl2upAlt.png",
+			"map" : "creatures/tower/map/tower_lvl2upAlt",
+			"animation" : "creatures/tower/battle/tower_lvl2upAlt.def",
+			"animationTime" : {
+				"attack" : 1,
+				"idle" : 10,
+				"walk" : 0.7
+			},
+			"timeBetweenFidgets" : 1,
+		},
+		"sound" : {
+			"attack" : "OGRGATTK.wav",
+			"defend" : "OGRGDFND.wav",
+			"killed" : "OGRGKILL.wav",
+			"move" : "OGRGMOVE.wav",
+			"wince" : "OGRGWNCE.wav"
+		}
+	}
+}

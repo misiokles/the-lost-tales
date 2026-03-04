@@ -60,7 +60,8 @@
 					],
 					[
 						"dwellingLvl2",
-						"dwellingUpLvl2"
+						"dwellingUpLvl2",
+						"dwellingUpLvl2alt"
 					],
 					[
 						"dwellingLvl3",
@@ -95,7 +96,8 @@
 				],
 				[
 					"stoneGargoyle",
-					"obsidianGargoyle"
+					"obsidianGargoyle",
+					"marbleGargoyle"
 				],
 				[
 					"ironGolem",
@@ -121,6 +123,7 @@
 				]
 			],
 			"structures" : {
+				"dwellingUpLvl2alt": { "animation" : "TBTWUP_1.def", "x" : 4,   "y" : 28,            "campaignBonus" : "BoTGar2.pcx",  "border" : "TOTGAR2.bmp",  "area" : "TZTGAR2.bmp" },
 				"dwellingUpLvl4alt" : {
 					"animation" : "TBTWUP_3.def",
 					"x" : 613,
@@ -140,11 +143,25 @@
 				}
 			},
 			"buildings" : {
+				"dwellingUpLvl2" : {
+					"description" : "The Parapet allows you to recruit Obsidian Gargoyles or Marble Gargoyles."
+				},
 				"dwellingUpLvl4" : {
 					"description" : "The Mage Tower allows you to recruit Arch Magi or Black Magi."
 				},
 				"dwellingUpLvl6" : {
 					"description" : "The Golden Pavilion allows you to recruit Naga Queens or Naga Guardians."
+				},
+				"dwellingUpLvl2alt" : {
+					"description" : "The Parapet allows you to recruit Obsidian Gargoyles or Marble Gargoyles.",
+					"name" : "Upg. Parapet",
+					"cost" : {},
+					"requires" : [
+						"dwellingLvl2"
+					],
+					"upgrades" : "dwellingUpLvl2",
+					"mode" : "auto",
+					"id" : 45
 				},
 				"dwellingUpLvl4alt" : {
 					"description" : "The Mage Tower allows you to recruit Arch Magi or Black Magi.",
