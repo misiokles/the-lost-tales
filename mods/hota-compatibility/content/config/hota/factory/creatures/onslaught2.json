@@ -1,0 +1,98 @@
+{
+	"onslaught" : {
+		"name" : {
+			"plural" : "Onslaughts",
+			"singular" : "Onslaught"
+		},
+		"advMapAmount" : {
+			"max" : 8,
+			"min" : 3
+		},
+		"faction" : "factory",
+                "upgrades" : [
+			"hotaJuggernaut"
+		],
+		"aiValue" : 6433,
+		"attack" : 18,
+		"shots" : 18,
+		"cost" : {
+			"gold" : 3500,
+			"crystal" : 2
+		},
+		"damage" : {
+			"max" : 50,
+			"min" : 40
+		},
+		"defense" : 20,
+		"fightValue" : 5361,
+		"graphics" : {
+			"animation" : "hota/factory/creatures/battle/onslaught.def",
+			"map" : "hota/factory/creatures/adventureMap/onslaught.def",
+			"iconSmall" : "hota/factory/creatures/iconsSmall/onslaught.png",
+			"iconLarge" : "hota/factory/creatures/iconsLarge/onslaught.png",
+			"timeBetweenFidgets" : 1,
+			"animationTime" : {
+				"walk" : 1.85,
+				"attack" : 1.75,
+				"idle" : 10
+			},
+			"missile" : {
+			"projectile" : "hota/factory/creatures/battle/onslaughtShot.def",
+				"attackClimaxFrame" : 6,
+				"frameAngles" : [					
+                                        90,
+					72,
+					45,
+					27,
+					0,
+					-27,
+					-45,
+					-72,
+					-90,
+					0,
+					0,
+					0
+				],
+				"offset" : {
+					"lowerX" : 44,
+					"lowerY" : -75,
+					"middleX" : 40,
+					"middleY" : -75,
+					"upperX" : 40,
+					"upperY" : -85
+				}
+                         }
+		},
+		"doubleWide" : true,
+		"growth" : 1,
+		"hitPoints" : 300,
+		"level" : 7,
+		"sound" : {
+			"attack" : "hota/factory/creatures/dreadnought/DREDATTK.wav",
+			"defend" : "hota/factory/creatures/dreadnought/DREDDFND.wav",
+			"killed" : "hota/factory/creatures/dreadnought/DREDKILL.wav",
+			"move" : "hota/factory/creatures/dreadnought/DREDMOVE.wav",
+			"shoot" : "hota/factory/creatures/dreadnought/DREDSHOT.wav",
+			"wince" : "hota/factory/creatures/dreadnought/DREDWNCE.wav"
+		},
+		"speed" : 7,
+		"abilities" : {
+			"mechanical" : {
+				"type" : "MECHANICAL"
+			},
+			"KING_3" : {
+				"type" : "KING",
+				"val" : 3
+			},
+			"2 hex attack" : {
+				"type" : "TWO_HEX_ATTACK_BREATH",
+			},
+			"canShoot" : {
+				"type" : "SHOOTER"
+			},
+			"noMeleePenalty" : {
+				"type" : "NO_MELEE_PENALTY"
+			},
+		}
+	}
+}

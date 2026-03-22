@@ -15,14 +15,14 @@
 				"max" : 20
 			},
 			{
-				"creature" : "archer",
-				"min" : 4,
-				"max" : 7
+				"creature" : "pikeman",
+				"min" : 10,
+				"max" : 20
 			},
 			{
-				"creature" : "griffin",
-				"min" : 2,
-				"max" : 3
+				"creature" : "pikeman",
+				"min" : 10,
+				"max" : 20
 			}
 		],
 		"skills" : [

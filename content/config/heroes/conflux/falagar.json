@@ -19,8 +19,8 @@
 		"images" : {
 			"large" : "heroes/conflux/FalagarLarge.png",
 			"small" : "heroes/conflux/FalagarSmall.png",
-			"specialtyLarge" : "heroes/specialty/SpecialityExpertWaterMagicLarge.png",
-			"specialtySmall" : "heroes/specialty/SpecialityExpertWaterMagicLarge.png"
+			"specialtyLarge" : "heroes/specialty/SpecialtyWaterMagicLarge.png",
+			"specialtySmall" : "heroes/specialty/SpecialtyWaterMagicSmall.png"
 		},
 		"specialty" : {
 			"bonuses" : {}

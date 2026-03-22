@@ -1,0 +1,60 @@
+{
+	"squire": {
+		"name" : {
+			"singular" : "Squire",
+			"plural" : "Squires"
+		},
+		"faction" : "castle",
+		"level" : 1,
+		"cost" : {
+			"gold" : 70
+		},
+		"speed" : 6,
+		"hitPoints" : 9,
+		"attack" : 7,
+		"defense" : 4,
+		"damage" : {
+			"max" : 4,
+			"min" : 1
+		},
+		"growth" : 14,
+		"horde" : 0,
+		"aiValue" : 80,
+		"fightValue" : 100,
+		"advMapAmount" : {
+			"min" : 20,
+			"max" : 50
+		},
+		"abilities": {
+			"stun" : {
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.stunAbility",
+				"val" : 30,
+				"icon" : "zvs/Lib1.res/stun",
+				"addInfo" : [
+					2,
+					2
+				]
+			}
+		},
+		"graphics" : {
+			"map" : "creatures/castle/map/squire.def",
+			"animation" : "creatures/castle/battle/squire.def",
+			"iconSmall" : "creatures/castle/iconsSmall/CastleN_lvl1_squire.png",
+			"iconLarge" : "creatures/castle/iconsbig/CastleN_lvl1_squire.png",
+			"animationTime" : {
+				"attack" : 1,
+				"idle" : 10,
+				"walk" : 1.15
+			},
+			"timeBetweenFidgets" : 1,
+		},
+		"sound" : {
+			"attack" : "SWRDATTK.wav",
+			"defend" : "PIKEDFND.wav",
+			"killed" : "PIKEKILL.wav",
+			"move" : "PIKEMOVE.wav",
+			"wince" : "PIKEWNCE.wav"
+		}
+	}
+}

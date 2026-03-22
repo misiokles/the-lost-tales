@@ -1,0 +1,50 @@
+{
+	"laxus" : {
+		"class" : "captain",
+		"images" : {
+			"large" : "hota/cove/heroes/laxusLarge.png",
+			"small" : "hota/cove/heroes/laxusSmall.png",
+			"specialtyLarge" : "hota/cove/specialty/specialtySeaSerpentLarge.png",
+			"specialtySmall" : "hota/cove/specialty/specialtySeaSerpentSmall.png"
+		},
+		"army" : [
+			{
+				"creature" : "nymph",
+				"min" : 15,
+				"max" : 25
+			},
+			{
+				"creature" : "crewmate",
+				"min" : 6,
+				"max" : 9
+			},
+			{
+				"creature" : "pirate",
+				"min" : 4,
+				"max" : 7
+			}
+		],
+		"skills" : [
+			{
+				"skill" : "offence",
+				"level" : "basic"
+			},
+			{
+				"skill" : "logistics",
+				"level" : "basic"
+			}
+		],
+		"specialty" : {
+			"creature" : "hota.cove:seaserpent"
+		},
+		"texts" : {
+			"name" : "Laxus",
+			"biography" : "Laxus water elemental.",
+			"specialty" : {
+				"name" : "Sea Serpents",
+				"description" : "Increases the Speed of allied Sea Serpents and Haspids by 1 and their Attack and Defense skills by 20% for every 7 levels (rounded up).",
+				"tooltip" : "Creature Bonus: Sea Serpents"
+			}
+		}
+	}
+}

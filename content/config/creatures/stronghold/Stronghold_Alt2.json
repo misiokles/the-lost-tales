@@ -23,7 +23,7 @@
 		"graphics" : {
 			"iconLarge" : "creatures/stronghold/iconsbig/stronghold_lvl2upAlt.png",
 			"iconSmall" : "creatures/stronghold/iconssmall/stronghold_lvl2upAlt.png",
-			"map" : "creatures/stronghold/map/AVWboar"
+			"map" : "creatures/stronghold/map/stronghold_lvl2upAlt"
 		},
 		"abilities" : {
 			"roughWalker" : {

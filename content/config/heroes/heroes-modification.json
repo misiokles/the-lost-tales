@@ -9,6 +9,14 @@
 		}
 	},
 	"core:catherine" : {
+		"special" : false,
+	        "images" :
+		{
+			"specialtyLarge" : "heroes/specialty/SpecialtySwordmenLarge.png",
+			"specialtySmall" : "heroes/specialty/SpecialtySwordmenSmall.png",
+			"small" : "heroes/castleRemade/catherineSmall.png",
+			"large" : "heroes/castleRemade/catherineLarge.png"
+                },
 		"texts" : {
 			"specialty" : {
 				"description" : "Increases the Speed of allied Swordsmen, Crusaders and Vindicators by 1 and their Attack and Defense skills by 20% for every 4 levels (rounded up).",
@@ -27,6 +35,13 @@
 		}
 	},
 	"core:roland" : {
+	        "images" :
+		{
+			"specialtyLarge" : "heroes/specialty/SpecialtySwordmenLarge.png",
+			"specialtySmall" : "heroes/specialty/SpecialtySwordmenSmall.png",
+			"small" : "heroes/castleRemade/rolandSmall.png",
+			"large" : "heroes/castleRemade/rolandLarge.png"
+                },
 		"texts" : {
 			"specialty" : {
 				"description" : "Increases the Attack and Defense skills of any Swordsmen, Crusaders, and Vindicators for each level attained after 4th level.",
@@ -45,6 +60,13 @@
 		}
 	},
 	"core:gelu" : {
+	        "images" :
+		{
+			"specialtyLarge" : "heroes/specialty/SpecialtySharpshooterLarge.png",
+			"specialtySmall" : "heroes/specialty/SpecialtySharpshooterSmall.png",
+			"small" : "heroes/rampartRemade/geluSmall.png",
+			"large" : "heroes/rampartRemade/geluLarge.png"
+                },
 		"specialty" : {
 			"base" : {
 				"addInfo" : "creature.sharpshooter",
@@ -115,6 +137,13 @@
 			}
 		}
 	},
+        "core:piquedram" : {
+		"texts" : {
+			"specialty" : {
+				"description" : "Increases the Speed of allied Stone Gargoyles, Obsidian Gargoyles and Marble Gargoyles by 1 and their Attack and Defense skills by 20% for every 2 levels (rounded up)."
+			}
+		}
+	},
 	"core:fafner" : {
 		"texts" : {
 			"specialty" : {
@@ -178,6 +207,13 @@
 		}
 	},
 	"core:xeron" : {
+	        "images" :
+		{
+			"specialtyLarge" : "heroes/specialty/SpecialtyDevilLarge.png",
+			"specialtySmall" : "heroes/specialty/SpecialtyDevilSmall.png",
+			"small" : "heroes/infernoRemade/xeronSmall.png",
+			"large" : "heroes/infernoRemade/xeronLarge.png"
+                },
 		"texts" : {
 			"specialty" : {
 				"description" : "Devils, Arch Devils and Reaper Devils receive +4 Attack, +2 Defense, and +1 Speed.",
@@ -194,6 +230,14 @@
 				"tooltip" : "Creature Bonus: Skeletons"
 			}
 		}
+	},
+	"core:nimbus" : {
+	        "images" : {
+			"specialtyLarge" : "heroes/specialty/SpecialtyEagleEyeLarge.png",
+			"specialtySmall" : "heroes/specialty/SpecialtyEagleEyeSmall.png",
+			"small" : "heroes/necropolisRemade/nimbusSmall.png",
+			"large" : "heroes/necropolisRemade/nimbusLarge.png"
+			}
 	},
 	"core:charna" : {
 		"texts" : {
@@ -231,7 +275,23 @@
 			}
 		}
 	},
+	"core:straker" : {
+	        "images" :
+		{
+			"specialtyLarge" : "heroes/specialty/SpecialtyWalkingDeadLarge.png",
+			"specialtySmall" : "heroes/specialty/SpecialtyWalkingDeadSmall.png",
+			"small" : "heroes/necropolisRemade/strakerSmall.png",
+			"large" : "heroes/necropolisRemade/strakerLarge.png"
+                }
+        },
 	"core:undeadHaart" : {
+	        "images" :
+		{
+			"specialtyLarge" : "heroes/specialty/SpecialtyBlackKnightLarge.png",
+			"specialtySmall" : "heroes/specialty/SpecialtyBlackKnightSmall.png",
+			"small" : "heroes/necropolisRemade/undeadHaartSmall.png",
+			"large" : "heroes/necropolisRemade/undeadHaartLarge.png"
+                },
 		"texts" : {
 			"specialty" : {
 				"description" : "Black Knights, Dread Knights, and Dark Knights receive +5 Att, +5 Def, and +10 Dmg.",
@@ -258,6 +318,15 @@
 			}
 		}
 	},
+	"core:mutare" : {
+	        "images" :
+		{
+			"specialtyLarge" : "heroes/specialty/SpecialtyDragonLarge.png",
+			"specialtySmall" : "heroes/specialty/SpecialtyDragonSmall.png",
+			"small" : "heroes/dungeonRemade/mutareSmall.png",
+			"large" : "heroes/dungeonRemade/mutareLarge.png"
+                }
+        },
 	"core:tyraxor" : {
 		"texts" : {
 			"specialty" : {
@@ -277,6 +346,13 @@
 		}
 	},
 	"core:yog" : {
+	        "images" :
+		{
+			"specialtyLarge" : "heroes/specialty/SpecialtyCyclopLarge.png",
+			"specialtySmall" : "heroes/specialty/SpecialtyCyclopSmall.png",
+			"small" : "heroes/strongholdRemade/yogSmall.png",
+			"large" : "heroes/strongholdRemade/yogLarge.png"
+                },
 		"texts" : {
 			"specialty" : {
 				"description" : "Increases the Attack and Defense skills of any Cyclopes, Cyclops Kings, and Cyclops Lords for each level attained after 6th level.",
@@ -285,6 +361,24 @@
 			}
 		}
 	},
+	"core:kilgor" : {
+	        "images" :
+		{
+			"specialtyLarge" : "heroes/specialty/SpecialtyBehemothLarge.png",
+			"specialtySmall" : "heroes/specialty/SpecialtyBehemothSmall.png",
+			"small" : "heroes/strongholdRemade/kilgorSmall.png",
+			"large" : "heroes/strongholdRemade/kilgorLarge.png"
+                }
+        },
+	"core:boragus" : {
+	        "images" :
+		{
+			"specialtyLarge" : "heroes/specialty/SpecialtyOgreLarge.png",
+			"specialtySmall" : "heroes/specialty/SpecialtyOgreSmall.png",
+			"small" : "heroes/strongholdRemade/boragusSmall.png",
+			"large" : "heroes/strongholdRemade/boragusLarge.png"
+                }
+        },
 	"core:drakon" : {
 		"texts" : {
 			"specialty" : {
@@ -321,6 +415,15 @@
 			}
 		}
 	},
+	"core:adrienne" : {
+	        "images" :
+		{
+			"specialtyLarge" : "heroes/specialty/SpecialtyFireMagicLarge.png",
+			"specialtySmall" : "heroes/specialty/SpecialtyFireMagicSmall.png",
+			"small" : "heroes/fortressRemade/adrienneSmall.png",
+			"large" : "heroes/fortressRemade/adrienneLarge.png"
+                }
+        },
 	"core:kalt" : {
 		"texts" : {
 			"specialty" : {
@@ -331,6 +434,13 @@
 		}
 	},
 	"core:lacus" : {
+	        "images" :
+		{
+			"specialtyLarge" : "heroes/specialty/SpecialtyWaterElementalLarge.png",
+			"specialtySmall" : "heroes/specialty/SpecialtyWaterElementalSmall.png",
+			"small" : "heroes/confluxRemade/lacusSmall.png",
+			"large" : "heroes/confluxRemade/lacusLarge.png"
+                },
 		"texts" : {
 			"specialty" : {
 				"description" : "Increases +2 Att of any Water elementals, Ice elementals and Great Water elementals.",
@@ -349,6 +459,13 @@
 		}
 	},
 	"core:fiur" : {
+	        "images" :
+		{
+			"specialtyLarge" : "heroes/specialty/SpecialtyFireElementalLarge.png",
+			"specialtySmall" : "heroes/specialty/SpecialtyFireElementalSmall.png",
+			"small" : "heroes/confluxRemade/fiurSmall.png",
+			"large" : "heroes/confluxRemade/fiurLarge.png"
+                },
 		"texts" : {
 			"specialty" : {
 				"description" : "Increases +1 Att, +2 Def, and +2 Dmg of any Fire elementals, Energy elementals and Great Fire elementals.",
@@ -392,5 +509,14 @@
 				"tooltip" : "Creature Bonus: Psychic Elementals"
 			}
 		}
-	}
+	},
+	"core:luna" : {
+	        "images" :
+		{
+			"specialtyLarge" : "heroes/specialty/SpecialtyFireWallLarge.png",
+			"specialtySmall" : "heroes/specialty/SpecialtyFireWallSmall.png",
+			"small" : "heroes/confluxRemade/lunaSmall.png",
+			"large" : "heroes/confluxRemade/lunaLarge.png"
+                }
+        }
 }

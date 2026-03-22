@@ -40,6 +40,58 @@
 	"core:enchanter" : {
 		"upgrades" : [
 			"greatEnchanter"
-		]
+		],
+		"graphics" : {
+			"iconLarge" : "creatures/neutral/iconsbig/enchanter.png",
+			"iconSmall" : "creatures/neutral/iconssmall/enchanter.png"
+                        }
+	},
+	"core:azureDragon" : {
+		"graphics" : {
+			"iconLarge" : "creatures/neutral/iconsbig/azureDragon.png",
+			"iconSmall" : "creatures/neutral/iconssmall/azureDragon.png"
+		}
+	},
+	"core:rustDragon" : {
+		"graphics" : {
+			"iconLarge" : "creatures/neutral/iconsbig/rustDragon.png",
+			"iconSmall" : "creatures/neutral/iconssmall/rustDragon.png"
+		}
+	},
+	"core:fairieDragon" : {
+		"graphics" : {
+			"iconLarge" : "creatures/neutral/iconsbig/faerieDragon.png",
+			"iconSmall" : "creatures/neutral/iconssmall/faerieDragon.png"
+		}
+	},
+	"core:crystalDragon" : {
+		"graphics" : {
+			"iconLarge" : "creatures/neutral/iconsbig/crystalDragon.png",
+			"iconSmall" : "creatures/neutral/iconssmall/crystalDragon.png"
+		}
+	},
+	"core:sharpshooter" : {
+		"graphics" : {
+			"iconLarge" : "creatures/neutral/iconsbig/sharpshooter.png",
+			"iconSmall" : "creatures/neutral/iconssmall/sharpshooter.png"
+		}
+	},
+	"core:peasant" : {
+		"graphics" : {
+			"iconLarge" : "creatures/neutral/iconsbig/peasant.png",
+			"iconSmall" : "creatures/neutral/iconssmall/peasant.png"
+		}
+	},
+	"core:nomad" : {
+		"graphics" : {
+			"iconLarge" : "creatures/neutral/iconsbig/nomad.png",
+			"iconSmall" : "creatures/neutral/iconssmall/nomad.png"
+		}
+	},
+	"core:rogue" : {
+		"graphics" : {
+			"iconLarge" : "creatures/neutral/iconsbig/rogue.png",
+			"iconSmall" : "creatures/neutral/iconssmall/rogue.png"
+		}
 	}
 }

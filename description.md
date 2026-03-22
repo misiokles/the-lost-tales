@@ -73,25 +73,35 @@ TOW Modif
 Modified things of TOW Creatures :
 
 Drake and Dragon Golem : have magic damage diminution instead of magic resistance. 
-Werewolf and Dire Werewolf : have 30 % and 40 instead of 20% of reduced damage.
+Werewolf and Dire Werewolf : have 30 % and 40 instead of 20% of reduced damage. 20% reduce defence ennemy. 
 Alhoon : can teleport.
 Couatl and Quetzalcouatl : are renamed into "Feathered Serpent", "Kukulkan" because Hota have other version of couatl. 
 Troll Hag and troll witches : have higher attack, defence and recuperation hp.(Based on core:Troll)
 Troll can pe upgraded into a Troll Hag.
 Ghost : new dwelling
 
-HOTA compatibility
-Steel Golem : neutral > tower
-new portrait for hero : Spadum , Kynr, Vehr
-new model for Yetirunemaster
-new map def for sea witch, sorceress, Yetirunemaster
+HOTA compatibility : Only if HOTA is enabled.
 
+Hota Modif
+
+FACTORY
+
+Crimson Couatl <> Quetzalcouatl
+Juggernaut <> Onslaught
+Steel Golem : neutral > tower
+new map def for sea witch, sorceress, Yetirunemaster
+new small portrait for cove faction
+new hero for bulwark, cove , facrory
 NEW HEROES 
 
 Castle
 Slash (Crag Hack campaign)
-Adrann
+Adrann (heroes 4)
 Nicolaj
+Laine (heroes 4)
+marcius (heroes 4)
+nanette  (heroes 4)
+SirKentaine (heroes 4)
 
 Rampart
 Silf
@@ -101,6 +111,7 @@ Tower
 Sarakin (H2)
 Sharah (H4)
 Jubal (H4)
+marlous
 
 Inferno
 Brulh

@@ -1,0 +1,78 @@
+{
+	"torikoQuetzalcouatl" : {
+		"name" : {
+			"plural" : "Quetzalcouatls",
+			"singular" : "Quetzalcouatl"
+		},
+		"advMapAmount" : {
+			"max" : 8,
+			"min" : 3
+		},
+		"faction" : "factory",
+		"upgrades" : [
+			"crimsonCouatl"
+		],
+		"aiValue" : 5341,
+		"attack" : 17,
+		"cost" : {
+			"gold" : 3500,
+			"crystal" : 1
+		},
+		"damage" : {
+			"max" : 45,
+			"min" : 25
+		},
+		"defense" : 21,
+		"fightValue" : 5201,
+		"graphics" : {
+			"animation" : "hota/factory/creatures/battle/quetzalcouatl.def",
+			"map" : "hota/factory/creatures/adventureMap/quetzalcouatl.def",
+			"iconSmall" : "hota/factory/creatures/iconsSmall/quetzalcouatl.png",
+			"iconLarge" : "hota/factory/creatures/iconsLarge/quetzalcouatl.png",
+			"timeBetweenFidgets" : 1,
+			"animationTime" : {
+				"walk" : 1.0,
+				"attack" : 2.5,
+				"idle" : 10
+			}
+		},
+		"doubleWide" : true,
+		"growth" : 1,
+		"hitPoints" : 200,
+		"level" : 7,
+		"sound" : {
+			"attack" : "hota/factory/creatures/crimsonCouatl/CCOTATTK.wav",
+			"defend" : "hota/factory/creatures/crimsonCouatl/CCOTDFND.wav",
+			"killed" : "hota/factory/creatures/crimsonCouatl/CCOTKILL.wav",
+			"move" : "hota/factory/creatures/crimsonCouatl/CCOTMOVE.wav",
+			"shoot" : "hota/factory/creatures/crimsonCouatl/CCOTSHOT.wav",
+			"wince" : "hota/factory/creatures/crimsonCouatl/CCOTWNCE.wav"
+		},
+		"speed" : 11,
+		"abilities" : {
+			"canFly" : {
+				"type" : "FLYING"
+			},
+			"castsymMeditation" : {
+				"type" : "SPELLCASTER",
+				"subtype" : "meditation03",
+				"val" : 0,
+				"description" : "{Meditation}\nCan cast Meditation three times per battle, skipping its turn.",
+				"icon" : "zvs/Lib1.res/meditation2"
+			},
+			"castsCount" : {
+				"type" : "CASTS",
+				"val" : 3
+			},
+			// Will be affected by Slayer with no expertise
+			"KING_1" : {
+				"type" : "KING",
+				"val" : 0
+			},
+			"dragonSkeleton" : {
+				"type" : "SKELETON_TRANSFORMER_TARGET",
+				"subtype" : "boneDragon"
+			}
+		}
+	}
+}

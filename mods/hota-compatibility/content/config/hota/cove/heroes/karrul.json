@@ -1,0 +1,46 @@
+{
+	"karrul" : {
+		"class" : "captain",
+		"images" : {
+			"large" : "hota/cove/heroes/karrulLarge.png",
+			"small" : "hota/cove/heroes/karrulSmall.png",
+			"specialtyLarge" : "hota/cove/specialty/specialtyNixLarge.png",
+			"specialtySmall" : "hota/cove/specialty/specialtyNixSmall.png"
+		},
+		"army" : [
+			{
+				"creature" : "nymph",
+				"min" : 15,
+				"max" : 25
+			},
+			{
+				"creature" : "crewmate",
+				"min" : 6,
+				"max" : 9
+			},
+			{
+				"creature" : "pirate",
+				"min" : 4,
+				"max" : 7
+			}
+		],
+		"skills" : [
+			{
+				"skill" : "armorer",
+				"level" : "advanced"
+			}
+		],
+		"specialty" : {
+			"creature" : "hota.cove:nix"
+		},
+		"texts" : {
+			"name" : "Karrul",
+			"biography" : "Karrul is the lieutenant of Tark, king of the Nix. He was sent to the cove to represent him there and lead the Nix during battles.",
+			"specialty" : {
+				"name" : "Nix",
+				"description" : "Increases the Speed of allied Nix and Nix Warriors by 1 and their Attack and Defense skills by 20% for every 6 levels (rounded up).",
+				"tooltip" : "Creature Bonus: Nix"
+			}
+		}
+	}
+}

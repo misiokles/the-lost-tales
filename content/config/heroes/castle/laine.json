@@ -1,0 +1,51 @@
+{
+	"laine" : {
+		"class" : "knight",
+		"female" : false,
+		"images" : {
+			"large" : "heroes/castle/laineLarge.png",
+			"small" : "heroes/castle/laineSmall.png",
+			"specialtyLarge" : "heroes/specialty/SpecialtyLogisticsLarge.png",
+			"specialtySmall" : "heroes/specialty/SpecialtyLogisticsSmall.png"
+		},
+		"army" : [
+			{
+				"creature" : "pikeman",
+				"min" : 10,
+				"max" : 20
+			},
+			{
+				"creature" : "archer",
+				"min" : 4,
+				"max" : 7
+			},
+			{
+				"creature" : "griffin",
+				"min" : 2,
+				"max" : 3
+			}
+		],
+		"skills" : [
+			{
+				"skill" : "leadership",
+				"level" : "basic"
+			},
+			{
+				"skill" : "logistics",
+				"level" : "basic"
+			}
+		],
+		"specialty" : {
+			"secondary" : "logistics"
+                },
+		"texts" : {
+			"name" : "Laine",
+			"biography" : "Laine almost became a priest, but his father convinced him to become a soldier in the Erathian military instead. As the eldest son, it was expected of him and he always does his duty. But to this day, he still regrets his choice and feels a spiritual emptiness inside.",
+			"specialty" : {
+				"description" : "Receives a 5% per level bonus to Logistics skill percentage.",
+				"name" : "Logistics",
+				"tooltip" : "Secondary Skill Bonus: Logistics"
+			}
+		}
+	}
+}

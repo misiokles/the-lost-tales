@@ -6,7 +6,7 @@
 			"name" : "Maroth",
 			"biography" : "Maroth is one of the oldest death knights, he has fought many dragons and suffered many defeats... it was at this moment that he decided to turn their forces against them. In his madness, he had managed to fuse his bones with those of a skeleton dragon. It was after this evenement , with the help of many necromancers, he succeeded in resurrecting the dead dragons.",
 			"specialty" : {
-				"description" : "Increases the Speed of allied Bone Dragon, Ghost Dragon and Dragon Lich by 1 and their Attack and Defense skills by 5% for every 7 levels (rounded up).",
+				"description" : "Increases the Speed of allied Bone Dragon, Ghost Dragon and Dragon Lich by 1 and their Attack and Defense skills by 20% for every 7 levels (rounded up).",
 				"name" : "Bone Dragons",
 				"tooltip" : "Creature Bonus: Bone Dragons"
 			}

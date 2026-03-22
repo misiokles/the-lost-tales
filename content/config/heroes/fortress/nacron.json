@@ -43,7 +43,7 @@
 			"biography" : "Nacron grew up near a Hydra Pond, these creatures always fascinated him with their power, no wonder he made them his specialty when he became a beastmaster...",
 			"specialty" : {
 				"name" : "Hydras",
-				"description" : "Increases the speed of any Hydras, Chaos Hydras and Flying Hydras by 1 and their Attack and Defense skills by 5% for every 7 levels (rounded up).",
+				"description" : "Increases the speed of any Hydras, Chaos Hydras and Flying Hydras by 1 and their Attack and Defense skills by 20% for every 7 levels (rounded up).",
 				"tooltip" : "Creature Bonus: Hydras"
 			}
 		}

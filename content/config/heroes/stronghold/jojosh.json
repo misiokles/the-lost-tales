@@ -5,8 +5,8 @@
 		"images" : {
 			"large" : "heroes/stronghold/jojoshLarge.png",
 			"small" : "heroes/stronghold/jojoshSmall.png",
-			"specialtyLarge" : "heroes/specialty/SpecialtyEstatesLarge.png",
-			"specialtySmall" : "heroes/specialty/SpecialtyEstatesSmall.png"
+			"specialtyLarge" : "heroes/specialty/specialtyGoldLarge.png",
+			"specialtySmall" : "heroes/specialty/specialtyGoldSmall.png"
 		},
 		"army" : [
 			{
@@ -31,20 +31,26 @@
 				"level" : "basic"
 			},
 			{
-				"skill" : "estates",
+				"skill" : "pathfinding",
 				"level" : "basic"
 			}
 		],
 		"specialty" : {
-			"secondary" : "estates"
+			"bonuses" : {
+				"gold" : {
+					"type" : "GENERATE_RESOURCE",
+					"subtype" : "resource.gold",
+					"val" : 350
+				}
+			}
 		},
 		"texts" : {
 			"name" : "Jojosh",
 			"biography" : "In his youth, Jojosh fought for warlords such as Lord Slayer and Archibald Ironfist. He crossed the great sea and the old barbarian saw his arrival in this new country as a chance for redemption before the end of his days.",
 			"specialty" : {
-				"description" : "Receives a 5% per level bonus to Estates skill.",
-				"name" : "Estates",
-				"tooltip" : "Secondary Skill Bonus: Estates"
+				"name" : "+350 Gold",
+				"description" : "Increases kingdom's income by 350 gold per day.",
+				"tooltip" : "Resource Bonus: +350 gold"
 			}
 		}
 	}

@@ -1,0 +1,189 @@
+{
+	"hota.factory:factory" : {
+		"town" : {
+			"buildingsIcons" : "town-screen/factory/town-hall.def",
+			"creatures" : [
+				[
+					"halfling",
+					"halflingGrenadier"
+				],
+				[
+					"hotaMechanic",
+					"hotaEngineer"
+				],
+				[
+					"armadillo",
+					"bellwetherArmadillo"
+				],
+				[
+					"automaton",
+					"sentinelAutomaton"
+				],
+				[
+					"sandworm",
+					"olgoiKhorkhoi"
+				],
+				[
+					"gunslinger",
+					"bountyHunter"
+				],
+				[
+					"hotaCouatl",
+					"crimsonCouatl",
+					"torikoQuetzalcouatl"
+				],
+				[
+					"hotaDreadnought",
+					"hotaJuggernaut",
+					"onslaught"
+				]
+			],
+			"hallBackground" : "hota/factory/town-screen/TPTHBKFC.png",
+			"structures" : {
+				"dwellingUpLvl7alt" : {
+					"animation" : "hota/factory/town/buildings/TBFaup_6",
+					"area" : "hota/factory/town-screen/buildings-area/TZFaup_6",
+					"border" : "hota/factory/town-screen/buildings-border/TOFaup_6",
+					"campaignBonus" : "hota/factory/town/icons/campaignBonuses/BOFCsrp2",
+					"x" : 0,
+					"y" : 51
+				},
+				"dwellingUpLvl8alt" : {
+					"animation" : "hota/factory/town/buildings/TBFaup_7",
+					"area" : "hota/factory/town-screen/buildings-area/TZFaup_7",
+					"border" : "hota/factory/town-screen/buildings-border/TOFaup_7",
+					"campaignBonus" : "hota/factory/town/icons/campaignBonuses/BOFCgnt1",
+					"x" : 427,
+					"y" : 162,
+					"z" : 2
+				}
+			},
+			"buildings" : {
+				"dwellingUpLvl7" : {
+					"description" : "The Serpentarium allows you to recruit Crimson Couatls or Quetzalcouatls.",
+                                },
+				"dwellingUpLvl7alt" : {
+					"description" : "The Serpentarium allows you to recruit Crimson Couatls or Quetzalcouatls.",
+					"name" : "Upg. Serpentarium",
+					"cost" : {
+						"gold" : 15000,
+						"wood" : 10,
+						"ore" : 10,
+						"crystal" : 20
+					},
+					"requires" : [
+						"dwellingLvl7"
+					],
+					"id" : 50,
+					"upgrades" : "dwellingUpLvl7",
+					"mode" : "auto"
+				},
+				"dwellingUpLvl8" : {
+					"description" : "The Gantry allows you to recruit Juggernauts and Onslaughts.",
+                                },
+				"dwellingUpLvl8alt" : {
+					"description" : "The Gantry allows you to recruit Juggernauts and Onslaughts.",
+					"name" : "Upg. Gantry",
+					"cost" : {
+                                          "gold" : 15000,
+                                          "ore" : 10,
+                                          "crystal" : 20
+					},
+					"requires" : [
+						"dwellingLvl8"
+					],
+					"id" : 152,
+					"upgrades" : "dwellingUpLvl8",
+					"mode" : "auto"
+				}
+			},
+			"hallSlots" : [
+				[
+					[
+						"villageHall",
+						"townHall",
+						"cityHall",
+						"capitol"
+					],
+					[
+						"fort",
+						"citadel",
+						"castle"
+					],
+					[
+						"tavern"
+					],
+					[
+						"blacksmith"
+					]
+				],
+				[
+					[
+						"marketplace",
+						"resourceSilo"
+					],
+					[
+						"mageGuild1",
+						"mageGuild2",
+						"mageGuild3",
+						"mageGuild4",
+						"mageGuild5"
+					],
+					[
+						"special2"
+					]
+				],
+				[
+					[
+						"special3"
+					],
+					[
+						"special1"
+					],
+					[
+						"horde1",
+						"horde1Upgr"
+					]
+				],
+				[
+					[
+						"dwellingLvl1",
+						"dwellingUpLvl1"
+					],
+					[
+						"dwellingLvl2",
+						"dwellingUpLvl2"
+					],
+					[
+						"dwellingLvl3",
+						"dwellingUpLvl3"
+					],
+					[
+						"dwellingLvl4",
+						"dwellingUpLvl4"
+					]
+				],
+				[
+					[
+						"dwellingLvl5",
+						"dwellingUpLvl5"
+					],
+					[
+						"dwellingLvl6",
+						"dwellingUpLvl6"
+					],
+					[
+						"dwellingLvl7",
+						"dwellingUpLvl7",
+						"dwellingUpLvl7alt"
+					],
+					[
+						"dwellingLvl8",
+						"dwellingUpLvl8",
+						"dwellingUpLvl8alt"
+					]
+				]
+			]
+		}
+	}
+}

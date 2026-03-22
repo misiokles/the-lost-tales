@@ -2,7 +2,7 @@
 	"name" : "Hota compatibilty",
 	"author" : "Toriko94, Yogdush, Misiokles, and help from  ",
 	"contact" : "",
-	"description" : "Hota compatibilty. graphic modif of hota. Animation was added for map.def of seaWitch, sorceress, yeti runemaster. New def for yeti runemaster , for being like the base creature (brown). Kobold are now grey. ",
+	"description" : "Hota compatibilty. graphic modif of hota. Hd portrait for Cove. Animation was added for map.def of seaWitch, sorceress, yeti runemaster.",
 	"version" : "1.0.0",
 	"modType" : "Compatibility",
 	"compatibility" : {
@@ -28,9 +28,13 @@
 	"creatures" : [
 		"config/town-screen/conflux/creatures.json",
 		"config/hotaNeutralCreatures/steelGolem",
-		"config/hota/cove/creatures/seaWitch.json",
-		"config/hota/cove/creatures/sorceress.json",
-		"config/hota/factory/creatures/halfling.json"
+		"config/hota/cove/creatures/cove_modification.json",
+		"config/hota/factory/creatures/halfling.json",
+		"config/hota/factory/creatures/crimsonCouatl.json",
+		"config/hota/factory/creatures/quetzalcouatl.json",
+		"config/hota/factory/creatures/juggernaut.json",
+		"config/hota/factory/creatures/onslaught.json",
+		"config/hota/bulwark/creatures/bulwark_modification.json",
 	],
 	"heroes" : [
 		"config/hotaGameBalance/castle/catherine.json",
@@ -104,11 +108,18 @@
 		"config/hotaGameBalance/tower/thane.json",
 		"config/hotaGameBalance/tower/theodorus.json",
 
-		"config/hota/bulwark/heroes/spadum.json",
-		"config/hota/bulwark/heroes/kynr.json",
-		"config/hota/bulwark/heroes/vehr.json"
+		"config/hota/cove/heroes/karrul.json",
+		"config/hota/cove/heroes/azimar.json",
+		"config/hota/cove/heroes/laxus.json",
+		"config/hota/factory/heroes/bianne.json",
+		"config/hota/factory/heroes/sandel.json",
+		"config/hota/bulwark/heroes/mollur.json",
 	],
 	"factions" : [
-		"config/town-screen/conflux/confluxUpgrades"
-	]
+		"config/town-screen/conflux/confluxUpgrades",
+		"config/town-screen/factory/factoryUpgrades"
+	],
+	"spells" : [
+		"config/hota/factory/spells/meditation03.json"
+        ]
 }

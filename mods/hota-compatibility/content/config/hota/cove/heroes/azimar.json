@@ -1,0 +1,50 @@
+{
+	"azimar" : {
+		"class" : "captain",
+		"images" : {
+			"large" : "hota/cove/heroes/azimarLarge.png",
+			"small" : "hota/cove/heroes/azimarSmall.png",
+			"specialtyLarge" : "hota/cove/specialty/specialtyArcheryLarge.png",
+			"specialtySmall" : "hota/cove/specialty/specialtyArcherySmall.png"
+		},
+		"army" : [
+			{
+				"creature" : "nymph",
+				"min" : 15,
+				"max" : 25
+			},
+			{
+				"creature" : "crewmate",
+				"min" : 6,
+				"max" : 9
+			},
+			{
+				"creature" : "pirate",
+				"min" : 4,
+				"max" : 7
+			}
+		],
+		"skills" : [
+			{
+				"skill" : "offence",
+				"level" : "basic"
+			},
+			{
+				"skill" : "archery",
+				"level" : "basic"
+			}
+		],
+		"specialty" : {
+			"secondary" : "archery"
+		},
+		"texts" : {
+			"name" : "Azimar",
+			"biography" : "Azimar.",
+			"specialty" : {
+				"description" : "Receives a 5% per level bonus to Archery skill percentage.",
+				"name" : "Archery",
+				"tooltip" : "Secondary Skill Bonus: Archery"
+			}
+		}
+	}
+}

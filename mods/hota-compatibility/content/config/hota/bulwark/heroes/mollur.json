@@ -1,0 +1,51 @@
+{
+	"mollur" : {
+		"class" : "chieftain",
+		"female" : false,
+		"images" : {
+			"specialtySmall" : "hota/bulwark/specialty/specialtyJotunnSmall.png",
+			"specialtyLarge" : "hota/bulwark/specialty/specialtyJotunnLarge.png",
+			"large" : "hota/bulwark/heroes/mollurLarge.png",
+			"small" : "hota/bulwark/heroes/mollurSmall.png"
+		},
+		"army" : [
+			{
+				"creature" : "kobold",
+				"min" : 20,
+				"max" : 30
+			},
+			{
+				"creature" : "mountainRam",
+				"min" : 6,
+				"max" : 8
+			},
+			{
+				"creature" : "snowElf",
+				"min" : 3,
+				"max" : 5
+			}
+		],
+		"skills" : [
+			{
+				"skill" : "offence",
+				"level" : "basic"
+			},
+			{
+				"skill" : "scouting",
+				"level" : "basic"
+			}
+		],
+		"specialty" : {
+			"creature" : "jotunn"
+		},
+		"texts" : {
+			"name" : "Mollur",
+			"biography" : "Mollur is one of the oldest Jotunn of his clan, his prowess in battle and his courage are known throughout Vori. He only has to give a war cry for all the Jotunn to follow him into battle, without asking a single question.",
+			"specialty" : {
+				"name" : "Jotunn",
+				"description" : "Increases the Speed of allied Jotuuns and Jotunn Warlords by 1 and their Attack and Defense skills by 20% for every 7 levels (rounded up).",
+				"tooltip" : "Creature Bonus: Jotunn"
+			}
+		}
+	}
+}

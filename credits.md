@@ -43,18 +43,26 @@ Nightmare (model by WOG team and Grossmaestro modified by Toriko )
 Karkadann (model of ? modified by Toriko)
 Dwarf Guard (Yogdush)
 Blood Dragon (model by WOG team and Grossmaestro modified by Toriko )
+Quetzalcouatl Hota mixed part by Toriko. 
+Onslaught (model by HOTA team , recolored and modified by Toriko)
+Squire and Man ta arms (model from hota modified by Toriko) Ability from Courtyard Town. 
 
 NEW HEROES 
 
 Castle
 Slash (Toriko)
-Adrran (Toriko)
+Adrran (from h7 modified by Toriko)
 Nicolaj (Toriko)
+Laine (h4 modified by Toriko)
+Marcius  (heroes 4)
+Nanette  (heroes 4)
+SirKentaine  (heroes 4)
 
 Tower
 Sarakin (Geaorges Almond modified by Toriko)
-Sharah (H4)
-Jubal (H4)
+Sharah (h4 modified by Toriko)
+Jubal (h4 modified by Toriko)
+Marlous (Toriko)
 
 Necropolis
 Wyrm (Mod Design Team Forge Rialdo modified by Toriko)

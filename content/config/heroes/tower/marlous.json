@@ -1,0 +1,51 @@
+{
+	"marlous" : {
+		"class" : "alchemist",
+		"female" : false,
+		"images" : {
+			"specialtySmall" : "heroes/specialty/specialtyGremlinSmall.png",
+			"specialtyLarge" : "heroes/specialty/specialtyGremlinLarge.png",
+			"large" : "heroes/tower/marlousLarge.png",
+			"small" : "heroes/tower/marlousSmall.png"
+		},
+		"army" : [
+			{
+				"creature" : "gremlin",
+				"min" : 30,
+				"max" : 40
+			},
+			{
+				"creature" : "gremlin",
+				"min" : 30,
+				"max" : 40
+			},
+			{
+				"creature" : "gremlin",
+				"min" : 30,
+				"max" : 40
+			}
+		],
+		"skills" : [
+			{
+				"skill" : "scholar",
+				"level" : "basic"
+			},
+			{
+				"skill" : "archery",
+				"level" : "basic"
+			}
+		],
+		"specialty" : {
+			"creature" : "gremlin"
+		},
+		"texts" : {
+			"name" : "Marlous",
+			"biography" : "Marlous is an extremely obedient Gremlin. He accepted his slavery as if it were perfectly natural. His good fortune was to belong to a powerful mage who placed him at the head of a small army of Gremlins... Then his talents were recognized throughout Bracada as that of a powerful Gremlin leader...",
+			"specialty" : {
+				"name" : "Gremlins",
+				"description" : "Increases the speed of any Gremlins and Master Gremlins by 1 and their Attack and Defense skills by 10% for every 1 levels (rounded up).",
+				"tooltip" : "Creature Bonus: Gremlins"
+			}
+		}
+	}
+}
