@@ -1,12 +1,12 @@
 {
 	"bofmog" : {
-		"class" : "battlemage",
-		"female" : true,
+		"class" : "barbarian",
+		"female" : false,
 		"images" : {
 			"large" : "heroes/stronghold/bofmogLarge.png",
 			"small" : "heroes/stronghold/bofmogSmall.png",
-			"specialtyLarge" : "heroes/specialty/SpecialtyMysticismLarge.png",
-			"specialtySmall" : "heroes/specialty/SpecialtyMysticismSmall.png"
+			"specialtyLarge" : "heroes/specialty/SpecialtyArmorerLarge.png",
+			"specialtySmall" : "heroes/specialty/SpecialtyArmorerSmall.png"
 		},
 		"army" : [
 			{
@@ -27,27 +27,24 @@
 		],
 		"skills" : [
 			{
-				"skill" : "wisdom",
+				"skill" : "offence",
 				"level" : "basic"
 			},
 			{
-				"skill" : "mysticism",
+				"skill" : "armorer",
 				"level" : "basic"
 			}
 		],
 		"specialty" : {
-			"secondary" : "mysticism"
+			"secondary" : "armorer"
 		},
-		"spellbook" : [
-			"stoneSkin"
-		],
 		"texts" : {
 			"name" : "Bofmog",
 			"biography" : "Bofmog is Kilgor's personal executioner. On those few occasions when Kilgor didn't do the deed himself, he turned it over to silent, thoughtful Bofmog. Unknown to the mad king, however, Bofmog decided for himself who deserved to die. For those that didn't, he arranged an escape",
 			"specialty" : {
-				"description" : "Receives a 5% per level bonus to Mysticism skill.",
-				"name" : "Mysticism",
-				"tooltip" : "Secondary Skill Bonus: Mysticism"
+				"description" : "receives a 5% per level bonus to his Armorer skill percentage.",
+				"name" : "Armorer",
+				"tooltip" : "Secondary Skill Bonus: Armorer"
 			}
 		}
 	}

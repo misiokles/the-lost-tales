@@ -1,0 +1,51 @@
+{
+	"bianne" : {
+		"class" : "mercenary",
+		"female" : true,
+
+		"texts" : {
+			"name" : "Bianne",
+			"biography" : "Bianne has always been considered a genius. She was repairing automation systems at only 13 years old. It makes sense that now she's working on the most sophisticated machine in the factory.",
+			"specialty" : {
+				"tooltip" : "Creature Bonus: Dreadnoughts",
+				"name" : "Dreadnoughts",
+				"description" : "Increases the Speed of allied Dreadnoughts, Juggernauts and Onslaughts by 1 and their Attack and Defense skills by 20% for every 7 levels (rounded up)."
+			}
+		},
+
+		"images" : {
+			"specialtySmall" : "hota/factory/specialty/specialtyDreadnoughtSmall.png",
+			"specialtyLarge" : "hota/factory/specialty/specialtyDreadnoughtLarge.png",
+			"large" : "hota/factory/heroes/bianneLarge.png",
+			"small" : "hota/factory/heroes/bianneSmall.png"
+		},
+
+		"army" : [
+			{
+				"creature" : "halfling",
+				"max" : 25,
+				"min" : 15
+			},
+			{
+				"creature" : "hotaMechanic",
+				"max" : 9,
+				"min" : 7
+			},
+			{
+				"creature" : "armadillo",
+				"max" : 6,
+				"min" : 4
+			}
+		],
+		"skills" : [
+			{
+				"level" : "advanced",
+				"skill" : "logistics"
+			}
+		],
+
+		"specialty" : {
+			"creature" : "hota.factory:hotaDreadnought"
+		}
+	}
+}

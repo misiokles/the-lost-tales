@@ -12,8 +12,8 @@
 		"cost" : {
 			"gold" : 950
 		},
-		"speed" : 8,
-		"hitPoints" : 100,
+		"speed" : 7,
+		"hitPoints" : 110,
 		"attack" : 15,
 		"defense" : 14,
 		"damage" : {
@@ -29,19 +29,32 @@
 			"max" : 10
 		},
 		"abilities" : {
-			"raisesMorale" : {
-				"type" : "MORALE",
-				"val" : 1,
-				"propagator" : "ARMY",
-				"description" : "Sun Unicorn give +1 Morale to the hero.",
-				"stacking" : "sunUnicorn"
+			"blinds" :
+			{
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.blind",
+				"val" : 20,
+				"addInfo" : [3,0],
+                                "icon" : "zvs/Lib1.res/blindattack"
 			},
-			"raisesLuck" : {
-				"type" : "LUCK",
-				"val" : 1,
-				"propagator" : "ARMY",
-				"description" : "Sun Unicorn give +1 Luck to the hero",
-				"stacking" : "sunUnicorn"
+			"spellResistAura" :
+			{
+				"type" : "SPELL_RESISTANCE_AURA",
+				"val" : 20
+			},
+			"castFortune" : {
+				"type" : "SPELLCASTER",
+				"subtype" : "fortune",
+				"val" : 2,
+				"icon" : "zvs/Lib1.res/fortune0"
+			},
+			"fortune" : {
+				"type" : "CREATURE_ENCHANT_POWER",
+				"val" : 6
+			},
+			"spellpoints" : {
+				"type" : "CASTS",
+				"val" : 3
 			}
 		},
 		"graphics" : {

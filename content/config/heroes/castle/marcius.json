@@ -1,0 +1,59 @@
+{
+	"marcius" : {
+		"class" : "knight",
+		"female" : false,
+		"images" : {
+			"large" : "heroes/castle/marciusLarge.png",
+			"small" : "heroes/castle/marciusSmall.png",
+			"specialtyLarge" : "heroes/specialty/SpecialtyPeasantLarge.png",
+			"specialtySmall" : "heroes/specialty/SpecialtyPeasantSmall.png"
+		},
+		"army" : [
+			{
+				"creature" : "peasant",
+				"min" : 30,
+				"max" : 50
+			},
+			{
+				"creature" : "peasant",
+				"min" : 30,
+				"max" : 50
+			},
+			{
+				"creature" : "peasant",
+				"min" : 30,
+				"max" : 50
+			}
+		],
+		"skills" : [
+			{
+				"skill" : "leadership",
+				"level" : "basic"
+			},
+			{
+				"skill" : "tactics",
+				"level" : "basic"
+			}
+		],
+		"specialty" : {
+			"base" : {
+				"addInfo" : "pikeman",
+				"type" : "SPECIAL_UPGRADE"
+			},
+			"bonuses" : {
+                                "peasant2pikeman" : {
+					"subtype" : "peasant"
+				}
+			}
+                },
+		"texts" : {
+			"name" : "Marcius",
+			"biography" : "War dragged Marcius out of his mundane life as a farmer and into the exciting career of a soldier. Later, he was knighted and spent many years fighting in Queen Catherine's army, never complaining. What's a little hard work when you get to participate in some of the most exciting.",
+			"specialty" : {
+				"description" : "Transforms Peasants into Pikemen.",
+				"name" : "Peasants",
+				"tooltip" : "Special Upgrade: Peasant"
+			}
+		}
+	}
+}

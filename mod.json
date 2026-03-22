@@ -9,6 +9,9 @@
 		"min" : "1.7.0"
 	},
 	"changelog" : {
+		"1.0.3" : [
+			"Many bugs corriged. Added new heroes for cove , bulwark, factory, Reworked some TLT heroes, Reworked Stats and abilities of TLT creatures (WIP). "
+		],
 		"1.0.2" : [
 			"Alternative creature for Tower lvl2. Many bugs corriged. Added new heroes , Reworked some TLT heroes (Bofmog instead Crate), Reworked Stats and abilities of TLT creatures (WIP). "
 		],
@@ -22,7 +25,8 @@
 	"conflicts" : [
 		"third-upgrades",
 		"wake-of-gods",
-		"tears-of-ashan"
+		"tears-of-ashan",
+                "new-monsters-pack.lord-hawk-creatures-pack"
 	],
 	"softDepends" : [
 		"hota.heroes3DataPatch",
@@ -33,11 +37,16 @@
 		"config/heroes/castle/slash",
 		"config/heroes/castle/nicolaj",
 		"config/heroes/castle/addran",
+		"config/heroes/castle/laine",
+		"config/heroes/castle/marcius",
+		"config/heroes/castle/sirKentaine",
+		"config/heroes/castle/nanette",
 		"config/heroes/rampart/silf",
 		"config/heroes/rampart/tharj",
 		"config/heroes/tower/sarakin",
 		"config/heroes/tower/jubal",
 		"config/heroes/tower/sharah",
+		"config/heroes/tower/marlous",
 		"config/heroes/inferno/bruhl",
 		"config/heroes/inferno/gelila",
 		"config/heroes/necropolis/wyrm",
@@ -64,6 +73,8 @@
 		"config/creatures/castle/Castle_Alt2",
 		"config/creatures/castle/Castle_Alt4",
 		"config/creatures/castle/Castle_Alt5",
+		"config/creatures/castle/squire",
+		"config/creatures/castle/manAtArms",
 
 		"config/creatures/rampart/Rampart Modification",
 		"config/creatures/rampart/Rampart_Alt1",
@@ -133,5 +144,8 @@
 		"config/town-screen/stronghold/strongholdUpgrades",
 		"config/town-screen/fortress/fortressUpgrades",
 		"config/town-screen/conflux/confluxUpgrades"
+	],
+	"spells" : [
+		"config/spells/stunAbility"
 	]
 }

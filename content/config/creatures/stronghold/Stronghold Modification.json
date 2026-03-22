@@ -30,7 +30,7 @@
 		"graphics" : {
 			"iconLarge" : "creatures/stronghold/iconsbig/stronghold_lvl3",
 			"iconSmall" : "creatures/stronghold/iconssmall/stronghold_lvl3",
-			"map" : "creatures/stronghold/map/AVWorc0"
+			"map" : "creatures/stronghold/map/stronghold_lvl3"
 		}
 	},
 	"core:orcChieftain" : {
@@ -40,7 +40,7 @@
 		"graphics" : {
 			"iconLarge" : "creatures/stronghold/iconsbig/stronghold_lvl3up",
 			"iconSmall" : "creatures/stronghold/iconssmall/stronghold_lvl3up",
-			"map" : "creatures/stronghold/map/AVWorcx0"
+			"map" : "creatures/stronghold/map/stronghold_lvl3"
 		}
 	},
 	"core:ogre" : {
@@ -71,8 +71,8 @@
 		"graphics" : {
 			"iconLarge" : "creatures/stronghold/iconsbig/stronghold_lvl6",
 			"iconSmall" : "creatures/stronghold/iconssmall/stronghold_lvl6",
-			"map" : "creatures/stronghold/map/AVWcycx0",
-			"animation" : "creatures/stronghold/battle/CCYCLR",
+			"map" : "creatures/stronghold/map/stronghold_lvl6",
+			"animation" : "creatures/stronghold/battle/stronghold_lvl6",
 			"missile" : {
 				"attackClimaxFrame" : 5,
 				"offset" : {
@@ -107,8 +107,8 @@
 		"graphics" : {
 			"iconLarge" : "creatures/stronghold/iconsbig/stronghold_lvl6up",
 			"iconSmall" : "creatures/stronghold/iconssmall/stronghold_lvl6up",
-			"map" : "creatures/stronghold/map/AVWcycx0",
-			"animation" : "creatures/stronghold/battle/CcyclLor",
+			"map" : "creatures/stronghold/map/stronghold_lvl6up",
+			"animation" : "creatures/stronghold/battle/stronghold_lvl6up",
 			"missile" : {
 				"attackClimaxFrame" : 5,
 				"offset" : {

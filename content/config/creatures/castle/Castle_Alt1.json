@@ -34,7 +34,7 @@
 			},
 			"2 hex attack" : {
 				"type" : "TWO_HEX_ATTACK_BREATH",
-				"icon" : "zvs/Lib1.res/e_breathp"
+				"icon" : "zvs/Lib1.res/e_breathPikeman"
 			}
 		},
 		"graphics" : {

@@ -32,8 +32,8 @@
 		"graphics" : {
 			"iconLarge" : "creatures/stronghold/iconsbig/stronghold_lvl3upAlt.png",
 			"iconSmall" : "creatures/stronghold/iconssmall/stronghold_lvl3upAlt.png",
-			"map" : "creatures/stronghold/map/stronghold_Alt3",
-			"animation" : "creatures/stronghold/battle/stronghold_Alt3",
+			"map" : "creatures/stronghold/map/stronghold_lvl3upAlt",
+			"animation" : "creatures/stronghold/battle/stronghold_lvl3upAlt",
 			"timeBetweenFidgets" : 1,
 			"animationTime" : {
 				"walk" : 1.0,

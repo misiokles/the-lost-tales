@@ -43,7 +43,7 @@
 			"name" : "Farnivon",
 			"biography" : "Whenever a liaison with sprites is needed, carefree Farnivon is called because few people have the patience to put up with their practical jokes. For those who know Farnivon best, they have noticed that he is becoming more and more like the creatures he loves with each passing day.",
 			"specialty" : {
-				"description" : "Increases the Speed of allied Pixies and Sprites by 1 and their Attack and Defense skills by 20% for every 1 levels (rounded up).",
+				"description" : "Increases the Speed of allied Pixies and Sprites by 1 and their Attack and Defense skills by 10% for every 1 levels (rounded up).",
 				"tooltip" : "Creature Bonus: Pixies",
 				"name" : "Pixie"
 			}

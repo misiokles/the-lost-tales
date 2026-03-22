@@ -1,0 +1,71 @@
+{
+	"sirKentaine" : {
+		"class" : "knight",
+		"female" : false,
+		"images" : {
+			"large" : "heroes/castle/sirKentaineLarge.png",
+			"small" : "heroes/castle/sirKentaineSmall.png",
+			"specialtyLarge" : "heroes/specialty/SpecialtySquireLarge.png",
+			"specialtySmall" : "heroes/specialty/SpecialtySquireSmall.png"
+		},
+		"army" : [
+			{
+				"creature" : "squire",
+				"min" : 10,
+				"max" : 20
+			},
+			{
+				"creature" : "archer",
+				"min" : 4,
+				"max" : 7
+			},
+			{
+				"creature" : "griffin",
+				"min" : 2,
+				"max" : 3
+			}
+		],
+		"skills" : [
+			{
+				"skill" : "leadership",
+				"level" : "basic"
+			},
+			{
+				"skill" : "tactics",
+				"level" : "basic"
+			}
+		],
+"specialty" : {
+    "base" : {
+        "addInfo" : "squire",
+        "type" : "SPECIAL_UPGRADE"
+    },
+    "bonuses" : {
+        "pikeman2squire" : {
+            "subtype" : "pikeman"
+        },
+        "squire2ManAtArms" : {
+            "addInfo" : "manAtArms",
+            "subtype" : "squire"
+        },
+        "halberdier2ManAtArms" : {
+            "addInfo" : "manAtArms",
+            "subtype" : "halberdier"
+        },
+        "veteranPikeman2ManAtArms" : {
+            "addInfo" : "manAtArms",
+            "subtype" : "veteranPikeman"
+        }
+    }
+},
+		"texts" : {
+			"name" : "Sir Kentaine",
+			"biography" : "Sir Kentaine was raised from a squire to a knight when he single-handedly saved the King’s life during an assassination attempt. His long career as the King’s Swordbearer soon became the subject of many tales, most of which state that Kentaine is the example of a perfect knight.",
+			"specialty" : {
+				"description" : "Transforms Pikemen into Squires and Halberdiers, Veteran Pikemen into Man At Arms.",
+				"name" : "Squires",
+				"tooltip" : "Special Upgrade: Squires"
+			}
+		}
+	}
+}

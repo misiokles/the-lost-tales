@@ -43,7 +43,7 @@
 			"biography" : "Brühl is a Kreegan general known for his cruelty. He has no pity for weakness, even among his own warriors...",
 			"specialty" : {
 				"name" : "devils",
-				"description" : "Increases the speed of any Devils, Archdevils and Devil Reapers by 1 and their Attack and Defense skills by 5% for every 7 levels (rounded up).",
+				"description" : "Increases the speed of any Devils, Archdevils and Devil Reapers by 1 and their Attack and Defense skills by 20% for every 7 levels (rounded up).",
 				"tooltip" : "Creature Bonus: Devils"
 			}
 		}

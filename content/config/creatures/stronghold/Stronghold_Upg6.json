@@ -48,8 +48,8 @@
 		"graphics" : {
 			"iconLarge" : "creatures/stronghold/iconsbig/stronghold_lvl6Up2.png",
 			"iconSmall" : "creatures/stronghold/iconssmall/stronghold_lvl6Up2.png",
-			"map" : "creatures/stronghold/map/stronghold_Upg6.def",
-			"animation" : "creatures/stronghold/battle/stronghold_Upg6.def",
+			"map" : "creatures/stronghold/map/stronghold_lvl6up2",
+			"animation" : "creatures/stronghold/battle/stronghold_lvl6up2",
 			"animationTime" : {
 				"attack" : 1.0,
 				"idle" : 10.0,

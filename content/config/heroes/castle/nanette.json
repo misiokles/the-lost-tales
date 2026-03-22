@@ -1,0 +1,57 @@
+{
+	"nanette" : {
+		"class" : "cleric",
+		"female" : true,
+		"images" : {
+			"specialtySmall" : "heroes/specialty/specialtyCureSmall",
+			"specialtyLarge" : "heroes/specialty/specialtyCureLarge",
+			"large" : "heroes/castle/nanetteLarge.png",
+			"small" : "heroes/castle/nanetteSmall.png"
+		},
+		"army" : [
+			{
+				"creature" : "pikeman",
+				"min" : 10,
+				"max" : 20
+			},
+			{
+				"creature" : "archer",
+				"min" : 4,
+				"max" : 7
+			},
+			{
+				"creature" : "griffin",
+				"min" : 2,
+				"max" : 3
+			}
+		],
+		"skills" : [
+			{
+				"skill" : "wisdom",
+				"level" : "advanced"
+			}
+                ],
+		"specialty" : {
+			"bonuses" : {
+				"cure" : {
+					"subtype" : "spell.cure",
+					"type" : "SPECIAL_SPELL_LEV",
+					"updater" : "TIMES_HERO_LEVEL",
+					"val" : 3
+				}
+			}
+		},
+		"spellbook" : [
+			"cure"
+		],
+		"texts" : {
+			"name" : "Nanette",
+			"biography" : "Nanette made the worst mistake of her life when she let her parents talk her into joining the priesthood instead of marrying the man she loved. Now she has since lost contact with her love and she devotes herself entirely to her prayers...",
+			"specialty" : {
+				"description" : "Casts Cure with increased effect, based on hero level compared to the level of the target unit (the bonus is greater when used on weaker units).",
+				"name" : "Cure",
+				"tooltip" : "Spell Bonus: Cure"
+			}
+		}
+	}
+}
