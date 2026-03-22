@@ -26,7 +26,7 @@
 		"third-upgrades",
 		"wake-of-gods",
 		"tears-of-ashan",
-                "new-monsters-pack.lord-hawk-creatures-pack"
+		"new-monsters-pack.lord-hawk-creatures-pack"
 	],
 	"softDepends" : [
 		"hota.heroes3DataPatch",

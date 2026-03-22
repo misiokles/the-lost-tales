@@ -2,28 +2,28 @@
 	"tides-of-war.neutral-creatures:mdtGhost" : {
 		"faction" : "necropolis",
 		"graphics" : {
-                        "iconLarge" : "content/sprites/creatures/neutral/iconLarge/ghost",
-                        "iconSmall" : "content/sprites/creatures/neutral/iconSmall/ghost"
+			"iconLarge" : "content/sprites/creatures/neutral/iconLarge/ghost",
+			"iconSmall" : "content/sprites/creatures/neutral/iconSmall/ghost"
 		}
 	},
 	"tides-of-war.neutral-creatures:mdtDemilich" : {
 		"faction" : "necropolis",
 		"graphics" : {
-                        "iconLarge" : "content/sprites/creatures/neutral/iconLarge/demilich",
-                        "iconSmall" : "content/sprites/creatures/neutral/iconSmall/demilich"
+			"iconLarge" : "content/sprites/creatures/neutral/iconLarge/demilich",
+			"iconSmall" : "content/sprites/creatures/neutral/iconSmall/demilich"
 		}
 	},
 	"tides-of-war.neutral-creatures:mdtDreadSkipper" : {
 		"faction" : "necropolis",
 		"graphics" : {
-                        "iconLarge" : "content/sprites/creatures/neutral/iconLarge/dreadSkipper",
-                        "iconSmall" : "content/sprites/creatures/neutral/iconSmall/dreadSkipper"
+			"iconLarge" : "content/sprites/creatures/neutral/iconLarge/dreadSkipper",
+			"iconSmall" : "content/sprites/creatures/neutral/iconSmall/dreadSkipper"
 		}
 	},
 	"tides-of-war.neutral-creatures:mdtMermaid" : {
 		"graphics" : {
-                        "iconLarge" : "content/sprites/creatures/neutral/iconLarge/mermaid",
-                        "iconSmall" : "content/sprites/creatures/neutral/iconSmall/mermaid"
+			"iconLarge" : "content/sprites/creatures/neutral/iconLarge/mermaid",
+			"iconSmall" : "content/sprites/creatures/neutral/iconSmall/mermaid"
 		}
 	},
 	"core:troll" : {
