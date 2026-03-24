@@ -1,80 +1,80 @@
 {
 	"hota.cove:nymph" : {
 		"graphics" : {
-			"iconSmall" : "hota/cove/creatures/iconSmall/cove_lvl1"
+                        "iconSmall" : "hota/cove/creatures/iconSmall/cove_lvl1"
 		}
 	},
 	"hota.cove:oceanid" : {
 		"graphics" : {
-			"iconSmall" : "hota/cove/creatures/iconSmall/cove_lvl1up"
+                        "iconSmall" : "hota/cove/creatures/iconSmall/cove_lvl1up"
 		}
 	},
 	"hota.cove:crewmate" : {
 		"graphics" : {
-			"iconSmall" : "hota/cove/creatures/iconSmall/cove_lvl2"
+                        "iconSmall" : "hota/cove/creatures/iconSmall/cove_lvl2"
 		}
 	},
 	"hota.cove:seaman" : {
 		"graphics" : {
-			"iconSmall" : "hota/cove/creatures/iconSmall/cove_lvl2up"
+                        "iconSmall" : "hota/cove/creatures/iconSmall/cove_lvl2up"
 		}
 	},
 	"hota.cove:pirate" : {
 		"graphics" : {
-			"iconSmall" : "hota/cove/creatures/iconSmall/cove_lvl3"
+                        "iconSmall" : "hota/cove/creatures/iconSmall/cove_lvl3"
 		}
 	},
 	"hota.cove:corsair" : {
 		"graphics" : {
-			"iconSmall" : "hota/cove/creatures/iconSmall/cove_lvl3up"
+                        "iconSmall" : "hota/cove/creatures/iconSmall/cove_lvl3up"
 		}
 	},
 	"hota.cove:seadog" : {
 		"graphics" : {
-			"iconSmall" : "hota/cove/creatures/iconSmall/cove_lvl3up2"
+                        "iconSmall" : "hota/cove/creatures/iconSmall/cove_lvl3up2"
 		}
 	},
 	"hota.cove:stormbird" : {
 		"graphics" : {
-			"iconSmall" : "hota/cove/creatures/iconSmall/cove_lvl4"
+                        "iconSmall" : "hota/cove/creatures/iconSmall/cove_lvl4"
 		}
 	},
 	"hota.cove:ayssid" : {
 		"graphics" : {
-			"iconSmall" : "hota/cove/creatures/iconSmall/cove_lvl4up"
+                        "iconSmall" : "hota/cove/creatures/iconSmall/cove_lvl4up"
 		}
 	},
 	"hota.cove:seaWitch" : {
 		"graphics" : {
 			"map" : "hota/cove/creatures/adventureMap/AVWPRIES.def",
-			"iconSmall" : "hota/cove/creatures/iconSmall/cove_lvl5"
+                        "iconSmall" : "hota/cove/creatures/iconSmall/cove_lvl5"
 		}
 	},
 	"hota.cove:sorceress" : {
 		"graphics" : {
 			"map" : "hota/cove/creatures/adventureMap/AVWSORCS.def",
-			"iconSmall" : "hota/cove/creatures/iconSmall/cove_lvl5up"
+                        "iconSmall" : "hota/cove/creatures/iconSmall/cove_lvl5up"
 		}
 	},
 	"hota.cove:nix" : {
 		"graphics" : {
-			"iconSmall" : "hota/cove/creatures/iconSmall/cove_lvl6"
+                        "iconSmall" : "hota/cove/creatures/iconSmall/cove_lvl6"
 		}
 	},
 	"hota.cove:nixWarrior" : {
 		"graphics" : {
-			"iconSmall" : "hota/cove/creatures/iconSmall/cove_lvl6up"
+                        "iconSmall" : "hota/cove/creatures/iconSmall/cove_lvl6up"
 		}
 	},
 	"hota.cove:seaserpent" : {
 		"graphics" : {
-			"iconSmall" : "hota/cove/creatures/iconSmall/cove_lvl7"
+                        "iconSmall" : "hota/cove/creatures/iconSmall/cove_lvl7"
 		}
 	},
 	"hota.cove:haspid" : {
 		"graphics" : {
-			"iconLarge" : "hota/cove/creatures/iconLarge/cove_lvl7up",
-			"iconSmall" : "hota/cove/creatures/iconSmall/cove_lvl7up"
+                        "iconLarge" : "hota/cove/creatures/iconLarge/cove_lvl7up",
+                        "iconSmall" : "hota/cove/creatures/iconSmall/cove_lvl7up"
 		}
 	}
 }

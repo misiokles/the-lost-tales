@@ -41,11 +41,11 @@
 				"type" : "SPECIAL_UPGRADE"
 			},
 			"bonuses" : {
-				"peasant2pikeman" : {
+                                "peasant2pikeman" : {
 					"subtype" : "peasant"
 				}
 			}
-		},
+                },
 		"texts" : {
 			"name" : "Marcius",
 			"biography" : "War dragged Marcius out of his mundane life as a farmer and into the exciting career of a soldier. Later, he was knighted and spent many years fighting in Queen Catherine's army, never complaining. What's a little hard work when you get to participate in some of the most exciting.",

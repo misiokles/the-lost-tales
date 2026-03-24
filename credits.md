@@ -94,11 +94,14 @@ TOW MODIF
 Ghost Dwelling : H4 modified by Toriko
 
 NEW HERO PORTRAIT
-Catherine, Boragus, Lacus, Kilgor, Gelu, Fiur, Mutare, Xeron, Finneas, Gem, Sandro, (LiquidValor)
-Luna, Adrienne (Toriko)
-Roland1 (LiquidValor) Roland2 (Andruids)
+Catherine, Boragus, Kilgor, Gelu, Fiur, Mutare, Xeron, Finneas, Gem, Sandro, (LiquidValor)
+Luna, Adrienne , Lacus(Toriko)
+Roland (LiquidValor)
 Haart Lich (h3 Board Game)
 
 NEW CREATURE PORTRAIT
 Zealot, Archangel, Wraith, Zombie, Boar,(Toriko) Halfling (Toriko)
 Halfling (hota and modified by Toriko)
+
+NEW SECONDARY SKILL
+nobility (everything is from Perry's ACM mod of ERA )

@@ -147,4 +147,6 @@ NEW CREATURE MODEL
 Pikeman,  Haleberdier, Silver Pegasus, Dendroid soldier, Zombie, Orc, Orc Leader, Cyclop , Cyclop King, Fire Elemental, Halfling. 
 
 NEW CREATURE PORTRAIT HD by Suft and Modified by Toriko. 
- 
+
+NEW SECONDARY SKILL
+Nobility : increase Growth's creature of visited town.  
