@@ -39,7 +39,7 @@
 		},
 		"texts" : {
 			"name" : "Azimar",
-			"biography" : "Azimar.",
+			"biography" : "Azimar is one of Regna's most famous Sea Dogs. It's said that he never misses his target, even when he's drunk... Tired of having to answer to anyone, Azimar decided to be his own captain.",
 			"specialty" : {
 				"description" : "Receives a 5% per level bonus to Archery skill percentage.",
 				"name" : "Archery",

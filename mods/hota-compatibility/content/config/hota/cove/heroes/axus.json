@@ -1,0 +1,50 @@
+{
+	"Axus" : {
+		"class" : "captain",
+		"images" : {
+			"large" : "hota/cove/heroes/AxusLarge.png",
+			"small" : "hota/cove/heroes/AxusSmall.png",
+			"specialtyLarge" : "hota/cove/specialty/specialtySeaSerpentLarge.png",
+			"specialtySmall" : "hota/cove/specialty/specialtySeaSerpentSmall.png"
+		},
+		"army" : [
+			{
+				"creature" : "nymph",
+				"min" : 15,
+				"max" : 25
+			},
+			{
+				"creature" : "crewmate",
+				"min" : 6,
+				"max" : 9
+			},
+			{
+				"creature" : "pirate",
+				"min" : 4,
+				"max" : 7
+			}
+		],
+		"skills" : [
+			{
+				"skill" : "offence",
+				"level" : "basic"
+			},
+			{
+				"skill" : "navigation",
+				"level" : "basic"
+			}
+		],
+		"specialty" : {
+			"creature" : "hota.cove:seaserpent"
+		},
+		"texts" : {
+			"name" : "Axus",
+			"biography" : "Axus is a Water Elemental who chose not to live in the Plane Water. He prefers to live alongside the Sirens, Tritons, and Sea Serpents in the world's many seas. He is also the only one who can communicate with Sea Serpents and Haspids. This ability was discovered by Astra when she one day saw Axus with a Haspid. It was then that she asked him to guide these creatures in naval battles...",
+			"specialty" : {
+				"name" : "Sea Serpents",
+				"description" : "Increases the Speed of allied Sea Serpents and Haspids by 1 and their Attack and Defense skills by 20% for every 7 levels (rounded up).",
+				"tooltip" : "Creature Bonus: Sea Serpents"
+			}
+		}
+	}
+}
