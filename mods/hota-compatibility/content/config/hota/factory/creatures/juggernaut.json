@@ -1,6 +1,6 @@
 {
 	"hota.factory:hotaJuggernaut" : {
-                "upgrades" : [
+		"upgrades" : [
 			"onslaught"
 		]
 	}
