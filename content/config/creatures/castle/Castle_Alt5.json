@@ -54,8 +54,8 @@
 		"graphics" : {
 			"iconLarge" : "creatures/castle/iconsbig/Castle_lvl5upAlt.png",
 			"iconSmall" : "creatures/castle/iconssmall/Castle_lvl5upAlt.png",
-			"map" : "creatures/castle/map/Castle_Alt5.def",
-			"animation" : "creatures/castle/battle/Castle_Alt5.def",
+			"map" : "creatures/castle/map/Castle_lvl5upAlt.def",
+			"animation" : "creatures/castle/battle/Castle_lvl5upAlt.def",
 			"animationTime" : {
 				"attack" : 1.0,
 				"idle" : 10.0,

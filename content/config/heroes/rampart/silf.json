@@ -5,8 +5,8 @@
 		"images" : {
 			"large" : "heroes/rampart/silfLarge.png",
 			"small" : "heroes/rampart/silfSmall.png",
-			"specialtyLarge" : "heroes/specialty/SpecialtyCentaurLarge.png",
-			"specialtySmall" : "heroes/specialty/SpecialtyCentaurSmall.png"
+			"specialtyLarge" : "heroes/specialty/specialtyGreenDragonLarge.png",
+			"specialtySmall" : "heroes/specialty/specialtyGreenDragonSmall.png"
 		},
 		"army" : [
 			{
@@ -36,15 +36,15 @@
 			}
 		],
 		"specialty" : {
-			"creature" : "core:centaur"
+			"creature" : "core:greenDragon"
 		},
 		"texts" : {
 			"name" : "Silf",
-			"biography" : "During an attack by wild bears in the magic forest, Silf was saved by a group of nomadic centaurs. Since then, he has held a deep admiration and a great friendship for this people.",
+			"biography" : "During an attack by wild bears in the magic forest, Silf was saved by a Green Drgaon. Since then, he has held a deep admiration and a great friendship for this creature. With time other Dragons of the magic forest become friend with him. That is why he can now count on these dragons to help him on the battlefield.",
 			"specialty" : {
-				"name" : "Centaur",
-				"description" : "Increases the Speed of allied Centaurs, Cnetaur Captains, and Centaur Archers by 1 and their Attack and Defense skills by 10% for every level (rounded up).",
-				"tooltip" : "Creature Bonus: Centaur"
+				"name" : "Green Dragon",
+				"description" : "Increases the Speed of allied Green Dragon, Gold Dragons and Siver Dragons by 1 and their Attack and Defense skills by 20% for every 7 level (rounded up).",
+				"tooltip" : "Creature Bonus: Green Dragon"
 			}
 		}
 	}

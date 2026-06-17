@@ -1,17 +1,95 @@
 {
+	"core:imp" : {
+		"graphics" : {
+			"iconLarge" : "creatures/inferno/iconsbig/inferno_lvl1",
+			"iconSmall" : "creatures/inferno/iconssmall/inferno_lvl1",
+		}
+	},
+	"core:familiar" : {
+		"graphics" : {
+			"iconLarge" : "creatures/inferno/iconsbig/inferno_lvl1up",
+			"iconSmall" : "creatures/inferno/iconssmall/inferno_lvl1up",
+		}
+	},
+	"core:gog" : {
+		"graphics" : {
+			"iconLarge" : "creatures/inferno/iconsbig/inferno_lvl2",
+			"iconSmall" : "creatures/inferno/iconssmall/inferno_lvl2",
+		}
+	},
 	"core:magog" : {
 		"upgrades" : [
 			"wingedMagog"
-		]
+		],
+		"graphics" : {
+			"iconLarge" : "creatures/inferno/iconsbig/inferno_lvl2up",
+			"iconSmall" : "creatures/inferno/iconssmall/inferno_lvl2up",
+                }
+	},
+	"core:hellHound" : {
+		"graphics" : {
+			"iconLarge" : "creatures/inferno/iconsbig/inferno_lvl3",
+			"iconSmall" : "creatures/inferno/iconssmall/inferno_lvl3",
+		}
 	},
 	"core:cerberus" : {
 		"upgrades" : [
 			"fireHound"
-		]
+		],
+		"graphics" : {
+			"iconLarge" : "creatures/inferno/iconsbig/inferno_lvl3up",
+			"iconSmall" : "creatures/inferno/iconssmall/inferno_lvl3up",
+		}
+	},
+	"core:demon" : {
+		"graphics" : {
+			"iconLarge" : "creatures/inferno/iconsbig/inferno_lvl4",
+			"iconSmall" : "creatures/inferno/iconssmall/inferno_lvl4",
+		}
+	},
+	"core:hornedDemon" : {
+		"graphics" : {
+			"iconLarge" : "creatures/inferno/iconsbig/inferno_lvl4up",
+			"iconSmall" : "creatures/inferno/iconssmall/inferno_lvl4up",
+		}
+	},
+	"core:pitFiend" : {
+		"graphics" : {
+			"iconLarge" : "creatures/inferno/iconsbig/inferno_lvl5",
+			"iconSmall" : "creatures/inferno/iconssmall/inferno_lvl5",
+		}
+	},
+	"core:pitLord" : {
+		"graphics" : {
+			"iconLarge" : "creatures/inferno/iconsbig/inferno_lvl5up",
+			"iconSmall" : "creatures/inferno/iconssmall/inferno_lvl5up",
+		}
+	},
+	"core:efreet" : {
+		"graphics" : {
+			"iconLarge" : "creatures/inferno/iconsbig/inferno_lvl6",
+			"iconSmall" : "creatures/inferno/iconssmall/inferno_lvl6",
+		}
+	},
+	"core:efreetSultan" : {
+		"graphics" : {
+			"iconLarge" : "creatures/inferno/iconsbig/inferno_lvl6up",
+			"iconSmall" : "creatures/inferno/iconssmall/inferno_lvl6up",
+		}
+	},
+	"core:devil" : {
+		"graphics" : {
+			"iconLarge" : "creatures/inferno/iconsbig/inferno_lvl7",
+			"iconSmall" : "creatures/inferno/iconssmall/inferno_lvl7",
+		}
 	},
 	"core:archDevil" : {
 		"upgrades" : [
 			"reaperDevil"
-		]
+		],
+		"graphics" : {
+			"iconLarge" : "creatures/inferno/iconsbig/inferno_lvl7up",
+			"iconSmall" : "creatures/inferno/iconssmall/inferno_lvl7up",
+		}
 	}
 }

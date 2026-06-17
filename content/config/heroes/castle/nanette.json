@@ -30,7 +30,7 @@
 				"skill" : "wisdom",
 				"level" : "advanced"
 			}
-		],
+                ],
 		"specialty" : {
 			"bonuses" : {
 				"cure" : {

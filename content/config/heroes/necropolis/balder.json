@@ -2,7 +2,6 @@
 	"balder" : {
 		"class" : "necromancer",
 		"female" : false,
-
 		"texts" : {
 			"name" : "Balder",
 			"biography" : "Balder was an Enroth Necromancer specialised in Mummies transformation. Balder heard that many experiments were being conducted on a land called Deyja. His curiosity and thirst for knowledge were too great to resist going there to see for himself...",
@@ -12,7 +11,6 @@
 				"name" : "Mummies"
 			}
 		},
-
 		"images" : {
 			"specialtyLarge" : "heroes/specialty/specialtyMummyLarge.png",
 			"specialtySmall" : "heroes/specialty/specialtyMummySmall.png",
@@ -20,7 +18,7 @@
 			"small" : "heroes/necropolis/balderSmall.png"
 		},
 		"spellbook" : [
-			"animateDead"
+			"curse"
 		],
 		"army" : [
 			{

@@ -35,29 +35,29 @@
 				"level" : "basic"
 			}
 		],
-		"specialty" : {
-			"base" : {
-				"addInfo" : "squire",
-				"type" : "SPECIAL_UPGRADE"
-			},
-			"bonuses" : {
-				"pikeman2squire" : {
-					"subtype" : "pikeman"
-				},
-				"squire2ManAtArms" : {
-					"addInfo" : "manAtArms",
-					"subtype" : "squire"
-				},
-				"halberdier2ManAtArms" : {
-					"addInfo" : "manAtArms",
-					"subtype" : "halberdier"
-				},
-				"veteranPikeman2ManAtArms" : {
-					"addInfo" : "manAtArms",
-					"subtype" : "veteranPikeman"
-				}
-			}
-		},
+"specialty" : {
+    "base" : {
+        "addInfo" : "squire",
+        "type" : "SPECIAL_UPGRADE"
+    },
+    "bonuses" : {
+        "pikeman2squire" : {
+            "subtype" : "pikeman"
+        },
+        "squire2ManAtArms" : {
+            "addInfo" : "manAtArms",
+            "subtype" : "squire"
+        },
+        "halberdier2ManAtArms" : {
+            "addInfo" : "manAtArms",
+            "subtype" : "halberdier"
+        },
+        "veteranPikeman2ManAtArms" : {
+            "addInfo" : "manAtArms",
+            "subtype" : "veteranPikeman"
+        }
+    }
+},
 		"texts" : {
 			"name" : "Sir Kentaine",
 			"biography" : "Sir Kentaine was raised from a squire to a knight when he single-handedly saved the King’s life during an assassination attempt. His long career as the King’s Swordbearer soon became the subject of many tales, most of which state that Kentaine is the example of a perfect knight.",

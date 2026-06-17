@@ -1,7 +1,7 @@
 {
 	"hota.bulwark:yetiRunemaster" : {
 		"graphics" : {
-			"map" : "hota/bulwark/creatures/adventureMap/AVWMSPRT.def"
+			"map" : "hota/bulwark/creatures/adventureMap/AVWMSPRT.def",
 		}
 	}
 }

@@ -1,6 +1,6 @@
 {
-	"name" : "The Lost Tales",
-	"author" : "Toriko94, Yogdush, Misiokles",
+	"name" : "the lost tales",
+	"author" : "Toriko, Yogdush, Misiokles",
 	"contact" : "",
 	"description" : "This mod add the possibility of changing your upgrade into a new one when you want for free in the appropriate town faction or Hill Fort. Inferno, Stronghold and Fortress are the only factions with second upgrade possible for some specific creatures( not everyone). It was for making these Faction a little more competitive. Its not an obligation , just an option ... I dont change any stats of the Base game for keeping a maximum the same feeling as the original experience but with add on. the only exceptions are for the some neutrals who are affiled as some factions . Example : boar is Stronghold and have the same price as Wolf Raider for making the alternative completely free. The mod is completely compatible with TOW and HOTA ( mostly recomanded for having the better experience). TOW creatures were balanced for making them a little more competitive. There are new neutrals, new Heroes, new models for some creature, new portrait HD and some new ones created for the mod? HOTA and TOW.",
 	"version" : "1.0.4",
@@ -9,6 +9,9 @@
 		"min" : "1.7.0"
 	},
 	"changelog" : {
+		"1.0.5" : [
+			"New Hero skill : Defending, Nobility. New alternative for Royal Griffin. New hero , Zan Vatawna, New creature Dragonslayer. "
+		],
 		"1.0.4" : [
 			"Squire and man at arms are added , with Castle faction. Alternative for Juggernaut and Crimson Couatl. Added Nobility secondary skill from ACM of ERA."
 		],
@@ -29,7 +32,7 @@
 		"third-upgrades",
 		"wake-of-gods",
 		"tears-of-ashan",
-		"new-monsters-pack.lord-hawk-creatures-pack"
+                "new-monsters-pack.lord-hawk-creatures-pack"
 	],
 	"softDepends" : [
 		"hota.heroes3DataPatch",
@@ -44,8 +47,12 @@
 		"config/heroes/castle/marcius",
 		"config/heroes/castle/sirKentaine",
 		"config/heroes/castle/nanette",
+		"config/heroes/castle/zan",
 		"config/heroes/rampart/silf",
 		"config/heroes/rampart/tharj",
+		"config/heroes/rampart/hortos",
+		"config/heroes/rampart/balfor",
+		"config/heroes/rampart/vatawna",
 		"config/heroes/tower/sarakin",
 		"config/heroes/tower/jubal",
 		"config/heroes/tower/sharah",
@@ -55,6 +62,7 @@
 		"config/heroes/necropolis/wyrm",
 		"config/heroes/necropolis/balder",
 		"config/heroes/necropolis/maroth",
+		"config/heroes/necropolis/shudgoy",
 		"config/heroes/dungeon/melina",
 		"config/heroes/dungeon/gundross",
 		"config/heroes/stronghold/tyro",
@@ -70,14 +78,19 @@
 		"config/heroes/conflux/farnivon",
 		"config/heroes/heroes-modification"
 	],
+	"heroClasses" : [
+		"config/classes/doomKnightHero",
+		"config/classes/rolandKnightHero"
+	],
 	"creatures" : [
 		"config/creatures/castle/Castle Modification",
 		"config/creatures/castle/Castle_Alt1",
 		"config/creatures/castle/Castle_Alt2",
+		"config/creatures/castle/Castle_Alt3",
 		"config/creatures/castle/Castle_Alt4",
 		"config/creatures/castle/Castle_Alt5",
-		"config/creatures/castle/squire",
-		"config/creatures/castle/manAtArms",
+		"config/creatures/castle/CastleN_lvl1",
+		"config/creatures/castle/CastleN_lvl1up",
 
 		"config/creatures/rampart/Rampart Modification",
 		"config/creatures/rampart/Rampart_Alt1",
@@ -87,6 +100,7 @@
 		"config/creatures/rampart/Rampart_Alt7",
 
 		"config/creatures/tower/tower Modification",
+		"config/creatures/tower/tower_Alt1",
 		"config/creatures/tower/tower_Alt2",
 		"config/creatures/tower/tower_Alt4",
 		"config/creatures/tower/tower_Alt6",
@@ -99,7 +113,8 @@
 		"config/creatures/necropolis/necropolis_modification",
 		"config/creatures/necropolis/necropolis_Alt1",
 		"config/creatures/necropolis/necropolis_Alt3",
-		"config/creatures/necropolis/necropolis_Alt5",
+		"config/creatures/necropolis/necropolis_Alt5#",
+		"config/creatures/necropolis/necropolis_Alt5up#",
 		"config/creatures/necropolis/necropolis_Alt6",
 		"config/creatures/necropolis/necropolis_Alt7",
 
@@ -129,9 +144,11 @@
 
 		"config/creatures/neutral/nightmare",
 		"config/creatures/neutral/greatEnchanter",
-		"config/creatures/neutral/karkadann",
+		"config/creatures/neutral/armoredRhino",
 		"config/creatures/neutral/dwarfGuard",
 		"config/creatures/neutral/bloodDragon",
+		"config/creatures/neutral/dragonSlayer",
+		"config/creatures/neutral/dragonHunter",
 		"config/creatures/neutral/neutral_modification"
 	],
 	"objects" : [
@@ -152,6 +169,7 @@
 		"config/spells/stunAbility"
 	],
 	"skills" : [
-		"config/skills/nobility"
-	]
+		"config/skills/nobility",
+		"config/skills/defending"
+        ],
 }

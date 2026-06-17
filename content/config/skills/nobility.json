@@ -3,56 +3,56 @@
 		"name" : "Nobility",
 		"specialty" : [],
 		"gainChance" : {
-			"might" : 1,
-			"magic" : 1
+			"might" : 6,
+			"magic" : 2
 		},
-		"basic" : {
-			"images" : {
-				"small" : "skills/nobility/SmallBasic.png",
-				"medium" : "skills/nobility/MediumBasic.png",
-				"large" : "skills/nobility/LargeBasic.png",
+		"basic": {
+			"images": {
+				"small": "skills/nobility/SmallBasic.png",
+				"medium": "skills/nobility/MediumBasic.png",
+				"large": "skills/nobility/LargeBasic.png",
 				"scenarioBonus" : "skills/nobility/LargeBasic.png"
 			},
-			"description" : "{Basic nobility}\n\nIncreases the weekly creature growth by 10%",
-			"effects" : {
+			"description": "{Basic nobility}\n\nIncreases the weekly creature growth by 10%",
+			"effects": {
 				"growth" : {
 					"type" : "CREATURE_GROWTH_PERCENT",
 					"val" : 10,
-					"propagator" : "PLAYER"
+					"propagator" : "PLAYER",
 				}
-			}
+                        }
 		},
-		"advanced" : {
-			"images" : {
-				"small" : "skills/nobility/SmallAdvanced.png",
-				"medium" : "skills/nobility/MediumAdvanced.png",
-				"large" : "skills/nobility/LargeAdvanced.png",
+		"advanced": {
+			"images": {
+				"small": "skills/nobility/SmallAdvanced.png",
+				"medium": "skills/nobility/MediumAdvanced.png",
+				"large": "skills/nobility/LargeAdvanced.png",
 				"scenarioBonus" : "skills/nobility/LargeAdvanced.png"
 			},
-			"description" : "{Advanced nobility}\n\nIncreases the weekly creature growth by 20%",
-			"effects" : {
+			"description": "{Advanced nobility}\n\nIncreases the weekly creature growth by 20%",
+			"effects": {
 				"growth" : {
 					"type" : "CREATURE_GROWTH_PERCENT",
 					"val" : 20,
-					"propagator" : "PLAYER"
+					"propagator" : "PLAYER",
 				}
 			}
 		},
-		"expert" : {
-			"images" : {
-				"small" : "skills/nobility/SmallExpert.png",
-				"medium" : "skills/nobility/MediumExpert.png",
-				"large" : "skills/nobility/LargeExpert.png",
+		"expert": {
+			"images": {
+				"small": "skills/nobility/SmallExpert.png",
+				"medium": "skills/nobility/MediumExpert.png",
+				"large": "skills/nobility/LargeExpert.png",
 				"scenarioBonus" : "skills/nobility/LargeExpert.png"
 			},
-			"description" : "{Expert nobility}\n\nIncreases the weekly creature growth by 30%",
-			"effects" : {
+			"description": "{Expert nobility}\n\nIncreases the weekly creature growth by 30%",
+			"effects": {
 				"growth" : {
 					"type" : "CREATURE_GROWTH_PERCENT",
 					"val" : 30,
-					"propagator" : "PLAYER"
+					"propagator" : "PLAYER",
 				}
 			}
 		}
-	}
+        }
 }

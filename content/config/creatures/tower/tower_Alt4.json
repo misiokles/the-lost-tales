@@ -1,8 +1,8 @@
 {
-	"blackMage" : {
+	"masterMage" : {
 		"name" : {
-			"singular" : "Black Mage",
-			"plural" : "Black Magi"
+			"singular" : "Master Mage",
+			"plural" : "Master Magi"
 		},
 		"faction" : "tower",
 		"upgrades" : [
@@ -64,7 +64,7 @@
 				"walk" : 1
 			},
 			"missile" : {
-				"projectile" : "PMAGEX.DEF",
+				"projectile" : "creatures/tower/battle/PMAGEX.DEF",
 				"attackClimaxFrame" : 8,
 				"frameAngles" : [
 					90,

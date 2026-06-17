@@ -1,0 +1,80 @@
+{
+	"armoredRhino" : {
+		"name" : {
+			"singular" : "Armored Rhino",
+			"plural" : "Armored Rhinos"
+		},
+		"faction" : "neutral",
+		"level" : 7,
+		"cost" : {
+			"gold" : 3500,
+			"crystal" : 2
+		},
+		"doubleWide" : true,
+		"speed" : 10,
+		"hitPoints" : 110,
+		"attack" : 21,
+		"defense" : 27,
+		"damage" : {
+			"min" : 35,
+			"max" : 50
+		},
+		"growth" : 1,
+		"aiValue" : 6030,
+		"fightValue" : 7030,
+		"advMapAmount" : {
+			"min" : 3,
+			"max" : 8
+		},
+		"abilities" : {
+			"spellImmunity" : {
+				"type" : "LEVEL_SPELL_IMMUNITY",
+				"val" : 5
+			},
+			// Will be affected by Slayer with no expertise
+			"KING_1" : {
+				"type" : "KING",
+				"val" : 0
+			},
+			"fearless" : {
+				"type" : "FEARFUL",
+				"valueType" : "INDEPENDENT_MIN",
+				"description" : "@creatures.core.azureDragon.bonus.fearless",
+				"val" : 0,
+				"hidden" : false
+			},
+			"bindImm" : {
+				"type" : "SPELL_IMMUNITY",
+				"subtype" : "bind",
+				"addInfo" : 0,
+				"hidden" : true
+			},
+			"paralyzeImm" : {
+				"type" : "SPELL_IMMUNITY",
+				"subtype" : "paralyze",
+				"addInfo" : 0,
+				"hidden" : true
+			}
+		},
+		"graphics" : {
+			"iconLarge" : "creatures/neutral/iconsbig/armoredRhino.png",
+			"iconSmall" : "creatures/neutral/iconssmall/armoredRhino.png",
+			"map" : "creatures/neutral/map/armoredRhino",
+			"animation" : "creatures/neutral/battle/armoredRhino.def",
+			"animationTime" : {
+				"attack" : 1,
+				"idle" : 10,
+				"walk" : 1
+			},
+			"timeBetweenFidgets" : 1
+		},
+		"sound" : {
+			"attack" : "WUNCATTK.wav",
+			"defend" : "WUNCDFND.wav",
+			"killed" : "WUNCKILL.wav",
+			"move" : "WUNCMOVE.wav",
+			"shoot" : "WUNCSHOT.wav",
+			"wince" : "WUNCWNCE.wav"
+		}
+	}
+}

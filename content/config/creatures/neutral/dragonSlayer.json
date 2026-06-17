@@ -1,0 +1,66 @@
+{
+	"dragonSlayer": {
+		"name" : {
+			"singular" : "Dragonslayer",
+			"plural" : "Dragonslayers"
+		},
+		"faction" : "neutral",
+		"level" : 5,
+		"cost" : {
+			"gold" : 650
+		},
+		"speed" : 8,
+		"hitPoints" : 60,
+		"attack" : 15,
+		"defense" : 15,
+		"damage" : {
+			"min" : 10,
+			"max" : 16
+		},
+		"growth" : 3,
+		"horde" : 0,
+		"aiValue" : 1000,
+		"fightValue" : 1000,
+		"advMapAmount" : {
+			"min" : 8,
+			"max" : 13
+		},
+		"abilities" : {
+                        "hatesDragons" : {
+                        "type" : "HATES_TRAIT",
+                        "subtype" : "DRAGON_NATURE",
+                                 "val" : 50,
+				 "icon" : "zvs/Lib1.res/hatedragons",
+				 "description" : "{Dragon Slaying}\nDeal 50% more base damage on every dragons",
+				 "hidden" : false
+                        },
+			"spellImmunity" : {
+				"type" : "LEVEL_SPELL_IMMUNITY",
+				"val" : 3
+			},
+			"reduceDefence" : {
+				"type" : "ENEMY_DEFENCE_REDUCTION",
+				"val" : 25
+			}
+		},
+		"graphics" : {
+			"animation" : "creatures/neutral/battle/dragonSlayer.def",
+			"map" : "creatures/neutral/map/dragonSlayer.def",
+			"iconSmall" : "creatures/neutral/iconssmall/dragonSlayer.png",
+			"iconLarge" : "creatures/neutral/iconsbig/dragonSlayer.png",
+			"animationTime" : {
+				"attack" : 1,
+				"idle" : 10,
+				"walk" : 0.95
+			},
+			"timeBetweenFidgets" : 1,
+		},
+		"sound" : {
+			"attack" : "CRUSATTK.wav",
+			"defend" : "CRUSDFND.wav",
+			"killed" : "CRUSKILL.wav",
+			"move" : "CRUSMOVE.wav",
+			"wince" : "CRUSWNCE.wav"
+		}
+	}
+}

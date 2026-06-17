@@ -1,0 +1,65 @@
+{
+	"halfor" : {
+		"class" : "ranger",
+		"female" : false,
+		"images" : {
+			"large" : "heroes/rampart/balforLarge.png",
+			"small" : "heroes/rampart/balforSmall.png",
+			"specialtyLarge" : "heroes/specialty/SpecialtyDwarfGuardLarge.png",
+			"specialtySmall" : "heroes/specialty/SpecialtyDwarfGuardSmall.png"
+		},
+		"army" : [
+			{
+				"creature" : "dwarfGuard",
+				"min" : 4,
+				"max" : 7
+			},
+			{
+				"creature" : "dwarfGuard",
+				"min" : 4,
+				"max" : 7
+			},
+			{
+				"creature" : "dwarfGuard",
+				"min" : 4,
+				"max" : 7
+			}
+		],
+		"skills" : [
+			{
+				"level" : "basic",
+				"skill" : "nobility"
+			},
+			{
+				"level" : "basic",
+				"skill" : "defending"
+			}
+		],
+		"specialty" : {
+			"base" : {
+				"addInfo" : "dwarfGuard",
+				"type" : "SPECIAL_UPGRADE"
+			},
+			"bonuses" : {
+				"dwarf2dwarfGuard" : {
+					"subtype" : "dwarf"
+				},
+				"battleDwarf2dwarfGuard" : {
+					"subtype" : "battleDwarf"
+				},
+				"dwarfEnforcer2dwarfGuard" : {
+					"subtype" : "dwarfEnforcer"
+				}
+			}
+		},
+		"texts" : {
+			"name" : "Balfor",
+			"biography" : "Balfor is a wild Dwarf who belongs to a clan of Dwarf Blacksmiths of the mountains. He can train every Dwarves into Mountain Dwarves.",
+			"specialty" : {
+				"description" : "Transforms Dwarf, Battle Dwarf and Dwarf Enforcer into Dwarf Guard.",
+				"tooltip" : "Special Upgrade: Dwarf Guard",
+				"name" : "Dwarf Guard"
+			}
+		}
+	}
+}
