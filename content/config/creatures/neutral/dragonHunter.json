@@ -1,5 +1,5 @@
 {
-	"dragonHunter": {
+	"dragonHunter" : {
 		"name" : {
 			"singular" : "Dragon Hunter",
 			"plural" : "Dragon Hunters"
@@ -26,18 +26,18 @@
 			"max" : 15
 		},
 		"abilities" : {
-                        "hatesDragons" : {
-                        "type" : "HATES_TRAIT",
-                        "subtype" : "DRAGON_NATURE",
-                                 "val" : 50,
-				 "icon" : "zvs/Lib1.res/hatedragons",
-				 "description" : "{Dragon Slaying}\nDeal 50% more base damage on every dragons",
-				 "hidden" : false
-                        },
+			"hatesDragons" : {
+				"type" : "HATES_TRAIT",
+				"subtype" : "DRAGON_NATURE",
+				"val" : 50,
+				"icon" : "zvs/Lib1.res/hatedragons",
+				"description" : "{Dragon Slaying}\nDeal 50% more base damage on every dragons",
+				"hidden" : false
+			},
 			"spellImmunity" : {
 				"type" : "LEVEL_SPELL_IMMUNITY",
 				"val" : 3
-			},
+			}
 		},
 		"graphics" : {
 			"animation" : "creatures/neutral/battle/dragonHunter.def",
@@ -49,7 +49,7 @@
 				"idle" : 10,
 				"walk" : 0.95
 			},
-			"timeBetweenFidgets" : 1,
+			"timeBetweenFidgets" : 1
 		},
 		"sound" : {
 			"attack" : "CRUSATTK.wav",

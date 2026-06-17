@@ -26,7 +26,7 @@
 				"small" : "skills/defending/SmallBasic.png",
 				"medium" : "skills/defending/MediumBasic.png",
 				"large" : "skills/defending/LargeBasic.png",
-				"scenarioBonus" : "skills/defending/LargeBasic.png",
+				"scenarioBonus" : "skills/defending/LargeBasic.png"
 			}
 		},
 		"advanced" : {
@@ -51,9 +51,9 @@
 				}
 			},
 			"images" : {
-				"small": "skills/defending/SmallExpert.png",
-				"medium": "skills/defending/MediumExpert.png",
-				"large": "skills/defending/LargeExpert.png",
+				"small" : "skills/defending/SmallExpert.png",
+				"medium" : "skills/defending/MediumExpert.png",
+				"large" : "skills/defending/LargeExpert.png",
 				"scenarioBonus" : "skills/defending/LargeExpert.png"
 			}
 		}

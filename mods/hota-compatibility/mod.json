@@ -34,7 +34,7 @@
 		"config/hota/factory/creatures/quetzalcouatl.json",
 		"config/hota/factory/creatures/juggernaut.json",
 		"config/hota/factory/creatures/onslaught.json",
-		"config/hota/bulwark/creatures/bulwark_modification.json",
+		"config/hota/bulwark/creatures/bulwark_modification.json"
 	],
 	"heroes" : [
 		"config/hotaGameBalance/castle/catherine.json",
@@ -113,7 +113,7 @@
 		"config/hota/cove/heroes/axus.json",
 		"config/hota/factory/heroes/bianne.json",
 		"config/hota/factory/heroes/sandel.json",
-		"config/hota/bulwark/heroes/mollur.json",
+		"config/hota/bulwark/heroes/mollur.json"
 	],
 	"factions" : [
 		"config/town-screen/conflux/confluxUpgrades",
@@ -121,5 +121,5 @@
 	],
 	"spells" : [
 		"config/hota/factory/spells/meditation03.json"
-        ]
+	]
 }

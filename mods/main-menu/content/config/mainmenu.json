@@ -23,8 +23,8 @@
 	//Main menu window, consists of several sub-menus aka items
 	"window" : {
 		"background" : [
-                             "gamselbk"
-                ],
+			"gamselbk"
+		],
 		//		"scalable" : true,
 		"items" : [
 			{

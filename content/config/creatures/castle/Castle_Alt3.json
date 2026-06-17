@@ -1,5 +1,5 @@
 {
-	"assaultGriffin": {
+	"assaultGriffin" : {
 		"name" : {
 			"singular" : "Assault Griffin",
 			"plural" : "Assault Griffins"
@@ -52,7 +52,7 @@
 				"idle" : 10,
 				"walk" : 1.05
 			},
-			"timeBetweenFidgets" : 1,
+			"timeBetweenFidgets" : 1
 		},
 		"sound" : {
 			"attack" : "RGRFATTK.wav",

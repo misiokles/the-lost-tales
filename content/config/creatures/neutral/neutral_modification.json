@@ -44,7 +44,7 @@
 		"graphics" : {
 			"iconLarge" : "creatures/neutral/iconsbig/enchanter.png",
 			"iconSmall" : "creatures/neutral/iconssmall/enchanter.png"
-                        }
+		}
 	},
 	"core:azureDragon" : {
 		"graphics" : {

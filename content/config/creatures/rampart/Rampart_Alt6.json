@@ -29,16 +29,17 @@
 			"max" : 10
 		},
 		"abilities" : {
-			"blinds" :
-			{
+			"blinds" : {
 				"type" : "SPELL_AFTER_ATTACK",
 				"subtype" : "spell.blind",
 				"val" : 20,
-				"addInfo" : [3,0],
-                                "icon" : "zvs/Lib1.res/blindattack"
+				"addInfo" : [
+					3,
+					0
+				],
+				"icon" : "zvs/Lib1.res/blindattack"
 			},
-			"spellResistAura" :
-			{
+			"spellResistAura" : {
 				"type" : "SPELL_RESISTANCE_AURA",
 				"val" : 20
 			},

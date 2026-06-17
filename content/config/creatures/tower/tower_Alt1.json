@@ -1,5 +1,5 @@
 {
-	"assistantGremlin": {
+	"assistantGremlin" : {
 		"name" : {
 			"singular" : "Assistant Gremlin",
 			"plural" : "Assistant Gremlins"
@@ -29,16 +29,14 @@
 			"max" : 30
 		},
 		"abilities" : {
-			"potion" : 
-			{
+			"potion" : {
 				"type" : "SPELLCASTER",
 				"subtype" : "cure",
 				"val" : 0,
 				"description" : "{Spellcaster}\nCan cast Cure on himself.",
 				"icon" : "zvs/Lib1.res/cure0"
 			},
-			"castsCount" :
-			{
+			"castsCount" : {
 				"type" : "CASTS",
 				"val" : 1
 			}

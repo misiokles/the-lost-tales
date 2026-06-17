@@ -2,7 +2,9 @@
 	"vatawna" : {
 		"class" : "druid",
 		"female" : true,
-		"spellbook" :  [ "viewEarth" ],
+		"spellbook" : [
+			"viewEarth"
+		],
 		"images" : {
 			"large" : "heroes/rampart/vatawnaLarge.png",
 			"small" : "heroes/rampart/vatawnaSmall.png",
