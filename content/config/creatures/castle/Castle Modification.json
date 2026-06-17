@@ -40,6 +40,9 @@
 		}
 	},
 	"core:royalGriffin" : {
+		"upgrades" : [
+			"assaultGriffin"
+		],
 		"graphics" : {
 			"iconLarge" : "creatures/castle/iconsbig/castle_lvl3up",
 			"iconSmall" : "creatures/castle/iconssmall/castle_lvl3up"

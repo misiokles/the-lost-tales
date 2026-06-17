@@ -34,6 +34,8 @@
 		}
 	},
 	"core:roland" : {
+		"class" : "rolandKnightHero",
+		"special" : false,
 		"images" : {
 			"specialtyLarge" : "heroes/specialty/SpecialtySwordmenLarge.png",
 			"specialtySmall" : "heroes/specialty/SpecialtySwordmenSmall.png",
@@ -128,7 +130,7 @@
 	"core:theodorus" : {
 		"texts" : {
 			"specialty" : {
-				"description" : "Increases the Attack and Defense skills of any Magi, Arch Magi, and Black Magi for each level attained after 4th level.",
+				"description" : "Increases the Attack and Defense skills of any Magi, Arch Magi, and Master Magi for each level attained after 4th level.",
 				"name" : "Magi",
 				"tooltip" : "Creature Bonus: Magi"
 			}
@@ -163,8 +165,8 @@
 				"mage2enchanter" : {
 					"subtype" : "creature.mage"
 				},
-				"blackMage2enchanter" : {
-					"subtype" : "creature.blackMage"
+				"masterMage2enchanter" : {
+					"subtype" : "creature.masterMage"
 				},
 				"monk2enchanter" : {
 					"subtype" : "creature.monk"
@@ -179,7 +181,7 @@
 		},
 		"texts" : {
 			"specialty" : {
-				"description" : "Can upgrade Monks, Zealots or War Priestq and Magi, Arch Magi or Black Magi to Enchanters.",
+				"description" : "Can upgrade Monks, Zealots or War Priests and Magi, Arch Magi or Master Magi to Enchanters.",
 				"name" : "Enchanters",
 				"tooltip" : "Creature Bonus: Enchanters"
 			}
@@ -256,7 +258,7 @@
 	"core:moandor" : {
 		"texts" : {
 			"specialty" : {
-				"description" : "Increases the Attack and Defense skills of any Liches, Power Liches, and Doom Knights for each level attained after 5th level.",
+				"description" : "Increases the Attack and Defense skills of any Liches, Power Liches for each level attained after 5th level.",
 				"name" : "Liches",
 				"tooltip" : "Creature Bonus: Liches"
 			}

@@ -1,0 +1,54 @@
+{
+	"vatawna" : {
+		"class" : "druid",
+		"female" : true,
+		"spellbook" : [
+			"viewEarth"
+		],
+		"images" : {
+			"large" : "heroes/rampart/vatawnaLarge.png",
+			"small" : "heroes/rampart/vatawnaSmall.png",
+			"specialtyLarge" : "heroes/specialty/specialtyIntelligenceLarge.png",
+			"specialtySmall" : "heroes/specialty/specialtyIntelligenceSmall.png"
+		},
+		"army" : [
+			{
+				"creature" : "centaur",
+				"min" : 12,
+				"max" : 24
+			},
+			{
+				"creature" : "dwarf",
+				"min" : 5,
+				"max" : 7
+			},
+			{
+				"creature" : "woodElf",
+				"min" : 2,
+				"max" : 4
+			}
+		],
+		"skills" : [
+			{
+				"level" : "basic",
+				"skill" : "intelligence"
+			},
+			{
+				"level" : "basic",
+				"skill" : "wisdom"
+			}
+		],
+		"specialty" : {
+			"secondary" : "intelligence"
+		},
+		"texts" : {
+			"name" : "Vatawna",
+			"biography" : "Vatawna has always been committed to defending nature and sacred groves throughout the world. For several centuries, she has participated in numerous wars, ranging from the defense of the forests in Jadame to the War of Succession in Enroth.",
+			"specialty" : {
+				"name" : "Intelligence",
+				"description" : "Receives a 5% per level bonus to Intelligence skill percentage.",
+				"tooltip" : "Secondary Skill Bonus: Intelligence"
+			}
+		}
+	}
+}

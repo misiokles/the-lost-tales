@@ -2,6 +2,10 @@
 	"basepath" : "town-screen/tower/frames/",
 	"images" : [
 		{
+			"frame" : 44,
+			"file" : "TPTGrem2"
+		},
+		{
 			"frame" : 45,
 			"file" : "TPTGar2"
 		},

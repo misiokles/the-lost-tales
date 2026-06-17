@@ -1,0 +1,58 @@
+{
+	"recruitment" : {
+		"name" : "Recruitment",
+		"specialty" : [],
+		"gainChance" : {
+			"might" : 1,
+			"magic" : 1
+		},
+		"basic" : {
+			"images" : {
+				"small" : "skills/recruitment/SmallBasic.png",
+				"medium" : "skills/recruitment/MediumBasic.png",
+				"large" : "skills/recruitment/LargeBasic.png",
+				"scenarioBonus" : "skills/recruitment/LargeBasic.png"
+			},
+			"description" : "{Basic recruitment}\n\nIncreases the weekly creature growth by 10%",
+			"effects" : {
+				"growth" : {
+					"type" : "CREATURE_GROWTH_PERCENT",
+					"val" : 10,
+					"propagator" : "PLAYER"
+				}
+			}
+		},
+		"advanced" : {
+			"images" : {
+				"small" : "skills/recruitment/SmallAdvanced.png",
+				"medium" : "skills/recruitment/MediumAdvanced.png",
+				"large" : "skills/recruitment/LargeAdvanced.png",
+				"scenarioBonus" : "skills/recruitment/LargeAdvanced.png"
+			},
+			"description" : "{Advanced recruitment}\n\nIncreases the weekly creature growth by 20%",
+			"effects" : {
+				"growth" : {
+					"type" : "CREATURE_GROWTH_PERCENT",
+					"val" : 20,
+					"propagator" : "PLAYER"
+				}
+			}
+		},
+		"expert" : {
+			"images" : {
+				"small" : "skills/recruitment/SmallExpert.png",
+				"medium" : "skills/recruitment/MediumExpert.png",
+				"large" : "skills/recruitment/LargeExpert.png",
+				"scenarioBonus" : "skills/recruitment/LargeExpert.png"
+			},
+			"description" : "{Expert recruitment}\n\nIncreases the weekly creature growth by 30%",
+			"effects" : {
+				"growth" : {
+					"type" : "CREATURE_GROWTH_PERCENT",
+					"val" : 30,
+					"propagator" : "PLAYER"
+				}
+			}
+		}
+	}
+}

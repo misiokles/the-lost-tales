@@ -29,17 +29,17 @@
 					}
 				}
 			},
-			"karkadannPen" : {
-				"name" : "Karkadann Pen",
+			"rhinoPen" : {
+				"name" : "Rhino Pen",
 				"guards" : true,
 				"creatures" : [
 					[
-						"karkadann"
+						"armoredRhino"
 					]
 				],
 				"templates" : {
 					"default" : {
-						"animation" : "dwellings/neutral/karkadannPen.def",
+						"animation" : "dwellings/neutral/rhinoPen.def",
 						"visitableFrom" : [
 							"---",
 							"+++",
@@ -52,7 +52,7 @@
 						]
 					}
 				},
-				"kingdomOverviewImage" : "icons/flagports/karkadannPen"
+				"kingdomOverviewImage" : "icons/flagports/rhinoPen"
 			},
 			"blackWood" : {
 				"name" : "Black Wood",

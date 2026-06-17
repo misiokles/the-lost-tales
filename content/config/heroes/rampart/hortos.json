@@ -1,0 +1,51 @@
+{
+	"hortos" : {
+		"class" : "ranger",
+		"female" : false,
+		"images" : {
+			"large" : "heroes/rampart/hortosLarge.png",
+			"small" : "heroes/rampart/hortosSmall.png",
+			"specialtyLarge" : "heroes/specialty/SpecialtyCentaurLarge.png",
+			"specialtySmall" : "heroes/specialty/SpecialtyCentaurSmall.png"
+		},
+		"army" : [
+			{
+				"creature" : "centaur",
+				"min" : 12,
+				"max" : 24
+			},
+			{
+				"creature" : "centaur",
+				"min" : 12,
+				"max" : 24
+			},
+			{
+				"creature" : "centaur",
+				"min" : 12,
+				"max" : 24
+			}
+		],
+		"skills" : [
+			{
+				"level" : "basic",
+				"skill" : "logistics"
+			},
+			{
+				"level" : "basic",
+				"skill" : "luck"
+			}
+		],
+		"specialty" : {
+			"creature" : "core:centaur"
+		},
+		"texts" : {
+			"name" : "Hortos",
+			"biography" : "Hortos is the leader of the sedentary Avlee Centaurs.His title was bestowed upon him by his father, who had previously been the leader. It is therefore with great motivation that he strives day after day to live up to this title.",
+			"specialty" : {
+				"name" : "Centaur",
+				"description" : "Increases the Speed of allied Centaurs, Cnetaur Captains, and Centaur Archers by 1 and their Attack and Defense skills by 10% for every level (rounded up).",
+				"tooltip" : "Creature Bonus: Centaur"
+			}
+		}
+	}
+}

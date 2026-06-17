@@ -4,6 +4,7 @@ Alternative and second upgrade for all factions.
 CASTLE
 Halberdier <> Veteran Pikemen (LvL1)
 Marksman <> Bowman (LvL2)
+Royal Griffin <> Assault Griffin (LvL3)
 Crusader <> Vindicator (LvL4)
 Zealot <> War Priest (LvL5)
 
@@ -15,8 +16,9 @@ War Unicorn <> Sun Unicorn (LvL6)
 Gold Dragon <> Silver Dragon(LvL7)
 
 TOWER
+Master Gremlin <> Assistant Gremlin (LvL1)
 Obsidian Gargoyle <> Marble Gargoyle (LvL2)
-Arch Magi <> Black Magi (LvL4)
+Arch Magi <> Master Magi (LvL4)
 Naga Queen <> Naga Guardian (LvL6)
 
 INFERNO
@@ -104,8 +106,10 @@ nanette  (heroes 4)
 SirKentaine (heroes 4)
 
 Rampart
+Balfor
 Silf
 Tharj (H4)
+Vatawna
 
 Tower
 Sarakin (H2)
@@ -150,3 +154,4 @@ NEW CREATURE PORTRAIT HD by Suft and Modified by Toriko.
 
 NEW SECONDARY SKILL
 Nobility : increase Growth's creature of visited town.  
+Defending : increase defence when choosing to defend in battle. 

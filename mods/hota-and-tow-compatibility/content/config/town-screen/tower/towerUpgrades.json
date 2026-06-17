@@ -57,7 +57,8 @@
 				[
 					[
 						"dwellingLvl1",
-						"dwellingUpLvl1"
+						"dwellingUpLvl1",
+						"dwellingUpLvl1alt"
 					],
 					[
 						"dwellingLvl2",
@@ -97,7 +98,8 @@
 			"creatures" : [
 				[
 					"gremlin",
-					"masterGremlin"
+					"masterGremlin",
+					"assistantGremlin"
 				],
 				[
 					"stoneGargoyle",
@@ -111,7 +113,7 @@
 				[
 					"mage",
 					"archMage",
-					"blackMage"
+					"masterMage"
 				],
 				[
 					"genie",
@@ -130,6 +132,15 @@
 				]
 			],
 			"structures" : {
+				"dwellingUpLvl1alt" : {
+					"animation" : "TBTWUP_0.def",
+					"x" : 446,
+					"y" : 221,
+					"z" : 1,
+					"campaignBonus" : "BoTGrem2.pcx",
+					"border" : "TOTGRM2A.bmp",
+					"area" : "TZTGRM2A.bmp"
+				},
 				"dwellingUpLvl2alt" : {
 					"animation" : "TBTWUP_1.def",
 					"x" : 4,
@@ -173,14 +184,28 @@
 				}
 			},
 			"buildings" : {
+				"dwellingUpLvl1" : {
+					"description" : "The Workshop allows you to recruit Master Gremlins or Assistant Gremlins."
+				},
 				"dwellingUpLvl2" : {
 					"description" : "The Parapet allows you to recruit Obsidian Gargoyles or Marble Gargoyles."
 				},
 				"dwellingUpLvl4" : {
-					"description" : "The Mage Tower allows you to recruit Arch Magi or Black Magi."
+					"description" : "The Mage Tower allows you to recruit Arch Magi or Master Magi."
 				},
 				"dwellingUpLvl6" : {
 					"description" : "The Golden Pavilion allows you to recruit Naga Queens or Naga Guardians."
+				},
+				"dwellingUpLvl1alt" : {
+					"description" : "The Workshop allows you to recruit Master Gremlins or Assistant Gremlins.",
+					"name" : "Upg. Workshop",
+					"cost" : {},
+					"requires" : [
+						"dwellingLvl1"
+					],
+					"upgrades" : "dwellingUpLvl1",
+					"mode" : "auto",
+					"id" : 44
 				},
 				"dwellingUpLvl2alt" : {
 					"description" : "The Parapet allows you to recruit Obsidian Gargoyles or Marble Gargoyles.",
@@ -194,7 +219,7 @@
 					"id" : 45
 				},
 				"dwellingUpLvl4alt" : {
-					"description" : "The Mage Tower allows you to recruit Arch Magi or Black Magi.",
+					"description" : "The Mage Tower allows you to recruit Arch Magi or Master Magi.",
 					"name" : "Upg. Mage Tower",
 					"cost" : {},
 					"requires" : [

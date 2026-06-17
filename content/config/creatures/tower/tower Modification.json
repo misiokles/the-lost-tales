@@ -6,6 +6,9 @@
 		}
 	},
 	"core:masterGremlin" : {
+		"upgrades" : [
+			"assistantGremlin"
+		],
 		"graphics" : {
 			"iconLarge" : "creatures/tower/iconsbig/tower_lvl1up.png",
 			"iconSmall" : "creatures/tower/iconssmall/tower_lvl1up.png"
@@ -46,7 +49,7 @@
 	},
 	"core:archMage" : {
 		"upgrades" : [
-			"blackMage"
+			"masterMage"
 		],
 		"graphics" : {
 			"iconLarge" : "creatures/tower/iconsbig/tower_lvl4up.png",

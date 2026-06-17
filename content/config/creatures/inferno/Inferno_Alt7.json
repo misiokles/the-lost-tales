@@ -71,10 +71,10 @@
 			}
 		},
 		"graphics" : {
-			"iconLarge" : "creatures/inferno/iconsbig/Inferno_Alt7.png",
-			"iconSmall" : "creatures/inferno/iconssmall/Inferno_Alt7.png",
-			"map" : "creatures/inferno/map/Inferno_Alt7.def",
-			"animation" : "creatures/inferno/battle/Inferno_Alt7.def",
+			"iconLarge" : "creatures/inferno/iconsbig/Inferno_lvl7upAlt.png",
+			"iconSmall" : "creatures/inferno/iconssmall/Inferno_lvl7upAlt.png",
+			"map" : "creatures/inferno/map/Inferno_lvl7upAlt.def",
+			"animation" : "creatures/inferno/battle/Inferno_lvl7upAlt.def",
 			"animationTime" : {
 				"attack" : 1,
 				"idle" : 10,

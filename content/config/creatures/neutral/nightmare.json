@@ -44,7 +44,7 @@
 			},
 			"dummyFearIcon" : {
 				"type" : "NONE",
-				"icon" : "creatures/neutral/battle/e_fear.png",
+				"icon" : "zvs/Lib1.res/e_fear.png",
 				"description" : "{Fear}\nThis creature can fear enemy units."
 			},
 			"fearless" : {

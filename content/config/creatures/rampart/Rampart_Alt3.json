@@ -18,7 +18,7 @@
 		"defense" : 5,
 		"damage" : {
 			"min" : 3,
-			"max" : 6
+			"max" : 5
 		},
 		"fightValue" : 195,
 		"aiValue" : 331,

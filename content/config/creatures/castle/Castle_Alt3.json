@@ -1,0 +1,65 @@
+{
+	"assaultGriffin" : {
+		"name" : {
+			"singular" : "Assault Griffin",
+			"plural" : "Assault Griffins"
+		},
+		"faction" : "castle",
+		"upgrades" : [
+			"royalGriffin"
+		],
+		"level" : 3,
+		"cost" : {
+			"gold" : 240
+		},
+		"speed" : 6,
+		"hitPoints" : 25,
+		"attack" : 9,
+		"defense" : 9,
+		"damage" : {
+			"min" : 3,
+			"max" : 6
+		},
+		"doubleWide" : true,
+		"growth" : 7,
+		"horde" : 3,
+		"aiValue" : 448,
+		"fightValue" : 364,
+		"advMapAmount" : {
+			"min" : 12,
+			"max" : 20
+		},
+		"hasDoubleWeek" : true,
+		"abilities" : {
+			"FLYING_ARMY" : {
+				"type" : "FLYING"
+			},
+			"extraRetaliation" : {
+				"type" : "ADDITIONAL_RETALIATION",
+				"val" : 1
+			},
+			"firstStrike" : {
+				"type" : "FIRST_STRIKE"
+			}
+		},
+		"graphics" : {
+			"iconLarge" : "creatures/castle/iconsbig/Castle_lvl3upAlt.png",
+			"iconSmall" : "creatures/castle/iconssmall/Castle_lvl3upAlt.png",
+			"map" : "creatures/castle/map/Castle_lvl3upAlt.def",
+			"animation" : "creatures/castle/battle/Castle_lvl3upAlt.def",
+			"animationTime" : {
+				"attack" : 1,
+				"idle" : 10,
+				"walk" : 1.05
+			},
+			"timeBetweenFidgets" : 1
+		},
+		"sound" : {
+			"attack" : "RGRFATTK.wav",
+			"defend" : "RGRFDFND.wav",
+			"killed" : "RGRFKILL.wav",
+			"move" : "RGRFMOVE.wav",
+			"wince" : "RGRFWNCE.wav"
+		}
+	}
+}

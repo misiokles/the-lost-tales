@@ -43,7 +43,7 @@
 			"biography" : "Marlous is an extremely obedient Gremlin. He accepted his slavery as if it were perfectly natural. His good fortune was to belong to a powerful mage who placed him at the head of a small army of Gremlins... Then his talents were recognized throughout Bracada as that of a powerful Gremlin leader...",
 			"specialty" : {
 				"name" : "Gremlins",
-				"description" : "Increases the speed of any Gremlins and Master Gremlins by 1 and their Attack and Defense skills by 10% for every 1 levels (rounded up).",
+				"description" : "Increases the speed of any Gremlins, Master Gremlins and Assistant Gremlins by 1 and their Attack and Defense skills by 10% for every 1 levels (rounded up).",
 				"tooltip" : "Creature Bonus: Gremlins"
 			}
 		}

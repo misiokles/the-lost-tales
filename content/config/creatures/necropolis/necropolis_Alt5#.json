@@ -1,0 +1,64 @@
+{
+	"doomKnight" : {
+		"name" : {
+			"singular" : "Doom Knight",
+			"plural" : "Doom Knights"
+		},
+		"faction" : "necropolis",
+		"upgrades" : [
+			"doomReaper"
+		],
+		"level" : 5,
+		"cost" : {
+			"gold" : 550
+		},
+		"speed" : 9,
+
+		"hitPoints" : 50,
+		"attack" : 12,
+		"defense" : 14,
+		"damage" : {
+			"min" : 10,
+			"max" : 15
+		},
+		"doubleWide" : false,
+		"growth" : 3,
+		"horde" : 0,
+		"aiValue" : 850,
+		"fightValue" : 850,
+		"advMapAmount" : {
+			"min" : 8,
+			"max" : 12
+		},
+		"abilities" : {
+			"IS_UNDEAD" : {
+				"type" : "UNDEAD"
+			},
+			"curses" : {
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.curse",
+				"val" : 20,
+				"icon" : "zvs/Lib1.res/curseattack"
+			}
+		},
+		"graphics" : {
+			"iconLarge" : "creatures/necropolis/iconsbig/necropolis_lvl5#.png",
+			"iconSmall" : "creatures/necropolis/iconssmall/necropolis_lvl5#.png",
+			"map" : "creatures/necropolis/map/necropolis_lvl5#.def",
+			"animation" : "creatures/necropolis/battle/necropolis_lvl5#.def",
+			"animationTime" : {
+				"attack" : 1,
+				"idle" : 10,
+				"walk" : 1
+			},
+			"timeBetweenFidgets" : 1
+		},
+		"sound" : {
+			"attack" : "BLRDATTK.wav",
+			"defend" : "CRUSDFND.wav",
+			"killed" : "BLRDKILL.wav",
+			"move" : "CRUSMOVE.wav",
+			"wince" : "BLRDWNCE.wav"
+		}
+	}
+}

@@ -3,8 +3,8 @@
 		"name" : "Nobility",
 		"specialty" : [],
 		"gainChance" : {
-			"might" : 1,
-			"magic" : 1
+			"might" : 6,
+			"magic" : 2
 		},
 		"basic" : {
 			"images" : {

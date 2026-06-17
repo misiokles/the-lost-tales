@@ -1,0 +1,53 @@
+{
+	"shudgoy" : {
+		"class" : "doomKnightHero",
+		"female" : false,
+		"texts" : {
+			"name" : "Shudgoy",
+			"biography" : "Shudgoy is the greatest Doom Knight who ever existed. His talents are such that he can rival the formidable Dread Knights without being mounted... That is why he was asked to create and train an army of armored vampires.",
+			"specialty" : {
+				"description" : "Increases the Speed of Doom Knights by 1 and their Attack and Defense skills by 20% for every 5 levels (rounded up).",
+				"name" : "Doom Knight",
+				"tooltip" : "Creature Bonus: Doom Knights"
+			}
+		},
+
+		"images" : {
+			"specialtyLarge" : "heroes/specialty/specialtyDoomKnightLarge.png",
+			"specialtySmall" : "heroes/specialty/specialtyDoomKnightSmall.png",
+			"large" : "heroes/necropolis/shudgoyLarge.png",
+			"small" : "heroes/necropolis/shudgoySmall.png"
+		},
+		"army" : [
+			{
+				"creature" : "skeleton",
+				"min" : 20,
+				"max" : 30
+			},
+			{
+				"creature" : "zombie",
+				"min" : 4,
+				"max" : 6
+			},
+			{
+				"creature" : "wight",
+				"min" : 4,
+				"max" : 6
+			}
+		],
+
+		"skills" : [
+			{
+				"level" : "basic",
+				"skill" : "necromancy"
+			},
+			{
+				"level" : "basic",
+				"skill" : "offence"
+			}
+		],
+		"specialty" : {
+			"creature" : "doomKnight"
+		}
+	}
+}

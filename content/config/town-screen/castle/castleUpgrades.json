@@ -62,7 +62,8 @@
 					],
 					[
 						"dwellingLvl3",
-						"dwellingUpLvl3"
+						"dwellingUpLvl3",
+						"dwellingUpLvl3alt"
 					],
 					[
 						"dwellingLvl4",
@@ -99,7 +100,8 @@
 				],
 				[
 					"griffin",
-					"royalGriffin"
+					"royalGriffin",
+					"assaultGriffin"
 				],
 				[
 					"swordsman",
@@ -120,7 +122,6 @@
 					"archangel"
 				]
 			],
-
 			"structures" : {
 				"dwellingUpLvl1alt" : {
 					"animation" : "TBCSUP_0.def",
@@ -140,7 +141,16 @@
 					"border" : "TOCSCRS2.bmp",
 					"area" : "TZCSCRS2.bmp"
 				},
-				"dwellingUpLvl4" : {
+				"dwellingUpLvl3alt" : {
+					"animation" : "TBCSUP_2.def",
+					"x" : 76,
+					"y" : 35,
+					"z" : -1,
+					"campaignBonus" : "BoCsGr2.pcx",
+					"border" : "TOCSGR2N.bmp",
+					"area" : "TZCSGR2N.bmp"
+				},
+				"dwellingUpLvl4alt" : {
 					"animation" : "TBCSUP_3.def",
 					"x" : 176,
 					"y" : 85,
@@ -149,7 +159,7 @@
 					"border" : "TOCSSWD2.bmp",
 					"area" : "TZCSSWD2.bmp"
 				},
-				"dwellingUpLvl5" : {
+				"dwellingUpLvl5alt" : {
 					"animation" : "TBCSUP_4.def",
 					"x" : 563,
 					"y" : 173,
@@ -159,13 +169,15 @@
 					"area" : "TZCSMON2.bmp"
 				}
 			},
-
 			"buildings" : {
 				"dwellingUpLvl1" : {
 					"description" : "The Guardhouse allows you to recruit Halberdiers or Veteran Pikemen."
 				},
 				"dwellingUpLvl2" : {
-					"description" : "The Archers' Tower allows you to recruit Marksmen or Bowmen."
+					"description" : "The Archer's Tower allows you to recruit Marksmen or Bowmen."
+				},
+				"dwellingUpLvl3" : {
+					"description" : "The Griffin's Tower allows you to recruit Royal Griffins or Assault Griffins."
 				},
 				"dwellingUpLvl4" : {
 					"description" : "The Barracks allow you to recruit Crusaders or Vindicators."
@@ -185,7 +197,7 @@
 					"id" : 44
 				},
 				"dwellingUpLvl2alt" : {
-					"description" : "The Archers' Tower allows you to recruit Marksmen or Bowmen.",
+					"description" : "The Archer's Tower allows you to recruit Marksmen or Bowmen.",
 					"name" : "Upg. Archers' Tower",
 					"cost" : {},
 					"requires" : [
@@ -194,6 +206,17 @@
 					"upgrades" : "dwellingUpLvl2",
 					"mode" : "auto",
 					"id" : 45
+				},
+				"dwellingUpLvl3alt" : {
+					"description" : "The Griffin's Tower allows you to recruit Royal Griffins or Assault Griffins.",
+					"name" : "Upg. Griffin's Tower",
+					"cost" : {},
+					"requires" : [
+						"dwellingLvl3"
+					],
+					"upgrades" : "dwellingUpLvl3",
+					"mode" : "auto",
+					"id" : 46
 				},
 				"dwellingUpLvl4alt" : {
 					"description" : "The Barracks allow you to recruit Crusaders or Vindicators.",

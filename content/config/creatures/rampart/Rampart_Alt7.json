@@ -23,7 +23,7 @@
 		},
 		"fightValue" : 6220,
 		"aiValue" : 8630,
-		"growth" : 12,
+		"growth" : 1,
 		"doubleWide" : true,
 		"advMapAmount" : {
 			"min" : 3,

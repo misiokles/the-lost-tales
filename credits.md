@@ -6,6 +6,7 @@ VCMI Team for the possibilities and Help.
 CREATURE
 Pikeman, Halberdier, Veteran Pikemen (model by Hota Crew Modified by Toriko)
 Bowman (Yogdush)
+Assault Griffin (modified by Toriko)
 Vindicator (Yogdush)
 War Priest (modified by Toriko)
 Centaur Archer (Yogdush)
@@ -15,8 +16,9 @@ Silver Pegasus (Toriko)
 Dendroid Soldier (Toriko)
 Sun Unicorn (Toriko)
 Silver Dragon (Toriko)
+Assistant Gremlin (Yogdush)
 Marble Gargoyle (Toriko)
-Black Magi (Toriko)
+Master Magi (Yogdush)
 Winged Magog (Toriko)
 Fire Hound (Toriko)
 Reaper Devil (Toriko)
@@ -67,7 +69,8 @@ Marlous (Toriko)
 Necropolis
 Wyrm (Mod Design Team Forge Rialdo modified by Toriko)
 Maroth (Toriko)
-Balder
+Balder (Toriko)
+Shudgoy (Toriko)
 
 Dungeon
 Melina (Toriko)
@@ -87,14 +90,14 @@ Nacron (Toriko)
 Conflux
 Falagar (Andruids)
 Falavion (H4)
-Bizz
+Bizz (Toriko)
 Lazar
 
 TOW MODIF
 Ghost Dwelling : H4 modified by Toriko
 
 NEW HERO PORTRAIT
-Catherine, Boragus, Kilgor, Gelu, Fiur, Mutare, Xeron, Finneas, Gem, Sandro, (LiquidValor)
+Catherine (modified by Toriko), Boragus, Kilgor, Gelu, Fiur, Mutare, Xeron, Finneas, Gem, Sandro, (LiquidValor)
 Luna, Adrienne , Lacus(Toriko)
 Roland (LiquidValor)
 Haart Lich (h3 Board Game)
@@ -105,3 +108,4 @@ Halfling (hota and modified by Toriko)
 
 NEW SECONDARY SKILL
 nobility (everything is from Perry's ACM mod of ERA )
+defending 
