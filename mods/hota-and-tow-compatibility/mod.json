@@ -33,5 +33,12 @@
 		"config/town-screen/stronghold/strongholdUpgrades",
 		"config/town-screen/fortress/fortressUpgrades",
 		"config/town-screen/conflux/confluxUpgrades"
-	]
+	],
+	"polish" : {
+		"name" : "Kompatybilność z HotA i ToW",
+		"description" : "Łatka na kompatybilność z modami HotA i ToW.",
+		"translations" : [
+			"translation/polish.json"
+		]
+	}
 }
