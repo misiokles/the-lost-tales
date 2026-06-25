@@ -171,5 +171,12 @@
 	"skills" : [
 		"config/skills/nobility",
 		"config/skills/defending"
-	]
+	],
+	"polish" : {
+		"name" : "Zaginione opowieści (The Lost Tales)",
+		"description" : "Ten mod dodaje możliwość zmiany ulepszenia jednostki na nowe za darmo i w dowolnym momencie w odpowiednim mieście danej frakcji lub w Forcie na Wzgórzu.",
+		"translations" : [
+			"translation/polish.json"
+		]
+	}
 }

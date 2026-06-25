@@ -121,5 +121,12 @@
 	],
 	"spells" : [
 		"config/hota/factory/spells/meditation03.json"
-	]
+	],
+	"polish" : {
+		"name" : "Kompatybilność z HotA",
+		"description" : "Łatka na kompatybilność z modem HotA.",
+		"translations" : [
+			"translation/polish.json"
+		]
+	}
 }

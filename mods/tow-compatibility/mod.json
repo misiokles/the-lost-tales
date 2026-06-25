@@ -50,5 +50,12 @@
 		"config/town-screen/stronghold/strongholdUpgrades",
 		"config/town-screen/fortress/fortressUpgrades",
 		"config/town-screen/conflux/confluxUpgrades"
-	]
+	],
+	"polish" : {
+		"name" : "Kompatybilność z ToW",
+		"description" : "Łatka na kompatybilność z modem Tow.",
+		"translations" : [
+			"translation/polish.json"
+		]
+	}
 }
