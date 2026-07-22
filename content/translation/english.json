@@ -413,5 +413,14 @@
 	"spell.the-lost-tales.hota-compatibility.meditation03.description.expert" : "{Meditation}\n\nTemporary invulnerability.\n",
 	"spell.the-lost-tales.hota-compatibility.meditation03.description.none" : "{Meditation}\n\nTemporary invulnerability.\n",
 	"spell.the-lost-tales.hota-compatibility.meditation03.name" : "Meditation",
-	"spell.the-lost-tales.stunAbility.name" : "Stun"
+	"spell.the-lost-tales.stunAbility.name" : "Stun",
+	"mod.name" : "the lost tales",
+	"mod.hota-and-tow-compatibility.name" : "Hota and Tides of war compatibilty",
+	"mod.hota-and-tow-compatibility.description" : "Alternative Upgrade, Hota, tides of war  ",
+	"mod.hota-compatibility.name" : "Hota compatibilty",
+	"mod.hota-compatibility.description" : "Hota compatibilty. graphic modif of hota. Hd portrait for Cove. Animation was added for map.def of seaWitch, sorceress, yeti runemaster.",
+	"mod.main-menu.name" : "Alternative-menu",
+	"mod.main-menu.description" : "Menu Replacement",
+	"mod.tow-compatibility.name" : "Tides of war compatibilty",
+	"mod.tow-compatibility.description" : "Alternative Upgrade and tides of war creatures "
 }

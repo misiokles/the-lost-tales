@@ -413,5 +413,12 @@
 	"spell.the-lost-tales.hota-compatibility.meditation03.description.expert": "{Medytacja}\n\nZapewnia tymczasową nietykalność.\n",
 	"spell.the-lost-tales.hota-compatibility.meditation03.description.none": "{Medytacja}\n\nZapewnia tymczasową nietykalność.\n",
 	"spell.the-lost-tales.hota-compatibility.meditation03.name": "Medytacja",
-	"spell.the-lost-tales.stunAbility.name": "Stun"
+	"spell.the-lost-tales.stunAbility.name": "Stun",
+	"mod.name": "Zaginione opowieści (The Lost Tales)",
+	"mod.hota-and-tow-compatibility.name": "Kompatybilność z HotA i ToW",
+	"mod.hota-and-tow-compatibility.description": "Łatka na kompatybilność z modami HotA i ToW.",
+	"mod.hota-compatibility.name": "Kompatybilność z HotA",
+	"mod.hota-compatibility.description": "Łatka na kompatybilność z modem HotA.",
+	"mod.tow-compatibility.name": "Kompatybilność z ToW",
+	"mod.tow-compatibility.description": "Łatka na kompatybilność z modem Tow."
 }
