@@ -420,5 +420,7 @@
 	"mod.hota-compatibility.name": "Kompatybilność z HotA",
 	"mod.hota-compatibility.description": "Łatka na kompatybilność z modem HotA.",
 	"mod.tow-compatibility.name": "Kompatybilność z ToW",
-	"mod.tow-compatibility.description": "Łatka na kompatybilność z modem Tow."
+	"mod.tow-compatibility.description": "Łatka na kompatybilność z modem Tow.",
+	"mod.main-menu.name": "Alternatywne menu",
+	"mod.main-menu.description": "Zmienia wygląd menu na nowy"
 }
