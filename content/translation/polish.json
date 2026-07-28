@@ -416,11 +416,11 @@
 	"spell.the-lost-tales.stunAbility.name": "Stun",
 	"mod.name": "Zaginione opowieści (The Lost Tales)",
 	"mod.hota-and-tow-compatibility.name": "Kompatybilność z HotA i ToW",
-	"mod.hota-and-tow-compatibility.description": "Łatka na kompatybilność z modami HotA i ToW.",
+	"mod.hota-and-tow-compatibility.description": "Łatka na kompatybilność z modami HotA i ToW.  ",
 	"mod.hota-compatibility.name": "Kompatybilność z HotA",
 	"mod.hota-compatibility.description": "Łatka na kompatybilność z modem HotA.",
 	"mod.tow-compatibility.name": "Kompatybilność z ToW",
-	"mod.tow-compatibility.description": "Łatka na kompatybilność z modem Tow.",
+	"mod.tow-compatibility.description": "Łatka na kompatybilność z modem Tow. ",
 	"mod.main-menu.name": "Alternatywne menu",
 	"mod.main-menu.description": "Zmienia wygląd menu na nowy"
 }
