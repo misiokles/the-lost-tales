@@ -1,15 +1,16 @@
-This mod add the possibility of changing your upgrade into a new one when you
-want for free in the appropriate town faction or Hill Fort. Inferno, Stronghold
-and Fortress are the only factions with second upgrade possible for some
-specific creatures( not everyone). It was for making them a little more
-competitive. I dont change any stats of the Base game for keeping a maximum the
-same feeling as the original experience but with add on. the only exceptions are
-for the some neutrals who are affiled as some factions . Example : boar is
-Stronghold and have the same price as Wolf Raider for making the alternative
-completely free. The mod is completely compatible with TOW and HOTA ( mostly
-recomanded for having the better experience). TOW creatures were balanced for
-making them a little more competitive. There are new neutrals, new Heroes etc...
-Alternative and second upgrade for all factions.
+Ten mod pozwala bezpłatnie zmieniać ulepszoną jednostkę na jej alternatywną
+wersję w odpowiednim mieście lub w Forcie na wzgórzu. Inferno, Twierdza i
+Cytadela to jedyne frakcje, w których wybrane jednostki (nie wszystkie)
+otrzymały dodatkowy poziom ulepszenia. Rozwiązanie to ma zwiększyć ich
+konkurencyjność. Aby jak najlepiej zachować charakter oryginalnej gry, nie
+zmieniono statystyk podstawowych jednostek. Wyjątek stanowią niektóre jednostki
+neutralne przypisane do określonych frakcji. Przykładowo, Dzik został przypisany
+do Twierdzy i kosztuje tyle samo co Wilczy jeździec, dzięki czemu wybór
+alternatywnego ulepszenia pozostaje całkowicie bezpłatny. Mod jest w pełni
+zgodny z TOW oraz HotA (zalecamy je włączyć by uzyskać jak najlepszą przyjemność
+z rozgrywki). Jednostki z TOW zostały odpowiednio zbalansowane, aby zwiększyć
+ich przydatność. Mod wprowadza również nowe jednostki neutralne, nowych
+bohaterów oraz alternatywne i drugie ulepszenia dla wszystkich frakcji.
 
 CASTLE Halberdier <> Veteran Pikemen (LvL1) Marksman <> Bowman (LvL2) Royal
 Griffin <> Assault Griffin (LvL3) Crusader <> Vindicator (LvL4) Zealot <> War
@@ -49,11 +50,11 @@ Neutral Mummy : neutral > necropolis and new dwelling. Troll : neutral >
 Fortress Gold Golem : neutral > Tower Diamond Golem : Recolored model by Toriko.
 neutral > Tower Great Enchanter Nightmare Karkadann Blood Dragon Dwarf Guard
 
-TOW compatibility : Only if TOW is enabled.
+Kompatybilność z ToW : automatycznie zostaje włączona gdy gramy z dodatkiem ToW.
 
-TOW Modif
+Modyfikacje dla TOW
 
-Modified things of TOW Creatures :
+Zmiany w stworzeniach w dodatku ToW:
 
 Drake and Dragon Golem : have magic damage diminution instead of magic
 resistance. Werewolf and Dire Werewolf : have 30 % and 40 instead of 20% of
@@ -63,11 +64,12 @@ have other version of couatl. Troll Hag and troll witches : have higher attack,
 defence and recuperation hp.(Based on core:Troll) Troll can pe upgraded into a
 Troll Hag. Ghost : new dwelling
 
-HOTA compatibility : Only if HOTA is enabled.
+Kompatybilność z HotA: automatycznie zostaje włączona gdy gramy z dodatkiem
+HotA.
 
-Hota Modif
+Modyfikacje dla Hota
 
-FACTORY
+FABRYKA
 
 Crimson Couatl <> Quetzalcouatl Juggernaut <> Onslaught Steel Golem : neutral >
 tower new map def for sea witch, sorceress, Yetirunemaster new small portrait
