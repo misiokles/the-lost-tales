@@ -30,16 +30,20 @@
 			"max" : 16
 		},
 		"abilities" : {
-			"SHOOTING_ARMY" : {
+			"shooter" : {
+				"icon" : "zvs/Lib1.res/TltShooterArchmage",
 				"type" : "SHOOTER"
 			},
-			"const_no_melee_penalty" : {
+			"noMeleePenalty" : {
+				"icon" : "zvs/Lib1.res/TltShooterArchmageNoMeleePenalty",
 				"type" : "NO_MELEE_PENALTY"
 			},
 			"noDistancePenalty" : {
+				"icon" : "zvs/Lib1.res/TltShooterArchmageNoDistancePenalty",
 				"type" : "NO_DISTANCE_PENALTY"
 			},
 			"const_no_wall_penalty" : {
+				"icon" : "zvs/Lib1.res/TltShooterArchmageNoWallPenalty",
 				"type" : "NO_WALL_PENALTY"
 			},
 			"reduceSpellCost" : {
@@ -50,7 +54,7 @@
 				"type" : "SPELL_AFTER_ATTACK",
 				"subtype" : "spell.dispel",
 				"val" : 100,
-				"icon" : "zvs/Lib1.res/dispelattack"
+				"icon" : "zvs/Lib1.res/TltSpellDispel"
 			}
 		},
 		"graphics" : {

@@ -1,0 +1,60 @@
+{
+	"markup" : {
+		"name" : "Markup",
+		"gainChance" : {
+			"might" : 7,
+			"magic" : 3
+		},
+		"specialty" : [], // generic specialty not applicable
+		"base" : {
+			"effects" : {
+				"main" : {
+					"type" : "CHANGES_SPELL_COST_FOR_ENEMY",
+					"valueType" : "PERCENT_TO_BASE"
+				}
+			}
+		},
+		"basic" : {
+			"description" : "{Basic Markup}\n\nIncreases the mana cost of spells cast by the enemy hero by 10%. ",
+			"effects" : {
+				"main" : {
+					"val" : 10
+				}
+			},
+			"images" : {
+				"small" : "skills/markup/SmallBasic.png",
+				"medium" : "skills/markup/MediumBasic.png",
+				"large" : "skills/markup/LargeBasic.png",
+				"scenarioBonus" : "skills/markup/LargeBasic.png"
+			}
+		},
+		"advanced" : {
+			"description" : "{Advanced Markup}\n\nIncreases the mana cost of spells cast by the enemy hero by 20%",
+			"effects" : {
+				"main" : {
+					"val" : 20
+				}
+			},
+			"images" : {
+				"small" : "skills/markup/SmallAdvanced.png",
+				"medium" : "skills/markup/MediumAdvanced.png",
+				"large" : "skills/markup/LargeAdvanced.png",
+				"scenarioBonus" : "skills/markup/LargeAdvanced.png"
+			}
+		},
+		"expert" : {
+			"description" : "{Expert Markup}\n\nIncreases the mana cost of spells cast by the enemy hero by 30%",
+			"effects" : {
+				"main" : {
+					"val" : 30
+				}
+			},
+			"images" : {
+				"small" : "skills/markup/SmallExpert.png",
+				"medium" : "skills/markup/MediumExpert.png",
+				"large" : "skills/markup/LargeExpert.png",
+				"scenarioBonus" : "skills/markup/LargeExpert.png"
+			}
+		}
+	}
+}

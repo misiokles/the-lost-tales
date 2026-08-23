@@ -3,8 +3,8 @@
 		"class" : "alchemist",
 		"female" : false,
 		"images" : {
-			"specialtySmall" : "heroes/specialty/specialtyGiantSmall.png",
-			"specialtyLarge" : "heroes/specialty/specialtyGiantLarge.png",
+			"specialtySmall" : "heroes/specialty/specialtyEstatesSmall.png",
+			"specialtyLarge" : "heroes/specialty/specialtyEstatesLarge.png",
 			"large" : "heroes/tower/jubalLarge.png",
 			"small" : "heroes/tower/jubalSmall.png"
 		},
@@ -31,20 +31,20 @@
 				"level" : "basic"
 			},
 			{
-				"skill" : "mysticism",
+				"skill" : "estates",
 				"level" : "basic"
 			}
 		],
 		"specialty" : {
-			"creature" : "giant"
+			"secondary" : "estates"
 		},
 		"texts" : {
 			"name" : "Jubal",
 			"biography" : "Jubal's thunderous voice can be heard over the loudest battle or noisiest feast - two places where he's equally comfortable. Just about his only known weakness is his sense of hospitality. Jubal can't stand being accused of being crude or stingy, so he goes out of his way to prove the opposite.",
 			"specialty" : {
-				"name" : "Giants",
-				"description" : "Increases the speed of any Giants and Titans by 1 and their Attack and Defense skills by 20% for every 7 levels (rounded up).",
-				"tooltip" : "Creature Bonus: Giants"
+				"name" : "Estates",
+				"description" : "Receives a 5% per level bonus to Estates skill.",
+				"tooltip" : "Secondary Skill Bonus: Estates"
 			}
 		}
 	}

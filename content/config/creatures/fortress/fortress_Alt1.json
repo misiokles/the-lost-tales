@@ -30,12 +30,14 @@
 			"max" : 30
 		},
 		"abilities" : {
-			"canShoot" : {
-				"type" : "SHOOTER"
+			"shooter" : {
+				"type" : "SHOOTER",
+				"icon" : "zvs/Lib1.res/TltShooterGnoll"
 			},
-			"reduceDefence" : {
-				"type" : "ENEMY_DEFENCE_REDUCTION",
-				"val" : 20
+			"noRangeBlock" : {
+				"type" : "FREE_SHOOTING",
+				"description" : "{Shooting in Melee}\nMay shoot while adjacent to enemy creatures",
+				"icon" : "zvs/Lib1.res/TltShooterGnollShootMelee"
 			}
 		},
 		"hasDoubleWeek" : true,

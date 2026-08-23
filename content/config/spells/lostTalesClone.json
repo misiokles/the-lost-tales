@@ -1,0 +1,90 @@
+{
+	"lostTalesClone" : {
+		"name" : "Gremlin's Potion",
+		"type" : "combat",
+		"level" : 4,
+		"power" : 0,
+		"school" : {
+			"water" : true
+		},
+		"targetType" : "CREATURE",
+		"canCastOnlyOnSelf" : true,
+		"targetCondition" : {
+			"noneOf" : {
+				"bonus.SIEGE_WEAPON" : "absolute"
+			}
+		},
+		"levels" : {
+			"base" : {
+				"battleEffects" : {
+					"clone" : {
+						"maxTier" : 5,
+						"type" : "core:clone"
+					}
+				},
+				"range" : "0",
+				"targetModifier" : {
+					"smart" : true
+				}
+			},
+			"basic" : {
+				"cost" : 20,
+				"power" : 5,
+				"description" : "{Basic Clone}\n\nCreates a duplicate of the selected unit stack.  The image is dispelled if it is attacked.\n"
+			},
+			"advanced" : {
+				"cost" : 20,
+				"power" : 6,
+				"battleEffects" : {
+					"clone" : {
+						"maxTier" : 6
+					}
+				},
+				"description" : "{Advanced Clone}\n\nCreates a duplicate of the selected unit stack.  The image is dispelled if it is attacked.\n"
+			},
+			"expert" : {
+				"cost" : 20,
+				"power" : 7,
+				"battleEffects" : {
+					"clone" : {
+						"maxTier" : 1000
+					}
+				},
+				"description" : "{Expert Clone}\n\nCreates a duplicate of the selected unit stack.  The image is dispelled if it is attacked.\n"
+			},
+			"none" : {
+				"cost" : 24,
+				"power" : 5,
+				"description" : "{Clone}\n\nCreates a duplicate of the selected unit stack.  The image is dispelled if it is attacked.\n\nClones creatures of levels 1-5.\n"
+			}
+		},
+		"flags" : {
+			"positive" : true
+		},
+		"animation" : {
+			"cast" : [
+				2
+			]
+		},
+		"graphics" : {
+			"iconBook" : "spells/GremlinPotion/spellBook",
+			"iconScroll" : "spells/GremlinPotion/spellScroll",
+			"iconScenarioBonus" : "spells/GremlinPotion/spellScenario",
+			"iconEffect" : "spells/GremlinPotion/spellEffect"
+		},
+		"sounds" : {
+			"cast" : "spells/SoD/other/CLONE.wav"
+		},
+		"gainChance" : {
+			"castle" : 0,
+			"conflux" : 0,
+			"dungeon" : 0,
+			"fortress" : 0,
+			"inferno" : 0,
+			"necropolis" : 0,
+			"rampart" : 0,
+			"stronghold" : 0,
+			"tower" : 0
+		}
+	}
+}

@@ -31,20 +31,21 @@
 		"abilities" : {
 			"nonLiving" : {
 				"type" : "NON_LIVING",
-				"icon" : "zvs/Lib1.res/NonLivingelemental"
+				"icon" : "zvs/Lib1.res/TltNonLivingElemental"
 			},
 			"immuneToMind" : {
-				"type" : "MIND_IMMUNITY"
+				"type" : "MIND_IMMUNITY",
+				"icon" : "zvs/Lib1.res/TltImmunityMind"
 			},
 			"spellPoints" : {
 				"type" : "CASTS",
 				"val" : 3
 			},
 			"spellcaster" : {
-				"type" : "ENCHANTED",
+				"type" : "SPELLCASTER",
 				"subtype" : "spell.protectFire",
 				"val" : 2,
-				"icon" : "zvs/Lib1.res/protfire2"
+				"icon" : "zvs/Lib1.res/TltCastSpellProtectionFire"
 			},
 			"spellPower" : {
 				"type" : "CREATURE_ENCHANT_POWER",
@@ -73,7 +74,8 @@
 			},
 			"fireShield" : {
 				"type" : "FIRE_SHIELD",
-				"val" : 20
+				"val" : 20,
+				"icon" : "zvs/Lib1.res/TltSpellFireshield"
 			}
 		},
 		"graphics" : {

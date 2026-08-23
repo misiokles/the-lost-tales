@@ -41,11 +41,12 @@
 			}
 		},
 		"abilities" : {
-			"roughWalker" : {
+			"swampWalker" : {
 				"type" : "NO_TERRAIN_PENALTY",
 				"subtype" : "terrain.swamp",
 				"propagator" : "HERO",
-				"description" : "Swampwalker : No penalty movement on swamp terrain for the hero."
+				"description" : "Swampwalker : No penalty movement on swamp terrain for the hero.",
+				"icon" : "zvs/Lib1.res/TltTerrainSwampWalker"
 			}
 		},
 		"sound" : {

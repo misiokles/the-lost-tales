@@ -50,7 +50,7 @@
 			},
 			"showTheIcon" : {
 				"type" : "NONE",
-				"icon" : "zvs/Lib1.res/defensiveStance",
+				"icon" : "zvs/Lib1.res/TltDefensiveStance",
 				"description" : "{Defense Bonus}\nHardening : Receives +50% Defense while defending in combat."
 			}
 		},

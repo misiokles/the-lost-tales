@@ -26,12 +26,22 @@
 			"iconSmall" : "creatures/necropolis/iconssmall/necropolis_lvl2up.png",
 			"map" : "creatures/necropolis/map/necropolis_lvl2up.def",
 			"animation" : "creatures/necropolis/battle/necropolis_lvl2up"
+		},
+		"abilities" : {
+			"castDisease" : {
+				"icon" : "zvs/Lib1.res/TltDisease"
+			}
 		}
 	},
 	"core:wight" : {
 		"graphics" : {
 			"iconLarge" : "creatures/necropolis/iconsbig/necropolis_lvl3.png",
 			"iconSmall" : "creatures/necropolis/iconssmall/necropolis_lvl3.png"
+		},
+		"abilities" : {
+			"regenerate" : {
+				"icon" : "zvs/Lib1.res/TltRegeneration"
+			}
 		}
 	},
 	"core:wraith" : {
@@ -41,36 +51,78 @@
 		"graphics" : {
 			"iconLarge" : "creatures/necropolis/iconsbig/necropolis_lvl3up.png",
 			"iconSmall" : "creatures/necropolis/iconssmall/necropolis_lvl3up.png"
+		},
+		"abilities" : {
+			"regenerate" : {
+				"icon" : "zvs/Lib1.res/TltRegeneration"
+			},
+			"drainsMana" : {
+				"icon" : "zvs/Lib1.res/TltDrainMana"
+			}
 		}
 	},
 	"core:vampire" : {
 		"graphics" : {
 			"iconLarge" : "creatures/necropolis/iconsbig/necropolis_lvl4.png",
 			"iconSmall" : "creatures/necropolis/iconssmall/necropolis_lvl4.png"
+		},
+		"abilities" : {
+			"noRetalitation" : {
+				"icon" : "zvs/Lib1.res/TltNoRetaliation"
+			}
 		}
 	},
 	"core:vampireLord" : {
 		"graphics" : {
 			"iconLarge" : "creatures/necropolis/iconsbig/necropolis_lvl4up.png",
 			"iconSmall" : "creatures/necropolis/iconssmall/necropolis_lvl4up.png"
+		},
+		"abilities" : {
+			"noRetalitation" : {
+				"icon" : "zvs/Lib1.res/TltNoRetaliation"
+			},
+			"drainsLife" : {
+				"icon" : "zvs/Lib1.res/TltDrainLifeVampire"
+			}
 		}
 	},
 	"core:lich" : {
 		"graphics" : {
 			"iconLarge" : "creatures/necropolis/iconsbig/necropolis_lvl5.png",
 			"iconSmall" : "creatures/necropolis/iconssmall/necropolis_lvl5.png"
+		},
+		"abilities" : {
+			"shooter" : {
+				"icon" : "zvs/Lib1.res/TltShooterLich"
+			},
+			"deathCloud" : {
+				"icon" : "zvs/Lib1.res/TltDeathCloud"
+			}
 		}
 	},
 	"core:powerLich" : {
 		"graphics" : {
 			"iconLarge" : "creatures/necropolis/iconsbig/necropolis_lvl5up.png",
 			"iconSmall" : "creatures/necropolis/iconssmall/necropolis_lvl5up.png"
+		},
+		"abilities" : {
+			"shooter" : {
+				"icon" : "zvs/Lib1.res/TltShooterPowerLich"
+			},
+			"deathCloud" : {
+				"icon" : "zvs/Lib1.res/TltDeathCloud"
+			}
 		}
 	},
 	"core:blackKnight" : {
 		"graphics" : {
 			"iconLarge" : "creatures/necropolis/iconsbig/necropolis_lvl6.png",
 			"iconSmall" : "creatures/necropolis/iconssmall/necropolis_lvl6.png"
+		},
+		"abilities" : {
+			"curses" : {
+				"icon" : "zvs/Lib1.res/TltSpellCurse"
+			}
 		}
 	},
 	"core:dreadKnight" : {
@@ -80,12 +132,25 @@
 		"graphics" : {
 			"iconLarge" : "creatures/necropolis/iconsbig/necropolis_lvl6up.png",
 			"iconSmall" : "creatures/necropolis/iconssmall/necropolis_lvl6up.png"
+		},
+		"abilities" : {
+			"curses" : {
+				"icon" : "zvs/Lib1.res/TltSpellCurse"
+			},
+			"deathStrike" : {
+				"icon" : "zvs/Lib1.res/TltDeathBlow"
+			}
 		}
 	},
 	"core:boneDragon" : {
 		"graphics" : {
 			"iconLarge" : "creatures/necropolis/iconsbig/necropolis_lvl7.png",
 			"iconSmall" : "creatures/necropolis/iconssmall/necropolis_lvl7.png"
+		},
+		"abilities" : {
+			"dragon" : {
+				"icon" : "zvs/Lib1.res/TltDragonBone"
+			}
 		}
 	},
 	"core:ghostDragon" : {
@@ -95,6 +160,14 @@
 		"graphics" : {
 			"iconLarge" : "creatures/necropolis/iconsbig/necropolis_lvl7up.png",
 			"iconSmall" : "creatures/necropolis/iconssmall/necropolis_lvl7up.png"
+		},
+		"abilities" : {
+			"dragon" : {
+				"icon" : "zvs/Lib1.res/TltDragonGhost"
+			},
+			"age" : {
+				"icon" : "zvs/Lib1.res/TltAge"
+			}
 		}
 	}
 }

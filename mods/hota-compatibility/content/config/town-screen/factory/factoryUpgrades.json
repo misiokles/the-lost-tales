@@ -1,7 +1,7 @@
 {
 	"hota.factory:factory" : {
 		"town" : {
-			"buildingsIcons" : "town-screen/factory/town-hall.def",
+			"buildingsIcons" : "hota/town-screen/factory/town-hall.def",
 			"creatures" : [
 				[
 					"halfling",

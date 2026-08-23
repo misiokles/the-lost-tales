@@ -12,7 +12,8 @@
 			"magicResistance" : {
 				"type" : "SPELL_DAMAGE_REDUCTION",
 				"subtype" : "spellSchool.any",
-				"val" : 85
+				"val" : 85,
+				"icon" : "zvs/Lib1.res/TltSpellProtectionFromMagic"
 			}
 		}
 	}

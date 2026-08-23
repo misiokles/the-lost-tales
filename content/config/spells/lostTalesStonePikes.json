@@ -1,0 +1,85 @@
+{
+	"lostTalesStonePikes" : {
+		"name" : "Stone Pikes",
+		"type" : "combat",
+		"level" : 2,
+		"power" : 20,
+		"school" : {
+			"air" : false,
+			"earth" : true,
+			"fire" : false,
+			"water" : false
+		},
+		"targetType" : "CREATURE",
+		"targetCondition" : {
+			"noneOf" : {
+//				"bonus.DIRECT_DAMAGE_IMMUNITY" : "normal"
+			}
+		},
+		"levels" : {
+			"base" : {
+				"range" : "0",
+				"battleEffects" : {
+					"directDamage" : {
+						"type" : "core:damage"
+					}
+				},
+				"targetModifier" : {
+					"smart" : true
+				}
+			},
+			"none" : {
+				"cost" : 10,
+				"power" : 10,
+				"description" : "{Stone Pikes}\n\nCauses Stone pikes to strike the selected unit by the down.\n"
+			},
+			"basic" : {
+				"cost" : 8,
+				"power" : 10,
+				"description" : "{Basic Stone Pikes}\n\nCauses Stone pikes to strike the selected unit by the down.\n"
+			},
+			"advanced" : {
+				"cost" : 8,
+				"power" : 20,
+				"description" : "{Advanced Stone Pikes}\n\nCauses stone pikes to strike the selected unit by the down.\n\nDamage inflicted is 10 points more than Basic Stone Pikes.\n"
+			},
+			"expert" : {
+				"cost" : 8,
+				"power" : 50,
+				"description" : "{Expert Stone Pikes}\n\nCauses Stone pikes to strike the selected unit by the down.\n\nDamage inflicted is 40 points more than Basic Stone Pikes.\n"
+			}
+		},
+		"flags" : {
+			"damage" : true,
+			"negative" : true
+		},
+		"graphics" : {
+			"iconBook" : "spells/StonePikes/spellBook",
+			"iconScroll" : "spells/StonePikes/spellScroll",
+			"iconScenarioBonus" : "spells/StonePikes/spellScenario",
+			"iconEffect" : "spells/StonePikes/spellEffect"
+		},
+		"animation" : {
+			"affect" : [
+				{
+					"defName" : "spells/StonePikes/stonePikes.def",
+					"verticalPosition" : "bottom"
+				}
+			]
+		},
+		"sounds" : {
+			"cast" : "spells/StonePikes/stonePikes.wav"
+		},
+		"gainChance" : {
+			"castle" : 4,
+			"conflux" : 25,
+			"dungeon" : 50,
+			"fortress" : 4,
+			"inferno" : 20,
+			"necropolis" : 6,
+			"rampart" : 4,
+			"stronghold" : 50,
+			"tower" : 50
+		}
+	}
+}

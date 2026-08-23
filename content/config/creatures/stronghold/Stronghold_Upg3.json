@@ -1,0 +1,86 @@
+{
+	"orcWarlord" : {
+		"name" : {
+			"singular" : "Orc Warlord",
+			"plural" : "Orc Warlords"
+		},
+		"level" : 3,
+		"faction" : "stronghold",
+		"doubleWide" : false,
+		"cost" : {
+			"gold" : 185
+		},
+		"speed" : 5,
+		"hitPoints" : 25,
+		"attack" : 8,
+		"defense" : 4,
+		"shots" : 24,
+		"growth" : 7,
+		"damage" : {
+			"min" : 2,
+			"max" : 5
+		},
+		"fightValue" : 200,
+		"aiValue" : 240,
+		"advMapAmount" : {
+			"max" : 17,
+			"min" : 12
+		},
+		"graphics" : {
+			"iconLarge" : "creatures/stronghold/iconsbig/stronghold_lvl3up2.png",
+			"iconSmall" : "creatures/stronghold/iconssmall/stronghold_lvl3up2.png",
+			"map" : "creatures/stronghold/map/stronghold_lvl3up2",
+			"animation" : "creatures/stronghold/battle/stronghold_lvl3up2",
+			"timeBetweenFidgets" : 1,
+			"animationTime" : {
+				"walk" : 1.0,
+				"idle" : 10.0,
+				"attack" : 1.0
+			},
+			"missile" : {
+				"projectile" : "PORCHX.DEF",
+				"attackClimaxFrame" : 9,
+				"offset" : {
+					"upperX" : 41,
+					"upperY" : -92,
+					"middleX" : 58,
+					"middleY" : -79,
+					"lowerX" : 29,
+					"lowerY" : -14
+				},
+				"frameAngles" : [
+					90,
+					72,
+					45,
+					27,
+					0,
+					-27,
+					-45,
+					-72,
+					-90,
+					0,
+					0,
+					0
+				]
+			}
+		},
+		"sound" : {
+			"attack" : "ORCCATTK.wav",
+			"defend" : "ORCCDFND.wav",
+			"killed" : "ORCCKILL.wav",
+			"move" : "ORCCMOVE.wav",
+			"shoot" : "ORCCSHOT.wav",
+			"wince" : "ORCCWNCE.wav"
+		},
+		"abilities" : {
+			"shooter" : {
+				"type" : "SHOOTER",
+				"icon" : "zvs/Lib1.res/TltShooterOrc"
+			},
+			"noMeleePenalty" : {
+				"type" : "NO_MELEE_PENALTY",
+				"icon" : "zvs/Lib1.res/TltShooterOrcNoMeleePenalty"
+			}
+		}
+	}
+}

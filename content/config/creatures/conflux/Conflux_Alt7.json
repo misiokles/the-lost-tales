@@ -1,0 +1,81 @@
+{
+	"suzaku" : {
+		"name" : {
+			"singular" : "Suzaku",
+			"plural" : "Suzakus"
+		},
+		"faction" : "conflux",
+		"level" : 7,
+		"upgrades" : [
+			"phoenix"
+		],
+		"cost" : {
+			"gold" : 2000,
+			"mercury" : 1
+		},
+		"speed" : 22,
+		"hitPoints" : 225,
+		"attack" : 22,
+		"defense" : 18,
+		"damage" : {
+			"min" : 30,
+			"max" : 40
+		},
+		"doubleWide" : true,
+		"growth" : 2,
+		"horde" : 0,
+		"aiValue" : 6721,
+		"fightValue" : 4929,
+		"advMapAmount" : {
+			"min" : 4,
+			"max" : 10
+		},
+		"abilities" : {
+			"KING_1" : {
+				"type" : "KING",
+				"val" : 0
+			},
+			"FLYING_ARMY" : {
+				"type" : "FLYING"
+			},
+			"HAS_EXTENDED_ATTACK" : {
+				"type" : "TWO_HEX_ATTACK_BREATH",
+				"icon" : "zvs/Lib1.res/TltBreathFirebird"
+			},
+			"fireWall" : {
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.fireWallTrigger",
+				"val" : 100,
+				"addInfo" : [
+					3,
+					0
+				],
+				"description" : "{Fire Wall attack}\n100% chance to cast Fire Wall after attack.",
+				"icon" : "zvs/Lib1.res/TltSpellFireWall"
+			},
+			"immuneToFire" : {
+				"type" : "SPELL_SCHOOL_IMMUNITY",
+				"subtype" : "fire"
+			}
+		},
+		"graphics" : {
+			"iconLarge" : "creatures/conflux/iconsbig/Conflux_lvl7upAlt.png",
+			"iconSmall" : "creatures/conflux/iconssmall/Conflux_lvl7upAlt.png",
+			"map" : "creatures/conflux/map/Conflux_Alt7.def",
+			"animation" : "creatures/conflux/battle/Conflux_Alt7.def",
+			"animationTime" : {
+				"attack" : 1.0,
+				"idle" : 10.0,
+				"walk" : 1.0
+			},
+			"timeBetweenFidgets" : 1
+		},
+		"sound" : {
+			"attack" : "PHOEATTK.wav",
+			"defend" : "PHOEDFND.wav",
+			"killed" : "PHOEKILL.wav",
+			"move" : "PHOEMOVE.wav",
+			"wince" : "PHOEWNCE.wav"
+		}
+	}
+}

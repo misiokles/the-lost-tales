@@ -3,7 +3,7 @@
 		"class" : "druid",
 		"female" : true,
 		"spellbook" : [
-			"viewEarth"
+			"lostTalesStonePikes"
 		],
 		"images" : {
 			"large" : "heroes/rampart/vatawnaLarge.png",

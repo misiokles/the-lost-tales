@@ -1,6 +1,8 @@
 {
 	"creatures.tides-of-war.alternative-creatures.mdtCouatl.name.plural" : "Feathered Serpents",
 	"creatures.tides-of-war.alternative-creatures.mdtCouatl.name.singular" : "Feathered Serpent",
+	"creatures.tides-of-war.alternative-creatures.mdtPaladin.bonus.castsPrayer" : "{Pray}\nPaladins cast Adv. Prayer spell at the beginning of the battle",
+	"creatures.tides-of-war.alternative-creatures.mdtQuetzalcouatl.bonus.stoneGazeImm" : "{Unbounded}\nImmunity for all creature spell-like abilities like Bind, Age, Poison or Death Stare",
 	"creatures.tides-of-war.alternative-creatures.mdtQuetzalcouatl.name.plural" : "Kukulkans",
 	"creatures.tides-of-war.alternative-creatures.mdtQuetzalcouatl.name.singular" : "Kukulkan",
 	"creatures.tides-of-war.alternative-creatures.mdtWerewolf.name.plural" : "Undead Werewolves",

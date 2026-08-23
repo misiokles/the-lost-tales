@@ -1,0 +1,23 @@
+{
+	"tides-of-war.alternative-creatures:mdtSukkub" : {
+		"abilities" : {
+			"shoter" : {
+				"type" : "SHOOTER",
+				"icon" : "zvs/Lib1.res/TltShooterLilim"
+			},
+			"canFly" : {
+				"type" : "FLYING"
+			},
+			"noMeleePenalty" : {
+				"type" : "NO_MELEE_PENALTY",
+				"icon" : "zvs/Lib1.res/TltShooterLilimNoMeleePenalty"
+			},
+			"spellAfterAttack" : {
+				"type" : "SPELL_LIKE_ATTACK",
+				"subtype" : "mdtHateSpike",
+				"val" : 1,
+				"icon" : "zvs/Lib1.res/TltSpellHellspikes"
+			}
+		}
+	}
+}

@@ -13,8 +13,8 @@
 			"gold" : 3500,
 			"sulfur" : 1
 		},
-		"speed" : 7,
-		"hitPoints" : 175,
+		"speed" : 11,
+		"hitPoints" : 200,
 		"attack" : 16,
 		"defense" : 18,
 		"damage" : {
@@ -33,14 +33,16 @@
 		"abilities" : {
 			"attackAllAdjacent" : {
 				"type" : "ATTACKS_ALL_ADJACENT",
-				"icon" : "zvs/Lib1.res/hydra0"
+				"icon" : "zvs/Lib1.res/TltAttackAllAroundHydra"
 			},
 			"dragonSkeleton" : {
 				"type" : "SKELETON_TRANSFORMER_TARGET",
-				"subtype" : "boneDragon"
+				"subtype" : "boneDragon",
+				"icon" : "zvs/Lib1.res/TltDragonTransformerHydra"
 			},
 			"noRetaliation" : {
-				"type" : "BLOCKS_RETALIATION"
+				"type" : "BLOCKS_RETALIATION",
+				"icon" : "zvs/Lib1.res/TltNoRetaliation"
 			},
 			// Will be affected by Slayer with no expertise
 			"KING_1" : {
@@ -50,10 +52,6 @@
 			"canFly" : {
 				"type" : "FLYING",
 				"icon" : "zvs/Lib1.res/e_fly2b"
-			},
-			"regenerates" : {
-				"type" : "HP_REGENERATION",
-				"val" : 175
 			}
 		},
 		"graphics" : {

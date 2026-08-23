@@ -11,7 +11,7 @@
 			"iconLarge" : "creatures/neutral/iconsbig/halfling.png",
 			"iconSmall" : "creatures/neutral/iconssmall/halfling.png",
 			"map" : "creatures/neutral/map/halfling",
-			"animation" : "creatures/neutral/battle/halfling.def"
+			"animation" : "creatures/neutral/battle/Chalf.def"
 		}
 	},
 	"core:troll" : {
@@ -74,6 +74,17 @@
 		"graphics" : {
 			"iconLarge" : "creatures/neutral/iconsbig/sharpshooter.png",
 			"iconSmall" : "creatures/neutral/iconssmall/sharpshooter.png"
+		},
+		"abilities" : {
+			"shooter" : {
+				"type" : "SHOOTER"
+			},
+			"noDistancePenalty" : {
+				"type" : "NO_DISTANCE_PENALTY"
+			},
+			"noWallPenalty" : {
+				"type" : "NO_WALL_PENALTY"
+			}
 		}
 	},
 	"core:peasant" : {

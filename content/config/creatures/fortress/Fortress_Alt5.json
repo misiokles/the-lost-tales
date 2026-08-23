@@ -53,13 +53,13 @@
 				"type" : "ACID_BREATH",
 				"val" : 25,
 				"addInfo" : 30,
-				"icon" : "zvs/Lib1.res/acidattack"
+				"icon" : "zvs/Lib1.res/TltAcidGorgon"
 			},
 			"reduceDefence" : {
 				"type" : "SPELL_AFTER_ATTACK",
 				"subtype" : "spell.acidBreath",
 				"val" : 100,
-				"icon" : "zvs/Lib1.res/acidattack"
+				"icon" : "zvs/Lib1.res/TltAcidGorgon"
 			}
 		}
 	}

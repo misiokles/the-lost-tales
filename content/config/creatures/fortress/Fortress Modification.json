@@ -18,21 +18,40 @@
 		"graphics" : {
 			"iconLarge" : "creatures/fortress/iconsbig/fortress_lvl2",
 			"iconSmall" : "creatures/fortress/iconssmall/fortress_lvl2"
+		},
+		"abilities" : {
+			"shooter" : {
+				"icon" : "zvs/Lib1.res/TltShooterBow"
+			}
 		}
 	},
 	"core:lizardWarrior" : {
+		"name" : {
+			"plural" : "Lizardman Warriors",
+			"singular" : "Lizardman Warrior"
+		},
 		"upgrades" : [
 			"lizardmanSoldier"
 		],
 		"graphics" : {
 			"iconLarge" : "creatures/fortress/iconsbig/fortress_lvl2up",
 			"iconSmall" : "creatures/fortress/iconssmall/fortress_lvl2up"
+		},
+		"abilities" : {
+			"shooter" : {
+				"icon" : "zvs/Lib1.res/TltShooterBow"
+			}
 		}
 	},
 	"core:serpentFly" : {
 		"graphics" : {
 			"iconLarge" : "creatures/fortress/iconsbig/fortress_lvl3",
 			"iconSmall" : "creatures/fortress/iconssmall/fortress_lvl3"
+		},
+		"abilities" : {
+			"dispellHelpful" : {
+				"icon" : "zvs/Lib1.res/TltSpellDispel"
+			}
 		}
 	},
 	"core:fireDragonFly" : {
@@ -42,18 +61,36 @@
 		"graphics" : {
 			"iconLarge" : "creatures/fortress/iconsbig/fortress_lvl3up",
 			"iconSmall" : "creatures/fortress/iconssmall/fortress_lvl3up"
+		},
+		"abilities" : {
+			"dispellHelpful" : {
+				"icon" : "zvs/Lib1.res/TltSpellDispel"
+			},
+			"castWeakness" : {
+				"icon" : "zvs/Lib1.res/TltSpellWeakness"
+			}
 		}
 	},
 	"core:basilisk" : {
 		"graphics" : {
 			"iconLarge" : "creatures/fortress/iconsbig/fortress_lvl4",
 			"iconSmall" : "creatures/fortress/iconssmall/fortress_lvl4"
+		},
+		"abilities" : {
+			"petrify" : {
+				"icon" : "zvs/Lib1.res/TltStoneBasilisk"
+			}
 		}
 	},
 	"core:greaterBasilisk" : {
 		"graphics" : {
 			"iconLarge" : "creatures/fortress/iconsbig/fortress_lvl4up",
 			"iconSmall" : "creatures/fortress/iconssmall/fortress_lvl4up"
+		},
+		"abilities" : {
+			"petrify" : {
+				"icon" : "zvs/Lib1.res/TltStoneBasilisk1"
+			}
 		}
 	},
 	"core:gorgon" : {
@@ -69,6 +106,11 @@
 		"graphics" : {
 			"iconLarge" : "creatures/fortress/iconsbig/fortress_lvl5up",
 			"iconSmall" : "creatures/fortress/iconssmall/fortress_lvl5up"
+		},
+		"abilities" : {
+			"deathStare" : {
+				"icon" : "zvs/Lib1.res/TltDeathStare"
+			}
 		}
 	},
 	"core:wyvern" : {
@@ -81,12 +123,28 @@
 		"graphics" : {
 			"iconLarge" : "creatures/fortress/iconsbig/fortress_lvl6up",
 			"iconSmall" : "creatures/fortress/iconssmall/fortress_lvl6up"
+		},
+		"abilities" : {
+			"poison" : {
+				"icon" : "zvs/Lib1.res/TltPoison"
+			}
 		}
 	},
 	"core:hydra" : {
 		"graphics" : {
 			"iconLarge" : "creatures/fortress/iconsbig/fortress_lvl7",
 			"iconSmall" : "creatures/fortress/iconssmall/fortress_lvl7"
+		},
+		"abilities" : {
+			"attackAllAdjacent" : {
+				"icon" : "zvs/Lib1.res/TltAttackAllAroundHydra"
+			},
+			"dragonSkeleton" : {
+				"icon" : "zvs/Lib1.res/TltDragonTransformerHydra"
+			},
+			"noRetaliation" : {
+				"icon" : "zvs/Lib1.res/TltNoRetaliation"
+			}
 		}
 	},
 	"core:chaosHydra" : {
@@ -96,6 +154,17 @@
 		"graphics" : {
 			"iconLarge" : "creatures/fortress/iconsbig/fortress_lvl7up",
 			"iconSmall" : "creatures/fortress/iconssmall/fortress_lvl7up"
+		},
+		"abilities" : {
+			"attackAllAdjacent" : {
+				"icon" : "zvs/Lib1.res/TltAttackAllAroundHydra1"
+			},
+			"dragonSkeleton" : {
+				"icon" : "zvs/Lib1.res/TltDragonTransformerHydra0"
+			},
+			"noRetaliation" : {
+				"icon" : "zvs/Lib1.res/TltNoRetaliation"
+			}
 		}
 	}
 }

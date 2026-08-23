@@ -39,17 +39,20 @@
 				"type" : "UNDEAD"
 			},
 			"dragon" : {
-				"type" : "DRAGON_NATURE"
+				"type" : "DRAGON_NATURE",
+				"icon" : "zvs/Lib1.res/TltDragonBoneLich"
 			},
 			"FLYING_ARMY" : {
 				"type" : "FLYING",
 				"icon" : "zvs/Lib1.res/e_fly2"
 			},
 			"shooter" : {
-				"type" : "SHOOTER"
+				"type" : "SHOOTER",
+				"icon" : "zvs/Lib1.res/TltShooterDragonLich"
 			},
 			"noMeleePenalty" : {
-				"type" : "NO_MELEE_PENALTY"
+				"type" : "NO_MELEE_PENALTY",
+				"icon" : "zvs/Lib1.res/TltShooterDragonLichNoMeleePenalty"
 			},
 			"decreaseMorale" : {
 				"type" : "MORALE",

@@ -1,0 +1,118 @@
+{
+	"lostTalesPoison" : {
+		"name" : "Poison",
+		"type" : "combat",
+		"level" : 4,
+		"power" : 0,
+		"school" : {
+			"earth" : true
+		},
+		"targetType" : "CREATURE",
+		"targetCondition" : {
+			"noneOf" : {
+				"bonus.NON_LIVING" : "absolute",
+				"bonus.UNDEAD" : "absolute",
+				"bonus.SIEGE_WEAPON" : "absolute",
+				"bonus.GARGOYLE" : "absolute"
+			}
+		},
+		"levels" : {
+			"base" : {
+				"effects" : {
+					"poison" : {
+						"type" : "POISON",
+						"val" : 80,
+						"valueType" : "INDEPENDENT_MAX",
+						"duration" : "N_TURNS"
+					},
+					"stackHealth" : {
+						"type" : "STACK_HEALTH",
+						"val" : -10,
+						"valueType" : "PERCENT_TO_ALL",
+						"duration" : "N_TURNS"
+					}
+				},
+				"range" : "0",
+				"targetModifier" : {
+					"smart" : true
+				}
+			},
+			"none" : {
+				"cost" : 16,
+				"power" : 10,
+				"description" : "{Poison}\n\nPoisons an enemy unit, reducing its health at once and then at the beginning of the next two rounds.\n"
+			},
+			"basic" : {
+				"cost" : 14,
+				"power" : 10,
+				"description" : "{Basic Poison}\n\nPoisons an enemy unit, reducing its health at once and then at the beginning of the next two rounds.\n"
+			},
+			"advanced" : {
+				"cost" : 14,
+				"power" : 10,
+				"effects" : {
+					"poison" : {
+						"type" : "POISON",
+						"val" : 80,
+						"valueType" : "INDEPENDENT_MAX",
+						"duration" : "N_TURNS"
+					},
+					"stackHealth" : {
+						"type" : "STACK_HEALTH",
+						"val" : -20,
+						"valueType" : "PERCENT_TO_ALL",
+						"duration" : "N_TURNS"
+					}
+				},
+				"description" : "{Advanced Poison}\n\nPoisons an enemy unit, reducing its health at once and then at the beginning of the next two rounds.\n\nEffect is greater than that of Basic Poison.\n"
+			},
+			"expert" : {
+				"cost" : 14,
+				"power" : 10,
+				"effects" : {
+					"poison" : {
+						"type" : "POISON",
+						"val" : 80,
+						"valueType" : "INDEPENDENT_MAX",
+						"duration" : "N_TURNS"
+					},
+					"stackHealth" : {
+						"type" : "STACK_HEALTH",
+						"val" : -30,
+						"valueType" : "PERCENT_TO_ALL",
+						"duration" : "N_TURNS"
+					}
+				},
+				"description" : "{Expert Poison}\n\nPoisons an enemy unit, reducing its health at once and then at the beginning of the next two rounds.\n\nEffect is greater than that of Advanced Poison.\n"
+			}
+		},
+		"flags" : {
+			"negative" : true
+		},
+		"animation" : {
+			"affect" : [
+				"spells/Poison/lostTalesPoison.def"
+			]
+		},
+		"graphics" : {
+			"iconBook" : "spells/Poison/spellBook",
+			"iconScroll" : "spells/Poison/spellScroll",
+			"iconScenarioBonus" : "spells/Poison/spellScenario",
+			"iconEffect" : "spells/Poison/spellEffect"
+		},
+		"sounds" : {
+			"cast" : "spells/Poison/lostTalesPoison.wav"
+		},
+		"gainChance" : {
+			"castle" : 12,
+			"conflux" : 13,
+			"dungeon" : 13,
+			"fortress" : 13,
+			"inferno" : 13,
+			"necropolis" : 12,
+			"rampart" : 13,
+			"stronghold" : 12,
+			"tower" : 12
+		}
+	}
+}

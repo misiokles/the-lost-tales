@@ -22,6 +22,11 @@
 		"graphics" : {
 			"iconLarge" : "creatures/castle/iconsbig/castle_lvl2",
 			"iconSmall" : "creatures/castle/iconssmall/castle_lvl2"
+		},
+		"abilities" : {
+			"shooter" : {
+				"icon" : "zvs/Lib1.res/TltShooterCrossbow"
+			}
 		}
 	},
 	"core:marksman" : {
@@ -31,12 +36,25 @@
 		"graphics" : {
 			"iconLarge" : "creatures/castle/iconsbig/castle_lvl2up",
 			"iconSmall" : "creatures/castle/iconssmall/castle_lvl2up"
+		},
+		"abilities" : {
+			"shooter" : {
+				"icon" : "zvs/Lib1.res/TltShooterCrossbow"
+			},
+			"extraAttack" : {
+				"icon" : "zvs/Lib1.res/TltShooterCrossbowDouble"
+			}
 		}
 	},
 	"core:griffin" : {
 		"graphics" : {
 			"iconLarge" : "creatures/castle/iconsbig/castle_lvl3",
 			"iconSmall" : "creatures/castle/iconssmall/castle_lvl3"
+		},
+		"abilities" : {
+			"extraRetaliation" : {
+				"icon" : "zvs/Lib1.res/TltRetaliation2x"
+			}
 		}
 	},
 	"core:royalGriffin" : {
@@ -46,6 +64,11 @@
 		"graphics" : {
 			"iconLarge" : "creatures/castle/iconsbig/castle_lvl3up",
 			"iconSmall" : "creatures/castle/iconssmall/castle_lvl3up"
+		},
+		"abilities" : {
+			"unlimitedRetaliation" : {
+				"icon" : "zvs/Lib1.res/TltRetaliationUnlimited"
+			}
 		}
 	},
 	"core:swordsman" : {
@@ -61,12 +84,22 @@
 		"graphics" : {
 			"iconLarge" : "creatures/castle/iconsbig/castle_lvl4up",
 			"iconSmall" : "creatures/castle/iconssmall/castle_lvl4up"
+		},
+		"abilities" : {
+			"extraAttack" : {
+				"icon" : "zvs/Lib1.res/TltDoubleAttackCrusader"
+			}
 		}
 	},
 	"core:monk" : {
 		"graphics" : {
 			"iconLarge" : "creatures/castle/iconsbig/castle_lvl5",
 			"iconSmall" : "creatures/castle/iconssmall/castle_lvl5"
+		},
+		"abilities" : {
+			"shooter" : {
+				"icon" : "zvs/Lib1.res/TltShooterMonk"
+			}
 		}
 	},
 	"core:zealot" : {
@@ -76,18 +109,36 @@
 		"graphics" : {
 			"iconLarge" : "creatures/castle/iconsbig/castle_lvl5up",
 			"iconSmall" : "creatures/castle/iconssmall/castle_lvl5up"
+		},
+		"abilities" : {
+			"shooter" : {
+				"icon" : "zvs/Lib1.res/TltShooterMonk"
+			},
+			"noMeleePenalty" : {
+				"icon" : "zvs/Lib1.res/TltShooterMonkNoMeleePenalty"
+			}
 		}
 	},
 	"core:cavalier" : {
 		"graphics" : {
 			"iconLarge" : "creatures/castle/iconsbig/castle_lvl6",
 			"iconSmall" : "creatures/castle/iconssmall/castle_lvl6"
+		},
+		"abilities" : {
+			"jousting" : {
+				"icon" : "zvs/Lib1.res/TltJoustingCavalier"
+			}
 		}
 	},
 	"core:champion" : {
 		"graphics" : {
 			"iconLarge" : "creatures/castle/iconsbig/castle_lvl6up",
 			"iconSmall" : "creatures/castle/iconssmall/castle_lvl6up"
+		},
+		"abilities" : {
+			"jousting" : {
+				"icon" : "zvs/Lib1.res/TltJoustingChampion"
+			}
 		}
 	},
 	"core:angel" : {

@@ -12,10 +12,10 @@
 		"cost" : {
 			"gold" : 240
 		},
-		"speed" : 6,
+		"speed" : 8,
 		"hitPoints" : 25,
-		"attack" : 9,
-		"defense" : 9,
+		"attack" : 8,
+		"defense" : 8,
 		"damage" : {
 			"min" : 3,
 			"max" : 6
@@ -34,12 +34,13 @@
 			"FLYING_ARMY" : {
 				"type" : "FLYING"
 			},
-			"extraRetaliation" : {
-				"type" : "ADDITIONAL_RETALIATION",
-				"val" : 1
+			"unlimitedRetaliation" : {
+				"type" : "UNLIMITED_RETALIATIONS",
+				"icon" : "zvs/Lib1.res/TltRetaliationUnlimited"
 			},
-			"firstStrike" : {
-				"type" : "FIRST_STRIKE"
+			"noRetaliation" : {
+				"type" : "BLOCKS_RETALIATION",
+				"icon" : "zvs/Lib1.res/TltNoRetaliation"
 			}
 		},
 		"graphics" : {

@@ -1,0 +1,51 @@
+{
+	"thelos" : {
+		"class" : "alchemist",
+		"female" : false,
+		"images" : {
+			"specialtySmall" : "heroes/specialty/specialtyGiantSmall.png",
+			"specialtyLarge" : "heroes/specialty/specialtyGiantLarge.png",
+			"large" : "heroes/tower/thelosLarge.png",
+			"small" : "heroes/tower/thelosSmall.png"
+		},
+		"army" : [
+			{
+				"creature" : "gremlin",
+				"min" : 30,
+				"max" : 40
+			},
+			{
+				"creature" : "stoneGargoyle",
+				"min" : 5,
+				"max" : 7
+			},
+			{
+				"creature" : "ironGolem",
+				"min" : 4,
+				"max" : 5
+			}
+		],
+		"skills" : [
+			{
+				"skill" : "scholar",
+				"level" : "basic"
+			},
+			{
+				"skill" : "mysticism",
+				"level" : "basic"
+			}
+		],
+		"specialty" : {
+			"creature" : "giant"
+		},
+		"texts" : {
+			"name" : "Thelos",
+			"biography" : "Thelos is a Titan who prefers to stay away from the battlefield, a habit that has made him exceptionally skilled at hurling lightning bolts. From constantly observing the battlefield from a distance, his ability to read the flow of combat improved to such an extent that the wizards of Bracada asked him to lead the Giants and Titans into the battle.",
+			"specialty" : {
+				"name" : "Giants",
+				"description" : "Increases the speed of any Giants and Titans by 1 and their Attack and Defense skills by 20% for every 7 levels (rounded up).",
+				"tooltip" : "Creature Bonus: Giants"
+			}
+		}
+	}
+}

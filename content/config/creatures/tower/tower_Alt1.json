@@ -18,7 +18,7 @@
 		"defense" : 4,
 		"damage" : {
 			"min" : 1,
-			"max" : 3
+			"max" : 2
 		},
 		"growth" : 16,
 		"horde" : 0,
@@ -31,10 +31,10 @@
 		"abilities" : {
 			"potion" : {
 				"type" : "SPELLCASTER",
-				"subtype" : "cure",
+				"subtype" : "lostTalesClone",
 				"val" : 0,
-				"description" : "{Spellcaster}\nCan cast Cure on himself.",
-				"icon" : "zvs/Lib1.res/cure0"
+				"description" : "{Spellcaster}\nCan cast Clone on himself.",
+				"icon" : "zvs/Lib1.res/TltCastSpellGremlinPotion"
 			},
 			"castsCount" : {
 				"type" : "CASTS",

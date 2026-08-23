@@ -30,6 +30,7 @@
 				"type" : "NO_TERRAIN_PENALTY",
 				"subtype" : "terrain.rough",
 				"propagator" : "HERO",
+				"icon" : "zvs/Lib1.res/TltTerrainRoughwalkerBoar",
 				"description" : "Roughwalker : No penalty movement on rough terrain for the hero. "
 			}
 		}

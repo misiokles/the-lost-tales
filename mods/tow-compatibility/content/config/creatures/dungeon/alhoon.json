@@ -7,7 +7,8 @@
 		"abilities" : {
 			"teleports" : {
 				"type" : "FLYING",
-				"subtype" : "movementTeleporting"
+				"subtype" : "movementTeleporting",
+				"icon" : "zvs/Lib1.res/TltSpellTeleportation"
 			}
 		}
 	}

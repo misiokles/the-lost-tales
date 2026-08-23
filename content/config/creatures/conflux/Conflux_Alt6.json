@@ -31,22 +31,24 @@
 		"abilities" : {
 			"nonLiving" : {
 				"type" : "NON_LIVING",
-				"icon" : "zvs/Lib1.res/NonLivingelemental"
+				"icon" : "zvs/Lib1.res/TltNonLivingElemental"
 			},
 			"MULTI_HEADED" : {
 				"type" : "ATTACKS_ALL_ADJACENT",
-				"icon" : "zvs/Lib1.res/e_roundGreatP"
+				"icon" : "zvs/Lib1.res/TltAttackAllAroundPsychicG"
 			},
-			"const_free_attack" : {
-				"type" : "BLOCKS_RETALIATION"
+			"noRetaliation" : {
+				"type" : "BLOCKS_RETALIATION",
+				"icon" : "zvs/Lib1.res/TltNoRetaliation"
 			},
 			"IMMUNE_TO_MIND_SPELLS" : {
-				"type" : "MIND_IMMUNITY"
+				"type" : "MIND_IMMUNITY",
+				"icon" : "zvs/Lib1.res/TltImmunityMind"
 			},
 			"teleports" : {
 				"type" : "FLYING",
 				"subtype" : "movementTeleporting",
-				"icon" : "zvs/Lib1.res/e_teleport"
+				"icon" : "zvs/Lib1.res/TltSpellTeleportation"
 			}
 		},
 		"graphics" : {

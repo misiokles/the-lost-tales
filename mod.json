@@ -1,14 +1,17 @@
 {
 	"name" : "the lost tales",
 	"author" : "Toriko, Yogdush, Misiokles",
-	"contact" : "",
-	"description" : "This mod add the possibility of changing your upgrade into a new one when you want for free in the appropriate town faction or Hill Fort. Inferno, Stronghold and Fortress are the only factions with second upgrade possible for some specific creatures( not everyone). It was for making these Faction a little more competitive. Its not an obligation , just an option ... I dont change any stats of the Base game for keeping a maximum the same feeling as the original experience but with add on. the only exceptions are for the some neutrals who are affiled as some factions . Example : boar is Stronghold and have the same price as Wolf Raider for making the alternative completely free. The mod is completely compatible with TOW and HOTA ( mostly recomanded for having the better experience). TOW creatures were balanced for making them a little more competitive. There are new neutrals, new Heroes, new models for some creature, new portrait HD and some new ones created for the mod? HOTA and TOW.",
+	"contact" : "https://discord.gg/zkP9CtXk7",
+	"description" : "This mod add the possibility of changing your upgrade into a new one when you want for free in the appropriate town faction or Hill Fort. Inferno, Stronghold and Fortress are the only factions with second upgrade possible for some specific creatures( not everyone). It was for making these Faction a little more competitive. Its not an obligation , just an option ... I dont change any stats of the Base game for keeping a maximum the same feeling as the original experience but with add on. the only exceptions are for the some neutrals who are affiled as some factions . Example : boar is Stronghold and have the same price as Wolf Raider for making the alternative completely free. The mod is completely compatible with TOW and HOTA ( mostly recomanded for having the better experience). TOW creatures were balanced for making them a little more competitive. There are new neutrals, new Heroes, new models for some creature, new portrait HD and some new ones created for the mod HOTA and TOW. Link to discord. https://discord.gg/zkP9CtXk7",
 	"version" : "1.0.4",
 	"modType" : "Expansion",
 	"compatibility" : {
 		"min" : "1.7.0"
 	},
 	"changelog" : {
+		"1.0.6" : [
+			"Various fix for stats bugs etc , new def for War Priest and Toxic Trogldyte. New hero for Tower. New alternative for Conflux's Phoenix. New Hero's skill : Markup, Robustness, Velocity. New alternative for Conflux's Phoenix : Suzaku, New alternative for Bulwark's Argali: Snow Ram.  All new Creature Ability Icon. "
+		],
 		"1.0.5" : [
 			"New Hero skill : Defending, Nobility. New alternative for Royal Griffin. New hero , Zan Vatawna, New creature Dragonslayer. "
 		],
@@ -57,6 +60,7 @@
 		"config/heroes/tower/jubal",
 		"config/heroes/tower/sharah",
 		"config/heroes/tower/marlous",
+		"config/heroes/tower/thelos",
 		"config/heroes/inferno/bruhl",
 		"config/heroes/inferno/gelila",
 		"config/heroes/necropolis/wyrm",
@@ -91,25 +95,21 @@
 		"config/creatures/castle/Castle_Alt5",
 		"config/creatures/castle/CastleN_lvl1",
 		"config/creatures/castle/CastleN_lvl1up",
-
 		"config/creatures/rampart/Rampart Modification",
 		"config/creatures/rampart/Rampart_Alt1",
 		"config/creatures/rampart/Rampart_Alt2",
 		"config/creatures/rampart/Rampart_Alt3",
 		"config/creatures/rampart/Rampart_Alt6",
 		"config/creatures/rampart/Rampart_Alt7",
-
 		"config/creatures/tower/tower Modification",
 		"config/creatures/tower/tower_Alt1",
 		"config/creatures/tower/tower_Alt2",
 		"config/creatures/tower/tower_Alt4",
 		"config/creatures/tower/tower_Alt6",
-
 		"config/creatures/inferno/Inferno Modification",
 		"config/creatures/inferno/Inferno_Upg2",
 		"config/creatures/inferno/Inferno_Alt3",
 		"config/creatures/inferno/Inferno_Alt7",
-
 		"config/creatures/necropolis/necropolis_modification",
 		"config/creatures/necropolis/necropolis_Alt1",
 		"config/creatures/necropolis/necropolis_Alt3",
@@ -117,31 +117,26 @@
 		"config/creatures/necropolis/necropolis_Alt5up#",
 		"config/creatures/necropolis/necropolis_Alt6",
 		"config/creatures/necropolis/necropolis_Alt7",
-
 		"config/creatures/dungeon/dungeon Modification",
 		"config/creatures/dungeon/dungeon_Alt1",
 		"config/creatures/dungeon/dungeon_Alt3",
-
 		"config/creatures/stronghold/Stronghold Modification",
 		"config/creatures/stronghold/Stronghold_Alt2",
-		"config/creatures/stronghold/Stronghold_Alt3",
+		"config/creatures/stronghold/Stronghold_Upg3",
 		"config/creatures/stronghold/Stronghold_Upg6",
-
 		"config/creatures/fortress/Fortress Modification",
 		"config/creatures/fortress/Fortress_Alt1",
 		"config/creatures/fortress/Fortress_Alt2",
 		"config/creatures/fortress/Fortress_Upg3",
 		"config/creatures/fortress/Fortress_Alt5",
 		"config/creatures/fortress/Fortress_Alt7",
-		"config/creatures/fortress/Lizardman _rename",
-
 		"config/creatures/conflux/Conflux Modification",
 		"config/creatures/conflux/Conflux_Alt2",
 		"config/creatures/conflux/Conflux_Alt3",
 		"config/creatures/conflux/Conflux_Alt4",
 		"config/creatures/conflux/Conflux_Alt5",
 		"config/creatures/conflux/Conflux_Alt6",
-
+		"config/creatures/conflux/Conflux_Alt7",
 		"config/creatures/neutral/nightmare",
 		"config/creatures/neutral/greatEnchanter",
 		"config/creatures/neutral/armoredRhino",
@@ -166,15 +161,21 @@
 		"config/town-screen/conflux/confluxUpgrades"
 	],
 	"spells" : [
-		"config/spells/stunAbility"
+		"config/spells/lostTalesStunAbility",
+		"config/spells/lostTalesPoison",
+		"config/spells/lostTalesCure",
+		"config/spells/lostTalesClone",
+		"config/spells/lostTalesStonePikes"
 	],
 	"skills" : [
 		"config/skills/nobility",
-		"config/skills/defending"
+		"config/skills/defending",
+		"config/skills/restriction",
+		"config/skills/velocity",
+		"config/skills/markup",
+		"config/skills/Robustness"
 	],
 	"polish" : {
-		"name" : "Zaginione opowieści (The Lost Tales)",
-		"description" : "Ten mod dodaje możliwość zmiany ulepszenia jednostki na nowe za darmo i w dowolnym momencie w odpowiednim mieście danej frakcji lub w Forcie na Wzgórzu.",
 		"translations" : [
 			"translation/polish.json"
 		]

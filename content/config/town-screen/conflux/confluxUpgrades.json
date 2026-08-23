@@ -46,6 +46,15 @@
 					"campaignBonus" : "BoEup_5.pcx",
 					"border" : "TOELUP_5.bmp",
 					"area" : "TZELUP_5.bmp"
+				},
+				"dwellingUpLvl7" : {
+					"animation" : "TBELUP_6.def",
+					"x" : 34,
+					"y" : 0,
+					"z" : 0,
+					"campaignBonus" : "BoEup_6.pcx",
+					"border" : "TOELUP_6.bmp",
+					"area" : "TZELUP_6.bmp"
 				}
 			},
 			"buildingsIcons" : "town-screen/conflux/AltHallElem.DEF",
@@ -131,7 +140,8 @@
 					],
 					[
 						"dwellingLvl7",
-						"dwellingUpLvl7"
+						"dwellingUpLvl7",
+						"dwellingUpLvl7alt"
 					]
 				]
 			],
@@ -167,7 +177,8 @@
 				],
 				[
 					"firebird",
-					"phoenix"
+					"phoenix",
+					"suzaku"
 				]
 			],
 
@@ -186,6 +197,9 @@
 				},
 				"dwellingUpLvl6" : {
 					"description" : "The Altar of Thought allows you to recruit Magic Elementals or Great Psychic Elementals."
+				},
+				"dwellingUpLvl7" : {
+					"description" : "The Pyre allows you to recruit Phoenixes or Suzakus."
 				},
 				"dwellingUpLvl2alt" : {
 					"description" : "The Altar of Air allows you to recruit Storm Elementals or Great Air Elementals.",
@@ -241,6 +255,17 @@
 					"upgrades" : "dwellingUpLvl6",
 					"mode" : "auto",
 					"id" : 49
+				},
+				"dwellingUpLvl7alt" : {
+					"description" : "The Pyre allows you to recruit Phoenixes or Suzakus.",
+					"name" : "Upg. Pyre",
+					"cost" : {},
+					"requires" : [
+						"dwellingLvl7"
+					],
+					"upgrades" : "dwellingUpLvl7",
+					"mode" : "auto",
+					"id" : 50
 				}
 			}
 		}

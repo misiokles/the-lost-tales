@@ -18,6 +18,11 @@
 		"graphics" : {
 			"iconLarge" : "creatures/rampart/iconsbig/rampart_lvl2.png",
 			"iconSmall" : "creatures/rampart/iconssmall/rampart_lvl2.png"
+		},
+		"abilities" : {
+			"magicResistance" : {
+				"icon" : "zvs/Lib1.res/TltMagicResistanceDwarf"
+			}
 		}
 	},
 	"core:battleDwarf" : {
@@ -27,12 +32,22 @@
 		"graphics" : {
 			"iconLarge" : "creatures/rampart/iconsbig/rampart_lvl2up.png",
 			"iconSmall" : "creatures/rampart/iconssmall/rampart_lvl2up.png"
+		},
+		"abilities" : {
+			"magicResistance" : {
+				"icon" : "zvs/Lib1.res/TltMagicResistanceDwarf"
+			}
 		}
 	},
 	"core:woodElf" : {
 		"graphics" : {
 			"iconLarge" : "creatures/rampart/iconsbig/rampart_lvl3.png",
 			"iconSmall" : "creatures/rampart/iconssmall/rampart_lvl3.png"
+		},
+		"abilities" : {
+			"shooter" : {
+				"icon" : "zvs/Lib1.res/TltShooterBow"
+			}
 		}
 	},
 	"core:grandElf" : {
@@ -42,12 +57,25 @@
 		"graphics" : {
 			"iconLarge" : "creatures/rampart/iconsbig/rampart_lvl3up.png",
 			"iconSmall" : "creatures/rampart/iconssmall/rampart_lvl3up.png"
+		},
+		"abilities" : {
+			"shooter" : {
+				"icon" : "zvs/Lib1.res/TltShooterBow"
+			},
+			"doubleShot" : {
+				"icon" : "zvs/Lib1.res/TltShooterBowDouble"
+			}
 		}
 	},
 	"core:pegasus" : {
 		"graphics" : {
 			"iconLarge" : "creatures/rampart/iconsbig/rampart_lvl4.png",
 			"iconSmall" : "creatures/rampart/iconssmall/rampart_lvl4.png"
+		},
+		"abilities" : {
+			"increaseManaCost" : {
+				"icon" : "zvs/Lib1.res/TltMagicDamper"
+			}
 		}
 	},
 	"core:silverPegasus" : {
@@ -56,12 +84,22 @@
 			"iconSmall" : "creatures/rampart/iconssmall/rampart_lvl4up.png",
 			"animation" : "creatures/rampart/battle/capegs.def",
 			"map" : "creatures/rampart/map/AVWpegx0"
+		},
+		"abilities" : {
+			"increaseManaCost" : {
+				"icon" : "zvs/Lib1.res/TltMagicDamper"
+			}
 		}
 	},
 	"core:dendroidGuard" : {
 		"graphics" : {
 			"iconLarge" : "creatures/rampart/iconsbig/rampart_lvl5.png",
 			"iconSmall" : "creatures/rampart/iconssmall/rampart_lvl5.png"
+		},
+		"abilities" : {
+			"binds" : {
+				"icon" : "zvs/Lib1.res/TltBind"
+			}
 		}
 	},
 	"core:dendroidSoldier" : {
@@ -70,12 +108,25 @@
 			"iconSmall" : "creatures/rampart/iconssmall/rampart_lvl5up.png",
 			"animation" : "creatures/rampart/battle/CBTREE.def",
 			"map" : "creatures/rampart/map/AVWtrex0"
+		},
+		"abilities" : {
+			"binds" : {
+				"icon" : "zvs/Lib1.res/TltBind"
+			}
 		}
 	},
 	"core:unicorn" : {
 		"graphics" : {
 			"iconLarge" : "creatures/rampart/iconsbig/rampart_lvl6.png",
 			"iconSmall" : "creatures/rampart/iconssmall/rampart_lvl6.png"
+		},
+		"abilities" : {
+			"blinds" : {
+				"icon" : "zvs/Lib1.res/TltSpellBlind"
+			},
+			"spellResistAura" : {
+				"icon" : "zvs/Lib1.res/TltMagicResistanceUnicorn"
+			}
 		}
 	},
 	"core:warUnicorn" : {
@@ -85,12 +136,28 @@
 		"graphics" : {
 			"iconLarge" : "creatures/rampart/iconsbig/rampart_lvl6up.png",
 			"iconSmall" : "creatures/rampart/iconssmall/rampart_lvl6up.png"
+		},
+		"abilities" : {
+			"blinds" : {
+				"icon" : "zvs/Lib1.res/TltSpellBlind"
+			},
+			"spellResistAura" : {
+				"icon" : "zvs/Lib1.res/TltMagicResistanceUnicorn"
+			}
 		}
 	},
 	"core:greenDragon" : {
 		"graphics" : {
 			"iconLarge" : "creatures/rampart/iconsbig/rampart_lvl7.png",
 			"iconSmall" : "creatures/rampart/iconssmall/rampart_lvl7.png"
+		},
+		"abilities" : {
+			"dragonSkeleton" : {
+				"icon" : "zvs/Lib1.res/TltDragonTransformerGreen"
+			},
+			"dragon" : {
+				"icon" : "zvs/Lib1.res/TltDragonGreen"
+			}
 		}
 	},
 	"core:goldDragon" : {
@@ -100,6 +167,14 @@
 		"graphics" : {
 			"iconLarge" : "creatures/rampart/iconsbig/rampart_lvl7up.png",
 			"iconSmall" : "creatures/rampart/iconssmall/rampart_lvl7up.png"
+		},
+		"abilities" : {
+			"dragonSkeleton" : {
+				"icon" : "zvs/Lib1.res/TltDragonTransformerGold"
+			},
+			"dragon" : {
+				"icon" : "zvs/Lib1.res/TltDragonGold"
+			}
 		}
 	}
 }

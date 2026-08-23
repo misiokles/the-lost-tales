@@ -35,7 +35,8 @@
 				"type" : "UNDEAD"
 			},
 			"shooter" : {
-				"type" : "SHOOTER"
+				"type" : "SHOOTER",
+				"icon" : "zvs/Lib1.res/TltShooterBow"
 			}
 		},
 		"graphics" : {

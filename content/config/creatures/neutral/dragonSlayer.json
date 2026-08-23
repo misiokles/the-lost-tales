@@ -30,7 +30,7 @@
 				"type" : "HATES_TRAIT",
 				"subtype" : "DRAGON_NATURE",
 				"val" : 50,
-				"icon" : "zvs/Lib1.res/hatedragons",
+				"icon" : "zvs/Lib1.res/TltDragonslayer",
 				"description" : "{Dragon Slaying}\nDeal 50% more base damage on every dragons",
 				"hidden" : false
 			},

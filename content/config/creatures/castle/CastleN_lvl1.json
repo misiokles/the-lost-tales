@@ -28,9 +28,9 @@
 		"abilities" : {
 			"stun" : {
 				"type" : "SPELL_AFTER_ATTACK",
-				"subtype" : "spell.stunAbility",
+				"subtype" : "spell.lostTalesStunAbility",
 				"val" : 30,
-				"icon" : "zvs/Lib1.res/stun",
+				"icon" : "zvs/Lib1.res/TltStun",
 				"addInfo" : [
 					2,
 					2

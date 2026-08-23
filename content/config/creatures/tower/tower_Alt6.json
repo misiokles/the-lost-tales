@@ -12,13 +12,13 @@
 		"cost" : {
 			"gold" : 1600
 		},
-		"speed" : 5,
+		"speed" : 7,
 		"hitPoints" : 110,
 		"attack" : 16,
 		"defense" : 13,
 		"damage" : {
-			"min" : 25,
-			"max" : 35
+			"min" : 20,
+			"max" : 25
 		},
 		"doubleWide" : true,
 		"growth" : 2,
@@ -31,11 +31,12 @@
 		},
 		"abilities" : {
 			"noRetaliation" : {
-				"type" : "BLOCKS_RETALIATION"
+				"type" : "BLOCKS_RETALIATION",
+				"icon" : "zvs/Lib1.res/TltNoRetaliation"
 			},
 			"unlimited Retaliation" : {
 				"type" : "UNLIMITED_RETALIATIONS",
-				"icon" : "zvs/Lib1.res/unlimitedC"
+				"icon" : "zvs/Lib1.res/TltRetaliationUnlimitedNaga"
 			}
 		},
 		"graphics" : {

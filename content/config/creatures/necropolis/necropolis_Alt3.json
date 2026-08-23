@@ -44,7 +44,7 @@
 					0,
 					2
 				],
-				"icon" : "zvs/Lib1.res/sorrowattack"
+				"icon" : "zvs/Lib1.res/TltSpellSorrow"
 			},
 			"sorrowPower" : {
 				"type" : "CREATURE_SPELL_POWER",
@@ -56,7 +56,8 @@
 			},
 			"regenerate" : {
 				"type" : "HP_REGENERATION",
-				"val" : 50
+				"val" : 50,
+				"icon" : "zvs/Lib1.res/TltRegeneration"
 			}
 		},
 		"graphics" : {

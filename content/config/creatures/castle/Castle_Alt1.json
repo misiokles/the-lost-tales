@@ -34,7 +34,8 @@
 			},
 			"2 hex attack" : {
 				"type" : "TWO_HEX_ATTACK_BREATH",
-				"icon" : "zvs/Lib1.res/e_breathPikeman"
+				"description" : "{Long Weapon}\nCan attack any creatures behind another.",
+				"icon" : "zvs/Lib1.res/TltbreathPikeman"
 			}
 		},
 		"graphics" : {

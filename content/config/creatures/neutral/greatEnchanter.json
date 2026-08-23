@@ -40,7 +40,7 @@
 				"type" : "SPELL_AFTER_ATTACK",
 				"subtype" : "spell.dispel",
 				"val" : 100,
-				"icon" : "zvs/Lib1.res/dispelattack"
+				"icon" : "zvs/Lib1.res/TltSpellDispel"
 			},
 			"casts" : {
 				"type" : "CASTS",
