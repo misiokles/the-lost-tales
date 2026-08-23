@@ -1,0 +1,23 @@
+{
+    "creatures.tides-of-war.alternative-creatures.mdtCouatl.name.plural": "Łuskonośne kwezale",
+    "creatures.tides-of-war.alternative-creatures.mdtCouatl.name.singular": "Łuskonośny kwezal",
+    "creatures.tides-of-war.alternative-creatures.mdtQuetzalcouatl.name.plural": "Pierzaste węże",
+    "creatures.tides-of-war.alternative-creatures.mdtQuetzalcouatl.name.singular": "Pierzasty wąż",
+    "creatures.tides-of-war.alternative-creatures.mdtWerewolf.name.plural": "Nieumarłe wilkołaki",
+    "creatures.tides-of-war.alternative-creatures.mdtWerewolf.name.singular": "Nieumarły wilkołak",
+    "hero.tides-of-war.heroes.mdtErgon.biography": "Po objęciu tronu Krewlodu Kilgor posłał Ergona, by zdławił bunt ogrów wiernych Winstonowi Boragusowi nawet po jego śmierci. Weteran Wojen Sukcesyjnych wywiązał się z tego zadania bez najmniejszego trudu, siejąc spustoszenie wśród zbuntowanych plemion za pomocą swoich egzotycznych bestii.",
+    "hero.tides-of-war.heroes.mdtErgon.name": "Ergon",
+    "hero.tides-of-war.heroes.mdtErgon.specialty.description": "Zwiększa {szybkość} łuskonośnych kwezali i pierzastych węży o {1} oraz ich {atak} i {obronę} o {5%} dla każdego poziomu doświadczenia bohatera powyżej poziomu szóstego (zaokrąglając w górę).",
+    "hero.tides-of-war.heroes.mdtErgon.specialty.name": "Łuskonośny kwezal",
+    "hero.tides-of-war.heroes.mdtErgon.specialty.tooltip": "Premia dla stworzenia: Łuskonośny kwezal",
+    "hero.tides-of-war.heroes.mdtShroo.biography": "Nikt nie potrafi powiedzieć, jak długo żyją trole. Krążą pogłoski, że Shroo pamięta jeszcze czasy rewolty Władców Bestii. Jak dotąd jednak nikt nie odważył się zapytać jej, czy to prawda.",
+    "hero.tides-of-war.heroes.mdtShroo.name": "Shroo",
+    "hero.tides-of-war.heroes.mdtShroo.specialty.description": "Increases the Attack and Defense skills of any Troll, Troll Hags and Troll Witches for each level attained after 5th level. Additionally, Troll Hags and Troll Witches get a permanent +1 Speed bonus",
+    "hero.tides-of-war.heroes.mdtShroo.specialty.name": "Troll",
+    "hero.tides-of-war.heroes.mdtShroo.specialty.tooltip": "Creature Bonus: Troll, Troll Witches and Troll Hags",
+    "hero.tides-of-war.heroes.mdtThyroc.biography": "Not everyone mourned King Tralossk after his death. Thyroc's old friend from war, Prince Wystan, contributed to his promotion in Tatalian Army after taking power.",
+    "hero.tides-of-war.heroes.mdtThyroc.name": "Thyroc",
+    "hero.tides-of-war.heroes.mdtThyroc.specialty.description": "Increases the speed of any Hydras, Chaos Hydras and Flying Hydras by 1 and their Attack and Defense skills by 5% for every 7 levels (rounded up).",
+    "hero.tides-of-war.heroes.mdtThyroc.specialty.name": "Hydry",
+    "hero.tides-of-war.heroes.mdtThyroc.specialty.tooltip": "Premia dla stworzeń: Hydry"
+}

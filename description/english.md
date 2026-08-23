@@ -154,4 +154,4 @@ NEW CREATURE PORTRAIT HD by Suft and Modified by Toriko.
 
 NEW SECONDARY SKILL
 Nobility : increase Growth's creature of visited town.  
-Defending : increase defence when choosing to defend in battle. 
+Defending : increase defence when choosing to defend in battle.
