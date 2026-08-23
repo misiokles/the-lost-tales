@@ -1,7 +1,7 @@
 {
-	"hota.bulwark:bulwark": {
-		"town": {
-			"creatures": [
+	"hota.bulwark:bulwark" : {
+		"town" : {
+			"creatures" : [
 				[
 					"kobold",
 					"koboldForeman"
@@ -32,7 +32,7 @@
 					"jotunnWarlord"
 				]
 			],
-			"hallSlots": [
+			"hallSlots" : [
 				[
 					[
 						"villageHall",
@@ -114,32 +114,32 @@
 					]
 				]
 			],
-			"structures": {
-				"dwellingUpLvl2alt": {
-					"animation": "hota/bulwark/town/buildings/TBBuU101",
-					"area": "hota/bulwark/town/area/dwellingUpLvl2",
-					"border": "hota/bulwark/town/border/dwellingUpLvl2",
-					"campaignBonus": "hota/bulwark/town/icons/campaignBonuses/dwellingUpLvl2",
-					"x": 301,
-					"y": 44,
-					"z": 1
+			"structures" : {
+				"dwellingUpLvl2alt" : {
+					"animation" : "hota/bulwark/town/buildings/TBBuU101",
+					"area" : "hota/bulwark/town/area/dwellingUpLvl2",
+					"border" : "hota/bulwark/town/border/dwellingUpLvl2",
+					"campaignBonus" : "hota/bulwark/town/icons/campaignBonuses/dwellingUpLvl2",
+					"x" : 301,
+					"y" : 44,
+					"z" : 1
 				}
 			},
-			"buildings": {
-				"dwellingUpLvl2alt": {
-					"name": "Upg. Frigid Spur",
-					"description": "The Upg. Frigid Spur allows you to recruit Argali or Snow Ram.",
-					"cost": {
-						"gold": 1000,
-						"gems": 2,
-						"crystal": 2
+			"buildings" : {
+				"dwellingUpLvl2alt" : {
+					"name" : "Upg. Frigid Spur",
+					"description" : "The Upg. Frigid Spur allows you to recruit Argali or Snow Ram.",
+					"cost" : {
+						"gold" : 1000,
+						"gems" : 2,
+						"crystal" : 2
 					},
-					"requires": [
+					"requires" : [
 						"dwellingLvl2"
 					],
-					"id": 45,
-					"upgrades": "dwellingUpLvl2",
-					"mode": "auto"
+					"id" : 45,
+					"upgrades" : "dwellingUpLvl2",
+					"mode" : "auto"
 				}
 			}
 		}

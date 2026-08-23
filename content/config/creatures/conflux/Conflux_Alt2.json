@@ -65,7 +65,7 @@
 				"type" : "SPELLCASTER",
 				"subtype" : "spell.protectAir",
 				"val" : 2,
-				"icon" : "zvs/Lib1.res/TltCastSpellProtectionAir",
+				"icon" : "zvs/Lib1.res/TltCastSpellProtectionAir"
 			},
 			"spellPower" : {
 				"type" : "CREATURE_ENCHANT_POWER",

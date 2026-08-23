@@ -47,7 +47,15 @@
 					"border" : "TOELUP_5.bmp",
 					"area" : "TZELUP_5.bmp"
 				},
-				"dwellingUpLvl7alt": { "animation" : "TBELUP_6.def", "x" : 34,  "y" : 0,   "z" : 0, "campaignBonus" : "BoEup_6.pcx", "border" : "TOELUP_6.bmp", "area" : "TZELUP_6.bmp" },
+				"dwellingUpLvl7alt" : {
+					"animation" : "TBELUP_6.def",
+					"x" : 34,
+					"y" : 0,
+					"z" : 0,
+					"campaignBonus" : "BoEup_6.pcx",
+					"border" : "TOELUP_6.bmp",
+					"area" : "TZELUP_6.bmp"
+				},
 				"hordePhoenix" : {
 					"animation" : "hota/TBELHrd3.def",
 					"border" : "hota/phoenixHordeBorder.png",

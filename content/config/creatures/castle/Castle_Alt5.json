@@ -46,7 +46,7 @@
 			},
 			"bless" : {
 				"type" : "CREATURE_ENCHANT_POWER",
-				"val" : 6,
+				"val" : 6
 			},
 			"spellpoints" : {
 				"type" : "CASTS",

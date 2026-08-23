@@ -10,10 +10,10 @@
 			"iconLarge" : "creatures/conflux/iconsbig/conflux_lvl1up",
 			"iconSmall" : "creatures/conflux/iconssmall/conflux_lvl1up"
 		},
-		"abilities": {
+		"abilities" : {
 			"noRetaliation" : {
-				"icon" : "zvs/Lib1.res/TltNoRetaliation",
-                        }
+				"icon" : "zvs/Lib1.res/TltNoRetaliation"
+			}
 		}
 	},
 	"core:airElemental" : {
@@ -21,13 +21,13 @@
 			"iconLarge" : "creatures/conflux/iconsbig/conflux_lvl2",
 			"iconSmall" : "creatures/conflux/iconssmall/conflux_lvl2"
 		},
-		"abilities": {
+		"abilities" : {
 			"nonLiving" : {
-				"icon" : "zvs/Lib1.res/TltNonLivingElemental",
-                        },
+				"icon" : "zvs/Lib1.res/TltNonLivingElemental"
+			},
 			"immuneToMind" : {
-				"icon" : "zvs/Lib1.res/TltImmunityMind",
-                        }
+				"icon" : "zvs/Lib1.res/TltImmunityMind"
+			}
 		}
 	},
 	"core:stormElemental" : {
@@ -38,19 +38,19 @@
 			"iconLarge" : "creatures/conflux/iconsbig/conflux_lvl2up",
 			"iconSmall" : "creatures/conflux/iconssmall/conflux_lvl2up"
 		},
-		"abilities": {
+		"abilities" : {
 			"nonLiving" : {
-				"icon" : "zvs/Lib1.res/TltNonLivingElemental",
-                        },
+				"icon" : "zvs/Lib1.res/TltNonLivingElemental"
+			},
 			"immuneToMind" : {
-				"icon" : "zvs/Lib1.res/TltImmunityMind",
-                        },
-			"spellcaster": {
-				"icon" : "zvs/Lib1.res/TltCastSpellProtectionAir",
-                        },
-			"shooter": {
-				"icon" : "zvs/Lib1.res/TltShooterStormElemental",
-                        }
+				"icon" : "zvs/Lib1.res/TltImmunityMind"
+			},
+			"spellcaster" : {
+				"icon" : "zvs/Lib1.res/TltCastSpellProtectionAir"
+			},
+			"shooter" : {
+				"icon" : "zvs/Lib1.res/TltShooterStormElemental"
+			}
 		}
 	},
 	"core:waterElemental" : {
@@ -58,13 +58,13 @@
 			"iconLarge" : "creatures/conflux/iconsbig/conflux_lvl3",
 			"iconSmall" : "creatures/conflux/iconssmall/conflux_lvl3"
 		},
-		"abilities": {
+		"abilities" : {
 			"nonLiving" : {
-				"icon" : "zvs/Lib1.res/TltNonLivingElemental",
-                        },
+				"icon" : "zvs/Lib1.res/TltNonLivingElemental"
+			},
 			"immuneToMind" : {
-				"icon" : "zvs/Lib1.res/TltImmunityMind",
-                        }
+				"icon" : "zvs/Lib1.res/TltImmunityMind"
+			}
 		}
 	},
 	"core:iceElemental" : {
@@ -75,19 +75,19 @@
 			"iconLarge" : "creatures/conflux/iconsbig/conflux_lvl3up",
 			"iconSmall" : "creatures/conflux/iconssmall/conflux_lvl3up"
 		},
-		"abilities": {
+		"abilities" : {
 			"nonLiving" : {
-				"icon" : "zvs/Lib1.res/TltNonLivingElemental",
-                        },
+				"icon" : "zvs/Lib1.res/TltNonLivingElemental"
+			},
 			"immuneToMind" : {
-				"icon" : "zvs/Lib1.res/TltImmunityMind",
-                        },
-			"spellcaster": {
-				"icon" : "zvs/Lib1.res/TltCastSpellProtectionWater",
-                        },
-			"shooter": {
-				"icon" : "zvs/Lib1.res/TltShooterIceElemental",
-                        }
+				"icon" : "zvs/Lib1.res/TltImmunityMind"
+			},
+			"spellcaster" : {
+				"icon" : "zvs/Lib1.res/TltCastSpellProtectionWater"
+			},
+			"shooter" : {
+				"icon" : "zvs/Lib1.res/TltShooterIceElemental"
+			}
 		}
 	},
 	"core:fireElemental" : {
@@ -97,13 +97,13 @@
 			"map" : "creatures/conflux/map/conflux_lvl4",
 			"animation" : "creatures/conflux/battle/conflux_lvl4"
 		},
-		"abilities": {
+		"abilities" : {
 			"nonLiving" : {
-				"icon" : "zvs/Lib1.res/TltNonLivingElemental",
-                        },
+				"icon" : "zvs/Lib1.res/TltNonLivingElemental"
+			},
 			"immuneToMind" : {
-				"icon" : "zvs/Lib1.res/TltImmunityMind",
-                        }
+				"icon" : "zvs/Lib1.res/TltImmunityMind"
+			}
 		}
 	},
 	"core:energyElemental" : {
@@ -114,16 +114,16 @@
 			"iconLarge" : "creatures/conflux/iconsbig/conflux_lvl4up",
 			"iconSmall" : "creatures/conflux/iconssmall/conflux_lvl4up"
 		},
-		"abilities": {
+		"abilities" : {
 			"nonLiving" : {
-				"icon" : "zvs/Lib1.res/TltNonLivingElemental",
-                        },
+				"icon" : "zvs/Lib1.res/TltNonLivingElemental"
+			},
 			"immuneToMind" : {
-				"icon" : "zvs/Lib1.res/TltImmunityMind",
-                        },
-			"spellcaster": {
-				"icon" : "zvs/Lib1.res/TltCastSpellProtectionFire",
-                        }
+				"icon" : "zvs/Lib1.res/TltImmunityMind"
+			},
+			"spellcaster" : {
+				"icon" : "zvs/Lib1.res/TltCastSpellProtectionFire"
+			}
 		}
 	},
 	"core:earthElemental" : {
@@ -131,13 +131,13 @@
 			"iconLarge" : "creatures/conflux/iconsbig/conflux_lvl5",
 			"iconSmall" : "creatures/conflux/iconssmall/conflux_lvl5"
 		},
-		"abilities": {
+		"abilities" : {
 			"nonLiving" : {
-				"icon" : "zvs/Lib1.res/TltNonLivingElemental",
-                        },
+				"icon" : "zvs/Lib1.res/TltNonLivingElemental"
+			},
 			"immuneToMind" : {
-				"icon" : "zvs/Lib1.res/TltImmunityMind",
-                        }
+				"icon" : "zvs/Lib1.res/TltImmunityMind"
+			}
 		}
 	},
 	"core:magmaElemental" : {
@@ -147,17 +147,17 @@
 		"graphics" : {
 			"iconLarge" : "creatures/conflux/iconsbig/conflux_lvl5up",
 			"iconSmall" : "creatures/conflux/iconssmall/conflux_lvl5up"
-	        },
-		"abilities": {
+		},
+		"abilities" : {
 			"nonLiving" : {
-				"icon" : "zvs/Lib1.res/TltNonLivingElemental",
-                        },
+				"icon" : "zvs/Lib1.res/TltNonLivingElemental"
+			},
 			"immuneToMind" : {
-				"icon" : "zvs/Lib1.res/TltImmunityMind",
-                        },
-			"spellcaster": {
-				"icon" : "zvs/Lib1.res/TltCastSpellProtectionEarth",
-                        }
+				"icon" : "zvs/Lib1.res/TltImmunityMind"
+			},
+			"spellcaster" : {
+				"icon" : "zvs/Lib1.res/TltCastSpellProtectionEarth"
+			}
 		}
 	},
 	"core:psychicElemental" : {
@@ -165,16 +165,16 @@
 			"iconLarge" : "creatures/conflux/iconsbig/conflux_lvl6",
 			"iconSmall" : "creatures/conflux/iconssmall/conflux_lvl6"
 		},
-		"abilities": {
+		"abilities" : {
 			"immuneToMind" : {
-				"icon" : "zvs/Lib1.res/TltImmunityMind",
-                        },
+				"icon" : "zvs/Lib1.res/TltImmunityMind"
+			},
 			"attackAllAdjacent" : {
-				"icon" : "zvs/Lib1.res/TltAttackAllAroundPsychic",
-                        },
+				"icon" : "zvs/Lib1.res/TltAttackAllAroundPsychic"
+			},
 			"noRetaliation" : {
-				"icon" : "zvs/Lib1.res/TltNoRetaliation",
-                        }
+				"icon" : "zvs/Lib1.res/TltNoRetaliation"
+			}
 		}
 	},
 	"core:magicElemental" : {
@@ -185,13 +185,13 @@
 			"iconLarge" : "creatures/conflux/iconsbig/conflux_lvl6up",
 			"iconSmall" : "creatures/conflux/iconssmall/conflux_lvl6up"
 		},
-		"abilities": {
+		"abilities" : {
 			"attackAllAdjacent" : {
-				"icon" : "zvs/Lib1.res/TltAttackAllAroundMagic",
-                        },
+				"icon" : "zvs/Lib1.res/TltAttackAllAroundMagic"
+			},
 			"noRetaliation" : {
-				"icon" : "zvs/Lib1.res/TltNoRetaliation",
-                        }
+				"icon" : "zvs/Lib1.res/TltNoRetaliation"
+			}
 		}
 	},
 	"core:firebird" : {

@@ -1,13 +1,12 @@
 {
-	"rolandKnightHero" :
-	{
+	"rolandKnightHero" : {
 		"name" : "Knight King",
 		"faction" : "castle",
 		"affinity" : "might",
 		"defaultTavern" : 5,
 
 		"commander" : "zealot",
-		
+
 		"mapObject" : {
 			"templates" : {
 				"default" : {

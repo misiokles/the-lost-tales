@@ -25,7 +25,7 @@
 			"iconLarge" : "creatures/stronghold/iconsbig/stronghold_lvl2up",
 			"iconSmall" : "creatures/stronghold/iconssmall/stronghold_lvl2up"
 		},
-		"abilities": {
+		"abilities" : {
 			"extraAttack" : {
 				"icon" : "zvs/Lib1.res/TltDoubleAttackWolfRider"
 			}
@@ -122,8 +122,8 @@
 					0,
 					0
 				]
-		}
-	},
+			}
+		},
 		"abilities" : {
 			"shooter" : {
 				"icon" : "zvs/Lib1.res/TltShooterCyclop"
@@ -166,8 +166,8 @@
 					0,
 					0
 				]
-		}
-	},
+			}
+		},
 		"abilities" : {
 			"shooter" : {
 				"icon" : "zvs/Lib1.res/TltShooterCyclop"

@@ -1,27 +1,27 @@
 {
 	"hota.bulwark:kobold" : {
 		"graphics" : {
-                        "iconSmall" : "hota/bulwark/creatures/iconsSmall/bulwark_lvl1",
+			"iconSmall" : "hota/bulwark/creatures/iconsSmall/bulwark_lvl1"
 		},
 		"abilities" : {
 			"generatesGold" : {
-				"icon" : "zvs/Lib1.res/TltGoldMining",
+				"icon" : "zvs/Lib1.res/TltGoldMining"
 			}
 		}
 	},
 	"hota.bulwark:koboldForeman" : {
 		"graphics" : {
-                        "iconSmall" : "hota/bulwark/creatures/iconsSmall/bulwark_lvl1up",
+			"iconSmall" : "hota/bulwark/creatures/iconsSmall/bulwark_lvl1up"
 		},
 		"abilities" : {
 			"generatesGold" : {
-				"icon" : "zvs/Lib1.res/TltGoldMining",
+				"icon" : "zvs/Lib1.res/TltGoldMining"
 			}
 		}
 	},
 	"hota.bulwark:mountainRam" : {
 		"graphics" : {
-                        "iconSmall" : "hota/bulwark/creatures/iconsSmall/bulwark_lvl2",
+			"iconSmall" : "hota/bulwark/creatures/iconsSmall/bulwark_lvl2"
 		}
 	},
 	"hota.bulwark:argali" : {
@@ -29,84 +29,84 @@
 			"snowRam"
 		],
 		"graphics" : {
-                        "iconSmall" : "hota/bulwark/creatures/iconsSmall/bulwark_lvl2up",
+			"iconSmall" : "hota/bulwark/creatures/iconsSmall/bulwark_lvl2up"
 		}
 	},
 	"hota.bulwark:snowElf" : {
 		"abilities" : {
 			"shooter" : {
-				"icon" : "zvs/Lib1.res/TltShooterGnoll",
+				"icon" : "zvs/Lib1.res/TltShooterGnoll"
 			},
 			"noMeleePenalty" : {
-				"icon" : "zvs/Lib1.res/TltShooterGnollNoMeleePenalty",
+				"icon" : "zvs/Lib1.res/TltShooterGnollNoMeleePenalty"
 			}
 		}
 	},
 	"hota.bulwark:steelElf" : {
 		"abilities" : {
 			"shooter" : {
-				"icon" : "zvs/Lib1.res/TltShooterGnoll",
+				"icon" : "zvs/Lib1.res/TltShooterGnoll"
 			},
 			"noMeleePenalty" : {
-				"icon" : "zvs/Lib1.res/TltShooterGnollNoMeleePenalty",
+				"icon" : "zvs/Lib1.res/TltShooterGnollNoMeleePenalty"
 			},
 			"noRangeBlock" : {
-				"icon" : "zvs/Lib1.res/TltShooterGnollShootMelee",
+				"icon" : "zvs/Lib1.res/TltShooterGnollShootMelee"
 			}
 		}
 	},
 	"hota.bulwark:yeti" : {
 		"graphics" : {
-                        "iconSmall" : "hota/bulwark/creatures/iconsSmall/bulwark_lvl4",
+			"iconSmall" : "hota/bulwark/creatures/iconsSmall/bulwark_lvl4"
 		},
 		"abilities" : {
 			"yetiCure" : {
-				"icon" : "zvs/Lib1.res/TltAutodispelYeti",
+				"icon" : "zvs/Lib1.res/TltAutodispelYeti"
 			}
 		}
 	},
 	"hota.bulwark:yetiRunemaster" : {
 		"graphics" : {
 			"map" : "hota/bulwark/creatures/adventureMap/AVWMSPRT.def",
-                        "iconSmall" : "hota/bulwark/creatures/iconsSmall/bulwark_lvl4up",
+			"iconSmall" : "hota/bulwark/creatures/iconsSmall/bulwark_lvl4up"
 		},
 		"abilities" : {
 			"yetiCure" : {
-				"icon" : "zvs/Lib1.res/TltAutodispelYetiRunemaster",
+				"icon" : "zvs/Lib1.res/TltAutodispelYetiRunemaster"
 			},
 			"yetiRunesCap" : {
-				"icon" : "zvs/Lib1.res/TltRune",
+				"icon" : "zvs/Lib1.res/TltRune"
 			}
 		}
 	},
 	"hota.bulwark:shaman" : {
 		"abilities" : {
 			"shooter" : {
-				"icon" : "zvs/Lib1.res/TltShooterShaman",
+				"icon" : "zvs/Lib1.res/TltShooterShaman"
 			},
 			"castsAirShield" : {
-				"icon" : "zvs/Lib1.res/TltCastSpellAirShield",
+				"icon" : "zvs/Lib1.res/TltCastSpellAirShield"
 			}
 		}
 	},
 	"hota.bulwark:greatShaman" : {
 		"abilities" : {
 			"shooter" : {
-				"icon" : "zvs/Lib1.res/TltShooterShaman",
+				"icon" : "zvs/Lib1.res/TltShooterShaman"
 			},
 			"castsAirShield" : {
-				"icon" : "zvs/Lib1.res/TltCastSpellAirShield",
+				"icon" : "zvs/Lib1.res/TltCastSpellAirShield"
 			}
 		}
 	},
 	"hota.bulwark:mammoth" : {
 		"graphics" : {
-                        "iconSmall" : "hota/bulwark/creatures/iconsSmall/bulwark_lvl6",
+			"iconSmall" : "hota/bulwark/creatures/iconsSmall/bulwark_lvl6"
 		}
 	},
 	"hota.bulwark:warMammoth" : {
 		"graphics" : {
-                        "iconSmall" : "hota/bulwark/creatures/iconsSmall/bulwark_lvl6up",
+			"iconSmall" : "hota/bulwark/creatures/iconsSmall/bulwark_lvl6up"
 		},
 		"abilities" : {
 			"defenseBonusWhileDefending" : {
@@ -128,14 +128,14 @@
 	"hota.bulwark:jotunn" : {
 		"abilities" : {
 			"castsTeleport" : {
-				"icon" : "zvs/Lib1.res/TltCastSpellTeleport",
+				"icon" : "zvs/Lib1.res/TltCastSpellTeleport"
 			}
 		}
 	},
 	"hota.bulwark:jotunnWarlord" : {
 		"abilities" : {
 			"castsTeleport" : {
-				"icon" : "zvs/Lib1.res/TltCastSpellTeleport",
+				"icon" : "zvs/Lib1.res/TltCastSpellTeleport"
 			}
 		}
 	}

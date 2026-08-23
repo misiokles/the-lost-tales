@@ -45,7 +45,7 @@
 				"type" : "SPELLCASTER",
 				"subtype" : "spell.protectFire",
 				"val" : 2,
-				"icon" : "zvs/Lib1.res/TltCastSpellProtectionFire",
+				"icon" : "zvs/Lib1.res/TltCastSpellProtectionFire"
 			},
 			"spellPower" : {
 				"type" : "CREATURE_ENCHANT_POWER",

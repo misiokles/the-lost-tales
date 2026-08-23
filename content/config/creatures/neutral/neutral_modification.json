@@ -44,7 +44,7 @@
 		"graphics" : {
 			"iconLarge" : "creatures/neutral/iconsbig/enchanter.png",
 			"iconSmall" : "creatures/neutral/iconssmall/enchanter.png"
-                        }
+		}
 	},
 	"core:azureDragon" : {
 		"graphics" : {
@@ -80,10 +80,10 @@
 				"type" : "SHOOTER"
 			},
 			"noDistancePenalty" : {
-				"type" : "NO_DISTANCE_PENALTY",
+				"type" : "NO_DISTANCE_PENALTY"
 			},
 			"noWallPenalty" : {
-				"type" : "NO_WALL_PENALTY",
+				"type" : "NO_WALL_PENALTY"
 			}
 		}
 	},

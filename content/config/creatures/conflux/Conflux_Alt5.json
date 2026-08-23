@@ -42,11 +42,11 @@
 				"type" : "CASTS",
 				"val" : 3
 			},
-			"spellcaster": {
+			"spellcaster" : {
 				"type" : "SPELLCASTER",
 				"subtype" : "spell.protectEarth",
 				"val" : 2,
-				"icon" : "zvs/Lib1.res/TltCastSpellProtectionEarth",
+				"icon" : "zvs/Lib1.res/TltCastSpellProtectionEarth"
 			},
 			"spellPower" : {
 				"type" : "CREATURE_ENCHANT_POWER",

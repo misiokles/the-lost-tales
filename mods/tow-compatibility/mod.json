@@ -53,5 +53,10 @@
 		"config/town-screen/stronghold/strongholdUpgrades",
 		"config/town-screen/fortress/fortressUpgrades",
 		"config/town-screen/conflux/confluxUpgrades"
-	]
+	],
+	"polish" : {
+		"translations" : [
+			"translation/polish.json"
+		]
+	}
 }

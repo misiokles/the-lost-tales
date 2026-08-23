@@ -45,7 +45,7 @@
 				"type" : "SPELLCASTER",
 				"subtype" : "spell.protectWater",
 				"val" : 2,
-				"icon" : "zvs/Lib1.res/TltCastSpellProtectionWater",
+				"icon" : "zvs/Lib1.res/TltCastSpellProtectionWater"
 			},
 			"spellPower" : {
 				"type" : "CREATURE_ENCHANT_POWER",
@@ -93,7 +93,7 @@
 			"immuneToFrostRing" : {
 				"type" : "SPELL_IMMUNITY",
 				"subtype" : "spell.frostRing"
-			},
+			}
 		},
 		"graphics" : {
 			"iconLarge" : "creatures/conflux/iconsbig/Conflux_lvl3upAlt.png",

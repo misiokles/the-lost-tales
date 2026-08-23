@@ -197,7 +197,7 @@
 					},
 					"requires" : [
 						"dwellingUpLvl3"
-					],
+					]
 				},
 				"dwellingUp2Lvl6" : {
 					"description" : "The Cyclop Cave allows you to recruit Cyclop Lord.",

@@ -29,17 +29,18 @@
 			"max" : 10
 		},
 		"abilities" : {
-			"blinds" :
-			{
+			"blinds" : {
 				"type" : "SPELL_AFTER_ATTACK",
 				"subtype" : "spell.blind",
 				"val" : 20,
-				"addInfo" : [3,0],
+				"addInfo" : [
+					3,
+					0
+				],
 				"description" : "{Blinding attack}\n20% chance to cast Blind after attack.",
-                                "icon" : "zvs/Lib1.res/TltSpellBlind"
+				"icon" : "zvs/Lib1.res/TltSpellBlind"
 			},
-			"spellResistAura" :
-			{
+			"spellResistAura" : {
 				"type" : "SPELL_RESISTANCE_AURA",
 				"val" : 20,
 				"icon" : "zvs/Lib1.res/TltMagicResistanceUnicorn"

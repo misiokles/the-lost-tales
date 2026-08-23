@@ -17,14 +17,18 @@
 			}
 		},
 		"levels" : {
-			"base":{
+			"base" : {
 				"range" : "0",
 				"battleEffects" : {
-					"directDamage" : {"type":"core:damage"}
+					"directDamage" : {
+						"type" : "core:damage"
+					}
 				},
-				"targetModifier":{"smart":true}
-			        },
-               			"none" : {
+				"targetModifier" : {
+					"smart" : true
+				}
+			},
+			"none" : {
 				"cost" : 10,
 				"power" : 10,
 				"description" : "{Stone Pikes}\n\nCauses Stone pikes to strike the selected unit by the down.\n"
@@ -43,7 +47,7 @@
 				"cost" : 8,
 				"power" : 50,
 				"description" : "{Expert Stone Pikes}\n\nCauses Stone pikes to strike the selected unit by the down.\n\nDamage inflicted is 40 points more than Basic Stone Pikes.\n"
-                        }
+			}
 		},
 		"flags" : {
 			"damage" : true,
@@ -60,7 +64,7 @@
 				{
 					"defName" : "spells/StonePikes/stonePikes.def",
 					"verticalPosition" : "bottom"
-		                }
+				}
 			]
 		},
 		"sounds" : {
@@ -77,5 +81,5 @@
 			"stronghold" : 50,
 			"tower" : 50
 		}
-        }
+	}
 }

@@ -23,7 +23,7 @@
 			"magicResistance" : {
 				"icon" : "zvs/Lib1.res/TltMagicResistanceDwarf"
 			}
-                }
+		}
 	},
 	"core:battleDwarf" : {
 		"upgrades" : [
@@ -37,7 +37,7 @@
 			"magicResistance" : {
 				"icon" : "zvs/Lib1.res/TltMagicResistanceDwarf"
 			}
-                }
+		}
 	},
 	"core:woodElf" : {
 		"graphics" : {
@@ -48,7 +48,7 @@
 			"shooter" : {
 				"icon" : "zvs/Lib1.res/TltShooterBow"
 			}
-                }
+		}
 	},
 	"core:grandElf" : {
 		"upgrades" : [
@@ -65,7 +65,7 @@
 			"doubleShot" : {
 				"icon" : "zvs/Lib1.res/TltShooterBowDouble"
 			}
-                }
+		}
 	},
 	"core:pegasus" : {
 		"graphics" : {
@@ -76,7 +76,7 @@
 			"increaseManaCost" : {
 				"icon" : "zvs/Lib1.res/TltMagicDamper"
 			}
-                }
+		}
 	},
 	"core:silverPegasus" : {
 		"graphics" : {
@@ -89,7 +89,7 @@
 			"increaseManaCost" : {
 				"icon" : "zvs/Lib1.res/TltMagicDamper"
 			}
-                }
+		}
 	},
 	"core:dendroidGuard" : {
 		"graphics" : {
@@ -100,7 +100,7 @@
 			"binds" : {
 				"icon" : "zvs/Lib1.res/TltBind"
 			}
-                }
+		}
 	},
 	"core:dendroidSoldier" : {
 		"graphics" : {
@@ -113,7 +113,7 @@
 			"binds" : {
 				"icon" : "zvs/Lib1.res/TltBind"
 			}
-                }
+		}
 	},
 	"core:unicorn" : {
 		"graphics" : {
@@ -127,7 +127,7 @@
 			"spellResistAura" : {
 				"icon" : "zvs/Lib1.res/TltMagicResistanceUnicorn"
 			}
-                }
+		}
 	},
 	"core:warUnicorn" : {
 		"upgrades" : [
@@ -144,7 +144,7 @@
 			"spellResistAura" : {
 				"icon" : "zvs/Lib1.res/TltMagicResistanceUnicorn"
 			}
-                }
+		}
 	},
 	"core:greenDragon" : {
 		"graphics" : {
@@ -158,7 +158,7 @@
 			"dragon" : {
 				"icon" : "zvs/Lib1.res/TltDragonGreen"
 			}
-	        }
+		}
 	},
 	"core:goldDragon" : {
 		"upgrades" : [
@@ -175,6 +175,6 @@
 			"dragon" : {
 				"icon" : "zvs/Lib1.res/TltDragonGold"
 			}
-	        }
+		}
 	}
 }

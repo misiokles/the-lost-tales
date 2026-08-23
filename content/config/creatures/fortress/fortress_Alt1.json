@@ -33,7 +33,6 @@
 			"shooter" : {
 				"type" : "SHOOTER",
 				"icon" : "zvs/Lib1.res/TltShooterGnoll"
-
 			},
 			"noRangeBlock" : {
 				"type" : "FREE_SHOOTING",

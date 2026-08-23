@@ -2,24 +2,24 @@
 	"core:imp" : {
 		"graphics" : {
 			"iconLarge" : "creatures/inferno/iconsbig/inferno_lvl1",
-			"iconSmall" : "creatures/inferno/iconssmall/inferno_lvl1",
+			"iconSmall" : "creatures/inferno/iconssmall/inferno_lvl1"
 		}
 	},
 	"core:familiar" : {
 		"graphics" : {
 			"iconLarge" : "creatures/inferno/iconsbig/inferno_lvl1up",
-			"iconSmall" : "creatures/inferno/iconssmall/inferno_lvl1up",
+			"iconSmall" : "creatures/inferno/iconssmall/inferno_lvl1up"
 		},
 		"abilities" : {
 			"manaChannel" : {
 				"icon" : "zvs/Lib1.res/TltMagicChannel"
-                        }
+			}
 		}
 	},
 	"core:gog" : {
 		"graphics" : {
 			"iconLarge" : "creatures/inferno/iconsbig/inferno_lvl2",
-			"iconSmall" : "creatures/inferno/iconssmall/inferno_lvl2",
+			"iconSmall" : "creatures/inferno/iconssmall/inferno_lvl2"
 		},
 		"abilities" : {
 			"shooter" : {
@@ -33,7 +33,7 @@
 		],
 		"graphics" : {
 			"iconLarge" : "creatures/inferno/iconsbig/inferno_lvl2up",
-			"iconSmall" : "creatures/inferno/iconssmall/inferno_lvl2up",
+			"iconSmall" : "creatures/inferno/iconssmall/inferno_lvl2up"
 		},
 		"abilities" : {
 			"shooter" : {
@@ -47,7 +47,7 @@
 	"core:hellHound" : {
 		"graphics" : {
 			"iconLarge" : "creatures/inferno/iconsbig/inferno_lvl3",
-			"iconSmall" : "creatures/inferno/iconssmall/inferno_lvl3",
+			"iconSmall" : "creatures/inferno/iconssmall/inferno_lvl3"
 		}
 	},
 	"core:cerberus" : {
@@ -56,7 +56,7 @@
 		],
 		"graphics" : {
 			"iconLarge" : "creatures/inferno/iconsbig/inferno_lvl3up",
-			"iconSmall" : "creatures/inferno/iconssmall/inferno_lvl3up",
+			"iconSmall" : "creatures/inferno/iconssmall/inferno_lvl3up"
 		},
 		"abilities" : {
 			"noRetaliation" : {
@@ -67,56 +67,56 @@
 	"core:demon" : {
 		"graphics" : {
 			"iconLarge" : "creatures/inferno/iconsbig/inferno_lvl4",
-			"iconSmall" : "creatures/inferno/iconssmall/inferno_lvl4",
+			"iconSmall" : "creatures/inferno/iconssmall/inferno_lvl4"
 		}
 	},
 	"core:hornedDemon" : {
 		"graphics" : {
 			"iconLarge" : "creatures/inferno/iconsbig/inferno_lvl4up",
-			"iconSmall" : "creatures/inferno/iconssmall/inferno_lvl4up",
+			"iconSmall" : "creatures/inferno/iconssmall/inferno_lvl4up"
 		}
 	},
 	"core:pitFiend" : {
 		"graphics" : {
 			"iconLarge" : "creatures/inferno/iconsbig/inferno_lvl5",
-			"iconSmall" : "creatures/inferno/iconssmall/inferno_lvl5",
+			"iconSmall" : "creatures/inferno/iconssmall/inferno_lvl5"
 		}
 	},
 	"core:pitLord" : {
 		"graphics" : {
 			"iconLarge" : "creatures/inferno/iconsbig/inferno_lvl5up",
-			"iconSmall" : "creatures/inferno/iconssmall/inferno_lvl5up",
+			"iconSmall" : "creatures/inferno/iconssmall/inferno_lvl5up"
 		}
 	},
 	"core:efreet" : {
 		"graphics" : {
 			"iconLarge" : "creatures/inferno/iconsbig/inferno_lvl6",
-			"iconSmall" : "creatures/inferno/iconssmall/inferno_lvl6",
+			"iconSmall" : "creatures/inferno/iconssmall/inferno_lvl6"
 		}
 	},
 	"core:efreetSultan" : {
 		"graphics" : {
 			"iconLarge" : "creatures/inferno/iconsbig/inferno_lvl6up",
-			"iconSmall" : "creatures/inferno/iconssmall/inferno_lvl6up",
+			"iconSmall" : "creatures/inferno/iconssmall/inferno_lvl6up"
 		},
 		"abilities" : {
 			"fireShield" : {
 				"icon" : "zvs/Lib1.res/TltSpellFireShield"
-                        }
+			}
 		}
 	},
 	"core:devil" : {
 		"graphics" : {
 			"iconLarge" : "creatures/inferno/iconsbig/inferno_lvl7",
-			"iconSmall" : "creatures/inferno/iconssmall/inferno_lvl7",
+			"iconSmall" : "creatures/inferno/iconssmall/inferno_lvl7"
 		},
 		"abilities" : {
 			"noRetaliation" : {
 				"icon" : "zvs/Lib1.res/TltNoRetaliation"
-                        },
+			},
 			"teleports" : {
 				"icon" : "zvs/Lib1.res/TltSpellTeleportation"
-                        }
+			}
 		}
 	},
 	"core:archDevil" : {
@@ -125,15 +125,15 @@
 		],
 		"graphics" : {
 			"iconLarge" : "creatures/inferno/iconsbig/inferno_lvl7up",
-			"iconSmall" : "creatures/inferno/iconssmall/inferno_lvl7up",
+			"iconSmall" : "creatures/inferno/iconssmall/inferno_lvl7up"
 		},
 		"abilities" : {
 			"noRetaliation" : {
 				"icon" : "zvs/Lib1.res/TltNoRetaliation"
-                        },
+			},
 			"teleports" : {
 				"icon" : "zvs/Lib1.res/TltSpellTeleportation"
-                        }
+			}
 		}
 	}
 }

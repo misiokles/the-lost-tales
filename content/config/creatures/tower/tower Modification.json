@@ -16,7 +16,7 @@
 		"abilities" : {
 			"shooter" : {
 				"icon" : "zvs/Lib1.res/TltShooterGremlin"
-		        }
+			}
 		}
 	},
 	"core:stoneGargoyle" : {
@@ -64,10 +64,10 @@
 		"abilities" : {
 			"shooter" : {
 				"icon" : "zvs/Lib1.res/TltShooterMage"
-		        },
+			},
 			"noMeleePenalty" : {
 				"icon" : "zvs/Lib1.res/TltShooterMageNoMeleePenalty"
-		        },
+			},
 			"noWallPenalty" : {
 				"type" : "NO_WALL_PENALTY",
 				"icon" : "zvs/Lib1.res/TltShooterMageNoWallPenalty"
@@ -85,10 +85,10 @@
 		"abilities" : {
 			"shooter" : {
 				"icon" : "zvs/Lib1.res/TltShooterArchmage"
-		        },
+			},
 			"noMeleePenalty" : {
 				"icon" : "zvs/Lib1.res/TltShooterArchmageNoMeleePenalty"
-		        },
+			},
 			"noWallPenalty" : {
 				"icon" : "zvs/Lib1.res/TltShooterArchmageNoWallPenalty"
 			}
@@ -120,7 +120,7 @@
 			"noRetaliation" : {
 				"icon" : "zvs/Lib1.res/TltNoRetaliation"
 			}
-                }
+		}
 	},
 	"core:nagaQueen" : {
 		"upgrades" : [
@@ -134,7 +134,7 @@
 			"noRetaliation" : {
 				"icon" : "zvs/Lib1.res/TltNoRetaliation"
 			}
-                }
+		}
 	},
 	"core:giant" : {
 		"graphics" : {
@@ -144,7 +144,7 @@
 		"abilities" : {
 			"immuneToMind" : {
 				"icon" : "zvs/Lib1.res/TltImmunityMind"
-		        }
+			}
 		}
 	},
 	"core:titan" : {
@@ -155,13 +155,13 @@
 		"abilities" : {
 			"shooter" : {
 				"icon" : "zvs/Lib1.res/TltShooterTitan"
-		        },
+			},
 			"noMeleePenalty" : {
 				"icon" : "zvs/Lib1.res/TltShooterTitanNoMeleePenalty"
-		        },
+			},
 			"immuneToMind" : {
 				"icon" : "zvs/Lib1.res/TltImmunityMind"
-		        }
+			}
 		}
 	}
 }

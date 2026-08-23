@@ -61,7 +61,7 @@
 			"description" : "{Advanced Velocity}\n\nIncreases Speed of all units in the hero's army by 1.",
 			"effects" : {
 				"speed2" : {
-					"val" : 1,
+					"val" : 1
 				}
 			},
 			"images" : {
@@ -75,7 +75,7 @@
 			"description" : "{Expert Velocity}\n\nIncreases Speed of all units in the hero's army by 2.",
 			"effects" : {
 				"speed3" : {
-					"val" : 2,
+					"val" : 2
 				}
 			},
 			"images" : {

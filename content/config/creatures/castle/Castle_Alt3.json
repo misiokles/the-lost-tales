@@ -1,5 +1,5 @@
 {
-	"assaultGriffin": {
+	"assaultGriffin" : {
 		"name" : {
 			"singular" : "Assault Griffin",
 			"plural" : "Assault Griffins"
@@ -42,7 +42,6 @@
 				"type" : "BLOCKS_RETALIATION",
 				"icon" : "zvs/Lib1.res/TltNoRetaliation"
 			}
-
 		},
 		"graphics" : {
 			"iconLarge" : "creatures/castle/iconsbig/Castle_lvl3upAlt.png",
@@ -54,7 +53,7 @@
 				"idle" : 10,
 				"walk" : 1.05
 			},
-			"timeBetweenFidgets" : 1,
+			"timeBetweenFidgets" : 1
 		},
 		"sound" : {
 			"attack" : "RGRFATTK.wav",

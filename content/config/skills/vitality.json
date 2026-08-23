@@ -10,7 +10,7 @@
 			"effects" : {
 				"main" : {
 					"type" : "STACK_HEALTH",
-                                        "valueType" : "PERCENT_TO_BASE"
+					"valueType" : "PERCENT_TO_BASE"
 				}
 			}
 		},

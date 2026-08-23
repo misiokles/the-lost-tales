@@ -7,10 +7,10 @@
 		"abilities" : {
 			"blindImmunity" : {
 				"icon" : "zvs/Lib1.res/TltImmunityEyes"
-                        },
+			},
 			"petrifyImmunity" : {
 				"icon" : "zvs/Lib1.res/TltImmunityEyesStone"
-                        }
+			}
 		}
 	},
 	"core:infernalTroglodyte" : {
@@ -24,10 +24,10 @@
 		"abilities" : {
 			"blindImmunity" : {
 				"icon" : "zvs/Lib1.res/TltImmunityEyes"
-                        },
+			},
 			"petrifyImmunity" : {
 				"icon" : "zvs/Lib1.res/TltImmunityEyesStone"
-                        }
+			}
 		}
 	},
 	"core:harpy" : {
@@ -42,9 +42,9 @@
 			"iconSmall" : "creatures/dungeon/iconssmall/dungeon_lvl2up"
 		},
 		"abilities" : {
-			"noRetaliation" :  {
+			"noRetaliation" : {
 				"icon" : "zvs/Lib1.res/TltNoRetaliation"
-                        }
+			}
 		}
 	},
 	"core:beholder" : {
@@ -53,12 +53,12 @@
 			"iconSmall" : "creatures/dungeon/iconssmall/dungeon_lvl3"
 		},
 		"abilities" : {
-			"shooter" :  {
+			"shooter" : {
 				"icon" : "zvs/Lib1.res/TltShooterBeholder"
-                        },
+			},
 			"noMeleePenalty" : {
 				"icon" : "zvs/Lib1.res/TltShooterBeholderNoMeleePenalty"
-                        }
+			}
 		}
 	},
 	"core:evilEye" : {
@@ -70,12 +70,12 @@
 			"iconSmall" : "creatures/dungeon/iconssmall/dungeon_lvl3up"
 		},
 		"abilities" : {
-			"shooter" :  {
+			"shooter" : {
 				"icon" : "zvs/Lib1.res/TltShooterBeholder0"
-                        },
+			},
 			"noMeleePenalty" : {
 				"icon" : "zvs/Lib1.res/TltShooterBeholder0NoMeleePenalty"
-                        }
+			}
 		}
 	},
 	"core:medusa" : {
@@ -83,7 +83,7 @@
 			"iconLarge" : "creatures/dungeon/iconsbig/dungeon_lvl4",
 			"iconSmall" : "creatures/dungeon/iconssmall/dungeon_lvl4"
 		},
-		"abilities": {
+		"abilities" : {
 			"shooter" : {
 				"icon" : "zvs/Lib1.res/TltShooterBow"
 			},
@@ -100,7 +100,7 @@
 			"iconLarge" : "creatures/dungeon/iconsbig/dungeon_lvl4up",
 			"iconSmall" : "creatures/dungeon/iconssmall/dungeon_lvl4up"
 		},
-		"abilities": {
+		"abilities" : {
 			"shooter" : {
 				"icon" : "zvs/Lib1.res/TltShooterBow"
 			},
@@ -138,9 +138,9 @@
 		"abilities" : {
 			"paralize" : {
 				"icon" : "zvs/Lib1.res/TltParalize"
-                        }
+			}
 		}
-        },
+	},
 	"core:redDragon" : {
 		"graphics" : {
 			"iconLarge" : "creatures/dungeon/iconsbig/dungeon_lvl7",
@@ -152,9 +152,9 @@
 			},
 			"dragon" : {
 				"icon" : "zvs/Lib1.res/TltDragonRed"
-                        }
+			}
 		}
-        },
+	},
 	"core:blackDragon" : {
 		"graphics" : {
 			"iconLarge" : "creatures/dungeon/iconsbig/dungeon_lvl7up",
@@ -166,7 +166,7 @@
 			},
 			"dragon" : {
 				"icon" : "zvs/Lib1.res/TltDragonBlack"
-                        }
+			}
 		}
 	}
 }

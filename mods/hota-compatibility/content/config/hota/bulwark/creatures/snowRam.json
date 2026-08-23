@@ -61,7 +61,7 @@
 				"idle" : 10,
 				"walk" : 1.1
 			},
-			"timeBetweenFidgets" : 1,
+			"timeBetweenFidgets" : 1
 		},
 		"sound" : {
 			// TODO: GAP? - using mountain ram sounds for now

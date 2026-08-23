@@ -35,7 +35,7 @@
 		"third-upgrades",
 		"wake-of-gods",
 		"tears-of-ashan",
-                "new-monsters-pack.lord-hawk-creatures-pack"
+		"new-monsters-pack.lord-hawk-creatures-pack"
 	],
 	"softDepends" : [
 		"hota.heroes3DataPatch",
@@ -95,25 +95,21 @@
 		"config/creatures/castle/Castle_Alt5",
 		"config/creatures/castle/CastleN_lvl1",
 		"config/creatures/castle/CastleN_lvl1up",
-
 		"config/creatures/rampart/Rampart Modification",
 		"config/creatures/rampart/Rampart_Alt1",
 		"config/creatures/rampart/Rampart_Alt2",
 		"config/creatures/rampart/Rampart_Alt3",
 		"config/creatures/rampart/Rampart_Alt6",
 		"config/creatures/rampart/Rampart_Alt7",
-
 		"config/creatures/tower/tower Modification",
 		"config/creatures/tower/tower_Alt1",
 		"config/creatures/tower/tower_Alt2",
 		"config/creatures/tower/tower_Alt4",
 		"config/creatures/tower/tower_Alt6",
-
 		"config/creatures/inferno/Inferno Modification",
 		"config/creatures/inferno/Inferno_Upg2",
 		"config/creatures/inferno/Inferno_Alt3",
 		"config/creatures/inferno/Inferno_Alt7",
-
 		"config/creatures/necropolis/necropolis_modification",
 		"config/creatures/necropolis/necropolis_Alt1",
 		"config/creatures/necropolis/necropolis_Alt3",
@@ -121,23 +117,19 @@
 		"config/creatures/necropolis/necropolis_Alt5up#",
 		"config/creatures/necropolis/necropolis_Alt6",
 		"config/creatures/necropolis/necropolis_Alt7",
-
 		"config/creatures/dungeon/dungeon Modification",
 		"config/creatures/dungeon/dungeon_Alt1",
 		"config/creatures/dungeon/dungeon_Alt3",
-
 		"config/creatures/stronghold/Stronghold Modification",
 		"config/creatures/stronghold/Stronghold_Alt2",
 		"config/creatures/stronghold/Stronghold_Upg3",
 		"config/creatures/stronghold/Stronghold_Upg6",
-
 		"config/creatures/fortress/Fortress Modification",
 		"config/creatures/fortress/Fortress_Alt1",
 		"config/creatures/fortress/Fortress_Alt2",
 		"config/creatures/fortress/Fortress_Upg3",
 		"config/creatures/fortress/Fortress_Alt5",
 		"config/creatures/fortress/Fortress_Alt7",
-
 		"config/creatures/conflux/Conflux Modification",
 		"config/creatures/conflux/Conflux_Alt2",
 		"config/creatures/conflux/Conflux_Alt3",
@@ -145,7 +137,6 @@
 		"config/creatures/conflux/Conflux_Alt5",
 		"config/creatures/conflux/Conflux_Alt6",
 		"config/creatures/conflux/Conflux_Alt7",
-
 		"config/creatures/neutral/nightmare",
 		"config/creatures/neutral/greatEnchanter",
 		"config/creatures/neutral/armoredRhino",
@@ -183,5 +174,10 @@
 		"config/skills/velocity",
 		"config/skills/markup",
 		"config/skills/Robustness"
-        ],
+	],
+	"polish" : {
+		"translations" : [
+			"translation/polish.json"
+		]
+	}
 }

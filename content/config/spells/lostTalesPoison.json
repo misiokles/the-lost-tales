@@ -5,9 +5,9 @@
 		"level" : 4,
 		"power" : 0,
 		"school" : {
-			"earth" : true,
+			"earth" : true
 		},
-		"targetType": "CREATURE",
+		"targetType" : "CREATURE",
 		"targetCondition" : {
 			"noneOf" : {
 				"bonus.NON_LIVING" : "absolute",
@@ -90,7 +90,9 @@
 			"negative" : true
 		},
 		"animation" : {
-			"affect" : ["spells/Poison/lostTalesPoison.def"]
+			"affect" : [
+				"spells/Poison/lostTalesPoison.def"
+			]
 		},
 		"graphics" : {
 			"iconBook" : "spells/Poison/spellBook",

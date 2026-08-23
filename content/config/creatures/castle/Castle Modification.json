@@ -22,12 +22,12 @@
 		"graphics" : {
 			"iconLarge" : "creatures/castle/iconsbig/castle_lvl2",
 			"iconSmall" : "creatures/castle/iconssmall/castle_lvl2"
-                },
+		},
 		"abilities" : {
 			"shooter" : {
 				"icon" : "zvs/Lib1.res/TltShooterCrossbow"
 			}
-                }
+		}
 	},
 	"core:marksman" : {
 		"upgrades" : [
@@ -36,7 +36,7 @@
 		"graphics" : {
 			"iconLarge" : "creatures/castle/iconsbig/castle_lvl2up",
 			"iconSmall" : "creatures/castle/iconssmall/castle_lvl2up"
-                },
+		},
 		"abilities" : {
 			"shooter" : {
 				"icon" : "zvs/Lib1.res/TltShooterCrossbow"
@@ -44,7 +44,7 @@
 			"extraAttack" : {
 				"icon" : "zvs/Lib1.res/TltShooterCrossbowDouble"
 			}
-                }
+		}
 	},
 	"core:griffin" : {
 		"graphics" : {
@@ -55,7 +55,7 @@
 			"extraRetaliation" : {
 				"icon" : "zvs/Lib1.res/TltRetaliation2x"
 			}
-                }
+		}
 	},
 	"core:royalGriffin" : {
 		"upgrades" : [
@@ -69,7 +69,7 @@
 			"unlimitedRetaliation" : {
 				"icon" : "zvs/Lib1.res/TltRetaliationUnlimited"
 			}
-                }
+		}
 	},
 	"core:swordsman" : {
 		"graphics" : {
@@ -89,7 +89,7 @@
 			"extraAttack" : {
 				"icon" : "zvs/Lib1.res/TltDoubleAttackCrusader"
 			}
-                }
+		}
 	},
 	"core:monk" : {
 		"graphics" : {
@@ -100,7 +100,7 @@
 			"shooter" : {
 				"icon" : "zvs/Lib1.res/TltShooterMonk"
 			}
-                }
+		}
 	},
 	"core:zealot" : {
 		"upgrades" : [
@@ -117,7 +117,7 @@
 			"noMeleePenalty" : {
 				"icon" : "zvs/Lib1.res/TltShooterMonkNoMeleePenalty"
 			}
-                }
+		}
 	},
 	"core:cavalier" : {
 		"graphics" : {
@@ -128,7 +128,7 @@
 			"jousting" : {
 				"icon" : "zvs/Lib1.res/TltJoustingCavalier"
 			}
-                }
+		}
 	},
 	"core:champion" : {
 		"graphics" : {
@@ -139,7 +139,7 @@
 			"jousting" : {
 				"icon" : "zvs/Lib1.res/TltJoustingChampion"
 			}
-                }
+		}
 	},
 	"core:angel" : {
 		"graphics" : {

@@ -194,7 +194,15 @@
 					"y" : 161,
 					"z" : -1
 				},
-				"dwellingUpLvl7": { "animation" : "TBELUP_6.def", "x" : 34,  "y" : 0,   "z" : 0, "campaignBonus" : "BoEup_6.pcx", "border" : "TOELUP_6.bmp", "area" : "TZELUP_6.bmp" }
+				"dwellingUpLvl7" : {
+					"animation" : "TBELUP_6.def",
+					"x" : 34,
+					"y" : 0,
+					"z" : 0,
+					"campaignBonus" : "BoEup_6.pcx",
+					"border" : "TOELUP_6.bmp",
+					"area" : "TZELUP_6.bmp"
+				}
 			},
 			"buildings" : {
 				"dwellingUpLvl2" : {

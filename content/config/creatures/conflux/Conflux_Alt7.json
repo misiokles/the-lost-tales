@@ -1,12 +1,12 @@
 {
-	"suzaku": {
+	"suzaku" : {
 		"name" : {
 			"singular" : "Suzaku",
 			"plural" : "Suzakus"
 		},
 		"faction" : "conflux",
 		"level" : 7,
-	"upgrades" : [
+		"upgrades" : [
 			"phoenix"
 		],
 		"cost" : {
@@ -40,16 +40,18 @@
 			},
 			"HAS_EXTENDED_ATTACK" : {
 				"type" : "TWO_HEX_ATTACK_BREATH",
-                                "icon" : "zvs/Lib1.res/TltBreathFirebird"
+				"icon" : "zvs/Lib1.res/TltBreathFirebird"
 			},
-			"fireWall" :
-			{
+			"fireWall" : {
 				"type" : "SPELL_AFTER_ATTACK",
 				"subtype" : "spell.fireWallTrigger",
 				"val" : 100,
-				"addInfo" : [3,0],
+				"addInfo" : [
+					3,
+					0
+				],
 				"description" : "{Fire Wall attack}\n100% chance to cast Fire Wall after attack.",
-                                "icon" : "zvs/Lib1.res/TltSpellFireWall"
+				"icon" : "zvs/Lib1.res/TltSpellFireWall"
 			},
 			"immuneToFire" : {
 				"type" : "SPELL_SCHOOL_IMMUNITY",
