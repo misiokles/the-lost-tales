@@ -24,6 +24,11 @@
 		"graphics" : {
 			"iconLarge" : "creatures/stronghold/iconsbig/stronghold_lvl2up",
 			"iconSmall" : "creatures/stronghold/iconssmall/stronghold_lvl2up"
+		},
+		"abilities": {
+			"extraAttack" : {
+				"icon" : "zvs/Lib1.res/TltDoubleAttackWolfRider"
+			}
 		}
 	},
 	"core:orc" : {
@@ -31,16 +36,26 @@
 			"iconLarge" : "creatures/stronghold/iconsbig/stronghold_lvl3",
 			"iconSmall" : "creatures/stronghold/iconssmall/stronghold_lvl3",
 			"map" : "creatures/stronghold/map/stronghold_lvl3"
+		},
+		"abilities" : {
+			"shooter" : {
+				"icon" : "zvs/Lib1.res/TltShooterOrc"
+			}
 		}
 	},
 	"core:orcChieftain" : {
 		"upgrades" : [
-			"orcWarrior"
+			"orcWarlord"
 		],
 		"graphics" : {
 			"iconLarge" : "creatures/stronghold/iconsbig/stronghold_lvl3up",
 			"iconSmall" : "creatures/stronghold/iconssmall/stronghold_lvl3up",
 			"map" : "creatures/stronghold/map/stronghold_lvl3up"
+		},
+		"abilities" : {
+			"shooter" : {
+				"icon" : "zvs/Lib1.res/TltShooterOrc"
+			}
 		}
 	},
 	"core:ogre" : {
@@ -53,6 +68,11 @@
 		"graphics" : {
 			"iconLarge" : "creatures/stronghold/iconsbig/stronghold_lvl4up",
 			"iconSmall" : "creatures/stronghold/iconssmall/stronghold_lvl4up"
+		},
+		"abilities" : {
+			"castsBloodlust" : {
+				"icon" : "zvs/Lib1.res/TltCastSpellBloodlust"
+			}
 		}
 	},
 	"core:roc" : {
@@ -65,6 +85,11 @@
 		"graphics" : {
 			"iconLarge" : "creatures/stronghold/iconsbig/stronghold_lvl5up",
 			"iconSmall" : "creatures/stronghold/iconssmall/stronghold_lvl5up"
+		},
+		"abilities" : {
+			"thunderOnAttack" : {
+				"icon" : "zvs/Lib1.res/TltSpellLightningBolt"
+			}
 		}
 	},
 	"core:cyclop" : {
@@ -97,6 +122,14 @@
 					0,
 					0
 				]
+		}
+	},
+		"abilities" : {
+			"shooter" : {
+				"icon" : "zvs/Lib1.res/TltShooterCyclop"
+			},
+			"canShootWalls" : {
+				"icon" : "zvs/Lib1.res/TltShooterCyclopCatapult"
 			}
 		}
 	},
@@ -133,6 +166,14 @@
 					0,
 					0
 				]
+		}
+	},
+		"abilities" : {
+			"shooter" : {
+				"icon" : "zvs/Lib1.res/TltShooterCyclop"
+			},
+			"canShootWalls" : {
+				"icon" : "zvs/Lib1.res/TltShooterCyclopCatapult"
 			}
 		}
 	},

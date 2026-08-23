@@ -32,19 +32,20 @@
 			"blindImmunity" : {
 				"type" : "SPELL_IMMUNITY",
 				"subtype" : "spell.blind",
-				"addInfo" : 1
+				"addInfo" : 1,
+				"icon" : "zvs/Lib1.res/TltImmunityEyes"
 			},
 			"petrifyImmunity" : {
 				"type" : "SPELL_IMMUNITY",
 				"subtype" : "spell.stoneGaze",
 				"addInfo" : 1,
-				"icon" : "zvs/Lib1.res/immturntostone"
+				"icon" : "zvs/Lib1.res/TltImmunityEyesStone"
 			},
 			"poison" : {
 				"type" : "SPELL_AFTER_ATTACK",
-				"subtype" : "spell.poison",
+				"subtype" : "spell.lostTalesPoison",
 				"val" : 30,
-				"icon" : "zvs/Lib1.res/poison"
+				"icon" : "zvs/Lib1.res/TltPoison"
 			}
 		},
 		"graphics" : {

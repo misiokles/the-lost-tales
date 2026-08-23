@@ -30,25 +30,27 @@
 			"max" : 16
 		},
 		"abilities" : {
-			"canShoot" : {
-				"type" : "SHOOTER"
+			"shooter" : {
+				"type" : "SHOOTER",
+				"icon" : "zvs/Lib1.res/TltShooterMonk"
 			},
 			"noMeleePenalty" : {
-				"type" : "NO_MELEE_PENALTY"
+				"type" : "NO_MELEE_PENALTY",
+				"icon" : "zvs/Lib1.res/TltShooterMonkNoMeleePenalty"
 			},
 			"castBless" : {
 				"type" : "SPELLCASTER",
 				"subtype" : "bless",
-				"val" : 2
+				"val" : 2,
+				"icon" : "zvs/Lib1.res/TltCastSpellBless"
 			},
 			"bless" : {
 				"type" : "CREATURE_ENCHANT_POWER",
 				"val" : 6,
-				"icon" : "zvs/Lib1.res/e_bless0"
 			},
 			"spellpoints" : {
 				"type" : "CASTS",
-				"val" : 2
+				"val" : 3
 			}
 		},
 		"graphics" : {

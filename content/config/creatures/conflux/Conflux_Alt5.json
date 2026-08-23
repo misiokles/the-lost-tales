@@ -32,20 +32,21 @@
 		"abilities" : {
 			"nonLiving" : {
 				"type" : "NON_LIVING",
-				"icon" : "zvs/Lib1.res/NonLivingelemental"
+				"icon" : "zvs/Lib1.res/TltNonLivingElemental"
 			},
 			"immuneToMind" : {
-				"type" : "MIND_IMMUNITY"
+				"type" : "MIND_IMMUNITY",
+				"icon" : "zvs/Lib1.res/TltImmunityMind"
 			},
 			"spellPoints" : {
 				"type" : "CASTS",
 				"val" : 3
 			},
-			"spellcaster" : {
-				"type" : "ENCHANTED",
+			"spellcaster": {
+				"type" : "SPELLCASTER",
 				"subtype" : "spell.protectEarth",
 				"val" : 2,
-				"icon" : "zvs/Lib1.res/protearth2"
+				"icon" : "zvs/Lib1.res/TltCastSpellProtectionEarth",
 			},
 			"spellPower" : {
 				"type" : "CREATURE_ENCHANT_POWER",
@@ -67,11 +68,13 @@
 				"val" : 100,
 				"icon" : "zvs/Lib1.res/vulnerablechainlightning"
 			},
-			"canShoot" : {
-				"type" : "SHOOTER"
+			"shooter" : {
+				"type" : "SHOOTER",
+				"icon" : "zvs/Lib1.res/TltShooterEarthElemental"
 			},
 			"noMeleePenalty" : {
-				"type" : "NO_MELEE_PENALTY"
+				"type" : "NO_MELEE_PENALTY",
+				"icon" : "zvs/Lib1.res/TltShooterEarthElementalNoMeleePenalty"
 			}
 		},
 		"graphics" : {

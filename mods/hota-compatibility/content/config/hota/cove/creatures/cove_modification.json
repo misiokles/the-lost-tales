@@ -1,80 +1,169 @@
 {
 	"hota.cove:nymph" : {
 		"graphics" : {
-			"iconSmall" : "hota/cove/creatures/iconSmall/cove_lvl1"
+                        "iconSmall" : "hota/cove/creatures/iconSmall/cove_lvl1"
+			},
+		"abilities" : {
+			"teleports" : {
+				"icon" : "zvs/Lib1.res/TltSpellTeleportation",
+			}
 		}
 	},
 	"hota.cove:oceanid" : {
 		"graphics" : {
-			"iconSmall" : "hota/cove/creatures/iconSmall/cove_lvl1up"
+                        "iconSmall" : "hota/cove/creatures/iconSmall/cove_lvl1up"
+			},
+		"abilities" : {
+			"teleports" : {
+				"icon" : "zvs/Lib1.res/TltSpellTeleportation",
+			}
 		}
 	},
 	"hota.cove:crewmate" : {
 		"graphics" : {
-			"iconSmall" : "hota/cove/creatures/iconSmall/cove_lvl2"
+                        "iconSmall" : "hota/cove/creatures/iconSmall/cove_lvl2"
 		}
 	},
 	"hota.cove:seaman" : {
 		"graphics" : {
-			"iconSmall" : "hota/cove/creatures/iconSmall/cove_lvl2up"
+                        "iconSmall" : "hota/cove/creatures/iconSmall/cove_lvl2up"
 		}
 	},
 	"hota.cove:pirate" : {
 		"graphics" : {
-			"iconSmall" : "hota/cove/creatures/iconSmall/cove_lvl3"
+                        "iconSmall" : "hota/cove/creatures/iconSmall/cove_lvl3"
+			},
+		"abilities" : {
+			"shooter" : {
+				"icon" : "zvs/Lib1.res/TltShooterPirate",
+			},
+			"noMeleePenalty" : {
+				"icon" : "zvs/Lib1.res/TltShooterPirateNoMeleePenalty",
+			}
 		}
 	},
 	"hota.cove:corsair" : {
 		"graphics" : {
-			"iconSmall" : "hota/cove/creatures/iconSmall/cove_lvl3up"
+                        "iconSmall" : "hota/cove/creatures/iconSmall/cove_lvl3up"
+			},
+		"abilities" : {
+			"shooter" : {
+				"icon" : "zvs/Lib1.res/TltShooterPirate",
+			},
+			"noMeleePenalty" : {
+				"icon" : "zvs/Lib1.res/TltShooterPirateNoMeleePenalty",
+			},
+			"noRetaliation" : {
+				"icon" : "zvs/Lib1.res/TltNoRetaliation",
+			}
 		}
 	},
 	"hota.cove:seadog" : {
 		"graphics" : {
-			"iconSmall" : "hota/cove/creatures/iconSmall/cove_lvl3up2"
+                        "iconSmall" : "hota/cove/creatures/iconSmall/cove_lvl3up2"
+			},
+		"abilities" : {
+			"shooter" : {
+				"icon" : "zvs/Lib1.res/TltShooterPirate",
+			},
+			"noMeleePenalty" : {
+				"icon" : "zvs/Lib1.res/TltShooterPirateNoMeleePenalty",
+			},
+			"noRetaliation" : {
+				"icon" : "zvs/Lib1.res/TltNoRetaliation",
+			},
+			"accurateShotHalfRange" : {
+				"icon" : "zvs/Lib1.res/TltShooterPirateAccurateShot",
+			},
+			"accurateShotFullRange" : {
+				"icon" : "zvs/Lib1.res/TltShooterPirateAccurateShot",
+			}
 		}
 	},
 	"hota.cove:stormbird" : {
 		"graphics" : {
-			"iconSmall" : "hota/cove/creatures/iconSmall/cove_lvl4"
+                        "iconSmall" : "hota/cove/creatures/iconSmall/cove_lvl4"
 		}
 	},
 	"hota.cove:ayssid" : {
 		"graphics" : {
-			"iconSmall" : "hota/cove/creatures/iconSmall/cove_lvl4up"
+                        "iconSmall" : "hota/cove/creatures/iconSmall/cove_lvl4up"
+			},
+		"abilities" : {
+			"doubleAttack" : {
+				"icon" : "zvs/Lib1.res/TltFerocityAyssid",
+			}
 		}
 	},
 	"hota.cove:seaWitch" : {
 		"graphics" : {
 			"map" : "hota/cove/creatures/adventureMap/AVWPRIES.def",
-			"iconSmall" : "hota/cove/creatures/iconSmall/cove_lvl5"
+                        "iconSmall" : "hota/cove/creatures/iconSmall/cove_lvl5"
+			},
+		"abilities" : {
+			"shooter" : {
+				"icon" : "zvs/Lib1.res/TltShooterSeaWitch",
+			},
+			"castsWeakness" : {
+				"icon" : "zvs/Lib1.res/TltSpellWeakness",
+			},
+			"castsDisruptingRay" : {
+				"icon" : "zvs/Lib1.res/TltSpellDisruptingRay",
+			}
 		}
 	},
 	"hota.cove:sorceress" : {
 		"graphics" : {
 			"map" : "hota/cove/creatures/adventureMap/AVWSORCS.def",
-			"iconSmall" : "hota/cove/creatures/iconSmall/cove_lvl5up"
+                        "iconSmall" : "hota/cove/creatures/iconSmall/cove_lvl5up"
+			},
+		"abilities" : {
+			"shooter" : {
+				"icon" : "zvs/Lib1.res/TltShooterSeaWitch",
+			},
+			"castsWeakness" : {
+				"icon" : "zvs/Lib1.res/TltSpellWeakness",
+			},
+			"castsDisruptingRay" : {
+				"icon" : "zvs/Lib1.res/TltSpellDisruptingRay",
+			}
 		}
 	},
 	"hota.cove:nix" : {
 		"graphics" : {
-			"iconSmall" : "hota/cove/creatures/iconSmall/cove_lvl6"
+                        "iconSmall" : "hota/cove/creatures/iconSmall/cove_lvl6"
 		}
 	},
 	"hota.cove:nixWarrior" : {
 		"graphics" : {
-			"iconSmall" : "hota/cove/creatures/iconSmall/cove_lvl6up"
+                        "iconSmall" : "hota/cove/creatures/iconSmall/cove_lvl6up"
 		}
 	},
 	"hota.cove:seaserpent" : {
 		"graphics" : {
-			"iconSmall" : "hota/cove/creatures/iconSmall/cove_lvl7"
+                        "iconSmall" : "hota/cove/creatures/iconSmall/cove_lvl7"
+			},
+		"abilities" : {
+			"dragonSkeleton" : {
+				"icon" : "zvs/Lib1.res/TltDragonTransformerSeaSerpent",
+			},
+			"poisonous" : {
+				"icon" : "zvs/Lib1.res/TltPoison",
+			}
 		}
 	},
 	"hota.cove:haspid" : {
 		"graphics" : {
-			"iconLarge" : "hota/cove/creatures/iconLarge/cove_lvl7up",
-			"iconSmall" : "hota/cove/creatures/iconSmall/cove_lvl7up"
+                        "iconLarge" : "hota/cove/creatures/iconLarge/cove_lvl7up",
+                        "iconSmall" : "hota/cove/creatures/iconSmall/cove_lvl7up"
+			},
+		"abilities" : {
+			"dragonSkeleton" : {
+				"icon" : "zvs/Lib1.res/TltDragonTransformerSeaSerpent0",
+			},
+			"poisonous" : {
+				"icon" : "zvs/Lib1.res/TltPoison",
+			}
 		}
 	}
 }

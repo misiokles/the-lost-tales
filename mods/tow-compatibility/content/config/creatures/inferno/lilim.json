@@ -1,0 +1,31 @@
+{
+	"tides-of-war.alternative-creatures:mdtLilim" : {
+		"abilities" : {
+			"shooter" : {
+				"type" : "SHOOTER",
+				"icon" : "zvs/Lib1.res/TltShooterLilim"
+			},
+			"canFly" : {
+				"type" : "FLYING"
+			},
+			"noMeleePenalty" : {
+				"type" : "NO_MELEE_PENALTY",
+				"icon" : "zvs/Lib1.res/TltShooterLilimNoMeleePenalty"
+			},
+			"rangedRetaliation" : {
+				"type" : "RANGED_RETALIATION",
+				"icon" : "zvs/Lib1.res/TltShooterLilimRetaliation"
+			},
+			"blockedRangedRetaliation" : {
+				"type" : "BLOCKS_RANGED_RETALIATION",
+				"icon" : "zvs/Lib1.res/TltShooterLilimNoRangeRetaliation"
+			},
+			"spellAfterAttack" : {
+				"type" : "SPELL_LIKE_ATTACK",
+				"subtype" : "mdtHateSpike",
+				"val" : 1,
+				"icon" : "zvs/Lib1.res/TltSpellHellspikes"
+			}
+		}
+	}
+}

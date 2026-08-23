@@ -28,21 +28,24 @@
 		},
 		"abilities" : {
 			"shooter" : {
-				"type" : "SHOOTER"
+				"type" : "SHOOTER",
+				"icon" : "zvs/Lib1.res/TltShooterCyclop"
 			},
 			"canShootWalls" : {
 				"type" : "CATAPULT",
-				"subtype" : "spell.cyclopsShot"
+				"subtype" : "spell.cyclopsShot",
+				"icon" : "zvs/Lib1.res/TltShooterCyclopCatapult"
 			},
 			"canShootWallsTimes" : {
 				"type" : "CATAPULT_EXTRA_SHOTS",
 				"subtype" : "spell.cyclopsShot",
 				"valueType" : "BASE_NUMBER",
 				"val" : 1,
-				"icon" : "zvs/Lib1.res/catapult2"
+				"icon" : "zvs/Lib1.res/TltShooterCyclopCatapult"
 			},
 			"noMeleePenalty" : {
-				"type" : "NO_MELEE_PENALTY"
+				"type" : "NO_MELEE_PENALTY",
+				"icon" : "zvs/Lib1.res/TltShooterCyclopNoMeleePenalty"
 			}
 		},
 		"graphics" : {

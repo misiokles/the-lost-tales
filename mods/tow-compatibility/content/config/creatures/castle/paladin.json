@@ -1,0 +1,32 @@
+{
+	"tides-of-war.alternative-creatures:mdtPaladin" : {
+		"abilities" : {
+			"casts" : {
+				"type" : "CASTS",
+				"val" : 2
+			},
+			"castsPrayer" : {
+				"type" : "OPENING_BATTLE_SPELL",
+				"subtype" : "prayer",
+				"val" : 2,
+				"propagator" : "HERO",
+				"description" : "{Pray}\nPaladins cast Adv. Prayer spell at the beginning of the battle",
+				"icon" : "zvs/Lib1.res/TltSpellPrayer"
+			},
+			"noCastByDefault" : {
+				"type" : "NO_SPELLCAST_BY_DEFAULT"
+			},
+			"castsDestroyUndead" : {
+				"type" : "SPELLCASTER",
+				"subtype" : "destroyUndead",
+				"val" : 3
+			},
+			//sprobować rozszerzyć na demony
+			"destroyPower" : {
+				"type" : "SPECIFIC_SPELL_POWER",
+				"subtype" : "destroyUndead",
+				"val" : 50
+			}
+		}
+	}
+}

@@ -9,12 +9,25 @@
 		"graphics" : {
 			"iconLarge" : "creatures/conflux/iconsbig/conflux_lvl1up",
 			"iconSmall" : "creatures/conflux/iconssmall/conflux_lvl1up"
+		},
+		"abilities": {
+			"noRetaliation" : {
+				"icon" : "zvs/Lib1.res/TltNoRetaliation",
+                        }
 		}
 	},
 	"core:airElemental" : {
 		"graphics" : {
 			"iconLarge" : "creatures/conflux/iconsbig/conflux_lvl2",
 			"iconSmall" : "creatures/conflux/iconssmall/conflux_lvl2"
+		},
+		"abilities": {
+			"nonLiving" : {
+				"icon" : "zvs/Lib1.res/TltNonLivingElemental",
+                        },
+			"immuneToMind" : {
+				"icon" : "zvs/Lib1.res/TltImmunityMind",
+                        }
 		}
 	},
 	"core:stormElemental" : {
@@ -24,12 +37,34 @@
 		"graphics" : {
 			"iconLarge" : "creatures/conflux/iconsbig/conflux_lvl2up",
 			"iconSmall" : "creatures/conflux/iconssmall/conflux_lvl2up"
+		},
+		"abilities": {
+			"nonLiving" : {
+				"icon" : "zvs/Lib1.res/TltNonLivingElemental",
+                        },
+			"immuneToMind" : {
+				"icon" : "zvs/Lib1.res/TltImmunityMind",
+                        },
+			"spellcaster": {
+				"icon" : "zvs/Lib1.res/TltCastSpellProtectionAir",
+                        },
+			"shooter": {
+				"icon" : "zvs/Lib1.res/TltShooterStormElemental",
+                        }
 		}
 	},
 	"core:waterElemental" : {
 		"graphics" : {
 			"iconLarge" : "creatures/conflux/iconsbig/conflux_lvl3",
 			"iconSmall" : "creatures/conflux/iconssmall/conflux_lvl3"
+		},
+		"abilities": {
+			"nonLiving" : {
+				"icon" : "zvs/Lib1.res/TltNonLivingElemental",
+                        },
+			"immuneToMind" : {
+				"icon" : "zvs/Lib1.res/TltImmunityMind",
+                        }
 		}
 	},
 	"core:iceElemental" : {
@@ -39,6 +74,20 @@
 		"graphics" : {
 			"iconLarge" : "creatures/conflux/iconsbig/conflux_lvl3up",
 			"iconSmall" : "creatures/conflux/iconssmall/conflux_lvl3up"
+		},
+		"abilities": {
+			"nonLiving" : {
+				"icon" : "zvs/Lib1.res/TltNonLivingElemental",
+                        },
+			"immuneToMind" : {
+				"icon" : "zvs/Lib1.res/TltImmunityMind",
+                        },
+			"spellcaster": {
+				"icon" : "zvs/Lib1.res/TltCastSpellProtectionWater",
+                        },
+			"shooter": {
+				"icon" : "zvs/Lib1.res/TltShooterIceElemental",
+                        }
 		}
 	},
 	"core:fireElemental" : {
@@ -47,6 +96,14 @@
 			"iconSmall" : "creatures/conflux/iconssmall/conflux_lvl4",
 			"map" : "creatures/conflux/map/conflux_lvl4",
 			"animation" : "creatures/conflux/battle/conflux_lvl4"
+		},
+		"abilities": {
+			"nonLiving" : {
+				"icon" : "zvs/Lib1.res/TltNonLivingElemental",
+                        },
+			"immuneToMind" : {
+				"icon" : "zvs/Lib1.res/TltImmunityMind",
+                        }
 		}
 	},
 	"core:energyElemental" : {
@@ -56,12 +113,31 @@
 		"graphics" : {
 			"iconLarge" : "creatures/conflux/iconsbig/conflux_lvl4up",
 			"iconSmall" : "creatures/conflux/iconssmall/conflux_lvl4up"
+		},
+		"abilities": {
+			"nonLiving" : {
+				"icon" : "zvs/Lib1.res/TltNonLivingElemental",
+                        },
+			"immuneToMind" : {
+				"icon" : "zvs/Lib1.res/TltImmunityMind",
+                        },
+			"spellcaster": {
+				"icon" : "zvs/Lib1.res/TltCastSpellProtectionFire",
+                        }
 		}
 	},
 	"core:earthElemental" : {
 		"graphics" : {
 			"iconLarge" : "creatures/conflux/iconsbig/conflux_lvl5",
 			"iconSmall" : "creatures/conflux/iconssmall/conflux_lvl5"
+		},
+		"abilities": {
+			"nonLiving" : {
+				"icon" : "zvs/Lib1.res/TltNonLivingElemental",
+                        },
+			"immuneToMind" : {
+				"icon" : "zvs/Lib1.res/TltImmunityMind",
+                        }
 		}
 	},
 	"core:magmaElemental" : {
@@ -71,12 +147,34 @@
 		"graphics" : {
 			"iconLarge" : "creatures/conflux/iconsbig/conflux_lvl5up",
 			"iconSmall" : "creatures/conflux/iconssmall/conflux_lvl5up"
+	        },
+		"abilities": {
+			"nonLiving" : {
+				"icon" : "zvs/Lib1.res/TltNonLivingElemental",
+                        },
+			"immuneToMind" : {
+				"icon" : "zvs/Lib1.res/TltImmunityMind",
+                        },
+			"spellcaster": {
+				"icon" : "zvs/Lib1.res/TltCastSpellProtectionEarth",
+                        }
 		}
 	},
 	"core:psychicElemental" : {
 		"graphics" : {
 			"iconLarge" : "creatures/conflux/iconsbig/conflux_lvl6",
 			"iconSmall" : "creatures/conflux/iconssmall/conflux_lvl6"
+		},
+		"abilities": {
+			"immuneToMind" : {
+				"icon" : "zvs/Lib1.res/TltImmunityMind",
+                        },
+			"attackAllAdjacent" : {
+				"icon" : "zvs/Lib1.res/TltAttackAllAroundPsychic",
+                        },
+			"noRetaliation" : {
+				"icon" : "zvs/Lib1.res/TltNoRetaliation",
+                        }
 		}
 	},
 	"core:magicElemental" : {
@@ -86,6 +184,14 @@
 		"graphics" : {
 			"iconLarge" : "creatures/conflux/iconsbig/conflux_lvl6up",
 			"iconSmall" : "creatures/conflux/iconssmall/conflux_lvl6up"
+		},
+		"abilities": {
+			"attackAllAdjacent" : {
+				"icon" : "zvs/Lib1.res/TltAttackAllAroundMagic",
+                        },
+			"noRetaliation" : {
+				"icon" : "zvs/Lib1.res/TltNoRetaliation",
+                        }
 		}
 	},
 	"core:firebird" : {
@@ -95,6 +201,9 @@
 		}
 	},
 	"core:phoenix" : {
+		"upgrades" : [
+			"suzaku"
+		],
 		"graphics" : {
 			"iconLarge" : "creatures/conflux/iconsbig/conflux_lvl7up",
 			"iconSmall" : "creatures/conflux/iconssmall/conflux_lvl7up"

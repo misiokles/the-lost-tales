@@ -3,6 +3,14 @@
 		"graphics" : {
 			"iconLarge" : "creatures/dungeon/iconsbig/dungeon_lvl1",
 			"iconSmall" : "creatures/dungeon/iconssmall/dungeon_lvl1"
+		},
+		"abilities" : {
+			"blindImmunity" : {
+				"icon" : "zvs/Lib1.res/TltImmunityEyes"
+                        },
+			"petrifyImmunity" : {
+				"icon" : "zvs/Lib1.res/TltImmunityEyesStone"
+                        }
 		}
 	},
 	"core:infernalTroglodyte" : {
@@ -12,6 +20,14 @@
 		"graphics" : {
 			"iconLarge" : "creatures/dungeon/iconsbig/dungeon_lvl1up",
 			"iconSmall" : "creatures/dungeon/iconssmall/dungeon_lvl1up"
+		},
+		"abilities" : {
+			"blindImmunity" : {
+				"icon" : "zvs/Lib1.res/TltImmunityEyes"
+                        },
+			"petrifyImmunity" : {
+				"icon" : "zvs/Lib1.res/TltImmunityEyesStone"
+                        }
 		}
 	},
 	"core:harpy" : {
@@ -24,12 +40,25 @@
 		"graphics" : {
 			"iconLarge" : "creatures/dungeon/iconsbig/dungeon_lvl2up",
 			"iconSmall" : "creatures/dungeon/iconssmall/dungeon_lvl2up"
+		},
+		"abilities" : {
+			"noRetaliation" :  {
+				"icon" : "zvs/Lib1.res/TltNoRetaliation"
+                        }
 		}
 	},
 	"core:beholder" : {
 		"graphics" : {
 			"iconLarge" : "creatures/dungeon/iconsbig/dungeon_lvl3",
 			"iconSmall" : "creatures/dungeon/iconssmall/dungeon_lvl3"
+		},
+		"abilities" : {
+			"shooter" :  {
+				"icon" : "zvs/Lib1.res/TltShooterBeholder"
+                        },
+			"noMeleePenalty" : {
+				"icon" : "zvs/Lib1.res/TltShooterBeholderNoMeleePenalty"
+                        }
 		}
 	},
 	"core:evilEye" : {
@@ -39,18 +68,48 @@
 		"graphics" : {
 			"iconLarge" : "creatures/dungeon/iconsbig/dungeon_lvl3up",
 			"iconSmall" : "creatures/dungeon/iconssmall/dungeon_lvl3up"
+		},
+		"abilities" : {
+			"shooter" :  {
+				"icon" : "zvs/Lib1.res/TltShooterBeholder0"
+                        },
+			"noMeleePenalty" : {
+				"icon" : "zvs/Lib1.res/TltShooterBeholder0NoMeleePenalty"
+                        }
 		}
 	},
 	"core:medusa" : {
 		"graphics" : {
 			"iconLarge" : "creatures/dungeon/iconsbig/dungeon_lvl4",
 			"iconSmall" : "creatures/dungeon/iconssmall/dungeon_lvl4"
+		},
+		"abilities": {
+			"shooter" : {
+				"icon" : "zvs/Lib1.res/TltShooterBow"
+			},
+			"noMeleePenalty" : {
+				"icon" : "zvs/Lib1.res/TltShooterBowNoMeleePenalty"
+			},
+			"petrification" : {
+				"icon" : "zvs/Lib1.res/TltStoneMedusa"
+			}
 		}
 	},
 	"core:medusaQueen" : {
 		"graphics" : {
 			"iconLarge" : "creatures/dungeon/iconsbig/dungeon_lvl4up",
 			"iconSmall" : "creatures/dungeon/iconssmall/dungeon_lvl4up"
+		},
+		"abilities": {
+			"shooter" : {
+				"icon" : "zvs/Lib1.res/TltShooterBow"
+			},
+			"noMeleePenalty" : {
+				"icon" : "zvs/Lib1.res/TltShooterBowNoMeleePenalty"
+			},
+			"petrification" : {
+				"icon" : "zvs/Lib1.res/TltStoneMedusa"
+			}
 		}
 	},
 	"core:minotaur" : {
@@ -75,18 +134,39 @@
 		"graphics" : {
 			"iconLarge" : "creatures/dungeon/iconsbig/dungeon_lvl6up",
 			"iconSmall" : "creatures/dungeon/iconssmall/dungeon_lvl6up"
+		},
+		"abilities" : {
+			"paralize" : {
+				"icon" : "zvs/Lib1.res/TltParalize"
+                        }
 		}
-	},
+        },
 	"core:redDragon" : {
 		"graphics" : {
 			"iconLarge" : "creatures/dungeon/iconsbig/dungeon_lvl7",
 			"iconSmall" : "creatures/dungeon/iconssmall/dungeon_lvl7"
+		},
+		"abilities" : {
+			"dragonSkeleton" : {
+				"icon" : "zvs/Lib1.res/TltDragonTransformerRed"
+			},
+			"dragon" : {
+				"icon" : "zvs/Lib1.res/TltDragonRed"
+                        }
 		}
-	},
+        },
 	"core:blackDragon" : {
 		"graphics" : {
 			"iconLarge" : "creatures/dungeon/iconsbig/dungeon_lvl7up",
 			"iconSmall" : "creatures/dungeon/iconssmall/dungeon_lvl7up"
+		},
+		"abilities" : {
+			"dragonSkeleton" : {
+				"icon" : "zvs/Lib1.res/TltDragonTransformerBlack"
+			},
+			"dragon" : {
+				"icon" : "zvs/Lib1.res/TltDragonBlack"
+                        }
 		}
 	}
 }

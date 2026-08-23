@@ -31,16 +31,21 @@
 				"subtype" : "movementFlying"
 			},
 			"shooter" : {
-				"type" : "SHOOTER"
+				"type" : "SHOOTER",
+				"icon" : "zvs/Lib1.res/TltShooterGog"
+			},
+			"noMeleePenalty" : {
+				"type" : "NO_MELEE_PENALTY",
+				"icon" : "zvs/Lib1.res/TltShooterGogNoMeleePenalty"
 			},
 			"fireball" : {
 				"type" : "SPELL_LIKE_ATTACK",
 				"subtype" : "spell.fireball",
-				"icon" : "zvs/Lib1.res/magogattack"
+				"icon" : "zvs/Lib1.res/TltSpellFireball"
 			},
 			"twoHexAttackBreath" : {
 				"type" : "TWO_HEX_ATTACK_BREATH",
-				"icon" : "zvs/Lib1.res/e_breathMagog"
+				"icon" : "zvs/Lib1.res/TltBreathMagog"
 			}
 		},
 		"graphics" : {

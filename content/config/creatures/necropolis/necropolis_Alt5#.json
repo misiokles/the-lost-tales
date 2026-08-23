@@ -38,7 +38,7 @@
 				"type" : "SPELL_AFTER_ATTACK",
 				"subtype" : "spell.curse",
 				"val" : 20,
-				"icon" : "zvs/Lib1.res/curseattack"
+				"icon" : "zvs/Lib1.res/TltSpellCurse"
 			}
 		},
 		"graphics" : {

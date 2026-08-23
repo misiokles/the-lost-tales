@@ -23,7 +23,7 @@
 				"creature" : "centaur",
 				"min" : 12,
 				"max" : 24
-			}
+			},
 		],
 		"skills" : [
 			{

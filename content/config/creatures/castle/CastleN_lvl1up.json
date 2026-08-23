@@ -1,5 +1,5 @@
 {
-	"manAtArms" : {
+	"manAtArms": {
 		"name" : {
 			"singular" : "Man At Arms",
 			"plural" : "Man At Arms"
@@ -25,12 +25,12 @@
 			"min" : 20,
 			"max" : 50
 		},
-		"abilities" : {
+		"abilities": {
 			"stun" : {
 				"type" : "SPELL_AFTER_ATTACK",
-				"subtype" : "spell.stunAbility",
+				"subtype" : "spell.lostTalesStunAbility",
 				"val" : 30,
-				"icon" : "zvs/Lib1.res/stun",
+				"icon" : "zvs/Lib1.res/TltStun",
 				"addInfo" : [
 					2,
 					2
@@ -47,7 +47,7 @@
 				"idle" : 10,
 				"walk" : 1.15
 			},
-			"timeBetweenFidgets" : 1
+			"timeBetweenFidgets" : 1,
 		},
 		"sound" : {
 			"attack" : "SWRDATTK.wav",

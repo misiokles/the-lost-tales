@@ -1,0 +1,64 @@
+{
+	"restriction" : {
+		"name" : "Restriction",
+		"gainChance" : {
+			"might" : 7,
+			"magic" : 3
+		},
+		"specialty" : [],
+		"base" : {
+			"effects" : {
+				"magicBlock" : {
+					"type" : "BLOCK_MAGIC_BELOW",
+					"propagator" : "BATTLE_WIDE",
+					"propagationUpdater" : "BONUS_OWNER_UPDATER",
+					"limiters" : [
+						"OPPOSITE_SIDE"
+					]
+				}
+			}
+		},
+		"basic" : {
+			"description" : "{Basic Restriction}\n\nEnemy hero can't cast any spells of levels 1 or 2.",
+			"effects" : {
+				"magicBlock" : {
+					"val" : 3
+				}
+			},
+			"images" : {
+				"small" : "skills/restriction/SmallBasic.png",
+				"medium" : "skills/restriction/MediumBasic.png",
+				"large" : "skills/restriction/LargeBasic.png",
+				"scenarioBonus" : "skills/restriction/LargeBasic.png"
+			}
+		},
+		"advanced" : {
+			"description" : "{Advanced Restriction}\n\nEnemy hero can't cast any spells of levels 1, 2 or 3.",
+			"effects" : {
+				"magicBlock" : {
+					"val" : 4
+				}
+			},
+			"images" : {
+				"small" : "skills/restriction/SmallAdvanced.png",
+				"medium" : "skills/restriction/MediumAdvanced.png",
+				"large" : "skills/restriction/LargeAdvanced.png",
+				"scenarioBonus" : "skills/restriction/LargeAdvanced.png"
+			}
+		},
+		"expert" : {
+			"description" : "{Expert Restriction}\n\nEnemy hero can't cast any spells of levels 1, 2, 3, or 4.",
+			"effects" : {
+				"magicBlock" : {
+					"val" : 5
+				}
+			},
+			"images" : {
+				"small" : "skills/restriction/SmallExpert.png",
+				"medium" : "skills/restriction/MediumExpert.png",
+				"large" : "skills/restriction/LargeExpert.png",
+				"scenarioBonus" : "skills/restriction/LargeExpert.png"
+			}
+		}
+	}
+}

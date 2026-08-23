@@ -1,0 +1,186 @@
+{
+	"robustness" : {
+		"name" : "Robustness",
+		"gainChance" : {
+			"might" : 7,
+			"magic" : 3
+		},
+		"specialty" : [],
+		"base" : {
+			"effects" : {
+				"level1" : {
+					"type" : "STACK_HEALTH",
+					"valueType" : "ADDITIVE_VALUE",
+					"limiters" : [
+						{
+							"type" : "CREATURE_LEVEL_LIMITER",
+							"minLevel" : 1,
+							"maxlevel" : 2
+						}
+					]
+				},
+				"level2" : {
+					"type" : "STACK_HEALTH",
+					"valueType" : "ADDITIVE_VALUE",
+					"limiters" : [
+						{
+							"type" : "CREATURE_LEVEL_LIMITER",
+							"minLevel" : 2,
+							"maxlevel" : 3
+						}
+					]
+				},
+				"level3" : {
+					"type" : "STACK_HEALTH",
+					"valueType" : "ADDITIVE_VALUE",
+					"limiters" : [
+						{
+							"type" : "CREATURE_LEVEL_LIMITER",
+							"minLevel" : 3,
+							"maxlevel" : 4
+						}
+					]
+				},
+				"level4" : {
+					"type" : "STACK_HEALTH",
+					"valueType" : "ADDITIVE_VALUE",
+					"limiters" : [
+						{
+							"type" : "CREATURE_LEVEL_LIMITER",
+							"minLevel" : 4,
+							"maxlevel" : 5
+						}
+					]
+				},
+				"level5" : {
+					"type" : "STACK_HEALTH",
+					"valueType" : "ADDITIVE_VALUE",
+					"limiters" : [
+						{
+							"type" : "CREATURE_LEVEL_LIMITER",
+							"minLevel" : 5,
+							"maxlevel" : 6
+						}
+					]
+				},
+				"level6" : {
+					"type" : "STACK_HEALTH",
+					"valueType" : "ADDITIVE_VALUE",
+					"limiters" : [
+						{
+							"type" : "CREATURE_LEVEL_LIMITER",
+							"minLevel" : 6,
+							"maxlevel" : 7
+						}
+					]
+				},
+				"level7" : {
+					"type" : "STACK_HEALTH",
+					"valueType" : "ADDITIVE_VALUE",
+					"limiters" : [
+						{
+							"type" : "CREATURE_LEVEL_LIMITER",
+							"minLevel" : 7
+						}
+					]
+				}
+			}
+		},
+		"basic" : {
+			"description" : "{Basic Robustness}\n\nIncreases Health of units under the hero's control based upon the creature's {level}:\n{1}: +1   {2}: +2   {3}: +3",
+			"effects" : {
+				"level1" : {
+					"val" : 1
+				},
+				"level2" : {
+					"val" : 2
+				},
+				"level3" : {
+					"val" : 3
+				},
+				"level4" : {
+					"val" : 0
+				},
+				"level5" : {
+					"val" : 0
+				},
+				"level6" : {
+					"val" : 0
+				},
+				"level7" : {
+					"val" : 0
+				}
+			},
+			"images" : {
+				"small" : "skills/robustness/SmallBasic.png",
+				"medium" : "skills/robustness/MediumBasic.png",
+				"large" : "skills/robustness/LargeBasic.png",
+				"scenarioBonus" : "skills/robustness/LargeBasic.png"
+			}
+		},
+		"advanced" : {
+			"description" : "{Advanced Robustness}\n\nIncreases Health of units under the hero's control based upon the creature's {level}:\n{1}: +1   {2}: +2   {3}: +3\n{4}: +5   {5}: +10",
+			"effects" : {
+				"level1" : {
+					"val" : 1
+				},
+				"level2" : {
+					"val" : 2
+				},
+				"level3" : {
+					"val" : 3
+				},
+				"level4" : {
+					"val" : 5
+				},
+				"level5" : {
+					"val" : 10
+				},
+				"level6" : {
+					"val" : 0
+				},
+				"level7" : {
+					"val" : 0
+				}
+			},
+			"images" : {
+				"small" : "skills/robustness/SmallAdvanced.png",
+				"medium" : "skills/robustness/MediumAdvanced.png",
+				"large" : "skills/robustness/LargeAdvanced.png",
+				"scenarioBonus" : "skills/robustness/LargeAdvanced.png"
+			}
+		},
+		"expert" : {
+			"description" : "{Expert Robustness}\n\nIncreases Health of units under the hero's control based upon the creature's {level}:\n{1}: +1   {2}: +2   {3}: +3\n{4}: +5   {5}: +10\n{6}: +20   {7}: +30",
+			"effects" : {
+				"level1" : {
+					"val" : 1
+				},
+				"level2" : {
+					"val" : 2
+				},
+				"level3" : {
+					"val" : 3
+				},
+				"level4" : {
+					"val" : 5
+				},
+				"level5" : {
+					"val" : 10
+				},
+				"level6" : {
+					"val" : 20
+				},
+				"level7" : {
+					"val" : 30
+				}
+			},
+			"images" : {
+				"small" : "skills/robustness/SmallExpert.png",
+				"medium" : "skills/robustness/MediumExpert.png",
+				"large" : "skills/robustness/LargeExpert.png",
+				"scenarioBonus" : "skills/robustness/LargeExpert.png"
+			}
+		}
+	}
+}

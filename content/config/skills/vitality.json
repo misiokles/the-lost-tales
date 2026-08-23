@@ -10,51 +10,50 @@
 			"effects" : {
 				"main" : {
 					"type" : "STACK_HEALTH",
-					"val" : 1,
-					"valueType" : "ADDITIVE_VALUE"
+                                        "valueType" : "PERCENT_TO_BASE"
 				}
 			}
 		},
 		"basic" : {
-			"description" : "{Basic Vitality}\n\nIncreases Max Health of all units under the hero's control by 1.",
+			"description" : "{Basic Vitality}\n\nGrants all allied creatures +5% Health.",
 			"effects" : {
 				"main" : {
-					"val" : 1
+					"val" : 5
 				}
 			},
 			"images" : {
-				"small" : "skills/vitality/icons/small/basic",
-				"medium" : "skills/vitality/icons/medium/basic",
-				"large" : "skills/vitality/icons/large/basic",
-				"scenarioBonus" : "skills/vitality/icons/large/basic"
+				"small" : "skills/vitality/SmallBasic.png",
+				"medium" : "skills/vitality/MediumBasic.png",
+				"large" : "skills/vitality/LargeBasic.png",
+				"scenarioBonus" : "skills/vitality/LargeBasic.png"
 			}
 		},
 		"advanced" : {
-			"description" : "{Advanced Vitality}\n\nIncreases Max Health of all units under the hero's control by 2.",
+			"description" : "{Advanced Vitality}\n\nGrants all allied creatures +10% Health.",
 			"effects" : {
 				"main" : {
-					"val" : 2
+					"val" : 10
 				}
 			},
 			"images" : {
-				"small" : "skills/vitality/icons/small/advanced",
-				"medium" : "skills/vitality/icons/medium/advanced",
-				"large" : "skills/vitality/icons/large/advanced",
-				"scenarioBonus" : "skills/vitality/icons/large/advanced"
+				"small" : "skills/vitality/SmallAdvanced.png",
+				"medium" : "skills/vitality/MediumAdvanced.png",
+				"large" : "skills/vitality/LargeAdvanced.png",
+				"scenarioBonus" : "skills/vitality/LargeAdvanced.png"
 			}
 		},
 		"expert" : {
-			"description" : "{Expert Vitality}\n\nIncreases Max Health of all units under the hero's control by 3.",
+			"description" : "{Expert Vitality}\n\nGrants all allied creatures +15% Health.",
 			"effects" : {
 				"main" : {
-					"val" : 3
+					"val" : 15
 				}
 			},
 			"images" : {
-				"small" : "skills/vitality/icons/small/expert",
-				"medium" : "skills/vitality/icons/medium/expert",
-				"large" : "skills/vitality/icons/large/expert",
-				"scenarioBonus" : "skills/vitality/icons/large/expert"
+				"small" : "skills/vitality/SmallExpert.png",
+				"medium" : "skills/vitality/MediumExpert.png",
+				"large" : "skills/vitality/LargeExpert.png",
+				"scenarioBonus" : "skills/vitality/LargeExpert.png"
 			}
 		}
 	}

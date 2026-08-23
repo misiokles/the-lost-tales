@@ -31,13 +31,16 @@
 		},
 		"abilities" : {
 			"shooter" : {
-				"type" : "SHOOTER"
+				"type" : "SHOOTER",
+				"icon" : "zvs/Lib1.res/TltShooterBow"
 			},
 			"noDistancePenalty" : {
-				"type" : "NO_DISTANCE_PENALTY"
+				"type" : "NO_DISTANCE_PENALTY",
+				"icon" : "zvs/Lib1.res/TltShooterBowNoDistancePenalty"
 			},
 			"noWallPenalty" : {
-				"type" : "NO_WALL_PENALTY"
+				"type" : "NO_WALL_PENALTY",
+				"icon" : "zvs/Lib1.res/TltShooterBowNoWallPenalty"
 			}
 		},
 		"graphics" : {

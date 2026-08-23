@@ -33,10 +33,11 @@
 			"teleports" : {
 				"type" : "FLYING",
 				"subtype" : "movementTeleporting",
-				"icon" : "zvs/Lib1.res/e_teleport"
+				"icon" : "zvs/Lib1.res/TltSpellTeleportation"
 			},
 			"noRetaliation" : {
-				"type" : "BLOCKS_RETALIATION"
+				"type" : "BLOCKS_RETALIATION",
+				"icon" : "zvs/Lib1.res/TltNoRetaliation"
 			},
 			"firstStrike" : {
 				"type" : "FIRST_STRIKE"
@@ -47,7 +48,7 @@
 				"stacking" : "Devils",
 				"propagator" : "BATTLE_WIDE",
 				"propagationUpdater" : "BONUS_OWNER_UPDATER",
-				"description" : "@creatures.core.devil.bonus.decreaseLuck",
+				"description" : "{Reduces enemy luck}\nReaper Devil lower the luck of enemy units by -1",
 				"limiters" : [
 					"OPPOSITE_SIDE"
 				],

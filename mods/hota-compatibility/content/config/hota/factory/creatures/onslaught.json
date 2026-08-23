@@ -9,7 +9,7 @@
 			"min" : 3
 		},
 		"faction" : "factory",
-		"upgrades" : [
+                "upgrades" : [
 			"hotaJuggernaut"
 		],
 		"aiValue" : 6433,
@@ -37,10 +37,10 @@
 				"idle" : 10
 			},
 			"missile" : {
-				"projectile" : "hota/factory/creatures/battle/onslaughtShot.def",
+			"projectile" : "hota/factory/creatures/battle/onslaughtShot.def",
 				"attackClimaxFrame" : 6,
-				"frameAngles" : [
-					90,
+				"frameAngles" : [					
+                                        90,
 					72,
 					45,
 					27,
@@ -133,7 +133,7 @@
 						]
 					}
 				]
-			}
+                         }
 		},
 		"doubleWide" : true,
 		"growth" : 1,
@@ -158,7 +158,7 @@
 			},
 			"2 hex attack" : {
 				"type" : "TWO_HEX_ATTACK_BREATH",
-				"icon" : "zvs/Lib1.res/e_breathOnslaught"
+				"icon" : "zvs/Lib1.res/TltBreathOnslaught"
 			},
 			"canShoot" : {
 				"type" : "SHOOTER"
@@ -166,7 +166,8 @@
 			"noMeleePenalty" : {
 				"type" : "NO_MELEE_PENALTY"
 			},
-			"noWallPenalty" : {
+			"noWallPenalty" :
+			{
 				"type" : "NO_WALL_PENALTY"
 			}
 		}

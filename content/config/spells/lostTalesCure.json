@@ -1,0 +1,106 @@
+{
+	"lostTalesCure" : {
+		"name" : "Gremlin's Potion",
+		"type" : "combat",
+		"level" : 1,
+		"power" : 5,
+		"school" : {
+			"water" : true
+		},
+		"targetType" : "CREATURE",
+		"canCastOnlyOnSelf" : true,
+		"levels" : {
+			"base" : {
+				"battleEffects" : {
+					"cure" : {
+						"type" : "core:dispel",
+						"dispelNegative" : true,
+						"dispelNeutral" : false,
+						"dispelPositive" : false,
+						"optional" : true
+					},
+					"heal" : {
+						"type" : "core:heal",
+						"healLevel" : "heal",
+						"healPower" : "permanent",
+						"optional" : true
+					},
+					"alwaysMaximumDamage" : {
+						"type" : "core:timed",
+						"bonus" : {
+							"bless" : {
+								"val" : 0,
+								"type" : "ALWAYS_MAXIMUM_DAMAGE",
+								"valueType" : "INDEPENDENT_MAX",
+								"duration" : "N_TURNS"
+							}
+						}
+					}
+				},
+				"range" : "0",
+				"targetModifier" : {
+					"smart" : true
+				}
+			},
+			"none" : {
+				"cost" : 6,
+				"power" : 10,
+				"description" : "{Gremlin's Potion}\n\nRemoves all negative spell effects, heals a small number of hit points on the selected unit and causes the selected unit to inflict maximum damage in combat.\n"
+			},
+			"basic" : {
+				"cost" : 5,
+				"power" : 10,
+				"description" : "{Basic Gremlin's Potion}\n\nRRemoves all negative spell effects, heals a small number of hit points on the selected unit and causes the selected unit to inflict maximum damage in combat.\n"
+			},
+			"advanced" : {
+				"battleEffects" : {
+					"alwaysMaximumDamage" : {
+						"bonus" : {
+							"bless" : {
+								"val" : 1
+							}
+						}
+					}
+				},
+				"cost" : 5,
+				"power" : 20,
+				"description" : "{Advanced Gremlin's Potion}\n\nRemoves all negative spell effects and heals a small number of hit points on all friendly units.\n\nDamage healed is 10 points more than Basic Cure.\n"
+			},
+			"expert" : {
+				"battleEffects" : {
+					"alwaysMaximumDamage" : {
+						"bonus" : {
+							"bless" : {
+								"val" : 1
+							}
+						}
+					}
+				},
+				"cost" : 5,
+				"power" : 30,
+				"range" : "X",
+				"description" : "{Expert Gremlin's Potion}\n\nRemoves all negative spell effects and heals a small number of hit points on all friendly units.\n\nDamage healed is 20 points more than Basic Cure.\n"
+			}
+		},
+		"flags" : {
+			"positive" : true,
+			"special" : true
+		},
+		"graphics" : {
+			"iconBook" : "spells/GremlinPotion/spellBook",
+			"iconScroll" : "spells/GremlinPotion/spellScroll",
+			"iconScenarioBonus" : "spells/GremlinPotion/spellScenario",
+			"iconEffect" : "spells/GremlinPotion/spellEffect"
+		},
+		"animation" : {
+			"affect" : [
+				"spells/GremlinPotion/gremlinPotion.def"
+			]
+		},
+		"sounds" : {
+			"cast" : "spells/SoD/other/CURE.wav"
+		},
+		"gainChance" : {},
+		"defaultGainChance" : 0
+	}
+}

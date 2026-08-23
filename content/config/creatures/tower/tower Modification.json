@@ -12,6 +12,11 @@
 		"graphics" : {
 			"iconLarge" : "creatures/tower/iconsbig/tower_lvl1up.png",
 			"iconSmall" : "creatures/tower/iconssmall/tower_lvl1up.png"
+		},
+		"abilities" : {
+			"shooter" : {
+				"icon" : "zvs/Lib1.res/TltShooterGremlin"
+		        }
 		}
 	},
 	"core:stoneGargoyle" : {
@@ -33,18 +38,40 @@
 		"graphics" : {
 			"iconLarge" : "creatures/tower/iconsbig/tower_lvl3up.png",
 			"iconSmall" : "creatures/tower/iconssmall/tower_lvl3up.png"
+		},
+		"abilities" : {
+			"magicResistance" : {
+				"icon" : "zvs/Lib1.res/TltSpellProtectionFromMagic"
+			}
 		}
 	},
 	"core:ironGolem" : {
 		"graphics" : {
 			"iconLarge" : "creatures/tower/iconsbig/tower_lvl3.png",
 			"iconSmall" : "creatures/tower/iconssmall/tower_lvl3.png"
+		},
+		"abilities" : {
+			"magicResistance" : {
+				"icon" : "zvs/Lib1.res/TltSpellProtectionFromMagic"
+			}
 		}
 	},
 	"core:mage" : {
 		"graphics" : {
 			"iconLarge" : "creatures/tower/iconsbig/tower_lvl4.png",
 			"iconSmall" : "creatures/tower/iconssmall/tower_lvl4.png"
+		},
+		"abilities" : {
+			"shooter" : {
+				"icon" : "zvs/Lib1.res/TltShooterMage"
+		        },
+			"noMeleePenalty" : {
+				"icon" : "zvs/Lib1.res/TltShooterMageNoMeleePenalty"
+		        },
+			"noWallPenalty" : {
+				"type" : "NO_WALL_PENALTY",
+				"icon" : "zvs/Lib1.res/TltShooterMageNoWallPenalty"
+			}
 		}
 	},
 	"core:archMage" : {
@@ -54,6 +81,17 @@
 		"graphics" : {
 			"iconLarge" : "creatures/tower/iconsbig/tower_lvl4up.png",
 			"iconSmall" : "creatures/tower/iconssmall/tower_lvl4up.png"
+		},
+		"abilities" : {
+			"shooter" : {
+				"icon" : "zvs/Lib1.res/TltShooterArchmage"
+		        },
+			"noMeleePenalty" : {
+				"icon" : "zvs/Lib1.res/TltShooterArchmageNoMeleePenalty"
+		        },
+			"noWallPenalty" : {
+				"icon" : "zvs/Lib1.res/TltShooterArchmageNoWallPenalty"
+			}
 		}
 	},
 	"core:genie" : {
@@ -66,13 +104,23 @@
 		"graphics" : {
 			"iconLarge" : "creatures/tower/iconsbig/tower_lvl5up.png",
 			"iconSmall" : "creatures/tower/iconssmall/tower_lvl5up.png"
+		},
+		"abilities" : {
+			"randomSpellcaster" : {
+				"icon" : "zvs/Lib1.res/TltCastRandomBeneficSpell"
+			}
 		}
 	},
 	"core:naga" : {
 		"graphics" : {
 			"iconLarge" : "creatures/tower/iconsbig/tower_lvl6.png",
 			"iconSmall" : "creatures/tower/iconssmall/tower_lvl6.png"
-		}
+		},
+		"abilities" : {
+			"noRetaliation" : {
+				"icon" : "zvs/Lib1.res/TltNoRetaliation"
+			}
+                }
 	},
 	"core:nagaQueen" : {
 		"upgrades" : [
@@ -81,18 +129,39 @@
 		"graphics" : {
 			"iconLarge" : "creatures/tower/iconsbig/tower_lvl6up.png",
 			"iconSmall" : "creatures/tower/iconssmall/tower_lvl6up.png"
-		}
+		},
+		"abilities" : {
+			"noRetaliation" : {
+				"icon" : "zvs/Lib1.res/TltNoRetaliation"
+			}
+                }
 	},
 	"core:giant" : {
 		"graphics" : {
 			"iconLarge" : "creatures/tower/iconsbig/tower_lvl7.png",
 			"iconSmall" : "creatures/tower/iconssmall/tower_lvl7.png"
+		},
+		"abilities" : {
+			"immuneToMind" : {
+				"icon" : "zvs/Lib1.res/TltImmunityMind"
+		        }
 		}
 	},
 	"core:titan" : {
 		"graphics" : {
 			"iconLarge" : "creatures/tower/iconsbig/tower_lvl7up.png",
 			"iconSmall" : "creatures/tower/iconssmall/tower_lvl7up.png"
+		},
+		"abilities" : {
+			"shooter" : {
+				"icon" : "zvs/Lib1.res/TltShooterTitan"
+		        },
+			"noMeleePenalty" : {
+				"icon" : "zvs/Lib1.res/TltShooterTitanNoMeleePenalty"
+		        },
+			"immuneToMind" : {
+				"icon" : "zvs/Lib1.res/TltImmunityMind"
+		        }
 		}
 	}
 }

@@ -54,13 +54,13 @@
 				"type" : "SPELL_AFTER_ATTACK",
 				"subtype" : "spell.dispelHelpful",
 				"val" : 100,
-				"icon" : "zvs/Lib1.res/dispelattack"
+				"icon" : "zvs/Lib1.res/TltSpellDispel"
 			},
 			"castWeakness" : {
 				"type" : "SPELL_AFTER_ATTACK",
 				"subtype" : "spell.weakness",
 				"val" : 100,
-				"icon" : "zvs/Lib1.res/weaknessattack"
+				"icon" : "zvs/Lib1.res/TltSpellWeakness"
 			},
 			"fireballImmunity" : {
 				"type" : "SPELL_IMMUNITY",

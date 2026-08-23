@@ -1,0 +1,89 @@
+{
+	"velocity" : {
+		"name" : "Velocity",
+		"gainChance" : {
+			"might" : 7,
+			"magic" : 3
+		},
+		"specialty" : [], // generic specialty not applicable
+		"base" : {
+			"effects" : {
+				"speed" : {
+					"type" : "STACKS_SPEED",
+					"valueType" : "BASE_NUMBER",
+					"limiters" : [
+						{
+							"type" : "CREATURE_LEVEL_LIMITER",
+							"minLevel" : 1,
+							"maxlevel" : 5
+						}
+					]
+				},
+				"speed2" : {
+					"type" : "STACKS_SPEED",
+					"valueType" : "BASE_NUMBER",
+					"limiters" : [
+						{
+							"type" : "CREATURE_LEVEL_LIMITER",
+							"minLevel" : 1,
+							"maxlevel" : 99
+						}
+					]
+				},
+				"speed3" : {
+					"type" : "STACKS_SPEED",
+					"valueType" : "BASE_NUMBER",
+					"limiters" : [
+						{
+							"type" : "CREATURE_LEVEL_LIMITER",
+							"minLevel" : 1,
+							"maxlevel" : 99
+						}
+					]
+				}
+			}
+		},
+		"basic" : {
+			"description" : "{Basic Velocity}\n\nIncreases Speed of all tiers 1,2,3 and 4 units in the hero's army by 1.",
+			"effects" : {
+				"speed" : {
+					"val" : 1
+				}
+			},
+			"images" : {
+				"small" : "skills/velocity/SmallBasic.png",
+				"medium" : "skills/velocity/MediumBasic.png",
+				"large" : "skills/velocity/LargeBasic.png",
+				"scenarioBonus" : "skills/velocity/LargeBasic.png"
+			}
+		},
+		"advanced" : {
+			"description" : "{Advanced Velocity}\n\nIncreases Speed of all units in the hero's army by 1.",
+			"effects" : {
+				"speed2" : {
+					"val" : 1,
+				}
+			},
+			"images" : {
+				"small" : "skills/velocity/SmallAdvanced.png",
+				"medium" : "skills/velocity/MediumAdvanced.png",
+				"large" : "skills/velocity/LargeAdvanced.png",
+				"scenarioBonus" : "skills/velocity/LargeAdvanced.png"
+			}
+		},
+		"expert" : {
+			"description" : "{Expert Velocity}\n\nIncreases Speed of all units in the hero's army by 2.",
+			"effects" : {
+				"speed3" : {
+					"val" : 2,
+				}
+			},
+			"images" : {
+				"small" : "skills/velocity/SmallExpert.png",
+				"medium" : "skills/velocity/MediumExpert.png",
+				"large" : "skills/velocity/LargeExpert.png",
+				"scenarioBonus" : "skills/velocity/LargeExpert.png"
+			}
+		}
+	}
+}

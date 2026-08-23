@@ -141,15 +141,7 @@
 					"border" : "TOCSCRS2.bmp",
 					"area" : "TZCSCRS2.bmp"
 				},
-				"dwellingUpLvl3alt" : {
-					"animation" : "TBCSUP_2.def",
-					"x" : 76,
-					"y" : 35,
-					"z" : -1,
-					"campaignBonus" : "BoCsGr2.pcx",
-					"border" : "TOCSGR2N.bmp",
-					"area" : "TZCSGR2N.bmp"
-				},
+				"dwellingUpLvl3alt": { "animation" : "TBCSUP_2.def", "x" : 76,  "y" : 35,  "z" : -1, "campaignBonus" : "BoCsGr2.pcx",  "border" : "TOCSGR2N.bmp", "area" : "TZCSGR2N.bmp" },
 				"dwellingUpLvl4alt" : {
 					"animation" : "TBCSUP_3.def",
 					"x" : 176,

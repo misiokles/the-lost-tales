@@ -20,8 +20,11 @@
 		"tides-of-war.neutral-creatures"
 	],
 	"creatures" : [
+		"config/creatures/castle/paladin",
 		"config/creatures/tower/drakeGolem",
 		"config/creatures/tower/dragonGolem",
+		"config/creatures/inferno/sukkub",
+		"config/creatures/inferno/lilim",
 		"config/creatures/necropolis/werewolf",
 		"config/creatures/necropolis/direWerewolf",
 		"config/creatures/dungeon/illithid",
@@ -50,12 +53,5 @@
 		"config/town-screen/stronghold/strongholdUpgrades",
 		"config/town-screen/fortress/fortressUpgrades",
 		"config/town-screen/conflux/confluxUpgrades"
-	],
-	"polish" : {
-		"name" : "Kompatybilność z ToW",
-		"description" : "Łatka na kompatybilność z modem Tow.",
-		"translations" : [
-			"translation/polish.json"
-		]
-	}
+	]
 }

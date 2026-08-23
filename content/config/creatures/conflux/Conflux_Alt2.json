@@ -31,7 +31,11 @@
 		"abilities" : {
 			"nonLiving" : {
 				"type" : "NON_LIVING",
-				"icon" : "zvs/Lib1.res/NonLivingelemental"
+				"icon" : "zvs/Lib1.res/TltNonLivingElemental"
+			},
+			"immuneToMind" : {
+				"type" : "MIND_IMMUNITY",
+				"icon" : "zvs/Lib1.res/TltImmunityMind"
 			},
 			"canFly" : {
 				"type" : "FLYING",
@@ -57,6 +61,12 @@
 				"type" : "SPELL_IMMUNITY",
 				"subtype" : "spell.chainLightning"
 			},
+			"spellcaster" : {
+				"type" : "SPELLCASTER",
+				"subtype" : "spell.protectAir",
+				"val" : 2,
+				"icon" : "zvs/Lib1.res/TltCastSpellProtectionAir",
+			},
 			"spellPower" : {
 				"type" : "CREATURE_ENCHANT_POWER",
 				"val" : 6
@@ -65,17 +75,11 @@
 				"type" : "CASTS",
 				"val" : 3
 			},
-			"protectAir" : {
-				"type" : "ENCHANTED",
-				"subtype" : "spell.protectAir",
-				"val" : 2,
-				"icon" : "zvs/Lib1.res/protair2"
-			},
 			"thunderOnAttack" : {
 				"type" : "SPELL_AFTER_ATTACK",
 				"subtype" : "spell.thunderbolt",
 				"val" : 20,
-				"icon" : "zvs/Lib1.res/thunderbird"
+				"icon" : "zvs/Lib1.res/TltSpellLightningBolt"
 			},
 			"thunderStrength" : {
 				"type" : "SPECIFIC_SPELL_POWER",

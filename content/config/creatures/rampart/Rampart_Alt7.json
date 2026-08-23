@@ -31,18 +31,20 @@
 		},
 		"abilities" : {
 			"dragon" : {
-				"type" : "DRAGON_NATURE"
+				"type" : "DRAGON_NATURE",
+				"icon" : "zvs/Lib1.res/TltDragonSilver"
 			},
 			"dragonSkeleton" : {
 				"type" : "SKELETON_TRANSFORMER_TARGET",
-				"subtype" : "boneDragon"
+				"subtype" : "boneDragon",
+				"icon" : "zvs/Lib1.res/TltDragonTransformerSilver"
 			},
 			"canFly" : {
 				"type" : "FLYING"
 			},
 			"twoHexAttackBreath" : {
 				"type" : "TWO_HEX_ATTACK_BREATH",
-				"icon" : "zvs/Lib1.res/e_breathsilver"
+				"icon" : "zvs/Lib1.res/TltBreathSilverDragon"
 			},
 			"spellImmunity" : {
 				"type" : "LEVEL_SPELL_IMMUNITY",
@@ -50,7 +52,8 @@
 			},
 			"mirror" : {
 				"type" : "MAGIC_MIRROR",
-				"val" : 30
+				"val" : 30,
+				"icon" : "zvs/Lib1.res/TltSpellMagicMirror"
 			},
 			// Will be affected by Slayer with no expertise
 			"KING_1" : {

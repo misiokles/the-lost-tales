@@ -31,29 +31,29 @@
 				"level" : "basic"
 			},
 			{
-				"skill" : "nobility",
+				"skill" : "velocity",
 				"level" : "basic"
 			}
 		],
-		"specialty" : {
-			"base" : {
-				"addInfo" : "dragonHunter",
-				"type" : "SPECIAL_UPGRADE"
-			},
-			"bonuses" : {
-				"swordsman2dragonHunter" : {
-					"subtype" : "swordsman"
-				},
-				"crusader2dragonSlayer" : {
-					"addInfo" : "dragonSlayer",
-					"subtype" : "crusader"
-				},
-				"vindicator2dragonSlayer" : {
-					"addInfo" : "dragonSlayer",
-					"subtype" : "vindicator"
-				}
-			}
-		},
+"specialty" : {
+    "base" : {
+        "addInfo" : "dragonHunter",
+        "type" : "SPECIAL_UPGRADE"
+    },
+    "bonuses" : {
+        "swordsman2dragonHunter" : {
+            "subtype" : "swordsman"
+        },
+        "crusader2dragonSlayer" : {
+            "addInfo" : "dragonSlayer",
+            "subtype" : "crusader"
+        },
+        "vindicator2dragonSlayer" : {
+            "addInfo" : "dragonSlayer",
+            "subtype" : "vindicator"
+        }
+    }
+},
 		"texts" : {
 			"name" : "Zan",
 			"biography" : "Zan the dragon slayer is a veteran knight who learned the art of dragon slaying from a cult of Jadame... Only after drinking dragon blood do dragonslayers gain a certain resistance to magic. These dragon slayers use swords imbued with magic that allows them to inflict additional damage on dragons. Now he shares his talent with Erathia and trains all those who wish to learn this art in turn.",

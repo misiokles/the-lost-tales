@@ -31,11 +31,12 @@
 		},
 		"abilities" : {
 			"noRetaliation" : {
-				"type" : "BLOCKS_RETALIATION"
+				"type" : "BLOCKS_RETALIATION",
+				"icon" : "zvs/Lib1.res/TltNoRetaliation"
 			},
 			"twoHexAttackBreath" : {
 				"type" : "TWO_HEX_ATTACK_BREATH",
-				"icon" : "zvs/Lib1.res/e_breathFhound"
+				"icon" : "zvs/Lib1.res/TltBreathFireHound"
 			}
 		},
 		"graphics" : {

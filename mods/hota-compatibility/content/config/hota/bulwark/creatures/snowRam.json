@@ -1,0 +1,75 @@
+{
+	"snowRam" : {
+		"name" : {
+			"singular" : "Snow Ram",
+			"plural" : "Snow Rams"
+		},
+		"faction" : "bulwark",
+		"level" : 2,
+		"cost" : {
+			"gold" : 170
+		},
+		"upgrades" : [
+			"argali"
+		],
+		"speed" : 8,
+		"hitPoints" : 18,
+		"attack" : 7,
+		"defense" : 7,
+		"damage" : {
+			"min" : 3,
+			"max" : 4
+		},
+		"fightValue" : 208,
+		"aiValue" : 250,
+		"growth" : 9,
+		"advMapAmount" : {
+			"min" : 16,
+			"max" : 25
+		},
+		"doubleWide" : true,
+		"abilities" : {
+			"immuneToIceBolt" : {
+				"type" : "SPELL_IMMUNITY",
+				"subtype" : "spell.iceBolt"
+			},
+			"immuneToFrostRing" : {
+				"type" : "SPELL_IMMUNITY",
+				"subtype" : "spell.frostRing"
+			},
+			"immuneToFreezingShot" : {
+				"type" : "SPELL_IMMUNITY",
+				"subtype" : "spell.freezingShot",
+				"icon" : "hota/bulwark/bonuses/freezingShotImmunity",
+				"description" : "{Spell Immunity}\nImmune to Freezing Shot."
+			},
+			"snowWalker" : {
+				"type" : "NO_TERRAIN_PENALTY",
+				"subtype" : "terrain.snow",
+				"propagator" : "HERO",
+				"icon" : "zvs/Lib1.res/TltTerrainSnowwalkerSnowRam",
+				"description" : "Snowwalker : No penalty movement on snow terrain for the hero."
+			}
+		},
+		"graphics" : {
+			"iconLarge" : "hota/bulwark/creatures/iconsLarge/bulwark_lvl2up_alt.png",
+			"iconSmall" : "hota/bulwark/creatures/iconsSmall/bulwark_lvl2up_alt.png",
+			"map" : "hota/bulwark/creatures/adventureMap/bulwark_lvl2up_alt.def",
+			"animation" : "hota/bulwark/creatures/battle/bulwark_lvl2up_alt.def",
+			"animationTime" : {
+				"attack" : 1,
+				"idle" : 10,
+				"walk" : 1.1
+			},
+			"timeBetweenFidgets" : 1,
+		},
+		"sound" : {
+			// TODO: GAP? - using mountain ram sounds for now
+			"attack" : "hota/bulwark/creatures/mountainRam/MRAMATTK.wav",
+			"defend" : "hota/bulwark/creatures/mountainRam/MRAMDFND.wav",
+			"killed" : "hota/bulwark/creatures/mountainRam/MRAMKILL.wav",
+			"move" : "hota/bulwark/creatures/mountainRam/MRAMMOVE.wav",
+			"wince" : "hota/bulwark/creatures/mountainRam/MRAMWNCE.wav"
+		}
+	}
+}

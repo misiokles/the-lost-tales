@@ -10,9 +10,17 @@
 			"max" : 15
 		},
 		"abilities" : {
+			"canShoot" : {
+				"icon" : "zvs/Lib1.res/TltShooterDragonLich"
+			},
 			"regeneration" : {
 				"type" : "HP_REGENERATION",
-				"val" : 45
+				"val" : 45,
+				"icon" : "zvs/Lib1.res/TltRegeneration"
+			},
+			"noMeleePenalty" : {
+				"type" : "NO_MELEE_PENALTY",
+				"icon" : "zvs/Lib1.res/TltShooterDragonLichNoMeleePenalty"
 			}
 		}
 	}

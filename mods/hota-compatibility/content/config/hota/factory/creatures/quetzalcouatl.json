@@ -58,7 +58,7 @@
 				"subtype" : "meditation03",
 				"val" : 0,
 				"description" : "{Meditation}\nCan cast Meditation three times per battle, skipping its turn.",
-				"icon" : "zvs/Lib1.res/meditation2"
+				"icon" : "zvs/Lib1.res/TltMeditation2"
 			},
 			"castsCount" : {
 				"type" : "CASTS",

@@ -1,7 +1,7 @@
 {
 	"hota.factory:factory" : {
 		"town" : {
-			"buildingsIcons" : "town-screen/factory/town-hall.def",
+			"buildingsIcons" : "hota/town-screen/factory/town-hall.def",
 			"creatures" : [
 				[
 					"halfling",
@@ -60,8 +60,8 @@
 			},
 			"buildings" : {
 				"dwellingUpLvl7" : {
-					"description" : "The Serpentarium allows you to recruit Crimson Couatls or Quetzalcouatls."
-				},
+					"description" : "The Serpentarium allows you to recruit Crimson Couatls or Quetzalcouatls.",
+                                },
 				"dwellingUpLvl7alt" : {
 					"description" : "The Serpentarium allows you to recruit Crimson Couatls or Quetzalcouatls.",
 					"name" : "Upg. Serpentarium",
@@ -79,15 +79,15 @@
 					"mode" : "auto"
 				},
 				"dwellingUpLvl8" : {
-					"description" : "The Gantry allows you to recruit Juggernauts and Onslaughts."
-				},
+					"description" : "The Gantry allows you to recruit Juggernauts and Onslaughts.",
+                                },
 				"dwellingUpLvl8alt" : {
 					"description" : "The Gantry allows you to recruit Juggernauts and Onslaughts.",
 					"name" : "Upg. Gantry",
 					"cost" : {
-						"gold" : 15000,
-						"ore" : 10,
-						"crystal" : 20
+                                          "gold" : 15000,
+                                          "ore" : 10,
+                                          "crystal" : 20
 					},
 					"requires" : [
 						"dwellingLvl8"

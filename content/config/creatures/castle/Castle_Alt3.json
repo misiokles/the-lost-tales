@@ -1,5 +1,5 @@
 {
-	"assaultGriffin" : {
+	"assaultGriffin": {
 		"name" : {
 			"singular" : "Assault Griffin",
 			"plural" : "Assault Griffins"
@@ -12,10 +12,10 @@
 		"cost" : {
 			"gold" : 240
 		},
-		"speed" : 6,
+		"speed" : 8,
 		"hitPoints" : 25,
-		"attack" : 9,
-		"defense" : 9,
+		"attack" : 8,
+		"defense" : 8,
 		"damage" : {
 			"min" : 3,
 			"max" : 6
@@ -34,13 +34,15 @@
 			"FLYING_ARMY" : {
 				"type" : "FLYING"
 			},
-			"extraRetaliation" : {
-				"type" : "ADDITIONAL_RETALIATION",
-				"val" : 1
+			"unlimitedRetaliation" : {
+				"type" : "UNLIMITED_RETALIATIONS",
+				"icon" : "zvs/Lib1.res/TltRetaliationUnlimited"
 			},
-			"firstStrike" : {
-				"type" : "FIRST_STRIKE"
+			"noRetaliation" : {
+				"type" : "BLOCKS_RETALIATION",
+				"icon" : "zvs/Lib1.res/TltNoRetaliation"
 			}
+
 		},
 		"graphics" : {
 			"iconLarge" : "creatures/castle/iconsbig/Castle_lvl3upAlt.png",
@@ -52,7 +54,7 @@
 				"idle" : 10,
 				"walk" : 1.05
 			},
-			"timeBetweenFidgets" : 1
+			"timeBetweenFidgets" : 1,
 		},
 		"sound" : {
 			"attack" : "RGRFATTK.wav",

@@ -1,12 +1,13 @@
 {
-	"doomKnightHero" : {
+	"doomKnightHero" :
+	{
 		"name" : "Doom Knight",
 		"faction" : "necropolis",
 		"affinity" : "might",
 		"defaultTavern" : 5,
 
 		"commander" : "powerLich",
-
+		
 		"mapObject" : {
 			"templates" : {
 				"default" : {
