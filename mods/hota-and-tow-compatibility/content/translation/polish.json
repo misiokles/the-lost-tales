@@ -142,5 +142,10 @@
     "building.tides-of-war.alternative-creatures.tower.dwellingLvl7B.description": "Fabryka smoków pozwala rekrutować smocze konstrukty.",
     "building.tides-of-war.alternative-creatures.tower.dwellingLvl7B.name": "Fabryka smoków",
     "building.tides-of-war.alternative-creatures.tower.dwellingUpLvl7B.description": "Fabryka smoków pozwala rekrutować smocze golemy.",
-    "building.tides-of-war.alternative-creatures.tower.dwellingUpLvl7B.name": "Ul. fabryka smoków"
+    "building.tides-of-war.alternative-creatures.tower.dwellingUpLvl7B.name": "Ul. fabryka smoków",
+    "building.core.conflux.dwellingUpLvl7.description": "Wir ognia pozwala rekrutować fenixy bądź Suzaku.",
+    "building.the-lost-tales.conflux.dwellingUpLvl7alt.description": "Wir ognia pozwala rekrutować fenixy bądź Suzaku.",
+    "building.the-lost-tales.conflux.dwellingUpLvl7alt.name": "Ul. wir ognia",
+    "building.the-lost-tales.stronghold.dwellingUp2Lvl3.description": "Wieża orków pozwala rekrutować wodza orków.",
+    "building.the-lost-tales.stronghold.dwellingUp2Lvl3.name": "Ul. wieża orków"
 }

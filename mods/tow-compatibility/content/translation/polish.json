@@ -12,12 +12,14 @@
     "hero.tides-of-war.heroes.mdtErgon.specialty.tooltip": "Premia dla stworzenia: Łuskonośny kwezal",
     "hero.tides-of-war.heroes.mdtShroo.biography": "Nikt nie potrafi powiedzieć, jak długo żyją trole. Krążą pogłoski, że Shroo pamięta jeszcze czasy rewolty Władców Bestii. Jak dotąd jednak nikt nie odważył się zapytać jej, czy to prawda.",
     "hero.tides-of-war.heroes.mdtShroo.name": "Shroo",
-    "hero.tides-of-war.heroes.mdtShroo.specialty.description": "Increases the Attack and Defense skills of any Troll, Troll Hags and Troll Witches for each level attained after 5th level. Additionally, Troll Hags and Troll Witches get a permanent +1 Speed bonus",
+    "hero.tides-of-war.heroes.mdtShroo.specialty.description": "Zwiększa szybkość trolli oraz trollowych wiedźm i czarownic o 1, a także ich atak oraz obronę o 5% za każde 5 poziomów bohatera (zaokrąglając w górę)",
     "hero.tides-of-war.heroes.mdtShroo.specialty.name": "Troll",
-    "hero.tides-of-war.heroes.mdtShroo.specialty.tooltip": "Creature Bonus: Troll, Troll Witches and Troll Hags",
-    "hero.tides-of-war.heroes.mdtThyroc.biography": "Not everyone mourned King Tralossk after his death. Thyroc's old friend from war, Prince Wystan, contributed to his promotion in Tatalian Army after taking power.",
+    "hero.tides-of-war.heroes.mdtShroo.specialty.tooltip": "Premia dla stworzeń: Trolle, trollowe wiedźmy i czarownice",
+    "hero.tides-of-war.heroes.mdtThyroc.biography": "Nie wszyscy opłakiwali króla Tralosska po jego śmierci. Stary przyjaciel Thyroca z czasów wojny, książę Wystan, po przejęciu władzy przyczynił się do jego awansu w armii Tatalii.",
     "hero.tides-of-war.heroes.mdtThyroc.name": "Thyroc",
-    "hero.tides-of-war.heroes.mdtThyroc.specialty.description": "Increases the speed of any Hydras, Chaos Hydras and Flying Hydras by 1 and their Attack and Defense skills by 5% for every 7 levels (rounded up).",
+    "hero.tides-of-war.heroes.mdtThyroc.specialty.description": "Kontrolowane przez bohatera hydry, hydry chaosu i skrzydlate hydry uzyskują 1 punkt szybkości więcej. Ponadto ich atak i obrona zwiększa się o 5% za każde 7 poziomów bohatera (zaokrąglone w górę).",
     "hero.tides-of-war.heroes.mdtThyroc.specialty.name": "Hydry",
-    "hero.tides-of-war.heroes.mdtThyroc.specialty.tooltip": "Premia dla stworzeń: Hydry"
+    "hero.tides-of-war.heroes.mdtThyroc.specialty.tooltip": "Premia dla stworzeń: Hydry",
+    "creatures.tides-of-war.alternative-creatures.mdtPaladin.bonus.castsPrayer": "{Modlitwa}\nPaladyni rzucają zaklęcie Zaawansowana Modlitwa na początku bitwy",
+    "creatures.tides-of-war.alternative-creatures.mdtQuetzalcouatl.bonus.stoneGazeImm": "{Nieograniczony}\nOdporność na wszystkie magiczne zdolności stworzeń, takie jak wiązanie, starzenie, trucizna czy spojrzenie śmierci"
 }

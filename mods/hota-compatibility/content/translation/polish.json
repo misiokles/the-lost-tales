@@ -72,5 +72,6 @@
     "hero.core.xeron.specialty.description": "Zwiększa {szybkość} diabłów, arcydiabłów i diabelskich kosiarzy o {1} oraz ich {atak} i {obronę} o {10}.",
     "hero.core.yog.specialty.description": "Zwiększa {szybkość} cyklopów, cyklopów królewskich i cyklopskich lordów o {1} oraz ich {atak} i {obronę} o {20%} dla każdego poziomu doświadczenia bohatera powyżej poziomu szóstego (zaokrąglając w górę).",
     "hero.hota.heroes.boyd.specialty.description": "Zwiększa {szybkość} szkieletów, kościejów oraz kościanych czatowników o {1} oraz ich {atak} i {obronę} o {10%} za każdy zdobyty poziom (zaokrąglając w górę).",
-    "hero.hota.heroes.zog.specialty.description": "Zwiększa {szybkość} ogrów i ogrzych szamanów o {1} oraz ich {atak} i {obronę} o {20%} dla każdego poziomu doświadczenia bohatera powyżej poziomu czwartego (zaokrąglając w górę)."
+    "hero.hota.heroes.zog.specialty.description": "Zwiększa {szybkość} ogrów i ogrzych szamanów o {1} oraz ich {atak} i {obronę} o {20%} dla każdego poziomu doświadczenia bohatera powyżej poziomu czwartego (zaokrąglając w górę).",
+    "creatures.hota.bulwark.warMammoth.bonus.showTheIcon": "{Hartowanie}\nPodczas obrony w walce otrzymuje +100% do obrony."
 }
