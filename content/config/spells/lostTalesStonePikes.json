@@ -13,7 +13,7 @@
 		"targetType" : "CREATURE",
 		"targetCondition" : {
 			"noneOf" : {
-//				"bonus.DIRECT_DAMAGE_IMMUNITY" : "normal"
+				//				"bonus.DIRECT_DAMAGE_IMMUNITY" : "normal"
 			}
 		},
 		"levels" : {
